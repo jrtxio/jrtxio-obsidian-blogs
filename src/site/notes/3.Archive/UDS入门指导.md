@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/UDS入门指导.md","permalink":"//uds/"}
+{"dg-publish":true,"permalink":"/3-archive/uds/"}
 ---
 
 #计算机与生活的艺术 
