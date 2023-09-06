@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3-archive/uds/","tags":["gardenEntry"]}
+{"dg-publish":true,"dg-path":"Articles/UDS入门指导.md","permalink":"/articles/uds/"}
 ---
 
 #计算机与生活的艺术 
