@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3-archive/uds/"}
+{"dg-publish":true,"permalink":"/3-archive/uds/","tags":["gardenEntry"]}
 ---
 
 #计算机与生活的艺术 
