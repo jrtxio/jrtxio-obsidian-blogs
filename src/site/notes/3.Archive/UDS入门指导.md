@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"我的文章UDS入门指导.md","permalink":"/我的文章UDS入门指导/"}
+{"dg-publish":true,"dg-path":"/UDS入门指导.md","permalink":"//UDS入门指导/"}
 ---
 
 #计算机的艺术 
