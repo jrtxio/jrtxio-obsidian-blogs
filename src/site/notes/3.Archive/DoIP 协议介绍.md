@@ -14,30 +14,30 @@
 * 通过路由功能实现 ECU 的并行刷新
 
 
-## 网络架构
+# 网络架构
 
 ![20230418151154.png|450](/img/user/0.Asset/resource/20230418151154.png)
 
 图中分为**车内网（Vehicle network）** 和 **车外网（External network）**，车内网和车外网之间，有两组重要的线束，其中一组是用于数据传输的以太网线，另一组是用于诊断功能激活的激活线。以太网线就是常见的四线制TX标准网线。而激活线的设计，是用于车内诊断功能激活。出于能耗和电磁干扰的考虑，要求非诊断通信期间，与诊断相关的功能处于关闭状态，这样一方面可以降低能耗，另一方面减少对网络带宽的消耗，从而降低电磁干扰。
 
-### test equipment
+## test equipment
 外部测试设备，通常为 OBD 诊断仪或者是其它诊断客户端。对于外部测试设备来说，它们必须只能和 DoIP Edge Node gateway 直接连接并通信，与车载网络中其他 ECU 的通信必须由 DoIP Edge Node gatway 路由。
 
-### DoIP Edge Node gateway
+## DoIP Edge Node gateway
 DoIP Edge Node gateway 首先是一个 gateway，作为一个网关它的子网挂载着若干 ECU，与 DoIP gateway 一样。能够实现以太网到其他网络总线（如 CAN、LIN）的报文路由，这样便实现了 DoIP 诊断和传统网路总线的兼容。多种网络总线汇聚到 DoIP 网关，这大大降低了布线的复杂性，并且提高了总线网络中 ECU 的诊断效率。
 
 该角色可以同时支持 Server 端和 Client 端，作为 Server 端时，测试设备可以诊断网关下的某个 ECU 节点。那么 Client 端是怎么回事呢？想象一下，如果 DoIP edge node gateway 作为入口，那么怎样和内部其它子网的 DoIP ECU 进行交互呢？当然是由 DoIP edge node gateway 进行转发。这只是其中一个应用场景，当进行转发的时候会进行身份切换，即由 Server 端切换到 Client 端。另外一个场景是 OTA 升级，DoIP edge node gateway 的应用层可以跑一个 OTA 客户端程序，进行对内网 ECU 的诊断刷写，此时就是一个 Client 身份。
 
-### DoIP gateway
+## DoIP gateway
 DoIP gateway 与 DoIP edge node gateway 区别不是很大。实际的应用场景通常会让 MCU 充当这个角色，而 MPU 充当 DoIP edge node gateway 的角色，也有反过来的情况，那么该角色通常单单的跑 Server 端程序。
 
-### DoIP node
+## DoIP node
 同时支持以太网和 DoIP 协议的 ECU 认为是 DoIP node。该角色通常单单的跑 Server 端程序。
 
-### Network node
+## Network node
 不具备 DoIP 诊断功能，与 DoIP 节点共享网络资源。
 
-## 交互流程
+# 交互流程
 
 ![20230418151827.png|450](/img/user/0.Asset/resource/20230418151827.png)
 
@@ -56,18 +56,18 @@ DoIP 协议中的"路由"指的是诊断仪和被诊断节点之间的报文传�
 5. 诊断通信
 作为 DoIP 的核心功能，此功能负责诊断报文的传输。诊断报文中包含三个信息，即诊断报文发送方的逻辑地址（SA），诊断报文接收方的逻辑地址（DA），以及诊断数据。在 CAN 总线网络中，通过 CANID 来寻址要诊断的 ECU，而在 DoIP 网络中，DA 的作用相当于 CANID，用于寻址要诊断的目的 ECU。
 
-## 通信协议
+# 通信协议
 
 ![20230418151906.png|450](/img/user/0.Asset/resource/20230418151906.png)
-### 协议要求
+## 协议要求
 * 每个 DoIP 实体应支持 n + 1 个 TCP socket，其中 n 是相应 DoIP 实体支持的并发 TCP 数据连接数
 * 每个 DoIP 实体应支持 k + 1 个 TLS socket，其中 k 是相应 DoIP 实体支持的并发 TLS 数据连接数
 * 支持 TCP/DoIP 实体监听端口号 **13400**（unsecured）
 * 支持 TCP/DoIP 实体监听端口 3496（secured）
 * 支持 UDP/DoIP 实体监听端口号 **13400**
 
-### 报文格式
-#### 协议版本号：DoIP 的协议版本号
+## 报文格式
+### 协议版本号：DoIP 的协议版本号
 0x00：预留
 0x01：DoIP ISO/IDS 13400-2:2010
 0x02：DoIP ISO 13400-2:2012
@@ -75,11 +75,11 @@ DoIP 协议中的"路由"指的是诊断仪和被诊断节点之间的报文传�
 0x04...0xFE：预留
 0xFF：车辆识别请求报文默认值
 
-#### 版本号取反
+### 版本号取反
 协议版本号取反：对协议版本进行校验，确保正确的 DoIP 格式
 如：协议版本 0x03，则此值为 0xFC
 
-#### 负载类型
+### 负载类型
 
 | 负载分类   | 负载类型值    |
 | ---------- | ------------- |
@@ -119,18 +119,18 @@ DoIP 协议中的"路由"指的是诊断仪和被诊断节点之间的报文传�
 | 0x4003     | 诊断电源模式请求报文 | 强制     | UDP  |
 | 0x4004     | 诊断电源模式响应报文 | 强制     | UDP  | 
 
-#### 负载长度
+### 负载长度
 负载长度：DoIP 的数据部分长度
 
-## 功能分析
+# 功能分析
 
-### SoAd
+## SoAd
 * 不同平台 API 的封装与实现
 * 端口的连接状态和通知机制
 * 状态管理接口
 * 数据发送和接收功能
 
-### DoIP Server
+## DoIP Server
 
 ![20230425133735.png|600](/img/user/0.Asset/resource/20230425133735.png)
 
@@ -139,13 +139,13 @@ DoIP 协议中的"路由"指的是诊断仪和被诊断节点之间的报文传�
 * 节点信息
 * 保活机制
 
-### DoIP Client
+## DoIP Client
 * 实例创建与连接
 * 发送和回调机制
 * 获取节点信息
 * 保活机制
 
-### DoIP Gateway
+## DoIP Gateway
 Gateway 的功能需要从两个方面去分析
 * DoIP Gateway to Classical Bus Systems
 
