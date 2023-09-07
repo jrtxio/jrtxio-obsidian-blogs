@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"文章/DoIP 协议介绍.md","permalink":"/文章/DoIP 协议介绍/","noteIcon":"","created":"","updated":""}
 ---
 
-
-
 #DoIP
 ![20230421145334.png|200](/img/user/0.Asset/resource/20230421145334.png)
 功能
@@ -17,6 +15,7 @@
 
 
 ## 网络架构
+
 ![20230418151154.png|450](/img/user/0.Asset/resource/20230418151154.png)
 
 图中分为**车内网（Vehicle network）** 和 **车外网（External network）**，车内网和车外网之间，有两组重要的线束，其中一组是用于数据传输的以太网线，另一组是用于诊断功能激活的激活线。以太网线就是常见的四线制TX标准网线。而激活线的设计，是用于车内诊断功能激活。出于能耗和电磁干扰的考虑，要求非诊断通信期间，与诊断相关的功能处于关闭状态，这样一方面可以降低能耗，另一方面减少对网络带宽的消耗，从而降低电磁干扰。
@@ -39,6 +38,7 @@ DoIP gateway 与 DoIP edge node gateway 区别不是很大。实际的应用场�
 不具备 DoIP 诊断功能，与 DoIP 节点共享网络资源。
 
 ## 交互流程
+
 ![20230418151827.png|450](/img/user/0.Asset/resource/20230418151827.png)
 
 1. 车辆发现
@@ -57,6 +57,7 @@ DoIP 协议中的"路由"指的是诊断仪和被诊断节点之间的报文传�
 作为 DoIP 的核心功能，此功能负责诊断报文的传输。诊断报文中包含三个信息，即诊断报文发送方的逻辑地址（SA），诊断报文接收方的逻辑地址（DA），以及诊断数据。在 CAN 总线网络中，通过 CANID 来寻址要诊断的 ECU，而在 DoIP 网络中，DA 的作用相当于 CANID，用于寻址要诊断的目的 ECU。
 
 ## 通信协议
+
 ![20230418151906.png|450](/img/user/0.Asset/resource/20230418151906.png)
 ### 协议要求
 * 每个 DoIP 实体应支持 n + 1 个 TCP socket，其中 n 是相应 DoIP 实体支持的并发 TCP 数据连接数
@@ -130,6 +131,7 @@ DoIP 协议中的"路由"指的是诊断仪和被诊断节点之间的报文传�
 * 数据发送和接收功能
 
 ### DoIP Server
+
 ![20230425133735.png|600](/img/user/0.Asset/resource/20230425133735.png)
 
 * 车辆识别和广播
@@ -146,12 +148,14 @@ DoIP 协议中的"路由"指的是诊断仪和被诊断节点之间的报文传�
 ### DoIP Gateway
 Gateway 的功能需要从两个方面去分析
 * DoIP Gateway to Classical Bus Systems
+
 ![20230421150529.png|500](/img/user/0.Asset/resource/20230421150529.png)
 在传统的总线系统下，对 ECU 的寻址是通过逻辑 DoIP 地址，此时 Gateway 需要保存地址映射表并转发 UDS 报文。
 
 由于以太网的高带宽，需要支持 ECU 的并行刷新。
 
 * Diagnostics of In-Vehicle Ethernet ECUs
+
 ![20230421152337.png|500](/img/user/0.Asset/resource/20230421152337.png)
 目前 ISO 13400 并没有明确指定但是目前有两种实现模式：
 1. Transparent switch
