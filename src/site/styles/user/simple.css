@@ -3,57 +3,6 @@ body {
     font-size: 18px;
 }
 
-P, li {
-    line-height: 1.8;
-}
-
-H1 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    line-height: 1.0;
-    color: #666666;
-}
-
-H2 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    margin-bottom: 40px;
-    padding: 5px;
-    border-bottom: 2px LightGrey solid;
-    width: 98%;
-    line-height: 150%;
-    color: #666666;
-}
-
-H3 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    border-bottom: 1px LightGrey solid;
-    width: 98%;
-    line-height: 150%;
-    color: #666666;
-}
-
-H4 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    border-bottom: 1px LightGrey solid;
-    width: 98%;
-    line-height: 150%;
-    color: #666666;
-}
-
-li {
-    margin-left: 10px;
-}
-
-blockquote {
-    border-left: 5px lightgrey solid;
-    padding-left: 15px;
-    margin-left: 20px;
-    background: #f4f4f4;
-}
-
 img {
     display: block;
     box-shadow: 0 0 10px #555;
@@ -69,4 +18,10 @@ img {
 img.displayed {
     text-align: center;
     display: block;
+}
+
+@media only screen and (max-width: 800px) {
+    img {
+      width: 100%;
+    }
 }
