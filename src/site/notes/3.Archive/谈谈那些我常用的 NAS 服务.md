@@ -13,97 +13,97 @@
 
 # My Blog
 
-![650](%2020230908161838.png)
+![650](/img/user/0.Asset/resource/20230908161838.png)
 
 博客搭建在群晖的 Web Station上，用来记录一些教程，经验和感悟。
 
 # Note Station
 
-![650](%2020230908161920.png)
+![650](/img/user/0.Asset/resource/20230908161920.png)
 
 这是群晖自带的笔记应用，基本上可以当作印象笔记的替代品。平时会利用它的 Todo List 功能来做每日/周/月的工作计划，也会利用它的笔记本来写工作总结。令人兴奋的是它还支持像印象笔记一样的网页裁剪功能。
 
 # Code Server
 
-![650](%2020230908162003.png)
+![650](/img/user/0.Asset/resource/20230908162003.png)
 
 Docker 版的 Code Server，可以用来写一些简单的代码。利用它就可以在 iPad上愉快的写代码啦。
 
 # My Cloud
 
-![650](%2020230908162044.png)
+![650](/img/user/0.Asset/resource/20230908162044.png)
 
 filebrowser 当作 Unraid 的文件管理器来使用，可以在线播放视频，查看文档，生成分享链接等。
 
 # FreeRSS
 
-![650](%2020230908162122.png)
+![650](/img/user/0.Asset/resource/20230908162122.png)
 
 FreeRSS 是一款免费的 RSS 订阅应用，平时关注的所有博客都会用它来集中管理。
 
 # Unraid
 
-![650](%2020230908162202.png)
+![650](/img/user/0.Asset/resource/20230908162202.png)
 
 我的主力 Nas 为 Unraid，基本上所有的服务都搭建在上面。
 
 # Resilio Sync
 
-![650](%2020230908162240.png)
+![650](/img/user/0.Asset/resource/20230908162240.png)
 
 文件同步及重要文件备份主要是靠 Resilio Sync。我分别在 Unraid、群晖、家里的台式机、公司的台式机、以及自己的笔记本上做多端同步，这样我就可以在多地无缝切换工作环境，同时也不用担心重要文件丢失问题。
 
 # 群辉
 
-![650](%2020230908162310.png)
+![650](/img/user/0.Asset/resource/20230908162310.png)
 
 群晖运行在猫盘上，用来搭建博客和 Resilio Sync 的文件同步等。
 
 # OpenWRT
 
-![650](%2020230908162340.png)
+![650](/img/user/0.Asset/resource/20230908162340.png)
 
 因为有时会需要特殊的网络环境来支撑这些服务，所以用软路由来做主路由器。
 
 # MusicPlayer
 
-![650](%2020230908162419.png)
+![650](/img/user/0.Asset/resource/20230908162419.png)
 
 MusicPlayer 是一个在线音乐播放器，可以在线搜索网易云、QQ、虾米、酷狗、百度音乐，也可以同步自己的网易云歌单。
 
 # emby
 
-![650](%2020230908162530.png)
+![650](/img/user/0.Asset/resource/20230908162530.png)
 
 emby 主要让好友可以在任何地方访问到共享影音库。
 
 # Plex
 
-![650](%2020230908162617.png)
+![650](/img/user/0.Asset/resource/20230908162617.png)
 
 plex 用来满足自己的影音需求。它真正做到了跨平台，你可以在官网找到所有平台的客户端。相较于emby，体验更好。购买了 plex 高级会员之后可以多端同步影视剧观看进度，更重要的是可以搭建自己的照片库。
 
 # AriaNG
 
-![650](%2020230908162701.png)
+![650](/img/user/0.Asset/resource/20230908162701.png)
 
 AriaNG 的一款优秀的 aria2 的 Web 客户端，可以用来加速百度云下载。
 
 # Transmission
 
-![650](%2020230908162826.png)
+![650](/img/user/0.Asset/resource/20230908162826.png)
 
 一款优秀的 BitTorrent 客户端，支持多种链接下载。
 
 # Download Station
 
-![650](%2020230908162908.png)
+![650](/img/user/0.Asset/resource/20230908162908.png)
 
 群晖自带的一款下载工具，可以在手机端配合 DS Mobile 实现方便下载。
 
 # youtube-dl-server
 
-![650](%2020230908162956.png)
+![650](/img/user/0.Asset/resource/20230908162956.png)
 
 youtube-dl 是一款非常好用的视频下载工具，不要被它的名字所迷惑，实际上它支持全世界几百个视频网站的下载。
 
