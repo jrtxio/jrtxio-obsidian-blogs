@@ -39,7 +39,7 @@ filebrowser 当作 Unraid 的文件管理器来使用，可以在线播放视频
 
 ![650](/img/user/0.Asset/resource/20230908162122.png)
 
-FreeRSS 是一款免费的 RSS 订阅应用，平时关注的所有博客都会用它来集中管理。
+FreeRSS 是一款免费的 RSS 阅读器，平时关注的所有博客都会用它来集中管理。
 
 # Unraid
 
