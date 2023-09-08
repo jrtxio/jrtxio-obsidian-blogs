@@ -11,88 +11,88 @@ body {
     //   color: black;
     //  }
 
-  * {
-    box-sizing: border-box;
-  }
-  
-  html {
-    -webkit-text-size-adjust: none;
-  }
-  
-  /* reset CSS */
-  table {
-    font-size: 100%;
-  }
-
-  body.mobile {
-    font-size: 32px;
-  }
-
-  font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !important;
-  font-size: 18px !important;
-
-  P, li {
-    line-height: 1.8;
-  }
-    
-  H1 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    margin-bottom: 40px;
-    padding: 5px;
-    border-bottom: 2px LightGrey solid;
-    width: 98%;
-    line-height: 150%;
-    color: #666666;
-  }
-    
-  H2 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    border-bottom: 1px LightGrey solid;
-    width: 98%;
-    line-height: 150%;
-    color: #666666;
-  }
-    
-  H3 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    border-bottom: 1px LightGrey solid;
-    width: 98%;
-    line-height: 150%;
-    color: #666666;
-  }
-
-  blockquote {
-    border-left: 5px lightgrey solid;
-    padding-left: 15px;
-    margin-left: 20px;
-    background: #f4f4f4;
-  }
-
-  img {
-    display: block !important;
-    box-shadow: 0 0 10px #555 !important;
-    border-radius: 6px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
-    -webkit-box-shadow: 0 0 10px #555 !important;
-    max-width: 100% !important;
-  }
-
-  img.displayed {
-    text-align: center !important;
-    display: block !important;
-  }
-
-  @media only screen and (max-width: 800px) {
-    img {
-      width: 100% !important;
+    * {
+      box-sizing: border-box;
     }
-  }
+    
+    html {
+      -webkit-text-size-adjust: none;
+    }
+    
+    /* reset CSS */
+    table {
+      font-size: 100%;
+    }
+
+    body.mobile {
+      font-size: 32px;
+    }
+
+    font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !important;
+    font-size: 18px !important;
+
+    P, li {
+      line-height: 1.8;
+    }
+      
+    H1 {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+      margin-bottom: 40px;
+      padding: 5px;
+      border-bottom: 2px LightGrey solid;
+      width: 98%;
+      line-height: 150%;
+      color: #666666;
+    }
+      
+    H2 {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      border-bottom: 1px LightGrey solid;
+      width: 98%;
+      line-height: 150%;
+      color: #666666;
+    }
+      
+    H3 {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      border-bottom: 1px LightGrey solid;
+      width: 98%;
+      line-height: 150%;
+      color: #666666;
+    }
+
+    blockquote {
+      border-left: 5px lightgrey solid;
+      padding-left: 15px;
+      margin-left: 20px;
+      background: #f4f4f4;
+    }
+
+    img {
+      display: block !important;
+      box-shadow: 0 0 10px #555 !important;
+      border-radius: 6px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      -webkit-box-shadow: 0 0 10px #555 !important;
+      max-width: 100% !important;
+    }
+
+    img.displayed {
+      text-align: center !important;
+      display: block !important;
+    }
+
+    @media only screen and (max-width: 800px) {
+      img {
+        width: 100% !important;
+      }
+    }
 }
 
