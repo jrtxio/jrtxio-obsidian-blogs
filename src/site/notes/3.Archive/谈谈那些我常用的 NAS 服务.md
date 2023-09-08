@@ -29,11 +29,11 @@
 
 Docker 版的 Code Server，可以用来写一些简单的代码。利用它就可以在 iPad上愉快的写代码啦。
 
-# My Cloud
+# File Browser
 
 ![650](/img/user/0.Asset/resource/20230908162044.png)
 
-filebrowser 当作 Unraid 的文件管理器来使用，可以在线播放视频，查看文档，生成分享链接等。
+File Browser 当作 Unraid 的文件管理器来使用，可以在线播放视频，查看文档，生成分享链接等。
 
 # FreeRSS
 
