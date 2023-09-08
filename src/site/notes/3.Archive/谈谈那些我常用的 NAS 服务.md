@@ -15,7 +15,7 @@
 
 ![650](/img/user/0.Asset/resource/20230908161838.png)
 
-博客搭建在群晖的 Web Station上，用来记录一些教程，经验和感悟。
+博客搭建在群晖的 Web Station 上，用来记录一些教程，经验和感悟。
 
 # Note Station
 
