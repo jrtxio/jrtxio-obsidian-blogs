@@ -66,4 +66,6 @@ docer run --name=ddns --restart=always -d \
 
 当你新建完以上五个参数之后，点击 Apply 按钮，就会开始下载 [dnspod-ddns](https://hub.docker.com/r/scofieldpeng/dnspod-ddns) 了。下载完成后，点击 Done 按钮，页面会跳转到 Unraid 的 Docker 主页面。至此，整个安装过程已结束。
 
-问题排查：如果域名已经解析成功，可以从容器的 log 看到相应的提示信息。如果容器一直停止运行，那么很有可能是参数设置有问题或者填写的值不正确。
+# 问题排查
+
+如果域名已经解析成功，可以从容器的 log 看到相应的提示信息。如果容器一直停止运行，那么很有可能是参数设置有问题或者填写的值不正确。
