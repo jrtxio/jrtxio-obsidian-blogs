@@ -1,13 +1,3 @@
-body {
-  /***
-    ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
-    IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-  ***/
-  // background-color: white;
-  font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 18px;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -21,6 +11,16 @@ table {
   font-size: 100%;
 }
 
+body {
+  /***
+    ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
+    IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
+  ***/
+  // background-color: white;
+  font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 18px;
+}
+
 body.mobile {
   font-size: 32px;
 }
@@ -31,8 +31,8 @@ P, li {
 
 H1 {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+  margin-bottom: 60px;
   margin-bottom: 40px;
-  padding: 5px;
   border-bottom: 2px LightGrey solid;
   width: 98%;
   line-height: 150%;
@@ -85,46 +85,32 @@ blockquote {
   background: #f4f4f4;
 }
 
-.hljs {
-  background-color: #f8f8f8;
+pre {
+  font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
+  font-size: 80%;
+  background-color: #FAFAFA;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+  padding: 12px;
+  line-height: 1.5;
+  display: block;
+  width: 100%;
+  overflow: auto;
 }
 
-p code{
-  font-size: 90%;
-  background-color: #f4f4f4;
-  border: 1px solid #E0E0E0;
-  border-radius: 2px;
-  padding: 0 3px;
-  margin: 0 3px;
-}
-
-li code{
-  font-size: 90%;
-  background-color: #f4f4f4;
-  border: 1px solid #E0E0E0;
-  border-radius: 2px;
-  padding: 0 3px;
-  margin: 0 3px;
+code {
+  font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
 }
 
 a {
   text-decoration: none;
   cursor: crosshair;
-  border-bottom: 1px dashed orange;
-  color: #930ee4;
+  border-bottom: 1px dashed #2f6f9c;
+  color: #2f6f9c;
 }
 
 a:hover {
   background-color: LightGrey;
-}
-
-hr {
-  color: LightGrey;
-}
-
-p.notice {
-  color: #AA4433;
-  font-size: 14px;
 }
 
 img {
@@ -142,10 +128,4 @@ img {
 img.displayed {
   text-align: center;
   display: block;
-}
-
-@media only screen and (max-width: 800px) {
-  img {
-    width: 100%;
-  }
 }
