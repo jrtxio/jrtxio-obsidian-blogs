@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/UNRAID 的 DOCKER 下部署 DNSPod(腾讯云) DDNS.md","permalink":"/文章/UNRAID 的 DOCKER 下部署 DNSPod(腾讯云) DDNS/","noteIcon":"","created":"","updated":""}
+{"dg-publish":true,"dg-path":"文章/UNRAID 下部署 DNSPod 的 DDNS.md","permalink":"/文章/UNRAID 下部署 DNSPod 的 DDNS/","noteIcon":"","created":"","updated":""}
 ---
 
 #工具使用 
