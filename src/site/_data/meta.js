@@ -64,7 +64,7 @@ module.exports = async (data) => {
     bodyClasses: bodyClasses.join(" "),
     noteIconsSettings,
     timestampSettings,
-    baseTheme: process.env.BASE_THEME || "light", // change by jrtx0
+    baseTheme: process.env.BASE_THEME || "dark", // change by jrtx0
     siteName: process.env.SITE_NAME_HEADER || "Digital Garden",
     siteBaseUrl: baseUrl,
     styleSettingsCss,
