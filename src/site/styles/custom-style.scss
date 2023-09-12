@@ -16,7 +16,7 @@ body {
     ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
     IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
   ***/
-  background-color: white !important;
+  background-color: #ffff !important;
   font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 18px;
 }
@@ -134,27 +134,17 @@ hr {
   color: LightGrey;
 }
 
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 p.notice {
   color: #AA4433;
   font-size: 14px;
-}
-
-div.tweet p {
-  font-size: 16px;
-  border: 1px solid #aaa;
-  border-left: 10px solid #f28500;
-  padding: 2px 0.5em 2px 0.5em;
-  margin-bottom: 20px;
-  background-color: #fbfbfb;
-}
-
-div.tweet i {
-  color: brown;
-  font-size: 14px;
-  font-style: normal;
-  border: 1px solid #aaa;
-  margin-right: 0.5em;
-  padding: 0px 2px;
 }
 
 div.outer {
