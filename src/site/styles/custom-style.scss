@@ -204,6 +204,25 @@ body.mobile div.ad-banner {
   clear: both;
 }
 
+.navbar-default {
+  background-image: none;
+  background-color: #fff;
+  box-shadow: none;
+  font-size: 100%;
+}
+
+.navbar-brand, .navbar-nav {
+  font-size: 24px;
+}
+
+body.mobile .navbar-brand {
+  font-size: 36px;
+}
+
+body.mobile .navbar-nav {
+  font-size: 36px;
+}
+
 .highlight .hll { background-color: #ffc; }
 .highlight .c { color: #888; font-weight: bold; } /* Comment */
 .highlight .err { color: #a00; background-color: #fff } /* Error */
