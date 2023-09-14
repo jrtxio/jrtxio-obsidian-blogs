@@ -208,8 +208,8 @@ body.mobile div.ad-banner {
   background-image: none;
   background-color: #fff;
   box-shadow: none;
-  font-size: 14px;
-  text-decoration: none;
+  font-size: 14px !important;
+  text-decoration: none !important;
 }
 
 .highlight .hll { background-color: #ffc; }
