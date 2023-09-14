@@ -204,24 +204,12 @@ body.mobile div.ad-banner {
   clear: both;
 }
 
-.navbar-default {
+.navbar {
   background-image: none;
   background-color: #fff;
   box-shadow: none;
-  font-size: 100%;
+  font-size: 12px;
   line-height: 0%;
-}
-
-.navbar-brand, .navbar-nav {
-  font-size: 24px;
-}
-
-body.mobile .navbar-brand {
-  font-size: 36px;
-}
-
-body.mobile .navbar-nav {
-  font-size: 36px;
 }
 
 .highlight .hll { background-color: #ffc; }
