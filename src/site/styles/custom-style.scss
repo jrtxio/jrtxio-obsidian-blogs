@@ -204,12 +204,9 @@ body.mobile div.ad-banner {
   clear: both;
 }
 
-.navbar-inner {
-  background-image: none;
-  background-color: #fff;
-  box-shadow: none;
-  font-size: 14px !important;
-  text-decoration: none !important;
+.navbar-inner h1 {
+  font-size: 14px;
+  line-height: 0%;
 }
 
 .highlight .hll { background-color: #ffc; }
