@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/UDS 入门指导.md","permalink":"/文章/UDS 入门指导/","noteIcon":"","created":"","updated":""}
+{"dg-publish":true,"dg-path":"文章/UDS 入门指导.md","permalink":"/文章/UDS 入门指导/","noteIcon":""}
 ---
 
 #UDS
