@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/2023-09-08 基于 UNRAID 部署 DNSPod 的 DDNS.md","permalink":"/文章/2023-09-08 基于 UNRAID 部署 DNSPod 的 DDNS/","noteIcon":""}
+{"dg-publish":true,"dg-path":"文章/2023-09-08 基于 UNRAID 部署 DNSPod 的 DDNS.md","permalink":"/文章/2023-09-08 基于 UNRAID 部署 DNSPod 的 DDNS/"}
 ---
 
 #工具教程 
