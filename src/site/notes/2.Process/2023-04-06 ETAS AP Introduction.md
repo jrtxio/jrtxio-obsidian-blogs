@@ -50,7 +50,7 @@ RTA VRTE 的开发配置通过 VRTE Adaptive Studio 进行，编译和部署都�
 
 ![20230406110121.png|650](/img/user/0.Asset/resource/20230406110121.png)
 
-* 上机演示操作过程
+上机演示操作过程
 
 ``` shell
 rvbuild -sqc -d AraCM_Event 40; rvbuild -lqc -d AraCM_Event 41
