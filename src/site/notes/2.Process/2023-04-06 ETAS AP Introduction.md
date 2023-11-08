@@ -20,17 +20,19 @@ Adaptive AUTOSAR 的出现是为了解决 Classic AUTOSAR 和信息娱乐系统�
 
 ![20230406111409.png|650](/img/user/0.Asset/resource/20230406111409.png)
 
-## Adaptive AUTOSAR 包含哪些模块
+# Adaptive AUTOSAR 包含哪些模块
 
 ![20230406111919.png|650](/img/user/0.Asset/resource/20230406111919.png)
 
 AP(AUTOSAR Adaptive Platform)是 ARA（AUTOSAR Runtime for Adaptive Applications）的实现。AP 提供了两种接口：Service 和 API，为 Adaptive Application 提供了运行时环境 ARA。
+
 * API/Foundation（直接调用 API）
 	* Execution Management(ara::exec)
 	* Communication Management(ara::exec)
 	* Diagnostics(ara::diag)
 	* Persistency(ara::per)
 	* Log & Trace(ara::log)
+
 * Service（通过 ara::com 进程间通信）
 	* Update & Configuration Management(ara::ucm)
 	* State Management(ara::sm)
