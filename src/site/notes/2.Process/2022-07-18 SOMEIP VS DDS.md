@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/2022-07-18 SOMEIP VS DDS.md","permalink":"/文章/2022-07-18 SOMEIP VS DDS/"}
+{"dg-publish":true,"dg-path":"文章/2022-07-18 SOMEIP VS DDS.md","permalink":"/文章/2022-07-18 SOMEIP VS DDS/","dgEnableSearch":true}
 ---
 
 #Ofilm 
