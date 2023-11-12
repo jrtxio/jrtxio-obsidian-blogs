@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/2022-09-23 Vector AUTOSAR 工具链介绍.md","permalink":"/文章/2022-09-23 Vector AUTOSAR 工具链介绍/"}
+{"dg-publish":true,"dg-path":"文章/2022-09-23 Vector AUTOSAR 工具链介绍.md","permalink":"/文章/2022-09-23 Vector AUTOSAR 工具链介绍/","dgEnableSearch":true}
 ---
 
 #Technomous 
