@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/2023-04-06 ETAS AP Introduction.md","permalink":"/文章/2023-04-06 ETAS AP Introduction/"}
+{"dg-publish":true,"dg-path":"文章/2023-04-06 ETAS AP Introduction.md","permalink":"/文章/2023-04-06 ETAS AP Introduction/","dgEnableSearch":true}
 ---
 
 #Technomous #SILK 
