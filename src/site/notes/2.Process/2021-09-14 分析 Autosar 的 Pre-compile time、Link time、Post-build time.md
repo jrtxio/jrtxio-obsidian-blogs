@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/2021-09-14 分析 Autosar 的 Pre-compile time、Link time、Post-build time.md","permalink":"/文章/2021-09-14 分析 Autosar 的 Pre-compile time、Link time、Post-build time/"}
+{"dg-publish":true,"dg-path":"文章/2021-09-14 分析 Autosar 的 Pre-compile time、Link time、Post-build time.md","permalink":"/文章/2021-09-14 分析 Autosar 的 Pre-compile time、Link time、Post-build time/","dgEnableSearch":true}
 ---
 
 #Ofilm 
