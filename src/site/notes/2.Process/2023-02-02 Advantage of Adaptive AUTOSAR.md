@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/2023-02-02 Advantage of Adaptive AUTOSAR.md","permalink":"/文章/2023-02-02 Advantage of Adaptive AUTOSAR/"}
+{"dg-publish":true,"dg-path":"文章/2023-02-02 Advantage of Adaptive AUTOSAR.md","permalink":"/文章/2023-02-02 Advantage of Adaptive AUTOSAR/","dgEnableSearch":true}
 ---
 
 #Technomous 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/2022-07-19 Runnables 可运行实体.md","permalink":"/文章/2022-07-19 Runnables 可运行实体/"}
+{"dg-publish":true,"dg-path":"文章/2022-07-19 Runnables 可运行实体.md","permalink":"/文章/2022-07-19 Runnables 可运行实体/","dgEnableSearch":true}
 ---
 
 #Ofilm 

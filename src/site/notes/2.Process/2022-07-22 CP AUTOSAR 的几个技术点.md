@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/2022-07-22 CP AUTOSAR 的几个技术点.md","permalink":"/文章/2022-07-22 CP AUTOSAR 的几个技术点/"}
+{"dg-publish":true,"dg-path":"文章/2022-07-22 CP AUTOSAR 的几个技术点.md","permalink":"/文章/2022-07-22 CP AUTOSAR 的几个技术点/","dgEnableSearch":true}
 ---
 
 #Ofilm 

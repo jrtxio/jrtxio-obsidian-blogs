@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/2022-08-08 SWC 的 Internal Behavior 的一些理解.md","permalink":"/文章/2022-08-08 SWC 的 Internal Behavior 的一些理解/"}
+{"dg-publish":true,"dg-path":"文章/2022-08-08 SWC 的 Internal Behavior 的一些理解.md","permalink":"/文章/2022-08-08 SWC 的 Internal Behavior 的一些理解/","dgEnableSearch":true}
 ---
 
 #Ofilm 
