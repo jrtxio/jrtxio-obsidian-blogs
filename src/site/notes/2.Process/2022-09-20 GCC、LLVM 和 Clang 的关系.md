@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/2022-09-20 GCC、LLVM 和 Clang 的关系.md","permalink":"/文章/2022-09-20 GCC、LLVM 和 Clang 的关系/","dgEnableSearch":true}
+{"dg-publish":true,"dg-path":"文章/2022-09-20 GCC、LLVM 和 Clang 的关系.md","permalink":"/文章/2022-09-20 GCC、LLVM 和 Clang 的关系/","dgEnableSearch":"true"}
 ---
 
 #Technomous #工具教程
