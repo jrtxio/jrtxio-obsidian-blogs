@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/2022-09-20 GCC、LLVM 和 Clang 的关系.md","permalink":"/文章/2022-09-20 GCC、LLVM 和 Clang 的关系/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-02-07T14:32:43.000+08:00","updated":"2023-11-14T13:32:27.000+08:00"}
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"技术/2022-09-20 GCC、LLVM 和 Clang 的关系.md","permalink":"/技术/2022-09-20 GCC、LLVM 和 Clang 的关系/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-02-07T14:32:43.000+08:00","updated":"2023-11-14T13:32:27.000+08:00"}
 ---
 
 #Technomous #工具教程
