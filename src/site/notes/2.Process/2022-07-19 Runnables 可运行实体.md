@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/2022-07-19 Runnables 可运行实体.md","permalink":"/文章/2022-07-19 Runnables 可运行实体/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-02-10T23:08:38.000+08:00","updated":"2023-11-14T13:35:37.000+08:00"}
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"技术/2022-07-19 Runnables 可运行实体.md","permalink":"/技术/2022-07-19 Runnables 可运行实体/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-02-10T23:08:38.000+08:00","updated":"2023-11-14T13:35:37.000+08:00"}
 ---
 
 #Ofilm 
