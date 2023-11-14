@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/2022-09-22 Package vs Namespace.md","permalink":"/文章/2022-09-22 Package vs Namespace/","dgEnableSearch":"true"}
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/2022-09-22 Package vs Namespace.md","permalink":"/文章/2022-09-22 Package vs Namespace/","dgEnableSearch":"true","dgPassFrontmatter":true}
 ---
 
 #Technomous 
