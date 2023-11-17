@@ -1,0 +1,20 @@
+---
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/CP vs AP.md","permalink":"/文章/CP vs AP/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-02-16T19:21:39.000+08:00","updated":"2023-11-14T13:32:08.330+08:00"}
+---
+
+#Technomous 
+# CLASSIC PLATFORM
+1. Operating system based on OSEK
+2. Execution of code directly from ROM
+3. Same address space for all applications(MPU support for safety)
+4. Optimized for signal-based communication(CAN,FlexRay)
+5. Fixed task configuration
+6. Specification
+
+# ADAPTIVE PLATFORM
+1. Operating system based on POSIX(PSE51 with optional extensions)
+2. Application is loaded from persistent memory into RAM
+3. Each application has its own(virtual)address space(MMU support)
+4. Designed for servcie-oriented communication
+5. Support of multiple dynamic scheduling strategies
+6. Specification and code
