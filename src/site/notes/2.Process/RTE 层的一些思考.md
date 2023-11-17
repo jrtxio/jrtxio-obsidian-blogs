@@ -1,0 +1,7 @@
+---
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/RTE 层的一些思考.md","permalink":"/文章/RTE 层的一些思考/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2022-08-06T15:40:00.000+08:00","updated":"2023-11-17T15:40:00.000+08:00"}
+---
+
+#Ofilm 
+
+RTE(Runtime Environment,RTE)运行时环境作为应用软件层与基础软件层交互的桥梁，为软硬件分离提供了可能。RTE可以实现**软件组件间**、**基础软件间**以及**软件组件与基础软件**之间的通信。RTE封装了基础软件层的通信和服务，为应用软件组件提供了标准化的基础软件和通信接口，使得应用层可以通过RTE接口函数调用基础软件的服务。此外，RTE抽象了ECU之间的通信，即RTE通过使用标准化的接口将其统一为软件组件之间的通信。由于RTE的实现与具体ECU相关，所以必须为每个ECU分别实现。
