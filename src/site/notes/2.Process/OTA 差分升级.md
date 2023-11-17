@@ -1,0 +1,7 @@
+---
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/OTA 差分升级.md","permalink":"/文章/OTA 差分升级/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2022-07-15T15:42:26.000+08:00","updated":"2023-11-17T15:42:26.000+08:00"}
+---
+
+#Ofilm 
+
+差分烧写只是改变新的 app 和旧的 app 不一样的地方，fbl 直接擦除旧的 app，烧入新的 app。升级的时候需要在 ota 主机或者电脑端做好差分升级包，mcu 的 bootloader 擦除时不要擦全部，只擦和差分升级相关的地址，需要注意 flash 擦除有最小单位限制，所以在制作差分升级包的时候需要注意一下。
