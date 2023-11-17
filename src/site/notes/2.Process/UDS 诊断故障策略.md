@@ -1,0 +1,9 @@
+---
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/UDS 诊断故障策略.md","permalink":"/文章/UDS 诊断故障策略/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2019-09-17T09:25:31.000+08:00","updated":"2023-11-14T13:29:55.000+08:00"}
+---
+
+#BDStar 
+
+UDS 写提供了故障检测、记录的方法和方向。但实际应用中还需要做两个方面的设计：一是底层机制的支持，二是上层诊断处理策略的制定。
+
+以车载网络中通信丢失这一故障诊断为例：首先，协议栈的驱动层应该定期地（或采用中断方式）接收网络上传输过来的信息，并通过某种机制告知上层协议栈。上层协议栈（例如交互层）应该具备检测通信丢失的功能机制，例如：周期性地进行检测（continuous test run）。当检测到缺失了应该接收到的信息或者接收超出了规定的时间阈值时，ECU 应该记录下此次诊断失败（fault detectionat moment of test run）。
