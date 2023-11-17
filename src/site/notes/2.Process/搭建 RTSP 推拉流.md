@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/搭建 RTSP 推拉流.md","permalink":"/文章/搭建 RTSP 推拉流/","dgPassFrontmatter":true,"created":"2023-11-06T10:34:28.000+08:00","updated":"2023-11-16T14:42:27.126+08:00"}
+{"dg-publish":true,"dg-path":"文章/搭建 RTSP 推拉流.md","permalink":"/文章/搭建 RTSP 推拉流/","dgPassFrontmatter":true,"created":"2023-11-06T10:34:28.000+08:00","updated":"2023-11-16T14:42:27.000+08:00"}
 ---
 
 #Technomous 
