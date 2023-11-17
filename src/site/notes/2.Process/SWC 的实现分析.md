@@ -1,0 +1,13 @@
+---
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/SWC 的实现分析.md","permalink":"/文章/SWC 的实现分析/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2022-08-05T23:10:36.000+08:00","updated":"2023-11-14T13:35:57.000+08:00"}
+---
+
+#Ofilm 
+
+Inner View 显示了当前 ECU 内部的 SWC 的关联关系
+Outer View 显示了当前 ECU 与外部 SWC 的关联关系
+
+Prototype 是 SWC Type 的实例化对象
+Interface 定义了 SWC 之间的 Port 接口，Operation 可以 Port 之间添加函数或者数据
+
+Port Interface Editor 中可以创建各种类型的接口，包括 Sender Receiver、Nv Data、Parameter、Mode Switch、Client Server 或者 Trigger 类型接口
