@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/Linux 常用命令.md","permalink":"/文章/Linux 常用命令/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-05-13T22:25:55.000+08:00","updated":"2023-11-14T13:31:23.253+08:00"}
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/Linux 常用命令.md","permalink":"/文章/Linux 常用命令/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-05-13T22:25:55.000+08:00","updated":"2023-11-14T13:31:23.000+08:00"}
 ---
 
 #Technomous 
