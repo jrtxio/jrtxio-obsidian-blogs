@@ -1,0 +1,7 @@
+---
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/DrRacket 功能介绍.md","permalink":"/文章/DrRacket 功能介绍/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2022-06-21T15:45:15.000+08:00","updated":"2023-11-17T15:45:15.000+08:00"}
+---
+
+#Ofilm #工具教程 #Lisp #Racket 
+
+DrRacket 包含一个图形调试界面，单击 Debug 按钮将启用调试模式。将鼠标悬停在任何括号上将显示一个粉红色的点。右键单击它，将出现一个上下文菜单，其中包含设置断点的选项。使用 Go、Step 等，您可以在侧窗格中查看上下文中的堆栈和变量。
