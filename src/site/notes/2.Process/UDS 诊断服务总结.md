@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/UDS 诊断服务总结.md","permalink":"/文章/UDS 诊断服务总结/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2019-11-28T17:08:38.000+08:00","updated":"2023-11-14T13:32:55.000+08:00"}
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/UDS 诊断服务总结.md","permalink":"/文章/UDS 诊断服务总结/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2019-11-28T17:08:38.000+08:00","updated":"2023-11-19T14:58:51.872+08:00"}
 ---
 
-#BDStar 
+#BDStar #AUTOSAR 
 
 UDS 本质上是一系列服务的集合。UDS 的服务包含6大类，共26中。每种服务都有自己独立的 ID,即 SID。SID：Service Identifier，诊断服务 ID。
 
