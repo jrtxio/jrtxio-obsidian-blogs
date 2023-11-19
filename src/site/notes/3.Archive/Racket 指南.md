@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/Racket 指南.md","permalink":"/文章/Racket 指南/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-10-23T13:54:35.000+08:00","updated":"2023-11-14T13:56:01.000+08:00"}
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/Racket 指南.md","permalink":"/文章/Racket 指南/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-10-23T13:54:35.000+08:00","updated":"2023-11-19T15:34:01.602+08:00"}
 ---
 
 #Lisp #Racket
@@ -36,7 +36,7 @@ Racket 的主要工具包括:
 
 ## 1.1 与 Racket 交互
 
-DrRacket 下方的文本区和 racket 命令行（无参数启动）都在扮演一个计算器的角色。你输入一个 Racket 表达式，回车，结果便会被打印出来。在 Racket 的术语中被称为 *read-eval-print loop* 或简称为 REPL。
+DrRacket 下方的文本区和 racket 命令行（无参数启动）都在扮演一个计算器的角色。你输入一个 Racket 表达式，回车，结果便会被打印出来。在 Racket 的术语中被称为 read-eval-print loop 或简称为 REPL。
 
 数字本身就是表达式，结果也仅仅是这个数字：
 
@@ -52,7 +52,7 @@ DrRacket 下方的文本区和 racket 命令行（无参数启动）都在扮演
 "Hello, world!"
 ```
 
-Racket 用圆括号包围长表达式（几乎除了简单的常量以外的任何表达式）。比如，函数调用被写为：左圆括号，函数名，参数表达式，右圆括号。下面的表达式用参数 "the boy out of the cpuntry"，4，7 来调用内置的方法 substring：
+Racket 用圆括号包围长表达式（几乎除了简单的常量以外的任何表达式）。比如，函数调用被写为：左圆括号，函数名，参数表达式，右圆括号。下面的表达式用参数 "the boy out of the country"，4，7 来调用内置的方法 substring：
 
 ``` racket
 > (substring "the boy out of the country" 4 7)
@@ -77,11 +77,12 @@ Racket 用圆括号包围长表达式（几乎除了简单的常量以外的任�
 
 ``` racket
 #lang racket
+
 (define (extract str)
     (substring str 4 7))
 ```
 
-如果 (extract "the boy") 是程序的一部分，你也可以在定义区中定义。但是如果你仅仅想运行一下 extract 的例子，那么你可能更偏向于不在定义区运行，而是点击 Run 按钮，并且在 REPL中执行 (extract "the boy")。
+如果 (extract "the boy") 是程序的一部分，你也可以在定义区中定义。但是如果你仅仅想运行一下 extract 的例子，那么你可能更偏向于不在定义区运行，而是点击 **Run** 按钮，并且在 REPL中执行 (extract "the boy")。
 
 当你用 racket 命令行代替 DrRacket 时，你可以用你喜欢的编辑器并把上面的文本保存进去。例如保存进 "extract.rkt"，并在与该文件相同目录执行 racket，并进行如下操作：
 
@@ -91,7 +92,7 @@ Racket 用圆括号包围长表达式（几乎除了简单的常量以外的任�
 "gal"
 ```
 
-enter! 会加载源码并且切换运行环境到模块内部，就像在 DrRacket 中点击 Run 按钮一样。
+`enter!` 会加载源码并且切换运行环境到模块内部，就像在 DrRacket 中点击 **Run** 按钮一样。
 
 ## 1.3 创建可执行程序
 
@@ -106,7 +107,7 @@ enter! 会加载源码并且切换运行环境到模块内部，就像在 DrRack
 (extract "the cat out of the bag")
 ```
 
-那么它就是一个在运行时能打印 "cat" 的完整程序。你可以使用 DrRacket 或者在 racket 中用 enter! 运行这个程序，但是如果这段源码被保存进 `<源码文件>`，也可以在命令行中这样运行它
+那么它就是一个在运行时能打印 "cat" 的完整程序。你可以使用 DrRacket 或者在 racket 中用 `enter!` 运行这个程序，但是如果这段源码被保存进 `<源码文件>`，也可以在命令行中这样运行它
 
 ``` racket
 racket <源码文件>
@@ -114,7 +115,7 @@ racket <源码文件>
 
 这里给出一些把代码打包成可执行程序的建议：
 
-- 在 DrRacket 中，你可以选择 **Racket|Create Executable**... 选项
+- 在 DrRacket 中，你可以选择 **Racket|Create Executable**... 选项。
 - 在命令行中，运行 `raco exe <*源码文件*>`。查看 [raco exe: Creating Stand-Alone Executables](https://docs.racket-lang.org/raco/exe.html) 了解更多信息。
 - 在 Unix 或 Mac OS 中，你可以通过在代码文件开始的地方插入下面的代码来来生成可执行的脚本。
 
@@ -151,7 +152,7 @@ racket <源码文件>
 
 本章将简单介绍作为本指南其他章节的背景知识。有 Racket 经验的读者可以放心的跳至**3 内置数据类型**。
 
-## 2.1 简单值（Simple Value）
+## 2.1 简单值
 
 Racket 的值包括数字，布尔值，字符串，字节串。在 DrRacket 和文档的例子中，值表达式会显示为绿色。
 
@@ -192,9 +193,9 @@ Racket 的值包括数字，布尔值，字符串，字节串。在 DrRacket 和
 #lang <langname> <topform>*
 ```
 
-<*topform*> 是一个定义或者表达式。REPL 会执行 <*topform*>*s。
+`<topform>` 是一个定义或者表达式。REPL 会执行 `<topform>s`。
 
-在语法规范中，灰色背景的文本（如 `#lang`）表示字面量文本。空格必须分割在这些文本和非终结符中，比如 <*id*>。但是空格不需要出现在 `(` , `)` , `[` , `]` 的之前或之后。注释通常以 `;` 开始直到本行结束截止，并且会被看成空白。
+在语法规范中，灰色背景的文本（如 `#lang`）表示字面量文本。空格必须分割在这些文本和非终结符中，比如 `<id>`。但是空格不需要出现在 `(`， `)` ，`[` ，或 `]` 的之前或之后。注释通常以 `;` 开始直到本行结束截止，并且会被看成空白。
 
 约定俗成的，`*` 在语法中指前一个元素的零次或多次重复，`+` 指前一个元素的一次或多次重复，`{}` 将序列中重复元素进行分组。
 
