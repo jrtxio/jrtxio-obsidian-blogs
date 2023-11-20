@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/VLAN 的理解.md","permalink":"/文章/VLAN 的理解/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2022-06-23T23:03:04.000+08:00","updated":"2023-11-14T13:34:08.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/VLAN 的理解.md","permalink":"/文章/VLAN 的理解/","dgEnableSearch":"true","created":"2022-06-23T23:03:04.000+08:00","updated":"2023-11-14T13:34:08.000+08:00"}
 ---
 
 #Ofilm 
