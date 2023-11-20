@@ -1,11 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"文章/SOC OTA 差分软件技术方案.md","permalink":"/文章/SOC OTA 差分软件技术方案/","dgEnableSearch":"true","created":"2023-11-13T11:27:44.120+08:00","updated":"2023-11-20T14:00:48.814+08:00"}
+{"dg-publish":true,"dg-path":"文章/SOC OTA 差分软件技术方案.md","permalink":"/文章/SOC OTA 差分软件技术方案/","dgEnableSearch":"true","created":"2023-11-13T11:27:44.120+08:00","updated":"2023-11-20T15:08:03.642+08:00"}
 ---
 
 #Technomous 
 
 # 升级原理
-
 OTA 升级有基于文件和基于块两种方式。典型的基于文件的升级方式是 Linux 桌面版或服务器版的包管理器更新方式（例如，sudo apt upgrade）。基于块的升级方式在嵌入式 Linux 中更为常见，指的是通过直接写入块设备一次性更新整个分区。
 
 ![20231115164908.png|350](/img/user/0.Asset/resource/20231115164908.png)
