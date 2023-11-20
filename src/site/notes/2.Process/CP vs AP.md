@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/CP vs AP.md","permalink":"/文章/CP vs AP/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-02-16T19:21:39.000+08:00","updated":"2023-11-14T13:32:08.000+08:00"}
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/CP vs AP.md","permalink":"/文章/CP vs AP/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-02-16T19:21:39.000+08:00","updated":"2023-11-14T13:32:08.330+08:00"}
 ---
 
 #Technomous 
