@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/VIM 需要扩展的功能及优势.md","permalink":"/文章/VIM 需要扩展的功能及优势/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2020-10-20T17:25:12.000+08:00","updated":"2023-11-14T13:35:03.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/VIM 需要扩展的功能及优势.md","permalink":"/文章/VIM 需要扩展的功能及优势/","dgEnableSearch":"true","created":"2020-10-20T17:25:12.000+08:00","updated":"2023-11-14T13:35:03.000+08:00"}
 ---
 
 #BDStar #工具教程
