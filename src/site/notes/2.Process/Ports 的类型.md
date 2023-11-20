@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/Ports 的类型.md","permalink":"/文章/Ports 的类型/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2022-07-19T15:42:01.000+08:00","updated":"2023-11-17T15:42:01.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/Ports 的类型.md","permalink":"/文章/Ports 的类型/","dgEnableSearch":"true","created":"2022-07-19T15:42:01.000+08:00","updated":"2023-11-17T15:42:01.000+08:00"}
 ---
 
 #Ofilm 
