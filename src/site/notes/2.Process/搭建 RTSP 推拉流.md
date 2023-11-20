@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/搭建 RTSP 推拉流.md","permalink":"/文章/搭建 RTSP 推拉流/","dgPassFrontmatter":true,"created":"2023-11-06T10:34:28.000+08:00","updated":"2023-11-16T14:42:27.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/搭建 RTSP 推拉流.md","permalink":"/文章/搭建 RTSP 推拉流/","dgEnableSearch":"true","created":"2023-11-06T10:34:28.000+08:00","updated":"2023-11-20T14:49:57.231+08:00"}
 ---
 
 #Technomous 
@@ -39,7 +39,7 @@ ffmpeg -re -stream_loop -1 -i juren.mp4 -c copy -f rtsp rtsp://localhost:8554/st
 `-i juren.mp4`：这是输入文件标志，指定要流式传输的视屏文件，这里是 "juren.mp4"。
 `-c copy`：此选项告诉 ffmpeg 复制视屏和音频流，而不进行重新编码。这对于保留输入文件的原始质量和格式非常有用。
 `-f rtsp`：此选项指定输出格式为 RTSP （实时流式传输协议），这是常用于互联网传输音频和视屏的协议
-`rtsp://localhost:8554/stream`：这是输出 URL，RTSP 流将在此 URL 上提供。在这种情况下，流将在 "rtsp://localhost:8554/stream" 上可用。
+`rtsp://localhost:8554/stream`：这是输出 URL，RTSP 流将在此 URL 上提供。在这种情况下，流将在 "`rtsp://localhost:8554/stream`" 上可用。
 
 - ffplay 拉流
 ``` shell
@@ -81,7 +81,7 @@ ffplay -rtsp_transport tcp -i rtsp://localhost:8554/stream
 
 ![20231106154615.png|650](/img/user/0.Asset/resource/20231106154615.png)
 
-最终生成的串流地址是 rtsp://[ip]:8554/stream ，[ip] 地址替换成本机的 ip 地址。
+最终生成的串流地址是 `rtsp://[ip]:8554/stream` ，`[ip]` 地址替换成本机的 ip 地址。
 
 ## 串流客户端 VLC
 
@@ -102,3 +102,6 @@ ffplay -rtsp_transport tcp -i rtsp://localhost:8554/stream
 ``` shell
 ffplay -i rtsp://192.168.96.2:5544/stream
 ```
+
+## 车内网传输 RTP
+车内网的视频流有一些特殊的要求，并不使用 RTSP 协议，而是直接利用 RTP 对视屏流进行推送。可以参考 [RTPH264Streaming](https://github.com/tinydigger/RTPH264Streaming) 示例搭建基于 RTP 直接传输视频流。 

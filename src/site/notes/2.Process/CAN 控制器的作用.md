@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/CAN 控制器的作用.md","permalink":"/文章/CAN 控制器的作用/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2020-01-17T17:26:33.000+08:00","updated":"2023-11-14T13:33:29.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/CAN 控制器的作用.md","permalink":"/文章/CAN 控制器的作用/","dgEnableSearch":"true","created":"2020-01-17T17:26:33.000+08:00","updated":"2023-11-20T13:33:14.431+08:00"}
 ---
 
-#BDStar 
+#BDStar #AUTOSAR 
 
 Controller Area Network is a serial bus standard Used to connect Controllers.  
 控制器局域网是用于连接控制器的串行总线标准。
@@ -24,7 +24,7 @@ CAN 控制器每次从收发器接收一个 bit 的数据（因为 CAN 总线是
 - Sending Message:  
 CAN Controller gets entire message from higher layers and transmits bit by bit whenever Bus is free.
 - 发送消息：  
-**CAN 控制器**从上层获取到整个消息，并在总线空闲时逐位传输。
+CAN 控制器从上层获取到整个消息，并在总线空闲时逐位传输。
 
 It act as a Data Link Layer when compared to OSI Model.  
 它相当于 OSI 模型中的数据链路层。

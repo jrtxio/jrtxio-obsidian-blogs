@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/UDS 诊断 0x19 服务实现分析.md","permalink":"/文章/UDS 诊断 0x19 服务实现分析/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2020-04-10T15:56:23.000+08:00","updated":"2023-11-17T15:56:23.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/UDS 诊断 0x19 服务实现分析.md","permalink":"/文章/UDS 诊断 0x19 服务实现分析/","dgEnableSearch":"true","created":"2020-04-10T15:56:23.000+08:00","updated":"2023-11-17T15:56:23.000+08:00"}
 ---
 
 #BDStar #UDS 

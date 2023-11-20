@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/ETAS AP 技术实现细节剖析.md","permalink":"/文章/ETAS AP 技术实现细节剖析/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-04-03T14:46:42.000+08:00","updated":"2023-11-14T13:31:25.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/ETAS AP 技术实现细节剖析.md","permalink":"/文章/ETAS AP 技术实现细节剖析/","dgEnableSearch":"true","created":"2023-04-03T14:46:42.000+08:00","updated":"2023-11-20T13:52:21.136+08:00"}
 ---
 
 #Technomous #SILK 
@@ -9,7 +9,7 @@ RTA-VRTE 平台几乎是以封闭平台的方式进行分发，所以无法从�
 
 # 信号转服务方案-S2S
 
-![S2S_Translation.png|650](/img/user/0.Asset/resource/S2S_Translation.png)
+![20230403162857.png|650](/img/user/0.Asset/resource/20230403162857.png)
 
 在引入 SOA 架构后，基于以太网的服务的域控制器，如何能和只有信号的 ECU 相互兼容并工作。
 

@@ -1,8 +1,9 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/SOMEIP VS DDS.md","permalink":"/文章/SOMEIP VS DDS/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2022-07-18T23:08:07.000+08:00","updated":"2023-11-14T13:35:31.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/SOMEIP VS DDS.md","permalink":"/文章/SOMEIP VS DDS/","dgEnableSearch":"true","created":"2022-07-18T23:08:07.000+08:00","updated":"2023-11-20T13:40:04.965+08:00"}
 ---
 
 #Ofilm 
+
 ![20230309154031.png|650](/img/user/0.Asset/resource/20230309154031.png)
 
 SOMEIP 和 DDS 都是自动驾驶上用的最多两类通信中间件。两者的共同点主要有：都是面向服务的通信协议；都采用了"以数据为中心"的发布和订阅模式。
