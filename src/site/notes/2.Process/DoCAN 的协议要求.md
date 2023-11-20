@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/DoCAN 的协议要求.md","permalink":"/文章/DoCAN 的协议要求/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2019-11-07T09:20:24.000+08:00","updated":"2023-11-14T13:33:26.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/DoCAN 的协议要求.md","permalink":"/文章/DoCAN 的协议要求/","dgEnableSearch":"true","created":"2019-11-07T09:20:24.000+08:00","updated":"2023-11-14T13:33:26.000+08:00"}
 ---
 
 #BDStar #AUTOSAR 
