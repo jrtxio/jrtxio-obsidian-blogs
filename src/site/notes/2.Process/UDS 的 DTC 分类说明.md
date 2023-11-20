@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/UDS 的 DTC 分类说明.md","permalink":"/文章/UDS 的 DTC 分类说明/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2020-04-24T15:55:54.000+08:00","updated":"2023-11-17T15:55:54.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/UDS 的 DTC 分类说明.md","permalink":"/文章/UDS 的 DTC 分类说明/","dgEnableSearch":"true","created":"2020-04-24T15:55:54.000+08:00","updated":"2023-11-17T15:55:54.000+08:00"}
 ---
 
 #BDStar 
