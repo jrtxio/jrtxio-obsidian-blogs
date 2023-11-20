@@ -77,12 +77,12 @@ li {
   margin-left: 10px;
 }
 
-// blockquote {
-//   border-left: 5px lightgrey solid;
-//   padding-left: 15px;
-//   margin-left: 20px;
-//   background: #f4f4f4;
-// }
+blockquote {
+  border-left: 5px lightgrey solid;
+  padding-left: 15px;
+  margin-left: 20px;
+  background: #f4f4f4;
+}
 
 pre {
   font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
@@ -146,67 +146,67 @@ p.notice {
   font-size: 14px;
 }
 
-// div.outer {
-//   margin: 2% 5% 2% 5%;
-// }
+div.outer {
+  margin: 2% 5% 2% 5%;
+}
 
-// body.mobile div.outer {
-//   margin: 2% 0% 2% 0%;
-// }
+body.mobile div.outer {
+  margin: 2% 0% 2% 0%;
+}
 
-// div.inner {
-//   margin: 0% 14%;
-//   padding: 2% 8% 4% 8%;
-//   border: 1px solid LightGrey;
-// }
+div.inner {
+  margin: 0% 14%;
+  padding: 2% 8% 4% 8%;
+  border: 1px solid LightGrey;
+}
 
-// body.mobile div.inner {
-//   margin: 0;
-//   padding: 2% 4% 4% 4%;
-// }
+body.mobile div.inner {
+  margin: 0;
+  padding: 2% 4% 4% 4%;
+}
 
-// div.ad-banner {
-//   margin: 0% 14%;
-// }
+div.ad-banner {
+  margin: 0% 14%;
+}
 
-// body.mobile div.ad-banner {
-//   display: none;
-// }
+body.mobile div.ad-banner {
+  display: none;
+}
 
-// .side-ad.mobile {
-//   display: none;
-// }
+.side-ad.mobile {
+  display: none;
+}
 
-// .left {
-//   float: left;
-//   clear: both;
-//   width: 50%;
-//   padding: 25 24 25 0;
-//   border-top: 1px solid lightblue;
-// }
+.left {
+  float: left;
+  clear: both;
+  width: 50%;
+  padding: 25 24 25 0;
+  border-top: 1px solid lightblue;
+}
 
-// .right {
-//   float: left;
-//   clear: none;
-//   width: 50%;
-//   padding: 25 0 25 24;
-//   border-top: 1px solid lightblue;
-// }
+.right {
+  float: left;
+  clear: none;
+  width: 50%;
+  padding: 25 0 25 24;
+  border-top: 1px solid lightblue;
+}
 
-// .row:after {
-//   content: "";
-//   display: table;
-//   clear: both;
-// }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-// .row {
-//   clear: both;
-// }
+.row {
+  clear: both;
+}
 
-// .navbar-inner h1 {
-//   font-size: 14px;
-//   border-bottom: none;
-// }
+.navbar-inner h1 {
+  font-size: 14px;
+  border-bottom: none;
+}
 
 .highlight .hll { background-color: #ffc; }
 .highlight .c { color: #888; font-weight: bold; } /* Comment */
