@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/C++ 的语法特性示例.md","permalink":"/文章/C++ 的语法特性示例/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2022-09-06T16:59:20.000+08:00","updated":"2023-11-14T13:32:33.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/C++ 的语法特性示例.md","permalink":"/文章/C++ 的语法特性示例/","dgEnableSearch":"true","created":"2022-09-06T16:59:20.000+08:00","updated":"2023-11-14T13:32:33.000+08:00"}
 ---
 
 #Ofilm #程序语言 
