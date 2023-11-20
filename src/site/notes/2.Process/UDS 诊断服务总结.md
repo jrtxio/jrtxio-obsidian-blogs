@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/UDS 诊断服务总结.md","permalink":"/文章/UDS 诊断服务总结/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2019-11-28T17:08:38.000+08:00","updated":"2023-11-19T14:58:51.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/UDS 诊断服务总结.md","permalink":"/文章/UDS 诊断服务总结/","dgEnableSearch":"true","created":"2019-11-28T17:08:38.000+08:00","updated":"2023-11-19T14:58:51.000+08:00"}
 ---
 
 #BDStar #AUTOSAR 
