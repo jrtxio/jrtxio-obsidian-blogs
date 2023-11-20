@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/DrRacket 功能介绍.md","permalink":"/文章/DrRacket 功能介绍/","dgEnableSearch":"true","created":"2022-06-21T15:45:15.000+08:00","updated":"2023-11-20T14:02:42.412+08:00"}
+{"dg-publish":true,"dg-path":"文章/DrRacket 功能介绍.md","permalink":"/文章/DrRacket 功能介绍/","dgEnableSearch":"true","created":"2022-06-21T15:45:15.000+08:00","updated":"2023-11-20T14:02:42.000+08:00"}
 ---
 
 #Ofilm #Lisp #Racket 
