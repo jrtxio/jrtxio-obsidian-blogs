@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/CP AUTOSAR 的几个技术点.md","permalink":"/文章/CP AUTOSAR 的几个技术点/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2022-07-22T15:41:23.000+08:00","updated":"2023-11-17T15:41:23.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/CP AUTOSAR 的几个技术点.md","permalink":"/文章/CP AUTOSAR 的几个技术点/","dgEnableSearch":"true","created":"2022-07-22T15:41:23.000+08:00","updated":"2023-11-17T15:41:23.000+08:00"}
 ---
 
 #Ofilm 
