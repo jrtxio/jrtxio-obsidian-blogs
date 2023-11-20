@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/UDS 诊断故障策略.md","permalink":"/文章/UDS 诊断故障策略/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2019-09-17T09:25:31.000+08:00","updated":"2023-11-19T14:58:28.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/UDS 诊断故障策略.md","permalink":"/文章/UDS 诊断故障策略/","dgEnableSearch":"true","created":"2019-09-17T09:25:31.000+08:00","updated":"2023-11-19T14:58:28.000+08:00"}
 ---
 
 #BDStar #AUTOSAR 
