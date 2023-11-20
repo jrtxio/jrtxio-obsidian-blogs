@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/常见的诊断服务和 NRC.md","permalink":"/文章/常见的诊断服务和 NRC/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2022-08-12T23:12:58.000+08:00","updated":"2023-11-14T13:34:33.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/常见的诊断服务和 NRC.md","permalink":"/文章/常见的诊断服务和 NRC/","dgEnableSearch":"true","created":"2022-08-12T23:12:58.000+08:00","updated":"2023-11-14T13:34:33.000+08:00"}
 ---
 
 #Ofilm 
