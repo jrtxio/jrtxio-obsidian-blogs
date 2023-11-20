@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/CAN 控制器的作用.md","permalink":"/文章/CAN 控制器的作用/","dgEnableSearch":"true","created":"2020-01-17T17:26:33.000+08:00","updated":"2023-11-19T14:59:36.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/CAN 控制器的作用.md","permalink":"/文章/CAN 控制器的作用/","dgEnableSearch":"true","created":"2020-01-17T17:26:33.000+08:00","updated":"2023-11-20T13:33:14.431+08:00"}
 ---
 
 #BDStar #AUTOSAR 
