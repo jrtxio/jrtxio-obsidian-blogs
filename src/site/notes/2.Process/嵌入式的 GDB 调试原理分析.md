@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"文章/嵌入式的 GDB 调试原理分析.md","permalink":"/文章/嵌入式的 GDB 调试原理分析/","dgEnableSearch":"true","created":"2022-04-27T22:57:24.000+08:00","updated":"2023-11-20T13:36:00.014+08:00"}
+{"dg-publish":true,"dg-path":"文章/嵌入式的 GDB 调试原理分析.md","permalink":"/文章/嵌入式的 GDB 调试原理分析/","dgEnableSearch":"true","created":"2022-04-27T22:57:24.000+08:00","updated":"2023-11-20T14:03:12.002+08:00"}
 ---
 
-#Ofilm #工具教程
+#Ofilm 
 
 ![20230713135755.png|650](/img/user/0.Asset/resource/20230713135755.png)
 
