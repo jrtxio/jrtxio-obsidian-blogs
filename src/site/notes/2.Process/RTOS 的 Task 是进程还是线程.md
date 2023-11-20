@@ -1,9 +1,0 @@
----
-{"dg-publish":true,"dg-path":"文章/RTOS 的 Task 是进程还是线程.md","permalink":"/文章/RTOS 的 Task 是进程还是线程/","dgEnableSearch":"true","created":"2022-07-20T15:41:49.000+08:00","updated":"2023-11-17T15:41:49.000+08:00"}
----
-
-#Ofilm 
-
-对于目前主流的 RTOS
-1. 首先对于 MCU 上的堆栈。Task 都是共享的，个人认为是类似单进程多线程模型。
-2. MCU 一般没有内存管理模块 MMU 等，这也是为什么当我们某个任务程序跑飞会导致整个系统无法运行的原因。
