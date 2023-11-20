@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/OTA 差分软件技术方案.md","permalink":"/文章/OTA 差分软件技术方案/","dgPassFrontmatter":true,"created":"2023-11-13T11:27:44.000+08:00","updated":"2023-11-17T17:13:11.000+08:00"}
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/OTA 差分软件技术方案.md","permalink":"/文章/OTA 差分软件技术方案/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-11-13T11:27:44.120+08:00","updated":"2023-11-20T09:19:47.233+08:00"}
 ---
 
 #Technomous 
