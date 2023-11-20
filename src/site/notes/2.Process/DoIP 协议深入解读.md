@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/DoIP 协议深入解读.md","permalink":"/文章/DoIP 协议深入解读/","dgEnableSearch":"true","created":"2023-08-29T15:40:16.000+08:00","updated":"2023-11-14T13:31:02.869+08:00"}
+{"dg-publish":true,"dg-path":"文章/DoIP 协议深入解读.md","permalink":"/文章/DoIP 协议深入解读/","dgEnableSearch":"true","created":"2023-08-29T15:40:16.000+08:00","updated":"2023-11-20T15:33:41.551+08:00"}
 ---
 
 #Technomous #DoIP
@@ -166,7 +166,6 @@ Gateway 的功能需要从两个方面去分析：
 目前 ISO 13400 并没有明确指定但是目前有两种实现模式：
 1. Transparent switch
 诊断仪直接连接到车内的以太网 ECUs进行通信。
-
 2. Locked switch(e.g. via VLAN encapsulation)
 这种场景下诊断仪是没有权限直接连接到车内的以太网 ECUs，诊断仪的通信需要通过中央网关模拟诊断仪进行中间转发。此时的转发也可以根据实际需求对相应的流程进行精简，不同的策略转发效率也各不相同。
 
