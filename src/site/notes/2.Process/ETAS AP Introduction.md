@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/ETAS AP Introduction.md","permalink":"/文章/ETAS AP Introduction/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-04-06T10:17:11.000+08:00","updated":"2023-11-14T13:31:29.899+08:00"}
+{"dg-publish":true,"dg-path":"文章/ETAS AP Introduction.md","permalink":"/文章/ETAS AP Introduction/","dgEnableSearch":"true","created":"2023-04-06T10:17:11.000+08:00","updated":"2023-11-14T13:31:29.899+08:00"}
 ---
 
 #Technomous #SILK 
