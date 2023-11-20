@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/SWC 的实现分析.md","permalink":"/文章/SWC 的实现分析/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2022-08-05T23:10:36.000+08:00","updated":"2023-11-14T13:35:57.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/SWC 的实现分析.md","permalink":"/文章/SWC 的实现分析/","dgEnableSearch":"true","created":"2022-08-05T23:10:36.000+08:00","updated":"2023-11-14T13:35:57.000+08:00"}
 ---
 
 #Ofilm 
