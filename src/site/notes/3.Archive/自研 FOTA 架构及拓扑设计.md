@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/自研 FOTA 架构及拓扑设计.md","permalink":"/文章/自研 FOTA 架构及拓扑设计/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-07-14T18:48:23.000+08:00","updated":"2023-11-19T14:57:31.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/自研 FOTA 架构及拓扑设计.md","permalink":"/文章/自研 FOTA 架构及拓扑设计/","dgEnableSearch":"true","created":"2023-07-14T18:48:23.000+08:00","updated":"2023-11-19T14:57:31.000+08:00"}
 ---
 
 
