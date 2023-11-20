@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/UDS 入门指导.md","permalink":"/文章/UDS 入门指导/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2023-03-09T16:41:30.000+08:00","updated":"2023-11-14T13:31:42.829+08:00"}
+{"dg-publish":true,"dg-path":"文章/UDS 入门指导.md","permalink":"/文章/UDS 入门指导/","dgEnableSearch":"true","created":"2023-03-09T16:41:30.000+08:00","updated":"2023-11-14T13:31:42.829+08:00"}
 ---
 
 #UDS
