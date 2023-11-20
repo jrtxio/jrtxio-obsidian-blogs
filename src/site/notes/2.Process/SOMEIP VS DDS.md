@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/SOMEIP VS DDS.md","permalink":"/文章/SOMEIP VS DDS/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2022-07-18T23:08:07.000+08:00","updated":"2023-11-14T13:35:31.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/SOMEIP VS DDS.md","permalink":"/文章/SOMEIP VS DDS/","dgEnableSearch":"true","created":"2022-07-18T23:08:07.000+08:00","updated":"2023-11-14T13:35:31.000+08:00"}
 ---
 
 #Ofilm 
