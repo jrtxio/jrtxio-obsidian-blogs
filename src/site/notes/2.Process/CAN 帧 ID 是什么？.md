@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/CAN 帧 ID 是什么？.md","permalink":"/文章/CAN 帧 ID 是什么？/","dgEnableSearch":"true","dgPassFrontmatter":true,"created":"2019-09-27T09:22:51.000+08:00","updated":"2023-11-19T14:58:34.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/CAN 帧 ID 是什么？.md","permalink":"/文章/CAN 帧 ID 是什么？/","dgEnableSearch":"true","created":"2019-09-27T09:22:51.000+08:00","updated":"2023-11-19T14:58:34.000+08:00"}
 ---
 
 #BDStar #AUTOSAR 
