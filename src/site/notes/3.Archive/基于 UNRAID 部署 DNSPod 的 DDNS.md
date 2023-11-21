@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/基于 UNRAID 部署 DNSPod 的 DDNS.md","permalink":"/文章/基于 UNRAID 部署 DNSPod 的 DDNS/","dgEnableSearch":"true","created":"2023-09-08T16:58:58.000+08:00","updated":"2023-11-20T14:03:17.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/基于 UNRAID 部署 DNSPod 的 DDNS.md","permalink":"/文章/基于 UNRAID 部署 DNSPod 的 DDNS/","dgEnableSearch":"true","created":"2023-09-08T16:58:58.000+08:00","updated":"2023-11-20T14:03:17.129+08:00"}
 ---
 
 当你在家里部署了 Unraid 之后，可能需要在外网访问搭建的一些服务。目前的解决方案无非就是内网穿透和 DDNS 两种。如果你满足了以下两个条件，就可以尝试在 Unraid 的容器下部署 DNSPod 的 DDNS：
