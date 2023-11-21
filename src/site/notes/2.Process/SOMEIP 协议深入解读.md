@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/SOMEIP 协议深入解读.md","permalink":"/文章/SOMEIP 协议深入解读/","dgEnableSearch":"true","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-11-20T17:50:55.810+08:00"}
+{"dg-publish":true,"dg-path":"文章/SOMEIP 协议深入解读.md","permalink":"/文章/SOMEIP 协议深入解读/","dgEnableSearch":"true","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-11-21T09:29:54.504+08:00"}
 ---
 
 #Technomous #SOMEIP
@@ -72,29 +72,26 @@ SOME/IP 的交互流程包含两个重要的部分
 SOME/IP 可以使用 TCP/UDP 作为传输层协议。使用 UDP 协议传输小型报文的时候，多个报文会放在一个 UDP 包里，但是一个报文的长度不能超过一个 UDP 包的大小（1400 字节）。如果需要发送大型的报文，就可以使用 TCP 协议或者基于 UDP 通信的 SOME/IP-TP 协议。使用 TCP 传输还是 UDP 传输，取决于对延时的要求。
 
 在 SOME/IP 的报文头中，并没有定义额外的标志符（Instance ID）来区分各个实例，所以**传输层的端口号**会用来区分实例。因此不同的实例不可以在相同的端口上提供。
-## 通信模式
-
-### SOME/IP 通信模式
-
-#### RR & FF
+## SOME/IP 通信模式
+### RR & FF
 
 ![20230628142209.png|350](/img/user/0.Asset/resource/20230628142209.png)
 
-#### Notification
+### Notification
 
 ![20230628142128.png|350](/img/user/0.Asset/resource/20230628142128.png)
 
 
-#### Getter & Setter & Notifier
+### Getter & Setter & Notifier
 
 ![20230628142154.png|350](/img/user/0.Asset/resource/20230628142154.png)
-### SOME/IP-SD 通信模式
+## SOME/IP-SD 通信模式
 
-#### Find/Offer
+### Find/Offer
 
 ![20230901133635.png|650](/img/user/0.Asset/resource/20230901133635.png)
 
-#### Subscribe
+### Subscribe
 
 ![20230901133702.png|650](/img/user/0.Asset/resource/20230901133702.png)
 
