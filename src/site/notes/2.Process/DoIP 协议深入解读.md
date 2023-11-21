@@ -1,11 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"文章/DoIP 协议深入解读.md","permalink":"/文章/DoIP 协议深入解读/","dgEnableSearch":"true","created":"2023-08-29T15:40:16.000+08:00","updated":"2023-11-20T15:33:41.551+08:00"}
+{"dg-publish":true,"dg-path":"文章/DoIP 协议深入解读.md","permalink":"/文章/DoIP 协议深入解读/","dgEnableSearch":"true","created":"2023-08-29T15:40:16.000+08:00","updated":"2023-11-21T15:35:27.467+08:00"}
 ---
 
 #Technomous #DoIP
 
 # 协议简介
-
 功能
 * 诊断和 ECU 的重编程
 * 车辆接入协议
@@ -20,6 +19,8 @@
 ![20230418151154.png|650](/img/user/0.Asset/resource/20230418151154.png)
 
 车辆网络分为车内网（Vehicle network）和车外网（External network），车内网和车外网之间，有两组重要的线束，其中一组是用于数据传输的以太网线，另一组是用于诊断功能激活的激活线。以太网线就是常见的四线制TX标准网线。而激活线的设计，是用于车内诊断功能激活。出于能耗和电磁干扰的考虑，要求非诊断通信期间，与诊断相关的功能处于关闭状态，这样一方面可以降低能耗，另一方面减少对网络带宽的消耗，从而降低电磁干扰。
+
+![20230418151827.png|650](/img/user/0.Asset/resource/20230418151827.png)
 ## Client
 外部测试设备，通常为 OBD 诊断仪或者是其它诊断客户端。对于外部测试设备来说，它们必须只能和 DoIP Edge Node gateway 直接连接并通信，与车载网络中其他 ECU 的通信必须由 DoIP Edge Node gatway 路由。
 
@@ -70,6 +71,7 @@ DoIP 协议属于应用层协议，基于 UDP/TCP 的传输层协议进行实现
 * 支持 UDP/DoIP 实体监听端口号 **13400**
 
 ## 报文格式
+![20230313103644.png|650](/img/user/0.Asset/resource/20230313103644.png)
 
 ![20230418151906.png|650](/img/user/0.Asset/resource/20230418151906.png)
 ### 协议版本号
@@ -169,7 +171,7 @@ Gateway 的功能需要从两个方面去分析：
 2. Locked switch(e.g. via VLAN encapsulation)
 这种场景下诊断仪是没有权限直接连接到车内的以太网 ECUs，诊断仪的通信需要通过中央网关模拟诊断仪进行中间转发。此时的转发也可以根据实际需求对相应的流程进行精简，不同的策略转发效率也各不相同。
 
-
+![[Fast_Vehicle_Diagnostics_with_DoIP.pdf]]
 
 
 
