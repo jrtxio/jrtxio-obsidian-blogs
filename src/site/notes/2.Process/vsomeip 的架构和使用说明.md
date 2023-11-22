@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/vsomeip 的架构和使用说明.md","permalink":"/文章/vsomeip 的架构和使用说明/","dgEnableSearch":"true","created":"2023-08-28T16:22:57.000+08:00","updated":"2023-11-20T22:37:20.837+08:00"}
+{"dg-publish":true,"dg-path":"文章/vsomeip 的架构和使用说明.md","permalink":"/文章/vsomeip 的架构和使用说明/","dgEnableSearch":"true","created":"2023-08-28T16:22:57.000+08:00","updated":"2023-11-20T22:37:20.000+08:00"}
 ---
 
 #Technomous #SOMEIP 
