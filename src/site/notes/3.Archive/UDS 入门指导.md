@@ -1,8 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"文章/UDS 入门指导.md","permalink":"/文章/UDS 入门指导/","dgEnableSearch":"true","created":"2023-03-09T16:41:30.000+08:00","updated":"2023-11-20T23:31:52.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/UDS 入门指导.md","permalink":"/文章/UDS 入门指导/","dgEnableSearch":"true","created":"2023-03-09T16:41:30.000+08:00","updated":"2023-11-22T13:25:54.028+08:00"}
 ---
 
 #AUTOSAR #UDS
+
 # 车辆诊断技术
 早期汽车诊断只能依靠人直观检查和判断，随着电气化技术的引入，现代汽车集成了大量的微控制器。传统的方法已经无能为力，因此车辆的自诊断技术便应运而生。汽车诊断分为两种，一种是法规强制要求的，也就是经常听到的 OBD（On Board Diagnostic）诊断。主要用于在车辆运行阶段能够及时的通知故障信息，给驾驶员以警告或提示。另一种是 UDS，也叫增强型或者离线诊断（Off Board Diagnostic）。
 
