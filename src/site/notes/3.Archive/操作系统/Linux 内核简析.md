@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"文章/操作系统/Linux 内核简析.md","permalink":"/文章/操作系统/Linux 内核简析/","dgEnableSearch":"true","created":"2023-02-07T09:26:41.000+08:00","updated":"2023-11-22T14:36:39.574+08:00"}
+{"dg-publish":true,"dg-path":"文章/操作系统/Linux 内核简析.md","permalink":"/文章/操作系统/Linux 内核简析/","dgEnableSearch":"true","created":"2023-02-07T09:26:41.000+08:00","updated":"2023-11-22T14:53:06.264+08:00"}
 ---
 
-#Technomous#操作系统 #Linux
+#Technomous #操作系统 #Linux
 
 内核是 Linux 操作系统的核心组件，它向上连接应用程序，向下直接与硬件打交道。其代码主要由 C 语言及少量汇编语言写成。内核并发运行着一系列的进程，并管理着硬件的各种资源。具体来讲，因为系统的资源有限，内核就为各个进程分配着诸如 CPU 时间、内存空间、网络连接等各方面的资源。
 
