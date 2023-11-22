@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/科技数码/基于 UNRAID 部署 DNSPod 的 DDNS.md","permalink":"/文章/科技数码/基于 UNRAID 部署 DNSPod 的 DDNS/","dgEnableSearch":"true","created":"2023-09-08T16:58:58.000+08:00","updated":"2023-11-22T14:37:24.144+08:00"}
+{"dg-publish":true,"dg-path":"文章/科技数码/基于 UNRAID 部署 DNSPod 的 DDNS.md","permalink":"/文章/科技数码/基于 UNRAID 部署 DNSPod 的 DDNS/","dgEnableSearch":"true","created":"2023-09-08T16:58:58.000+08:00","updated":"2023-11-22T14:37:24.000+08:00"}
 ---
 
 #BDStar #科技数码
