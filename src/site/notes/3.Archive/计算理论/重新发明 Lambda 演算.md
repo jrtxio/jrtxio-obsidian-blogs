@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"文章/计算理论/重新发明 Lambda 演算.md","permalink":"/文章/计算理论/重新发明 Lambda 演算/","dgEnableSearch":"true","created":"2023-03-05T17:01:40.000+08:00","updated":"2023-11-21T14:55:26.575+08:00"}
+{"dg-publish":true,"dg-path":"文章/计算理论/重新发明 Lambda 演算.md","permalink":"/文章/计算理论/重新发明 Lambda 演算/","dgEnableSearch":"true","created":"2023-03-05T17:01:40.000+08:00","updated":"2023-11-22T14:38:38.816+08:00"}
 ---
 
-#计算理论
+#Technomous #计算理论
 
 > 问题：给出一个系统，能够自动判定1 + 1 = 2。
 
