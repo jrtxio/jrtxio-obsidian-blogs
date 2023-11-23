@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/AUTOSAR/UDS 入门指导.md","permalink":"/文章/AUTOSAR/UDS 入门指导/","dgEnableSearch":"true","created":"2023-03-09T16:41:30.000+08:00","updated":"2023-11-22T14:33:30.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/AUTOSAR/UDS 入门指导.md","permalink":"/文章/AUTOSAR/UDS 入门指导/","dgEnableSearch":"true","created":"2023-03-09T16:41:30.000+08:00","updated":"2023-11-22T14:33:30.604+08:00"}
 ---
 
 #Technomous #AUTOSAR #UDS
