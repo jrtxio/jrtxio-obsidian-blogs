@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"文章/Lisp/Lisp 已死，Lisp 万岁！.md","permalink":"/文章/Lisp/Lisp 已死，Lisp 万岁！/","dgEnableSearch":"true","created":"2023-08-29T16:09:35.000+08:00","updated":"2023-11-22T14:36:45.000+08:00"}
+{"dg-publish":true,"dg-path":"文章/Lisp/Lisp 已死，Lisp 万岁！.md","permalink":"/文章/Lisp/Lisp 已死，Lisp 万岁！/","dgEnableSearch":"true","created":"2023-08-29T16:09:35.000+08:00","updated":"2023-11-22T14:36:45.412+08:00"}
 ---
 
 #Technomous #王垠 #Lisp 
