@@ -1,10 +1,11 @@
 ---
-{"dg-publish":true,"dg-path":"AutoSAR/ETAS Adaptive AUTOSAR 技术细节剖析.md","permalink":"/AutoSAR/ETAS Adaptive AUTOSAR 技术细节剖析/","dgEnableSearch":"true","created":"2023-04-03T14:46:42.000+08:00","updated":"2023-11-20T13:52:21.000+08:00"}
+{"dg-publish":true,"dg-path":"AutoSAR/ETAS Adaptive AUTOSAR 技术细节剖析.md","permalink":"/AutoSAR/ETAS Adaptive AUTOSAR 技术细节剖析/","dgEnableSearch":"true","created":"2023-04-03T14:46:42.000+08:00","updated":"2023-11-27T10:55:29.125+08:00"}
 ---
 
 #Technomous #SILK 
 
 ![20230404153744.png|650](/img/user/0.Asset/resource/20230404153744.png)
+
 RTA-VRTE 平台几乎是以封闭平台的方式进行分发，所以无法从平台本身获得太多的技术实现细节，但是其中部分的技术实现方案有一定借鉴意义。
 
 # 信号转服务方案-S2S
@@ -13,7 +14,7 @@ RTA-VRTE 平台几乎是以封闭平台的方式进行分发，所以无法从�
 
 在引入 SOA 架构后，基于以太网的服务的域控制器，如何能和只有信号的 ECU 相互兼容并工作。
 
-RTA VRTE 利用 S2S 模块去实现 SOA 服务化的功能，SOA 会绑定 DDS, SOMEIP等通信中间件。ETAS AP 的SOME/IP 模块来源于 BOSCH，成熟度更高。
+RTA VRTE 利用 S2S 模块去实现 SOA 服务化的功能，SOA 会绑定 DDS, SOMEIP 等通信中间件。ETAS AP 的 SOME/IP 模块来源于 BOSCH，成熟度更高。
 
 # 通信中间件-冰羚
 
