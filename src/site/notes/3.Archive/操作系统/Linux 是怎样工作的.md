@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"操作系统/Linux 是怎样工作的.md","permalink":"/操作系统/Linux 是怎样工作的/","dgEnableSearch":"true","created":"2023-05-18T22:48:55.000+08:00","updated":"2023-12-01T14:04:30.519+08:00"}
+{"dg-publish":true,"dg-path":"操作系统/Linux 是怎样工作的.md","permalink":"/操作系统/Linux 是怎样工作的/","dgEnableSearch":"true","created":"2023-05-18T22:48:55.000+08:00","updated":"2023-12-01T14:04:30.000+08:00"}
 ---
 
 #Technomous #操作系统 #Linux 
