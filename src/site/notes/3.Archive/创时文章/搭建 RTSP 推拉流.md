@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"创时文章/搭建 RTSP 推拉流.md","permalink":"/创时文章/搭建 RTSP 推拉流/","dgEnableSearch":"true","created":"2023-11-06T10:34:28.000+08:00","updated":"2023-12-01T14:01:43.398+08:00"}
+{"dg-publish":true,"dg-path":"创时文章/搭建 RTSP 推拉流.md","permalink":"/创时文章/搭建 RTSP 推拉流/","dgEnableSearch":"true","created":"2023-11-06T10:34:28.000+08:00","updated":"2023-12-01T14:01:43.000+08:00"}
 ---
 
 #Technomous
