@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"计算理论/重新发明 Lambda 演算.md","permalink":"/计算理论/重新发明 Lambda 演算/","dgEnableSearch":"true","created":"2023-03-05T17:01:40.000+08:00","updated":"2023-11-22T14:38:38.000+08:00"}
+{"dg-publish":true,"dg-path":"计算理论/重新发明 Lambda 演算.md","permalink":"/计算理论/重新发明 Lambda 演算/","dgEnableSearch":"true","created":"2023-03-05T17:01:40.000+08:00","updated":"2023-11-22T14:38:38.816+08:00"}
 ---
 
 #Technomous #计算理论
