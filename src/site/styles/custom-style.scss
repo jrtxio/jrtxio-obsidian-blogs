@@ -9,25 +9,6 @@ html {
 /* reset CSS */
 table {
   font-size: 100%;
-  text-indent: initial;
-  border-spacing: 2px;
-  border-color: gray;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-thead {
-  display: table-header-group;
-  vertical-align: middle;
-  border-color: inherit;
-}
-
-th {
-  font-size: var(--table-header-size);
-  font-weight: var(--table-header-weight);
-  color: var(--table-header-color);
-  font-family: var(--table-header-font);
-  text-align: left;
 }
 
 body {
