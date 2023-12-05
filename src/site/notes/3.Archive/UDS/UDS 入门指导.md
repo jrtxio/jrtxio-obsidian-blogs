@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章UDS/UDS 入门指导.md","permalink":"/文章UDS/UDS 入门指导/","dgEnableSearch":"true","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/UDS/UDS 入门指导.md","permalink":"/文章/UDS/UDS 入门指导/","dgEnableSearch":"true","dgPassFrontmatter":true}
 ---
 
 #Technomous #AUTOSAR #UDS
