@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"操作系统/Linux 基础知识.md","permalink":"/操作系统/Linux 基础知识/","dgEnableSearch":"true","created":"2023-05-13T22:25:55.000+08:00","updated":"2023-12-05T10:19:37.192+08:00"}
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"操作系统/Linux 基础知识.md","permalink":"/操作系统/Linux 基础知识/","dgEnableSearch":"true","dgPassFrontmatter":true}
 ---
 
 #Technomous #操作系统 #Linux 
