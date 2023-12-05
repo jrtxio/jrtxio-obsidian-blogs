@@ -1,10 +1,11 @@
 ---
-{"dg-publish":true,"dg-path":"DoIP/DoIP 协议深入解读.md","permalink":"/DoIP/DoIP 协议深入解读/","dgEnableSearch":"true","created":"2023-08-29T15:40:16.000+08:00","updated":"2023-12-05T14:53:08.798+08:00"}
+{"dg-publish":true,"dg-path":"DoIP/DoIP 协议深入解读.md","permalink":"/DoIP/DoIP 协议深入解读/","dgEnableSearch":"true","created":"2023-08-29T15:40:16.000+08:00","updated":"2023-12-05T14:59:33.222+08:00"}
 ---
 
 #Technomous #DoIP
 
 # 协议简介
+
 功能
 * 诊断和 ECU 的重编程
 * 车辆接入协议
@@ -144,7 +145,7 @@ DoIP 协议属于应用层协议，基于 UDP/TCP 的传输层协议进行实现
 
 负载长度：DoIP 的数据部分长度。
 
-# 功能分析
+# 模块功能
 
 ## Socket Adapter
 
