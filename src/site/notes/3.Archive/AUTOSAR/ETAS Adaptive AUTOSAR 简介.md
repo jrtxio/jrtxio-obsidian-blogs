@@ -1,12 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"AUTOSAR/ETAS Adaptive AUTOSAR 简介.md","permalink":"/AUTOSAR/ETAS Adaptive AUTOSAR 简介/","dgEnableSearch":"true","created":"2023-04-06T10:17:11.000+08:00","updated":"2023-11-30T13:41:07.476+08:00"}
+{"dg-publish":true,"dg-path":"AUTOSAR/ETAS Adaptive AUTOSAR 简介.md","permalink":"/AUTOSAR/ETAS Adaptive AUTOSAR 简介/","dgEnableSearch":"true","created":"2023-04-06T10:17:11.000+08:00","updated":"2023-12-05T16:13:49.018+08:00"}
 ---
 
 #Technomous #SILK 
 
 # 为什么需要 Adaptive AUTOSAR
-
-## 目前存在的一些问题
 
 ![20230406102729.png|650](/img/user/0.Asset/resource/20230406102729.png)
 
@@ -17,7 +15,7 @@ Adaptive AUTOSAR 的出现是为了解决 Classic AUTOSAR 和信息娱乐系统�
 * High resources: Micro-processor、Dynamic OS
 * SW Update：Planned Dynamics
 
-## Classic AUTOSAR vs Adaptive AUTOSAR
+# Classic AUTOSAR vs Adaptive AUTOSAR
 
 |              | CP                                                | AP                                                                               |
 | ------------ | ------------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -57,7 +55,7 @@ AP(AUTOSAR Adaptive Platform)是 ARA（AUTOSAR Runtime for Adaptive Applications
 	* State Management(ara::sm)
 	* Network Management(ara::nm)
 
-# ETAS AP 安装和使用
+# ETAS-AP 的安装和使用
 
 ## RTA VRTE 安装
 
