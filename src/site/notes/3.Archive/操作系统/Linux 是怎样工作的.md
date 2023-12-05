@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章操作系统/Linux 是怎样工作的.md","permalink":"/文章操作系统/Linux 是怎样工作的/","dgEnableSearch":"true","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":"true","dg-path":"文章/操作系统/Linux 是怎样工作的.md","permalink":"/文章/操作系统/Linux 是怎样工作的/","dgEnableSearch":"true","dgPassFrontmatter":true}
 ---
 
 #Technomous #操作系统 #Linux 
