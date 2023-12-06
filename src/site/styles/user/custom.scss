@@ -4,6 +4,17 @@ html {
   --background-secondary: rgb(255, 255, 255) !important;
 }
 
+body {
+  font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !important;
+  font-size: 18px !important;
+}
+
+body.mobile {
+  font-size: 32px;
+}
+
+/*----------------------- bar ------------------------*/
+
 .filetree-sidebar h1 {
   font-size: 24px !important;
   color: #777;
@@ -14,7 +25,7 @@ html {
 
 .navbar {
   background-image: none;
-  background-color: #e7e7e7;
+  background-color: #fff;
   box-shadow: none;
   font-size: 100%;
 }
@@ -27,16 +38,7 @@ html {
   text-shadow: 0 1px 0 rgba(255,255,255,.25);
 }
 
-body {
-  font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !important;
-  font-size: 18px;
-}
-
-body.mobile {
-  font-size: 32px;
-}
-
-/* content */
+/*----------------------- content ------------------------*/
 
 .content P, li {
   line-height: 1.8;
