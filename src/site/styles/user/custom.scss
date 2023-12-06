@@ -4,6 +4,12 @@ html {
   --background-secondary: rgb(255, 255, 255) !important;
 }
 
+.filetree-sidebar h1 {
+  font-size: 24px;
+  border-bottom: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.25);
+}
+
 .navbar {
   background-image: none;
   background-color: #e7e7e7;
@@ -31,9 +37,7 @@ body.mobile {
   font-size: 32px;
 }
 
-// .filetree-sidebar h1 {
-//   border-bottom: none;
-// }
+
 
 .content P, li {
   line-height: 1.8;
