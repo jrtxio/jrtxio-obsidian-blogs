@@ -5,7 +5,8 @@ html {
 }
 
 .filetree-sidebar h1 {
-  font-size: 24px;
+  font-size: 24px !important;
+  color: #777;
   border-bottom: none;
   background-color: #f8f8f8;
   text-shadow: 0 1px 0 rgba(255,255,255,.25);
@@ -19,7 +20,8 @@ html {
 }
 
 .navbar-inner h1 {
-  font-size: 24px;
+  font-size: 24px !important;
+  color: #777;
   border-bottom: none;
   background-color: #f8f8f8;
   text-shadow: 0 1px 0 rgba(255,255,255,.25);
