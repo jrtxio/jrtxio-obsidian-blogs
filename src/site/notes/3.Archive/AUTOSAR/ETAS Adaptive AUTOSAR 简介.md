@@ -76,6 +76,7 @@ rvbuild -sqc -d AraCM_Event 40; rvbuild -lqc -d AraCM_Event 41
 ```
 
 build and deplopy command:
+
 * Build the project (-d AraCM_Event), suppressing build output(-q), after cleaning output files (-c).
 * Generate the ECUCFG configuration, in particular the ECUCFG configuration for Communication (COM_flatcfg.bin), Proxies and Skeletons, and JSON files.
 * Deploy to virtual machine 40, which also forces Linux/aarch64 to be chosen as the target operating system and architecture for the build.
