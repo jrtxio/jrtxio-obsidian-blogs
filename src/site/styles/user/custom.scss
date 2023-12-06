@@ -94,6 +94,35 @@ body.mobile {
   background: #f4f4f4;
 }
 
+/* Table Style */
+.content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.content th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.content th {
+  background-color: #f2f2f2;
+}
+
+.content tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Responsive Table */
+@media screen and (max-width: 600px) {
+  .content table {
+    overflow-x: auto;
+    display: block;
+  }
+}
+
 .content pre {
   font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
   font-size: 80%;
