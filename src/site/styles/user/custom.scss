@@ -1,23 +1,18 @@
-// * {
-//   box-sizing: border-box;
-// }
-
 html {
   -webkit-text-size-adjust: none;
-  --background-primary: rgb(255, 255, 255);
-  --background-secondary: rgb(255, 255, 255);
+  --background-primary: rgb(255, 255, 255) !important;
+  --background-secondary: rgb(255, 255, 255) !important;
 }
 
 .navbar {
   background-image: none;
-  background-color: #fff;
+  background-color: #e7e7e7;
   box-shadow: none;
   font-size: 100%;
 }
 
 .navbar-inner h1 {
   background-color: #f8f8f8;
-  border-color: #e7e7e7;
   font-size: 24px;
   text-shadow: 0 1px 0 rgba(255,255,255,.25);
 }
