@@ -7,6 +7,7 @@ html {
 .filetree-sidebar h1 {
   font-size: 24px;
   border-bottom: none;
+  background-color: #f8f8f8;
   text-shadow: 0 1px 0 rgba(255,255,255,.25);
 }
 
@@ -18,15 +19,11 @@ html {
 }
 
 .navbar-inner h1 {
-  background-color: #f8f8f8;
   font-size: 24px;
+  border-bottom: none;
+  background-color: #f8f8f8;
   text-shadow: 0 1px 0 rgba(255,255,255,.25);
 }
-
-// /* reset CSS */
-// table {
-//   font-size: 100%;
-// }
 
 body {
   font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !important;
@@ -37,7 +34,7 @@ body.mobile {
   font-size: 32px;
 }
 
-
+/* content */
 
 .content P, li {
   line-height: 1.8;
@@ -83,22 +80,16 @@ body.mobile {
   color: #666666;
 }
 
-// .box {
-//   padding: 2% 8% 5% 8%;
-//   border: 1px solid LightGrey;
-// }
-
 .content li {
   margin-left: 10px;
 }
 
-// for light mode
-// .content blockquote {
-//   border-left: 5px lightgrey solid;
-//   padding-left: 15px;
-//   margin-left: 20px;
-//   background: #f4f4f4;
-// }
+.content blockquote {
+  border-left: 5px lightgrey solid;
+  padding-left: 15px;
+  margin-left: 20px;
+  background: #f4f4f4;
+}
 
 .content pre {
   font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
@@ -160,56 +151,6 @@ body.mobile {
 .content p.notice {
   color: #AA4433;
   font-size: 14px;
-}
-
-// div.outer {
-//   margin: 2% 5% 2% 5%;
-// }
-
-// body.mobile div.outer {
-//   margin: 2% 0% 2% 0%;
-// }
-
-// div.inner {
-//   margin: 0% 14%;
-//   padding: 2% 8% 4% 8%;
-//   border: 1px solid LightGrey;
-// }
-
-// body.mobile div.inner {
-//   margin: 0;
-//   padding: 2% 4% 4% 4%;
-// }
-
-// .left {
-//   float: left;
-//   clear: both;
-//   width: 50%;
-//   padding: 25 24 25 0;
-//   border-top: 1px solid lightblue;
-// }
-
-// .right {
-//   float: left;
-//   clear: none;
-//   width: 50%;
-//   padding: 25 0 25 24;
-//   border-top: 1px solid lightblue;
-// }
-
-// .row:after {
-//   content: "";
-//   display: table;
-//   clear: both;
-// }
-
-// .row {
-//   clear: both;
-// }
-
-.navbar-inner h1 {
-  font-size: 14px;
-  border-bottom: none;
 }
 
 .highlight .hll { background-color: #ffc; }
