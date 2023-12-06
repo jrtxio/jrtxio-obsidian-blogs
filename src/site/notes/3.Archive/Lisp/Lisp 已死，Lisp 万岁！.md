@@ -110,17 +110,3 @@ Debugger entered--Lisp error: (void-variable x)
 所以，你也许明白了为什么这篇文章的标题叫做“Lisp 已死，Lisp 万岁！” 因为这句话里面的两个 “Lisp”其实是完全不同的语言。“Lisp 已死”，其实是说 Lisp Machine Lisp 这样的 Lisp，由于严重的设计问题，已经死去。而“Lisp 万岁”，是说像 Scheme，Common Lisp 这样的 Lisp，还会继续存在。它们先进于其它语言的地方，也会更多的被借鉴，被发扬广大。
 
 （其实老 Lisp 的死去还有另外一个重要的原因，那就是因为早期的 Lisp 编译器生成的代码效率非常低下。这个问题我留到下一篇博文再讲。）
-
-# 测试
-
-``` c
-int a = 1;
-int b = 2;
-int c;
-
-#define pi 3.14
-
-c = a + b; // sum of a + b
-
-c = pi + b;
-```
