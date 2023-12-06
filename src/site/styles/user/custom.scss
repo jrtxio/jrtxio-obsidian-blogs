@@ -13,7 +13,15 @@ body.mobile {
   font-size: 32px;
 }
 
-/*----------------------- bar ------------------------*/
+/*----------------------- bar style ------------------------*/
+
+.filetree-sidebar{
+  background-image: none;
+  background-color: #fff;
+  box-shadow: none;
+  border: 1px solid transparent;
+  font-size: 100%;
+}
 
 .filetree-sidebar h1 {
   font-size: 24px !important;
@@ -27,6 +35,7 @@ body.mobile {
   background-image: none;
   background-color: #fff;
   box-shadow: none;
+  border: 1px solid transparent;
   font-size: 100%;
 }
 
@@ -38,7 +47,7 @@ body.mobile {
   background-color: #f8f8f8;
 }
 
-/*----------------------- content ------------------------*/
+/*----------------------- content style ------------------------*/
 
 .content P, li {
   line-height: 1.8;
