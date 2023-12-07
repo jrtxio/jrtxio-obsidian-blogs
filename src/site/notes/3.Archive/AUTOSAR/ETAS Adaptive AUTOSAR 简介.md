@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"AUTOSAR/ETAS Adaptive AUTOSAR 简介.md","permalink":"/AUTOSAR/ETAS Adaptive AUTOSAR 简介/","dgEnableSearch":"true","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-path":"AUTOSAR/ETAS Adaptive AUTOSAR 简介.md","permalink":"/AUTOSAR/ETAS Adaptive AUTOSAR 简介/","dgEnableSearch":"true"}
 ---
 
 #Technomous #SILK 
@@ -69,18 +69,20 @@ RTA VRTE 的开发配置通过 VRTE Adaptive Studio 进行，编译和部署都�
 
 ![20230406110121.png|650](/img/user/0.Asset/resource/20230406110121.png)
 
-上机演示操作过程
+## 上机演示
+
+使用以下命令即可编译和部署：
 
 ``` shell
 rvbuild -sqc -d AraCM_Event 40; rvbuild -lqc -d AraCM_Event 41
 ```
 
-build and deplopy command:
+命令参数解释：
 
-* Build the project (-d AraCM_Event), suppressing build output(-q), after cleaning output files (-c).
-* Generate the ECUCFG configuration, in particular the ECUCFG configuration for Communication (COM_flatcfg.bin), Proxies and Skeletons, and JSON files.
-* Deploy to virtual machine 40, which also forces Linux/aarch64 to be chosen as the target operating system and architecture for the build.
-* Deploy standard library files and excutables from the Target SDK.
-* Copy the files **MachineDesign_A_someip.json** from the project folder ** /\<user>/vrte/project/AraCM_Event/JSON ** to the folder ** /opt/vrte/rb-com/etc ** on the target and patch them with the correct IP address(-s option)
-* Copy the ECUCFG configuration files for **SoftwareCluster_0**, e.g. **exm_SoftwareCluster_0_flatcfg.bin**, to the appropriate folders on the target(-s option)
-* Run the virtual machine 40
+- 清理输出文件 (-c)，然后构建项目 (-d AraCM_Event)，在构建过程中禁止输出构建信息 (-q)。
+- 生成 ECUCFG 配置，特别是用于通信 (COM_flatcfg.bin)、Proxies 和 Skeletons 的 ECUCFG 配置以及 JSON 文件。
+- 部署到虚拟机 40，同时强制选择 Linux/aarch64 作为构建的目标操作系统和架构。
+- 部署标准库文件和目标 SDK 中的可执行文件。
+- 将位于项目文件夹 `/<user>/vrte/project/AraCM_Event/JSON` 中的 MachineDesign_A_someip.json 文件复制到目标机器的 `/opt/vrte/rb-com/etc` 文件夹，并使用正确的 IP 地址进行修补 (使用 -s 选项)。
+- 将 SoftwareCluster_0 的 ECUCFG 配置文件，比如 exm_SoftwareCluster_0_flatcfg.bin，复制到目标机器的相应文件夹中 (使用 -s 选项)。
+- 运行虚拟机 40。
