@@ -21,8 +21,11 @@ body {
   font-size: 18px !important;
 }
 
-body.mobile {
-  font-size: 32px !important;
+/* 在小屏幕设备上应用的字体大小 */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 32px !important;
+  }
 }
 
 /*----------------------- bar style ------------------------*/
@@ -57,9 +60,11 @@ body.mobile {
   border: 1px solid LightGrey;
 }
 
-body.mobile .content {
-  margin: 0;
-  padding: 2% 4% 4% 4%;
+@media screen and (max-width: 600px) {
+  .content {
+    margin: 0;
+    padding: 2% 4% 4% 4%;
+  }
 }
 
 .content P, li {
