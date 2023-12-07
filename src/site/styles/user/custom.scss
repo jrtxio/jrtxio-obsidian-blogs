@@ -54,19 +54,6 @@ body {
 
 /*----------------------- content style ------------------------*/
 
-.content {
-  margin: 0% 20%;
-  padding: 2% 8% 4% 8%;
-  border: 1px solid LightGrey;
-}
-
-@media screen and (max-width: 600px) {
-  .content {
-    margin: 0;
-    padding: 2% 4% 4% 4%;
-  }
-}
-
 .content P, li {
   line-height: 1.8;
 }
