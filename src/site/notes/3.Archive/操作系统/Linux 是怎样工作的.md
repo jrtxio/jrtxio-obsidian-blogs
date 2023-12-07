@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"操作系统/Linux 是怎样工作的.md","permalink":"/操作系统/Linux 是怎样工作的/","dgEnableSearch":"true"}
+{"dg-publish":true,"dg-path":"操作系统/Linux 是怎样工作的.md","permalink":"/操作系统/Linux 是怎样工作的/"}
 ---
 
 #Technomous #操作系统 #Linux 
