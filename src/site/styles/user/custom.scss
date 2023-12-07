@@ -52,8 +52,14 @@ body.mobile {
 /*----------------------- content style ------------------------*/
 
 .content {
+  margin: 0% 14%;
   padding: 2% 8% 4% 8%;
   border: 1px solid LightGrey;
+}
+
+body.mobile .content {
+  margin: 0;
+  padding: 2% 4% 4% 4%;
 }
 
 .content P, li {
