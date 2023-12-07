@@ -80,7 +80,7 @@ body.mobile {
   width: 98%;
   line-height: 150%;
   color: #666666;
-  font-size: 1.3em;
+  font-size: 1.25em;
 }
 
 .content H3 {
@@ -102,7 +102,7 @@ body.mobile {
   width: 98%;
   line-height: 150%;
   color: #666666;
-  font-size: 1.05em;
+  font-size: 1.08em;
 }
 
 .content li {
@@ -138,12 +138,12 @@ body.mobile {
 }
 
 /* Responsive Table */
-@media screen and (max-width: 600px) {
-  .content table {
-    overflow-x: auto;
-    display: block;
-  }
-}
+// @media screen and (max-width: 600px) {
+//   .content table {
+//     overflow-x: auto;
+//     display: block;
+//   }
+// }
 
 .content a {
   text-decoration: none;
