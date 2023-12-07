@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"DoIP/DoIP 协议深入解读.md","permalink":"/DoIP/DoIP 协议深入解读/","dgEnableSearch":"true","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-path":"DoIP/DoIP 协议深入解读.md","permalink":"/DoIP/DoIP 协议深入解读/","dgEnableSearch":"true"}
 ---
 
 #Technomous #DoIP
@@ -21,29 +21,29 @@
 
 # 网络架构
 
-![20230418151154.png|650](/img/user/0.Asset/resource/20230418151154.png)
+![20230418151154.png|450](/img/user/0.Asset/resource/20230418151154.png)
 
 车辆网络分为车内网（Vehicle network）和车外网（External network），车内网和车外网之间，有两组重要的线束，其中一组是用于数据传输的以太网线，另一组是用于诊断功能激活的激活线。以太网线就是常见的四线制 TX 标准网线。而激活线的设计，是用于车内诊断功能激活。出于能耗和电磁干扰的考虑，要求非诊断通信期间，与诊断相关的功能处于关闭状态，这样一方面可以降低能耗，另一方面减少对网络带宽的消耗，从而降低电磁干扰。
 
-- Client
+## Client
 
 外部测试设备，通常为 OBD 诊断仪或者是其它诊断客户端。对于外部测试设备来说，它们必须只能和 DoIP Edge Node gateway 直接连接并通信，与车载网络中其他 ECU 的通信必须由 DoIP Edge Node gatway 路由。
 
-- DoIP Edge Node gateway
+## DoIP Edge Node gateway
 
 DoIP Edge Node gateway 首先是一个 gateway，作为一个网关它的子网挂载着若干 ECU，与 DoIP gateway 一样。能够实现以太网到其他网络总线（如 CAN、LIN）的报文路由，这样便实现了 DoIP 诊断和传统网路总线的兼容。多种网络总线汇聚到 DoIP 网关，这大大降低了布线的复杂性，并且提高了总线网络中 ECU 的诊断效率。
 
 该角色可以同时支持 Server 端和 Client 端，作为 Server 端时，测试设备可以诊断网关下的某个 ECU 节点。那么 Client 端是怎么回事呢？想象一下，如果 DoIP edge node gateway 作为入口，那么怎样和内部其它子网的 DoIP ECU 进行交互呢？当然是由 DoIP edge node gateway 进行转发。这只是其中一个应用场景，当进行转发的时候会进行身份切换，即由 Server 端切换到 Client 端。另外一个场景是 OTA 升级，DoIP edge node gateway 的应用层可以跑一个 OTA 客户端程序，进行对内网 ECU 的诊断刷写，此时就是一个 Client 身份。
 
-- DoIP gateway
+## DoIP gateway
 
 DoIP gateway 与 DoIP edge node gateway 区别不是很大。实际的应用场景通常会让 MCU 充当这个角色，而 MPU 充当 DoIP edge node gateway 的角色，也有反过来的情况，那么该角色通常单单的跑 Server 端程序。
 
-- DoIP node
+## DoIP node
 
 同时支持以太网和 DoIP 协议的 ECU 认为是 DoIP node。该角色通常单单的跑 Server 端程序。
 
-- Network node
+## Network node
 
 不具备 DoIP 诊断功能，与 DoIP 节点共享网络资源。
 
@@ -51,29 +51,27 @@ DoIP gateway 与 DoIP edge node gateway 区别不是很大。实际的应用场�
 
 ![20230425133735.png|650](/img/user/0.Asset/resource/20230425133735.png)
 
-1. 车辆发现
+## 车辆发现
 
 用于检测车辆是否在线，具体来说就是诊断仪首先发送一个广播的车辆发现报文，网络中所有接收到这条报文的 ECU 都将发送自己的身份信息。通过各个 ECU 发回的身份信息，诊断仪可以准确地获知有哪些 ECU 在线，并且可以根据这些信息对 ECU 进行归类，比如各自属于那一台汽车。
 
-2. 路由激活
+## 路由激活
 
 DoIP 协议中的"路由"指的是诊断仪和被诊断节点之间的报文传输。外部测试仪与 DoIP 节点之间的通信连接建立后，应发送路由激活请求，路由激活请求被 DoIP 节点验证合法后，诊断仪才能对 ECU 进行诊断。路由激活包含了 DoIP 节点对外部诊断仪的安全认证过程，ECU 开发人员可以自定义安全认证的算法，用于屏蔽非法诊断仪对 ECU 进行的诊断。
 
-3. 诊断仪在线监测
+## 诊断仪在线监测
 
 与传统 CAN 总线不同，DoIP 诊断需要预先与 ECU 建立通信连接，也就是 TCP socket。由于 socket 的建立会消耗内存资源，因此不能无限制创建连接。ECU 在设计阶段，会定义最多能支持并行连接的诊断仪数量，并行连接的诊断仪数量达到上限之后，将无法建立新的诊断通信连接。因此这些诊断连接通道属于稀缺的资源，为了避免通道被无效占用，因此设计了诊断仪在线监测机制。DoIP 节点会向现在有的诊断连接通道上，发送诊断仪在线监测请求，若有的连接上无法收到诊断仪回复的响应报文，则会将此连接复位，以待新的诊断仪接入。
 
-4. 节点信息
+## 节点信息
 
 节点信息包含了节点属性，例如最大支持的并行诊断仪连接数量，最大可接受的诊断仪报文长度，以及当前节点的电源状态，即是否所有部件都完成上电。节点信息作为诊断通信前的诊断条件检查，以确保后续诊断通信不受外部因素干扰。
 
-5. 诊断通信
+## 诊断通信
 
 作为 DoIP 的核心功能，此功能负责诊断报文的传输。诊断报文中包含三个信息，即诊断报文发送方的逻辑地址（SA），诊断报文接收方的逻辑地址（DA），以及诊断数据。在 CAN 总线网络中，通过 CANID 来寻址要诊断的 ECU，而在 DoIP 网络中，DA 的作用相当于 CANID，用于寻址要诊断的目的 ECU。
 
 # 通信协议
-
-![20230313103644.png|650](/img/user/0.Asset/resource/20230313103644.png)
 
 DoIP 协议属于应用层协议，基于 UDP/TCP 的传输层协议进行实现。
 
@@ -87,7 +85,7 @@ DoIP 协议属于应用层协议，基于 UDP/TCP 的传输层协议进行实现
 
 ## 报文格式
 
-![20230418151906.png|650](/img/user/0.Asset/resource/20230418151906.png)
+![20230418151906.png|550](/img/user/0.Asset/resource/20230418151906.png)
 
 - 协议版本号
 
@@ -185,7 +183,7 @@ Gateway 的功能需要从两个方面去分析：
 
 * DoIP Gateway to Classical Bus Systems
 
-![20230421150529.png|650](/img/user/0.Asset/resource/20230421150529.png)
+![20230421150529.png|550](/img/user/0.Asset/resource/20230421150529.png)
 
 在传统的总线系统下，对 ECU 的寻址是通过逻辑 DoIP 地址，此时 Gateway 需要保存地址映射表并转发 UDS 报文。
 
@@ -193,7 +191,7 @@ Gateway 的功能需要从两个方面去分析：
 
 * Diagnostics of In-Vehicle Ethernet ECUs
 
-![20230421152337.png|650](/img/user/0.Asset/resource/20230421152337.png)
+![20230421152337.png|550](/img/user/0.Asset/resource/20230421152337.png)
 
 目前 ISO 13400 并没有明确指定但是目前有两种实现模式：
 
