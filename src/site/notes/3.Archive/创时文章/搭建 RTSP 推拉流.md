@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"创时文章/搭建 RTSP 推拉流.md","permalink":"/创时文章/搭建 RTSP 推拉流/","dgEnableSearch":"true","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-path":"创时文章/搭建 RTSP 推拉流.md","permalink":"/创时文章/搭建 RTSP 推拉流/","dgEnableSearch":"true"}
 ---
 
 #Technomous
@@ -106,6 +106,6 @@ ffplay -rtsp_transport tcp -i rtsp://localhost:8554/stream
 ffplay -i rtsp://192.168.96.2:5544/stream
 ```
 
-## 车内网传输 RTP
+## 车内网 RTP 传输
 
 车内网的视频流有一些特殊的要求，并不使用 RTSP 协议，而是直接利用 RTP 对视屏流进行推送。可以参考 [RTPH264Streaming](https://github.com/tinydigger/RTPH264Streaming) 示例搭建基于 RTP 直接传输视频流。 
