@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":"true","dg-path":"科技数码/谈谈那些我常用的 NAS 服务.md","permalink":"/科技数码/谈谈那些我常用的 NAS 服务/","dgEnableSearch":"true","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-path":"科技数码/谈谈那些我常用的 NAS 服务.md","permalink":"/科技数码/谈谈那些我常用的 NAS 服务/","dgEnableSearch":"true"}
 ---
 
 #BDStar
