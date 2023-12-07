@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"SOMEIP/SOMEIP 协议深入解读.md","permalink":"/SOMEIP/SOMEIP 协议深入解读/","dgEnableSearch":"true"}
+{"dg-publish":true,"dg-path":"SOMEIP/SOMEIP 协议深入解读.md","permalink":"/SOMEIP/SOMEIP 协议深入解读/"}
 ---
 
 #Technomous #SOMEIP
