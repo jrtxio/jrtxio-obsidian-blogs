@@ -18,14 +18,6 @@ table {
 
 body {
   font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !important;
-  font-size: 18px !important;
-}
-
-/* 在小屏幕设备上应用的字体大小 */
-@media screen and (max-width: 600px) {
-  body {
-    font-size: 32px !important;
-  }
 }
 
 /*----------------------- bar style ------------------------*/
