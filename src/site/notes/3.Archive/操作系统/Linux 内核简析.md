@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"操作系统/Linux 内核简析.md","permalink":"/操作系统/Linux 内核简析/","dgEnableSearch":"true"}
+{"dg-publish":true,"dg-path":"操作系统/Linux 内核简析.md","permalink":"/操作系统/Linux 内核简析/"}
 ---
 
 #Technomous #操作系统 #Linux

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"DoIP/DoIP 协议深入解读.md","permalink":"/DoIP/DoIP 协议深入解读/","dgEnableSearch":"true"}
+{"dg-publish":true,"dg-path":"DoIP/DoIP 协议深入解读.md","permalink":"/DoIP/DoIP 协议深入解读/"}
 ---
 
 #Technomous #DoIP
