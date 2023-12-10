@@ -4,7 +4,7 @@
 
 #Technomous
 
-这是一篇简单记录我的 Obsidian 设置的教程，可以用来在全新的环境中快速恢复 Obsidian 设置。
+这是一篇简单记录我的 Obsidian 设置的教程，可以用来在全新的电脑中快速恢复 Obsidian 环境。
 
 # 笔记结构
 
