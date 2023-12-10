@@ -27,7 +27,7 @@
 
 # 快速配置
 
-Obsidian 每个 Vault 中都保存了单独的配置，只需要把其中的 .obsidian 目录拷贝出来放到需要的 Vault 中即可恢复所有的配置。我常用的插件就两个，分别是：
+Obsidian 每个仓库（Vault）中都保存了单独的配置，只需要把其中的 .obsidian 目录拷贝出来放到需要的仓库（Vault）中即可恢复所有的配置。我常用的插件就两个，分别是：
 
 - Advanced Tables
 - Clear Unused Images
