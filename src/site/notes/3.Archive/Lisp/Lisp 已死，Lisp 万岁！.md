@@ -19,7 +19,7 @@
 
 比如下面我定义一个函数 f，它接受一个参数 y，然后返回 x 和 y 的积。
 
-``` lisp
+```
 (setq f 
       (let ((x 1)) 
         (lambda (y) (* x y))))
@@ -33,7 +33,7 @@
 
 如果我们在函数调用的外层定义一个 x，值为 2：
 
-``` lisp
+```
 (let ((x 2))
   (funcall f 2))
 ```
@@ -42,7 +42,7 @@
 
 再来。我们另外定义一个 x，值为 3：
 
-``` lisp
+```
 (let ((x 3))
   (funcall f 2))
 ```
@@ -51,13 +51,13 @@
 
 再来。如果我们直接调用：
 
-``` lisp
+```
 (funcall f 2)
 ```
 
 你想这次总该得到 2 了吧？结果，出错了：
 
-``` lisp
+```
 Debugger entered--Lisp error: (void-variable x)
   (* x y)
   (lambda (y) (* x y))(2)
@@ -74,7 +74,7 @@ Debugger entered--Lisp error: (void-variable x)
 
 话说回来，为什么早期的 Lisp 会使用 dynamic scoping 呢？其实这根本就不是一个有意的“设计”，而是一个无意的“巧合”。你几乎什么都不用做，它就成那个样子了。这不是开玩笑，如果你在 emacs 里面显示 f 的值，它会打印出：
 
-``` lisp
+```
 '(lambda (y) (* x y))
 ```
 
@@ -92,7 +92,7 @@ Debugger entered--Lisp error: (void-variable x)
 
 你也许发现了，Lisp 其实不是一种语言，而是很多种语言。这些被人叫做“Lisp 家族”的语言，其实共同点只是它们的“语法”：它们都是基于 S 表达式。如果你因此对它们同样赞美的话，那么你赞美的其实只是 S 表达式，而不是这些语言本身。因为一个语言的本质应该是由它的语义决定的，而跟语法没有很大关系。你甚至可以给同一种语言设计多种不同的语法，而不改变这语言的本质。比如，我曾经给 TeX 设计了 Lisp 的语法，我把它叫做 SchTeX（Scheme + TeX）。SchTeX 的文件看起来是这个样子：
 
-``` lisp
+```
 (documentclass article (11pt))
 (document
   (abstract (...))
