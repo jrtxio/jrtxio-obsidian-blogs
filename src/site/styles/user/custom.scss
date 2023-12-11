@@ -185,6 +185,11 @@ body {
   overflow: auto;
 }
 
+code[class*=language-], pre[class*=language-] {
+  color: initial; /* 将颜色属性重置为默认值 */
+  /* 其他样式属性 */
+}
+
 .content .hll { background-color: #ffc; }
 .content .token.comment { color: #888; font-weight: bold; } /* Comment */
 .content .err { color: #a00; background-color: #fff } /* Error */
