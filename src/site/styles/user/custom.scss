@@ -192,8 +192,8 @@ body {
 }
 
 code[class*=language-], pre[class*=language-] {
-  color: initial; /* 将颜色属性重置为默认值 */
-  /* 其他样式属性 */
+  color: initial;
+  text-shadow: initial;
 }
 
 .content .token.comment { color: #888; font-weight: bold; } /* Comment */
