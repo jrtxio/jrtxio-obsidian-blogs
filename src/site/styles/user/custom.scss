@@ -185,6 +185,12 @@ body {
   overflow: auto;
 }
 
+.content p > code {
+  //Inline code
+  font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
+  background-color: #FAFAFA;
+}
+
 code[class*=language-], pre[class*=language-] {
   color: initial; /* 将颜色属性重置为默认值 */
   /* 其他样式属性 */
