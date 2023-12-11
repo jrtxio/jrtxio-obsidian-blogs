@@ -233,7 +233,7 @@ code[class*=language-], pre[class*=language-] {
 .content .nl { color: #648 } /* Name.Label */
 .content .token.namespace { color: #0cf; } /* Name.Namespace */
 .content .nt { color: #2f6f9f; } /* Name.Tag */
-.content .nv { color: #033 } /* Name.Variable */
+.content .token.variable { color: #033 } /* Name.Variable */
 .content .ow { color: #000; } /* Operator.Word */
 .content .w { color: #bbb } /* Text.Whitespace */
 .content .mf { color: #6897BB } /* Literal.Number.Float */
