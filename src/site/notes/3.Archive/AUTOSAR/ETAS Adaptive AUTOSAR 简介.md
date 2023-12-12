@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AUTOSAR/ETAS Adaptive AUTOSAR 简介.md","permalink":"/AUTOSAR/ETAS Adaptive AUTOSAR 简介/","created":"2023-04-06T10:17:11.000+08:00","updated":"2023-12-07T21:20:46.000+08:00"}
+{"dg-publish":true,"dg-path":"AUTOSAR/ETAS Adaptive AUTOSAR 简介.md","permalink":"/AUTOSAR/ETAS Adaptive AUTOSAR 简介/","created":"2023-04-06T10:17:11.000+08:00","updated":"2023-12-07T21:20:46.474+08:00"}
 ---
 
 #Technomous #SILK 
