@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"操作系统/Ubuntu 开启 RDP 远程桌面.md","permalink":"/操作系统/Ubuntu 开启 RDP 远程桌面/"}
+{"dg-publish":true,"dg-path":"操作系统/Ubuntu 开启 RDP 远程桌面.md","permalink":"/操作系统/Ubuntu 开启 RDP 远程桌面/","created":"2023-12-05T09:35:25.000+08:00","updated":"2023-12-07T21:26:00.000+08:00"}
 ---
 
 #Technomous #Linux 
