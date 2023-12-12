@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"王垠博文/我为什么离开 Cornell.md","permalink":"/王垠博文/我为什么离开 Cornell/","created":"2023-12-12T15:10:17.924+08:00","updated":"2023-12-12T15:10:41.519+08:00"}
+{"dg-publish":true,"dg-path":"王垠博文/我为什么离开 Cornell.md","permalink":"/王垠博文/我为什么离开 Cornell/","created":"2023-12-12T15:10:17.000+08:00","updated":"2023-12-12T15:10:41.000+08:00"}
 ---
 
 #Technomous #王垠
