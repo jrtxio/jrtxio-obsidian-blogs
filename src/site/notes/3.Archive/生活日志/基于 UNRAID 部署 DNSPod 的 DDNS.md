@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"生活日志/基于 UNRAID 部署 DNSPod 的 DDNS.md","permalink":"/生活日志/基于 UNRAID 部署 DNSPod 的 DDNS/"}
+{"dg-publish":true,"dg-path":"生活日志/基于 UNRAID 部署 DNSPod 的 DDNS.md","permalink":"/生活日志/基于 UNRAID 部署 DNSPod 的 DDNS/","created":"2023-09-08T16:58:58.000+08:00","updated":"2023-12-08T10:32:50.000+08:00"}
 ---
 
 #BDStar
