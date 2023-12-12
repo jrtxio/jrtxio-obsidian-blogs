@@ -196,7 +196,7 @@ code[class*=language-], pre[class*=language-] {
   text-shadow: initial;
 }
 
-.content .token.comment { color: #888; font-weight: bold; } /* Comment */
+.content .token.comment { color: #999; } /* Comment */
 .content .token.keyword { color: #cc7832; } /* Keyword */
 .content .token.operator { color: #555 } /* Operator */
 .content .token.punctuation { color: #333 } /* Punctuation */
