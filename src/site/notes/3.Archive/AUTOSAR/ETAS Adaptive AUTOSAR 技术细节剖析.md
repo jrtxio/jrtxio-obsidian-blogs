@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AUTOSAR/ETAS Adaptive AUTOSAR 技术细节剖析.md","permalink":"/AUTOSAR/ETAS Adaptive AUTOSAR 技术细节剖析/","created":"2023-04-03T14:46:42.000+08:00","updated":"2023-12-08T20:49:55.000+08:00"}
+{"dg-publish":true,"dg-path":"AUTOSAR/ETAS Adaptive AUTOSAR 技术细节剖析.md","permalink":"/AUTOSAR/ETAS Adaptive AUTOSAR 技术细节剖析/","created":"2023-04-03T14:46:42.000+08:00","updated":"2023-12-13T15:26:59.148+08:00"}
 ---
 
 #Technomous #SILK 
@@ -18,7 +18,7 @@ RTA VRTE 利用 S2S 模块去实现 SOA 服务化的功能，SOA 会绑定 DDS, 
 
 # 通信中间件-冰羚
 
-RTA VRTE 的通信模块使用了冰羚的零拷贝中间件来实现 IPC，在工业上有成熟的应用。冰羚系统有以下的优势：
+RTA VRTE 的通信模块使用了冰羚的零拷贝中间件来实现进程间通信（IPC），在工业上有成熟的应用。冰羚系统有以下的优势：
 
 * 解决了大规模的实时系统中进程间通信的问题：冰羚支持多进程间的消息传递和通信，可以在大规模实时系统中有效解决进程间通信的问题，从而帮助提高系统的实时性和可靠性。
 * 极高的性能和低延迟：冰羚采用零拷贝技术和基于共享内存的多线程消息传递机制，具有极高的性能和低延迟，可以满足高速、大规模、实时化的传输需求。
