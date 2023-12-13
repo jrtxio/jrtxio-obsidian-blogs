@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"王垠博文/TeXmacs：一个真正“所见即所得”的排版系统.md","permalink":"/王垠博文/TeXmacs：一个真正“所见即所得”的排版系统/","created":"2023-12-12T14:54:20.000+08:00","updated":"2023-12-12T15:01:17.000+08:00"}
+{"dg-publish":true,"dg-path":"王垠博文/TeXmacs：一个真正“所见即所得”的排版系统.md","permalink":"/王垠博文/TeXmacs：一个真正“所见即所得”的排版系统/","created":"2023-12-12T14:54:20.185+08:00","updated":"2023-12-12T15:01:17.802+08:00"}
 ---
 
 #Technomous #王垠 
