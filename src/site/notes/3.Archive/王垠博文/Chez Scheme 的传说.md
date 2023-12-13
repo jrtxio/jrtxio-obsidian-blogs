@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"王垠博文/Chez Scheme 的传说.md","permalink":"/王垠博文/Chez Scheme 的传说/","created":"2023-12-12T14:19:47.000+08:00","updated":"2023-12-12T14:38:49.000+08:00"}
+{"dg-publish":true,"dg-path":"王垠博文/Chez Scheme 的传说.md","permalink":"/王垠博文/Chez Scheme 的传说/","created":"2023-12-12T14:19:47.361+08:00","updated":"2023-12-12T14:38:49.812+08:00"}
 ---
 
 #Technomous #王垠 #Lisp
