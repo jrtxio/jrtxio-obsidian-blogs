@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"王垠博文/Scheme 编程环境的设置.md","permalink":"/王垠博文/Scheme 编程环境的设置/","created":"2023-12-12T15:10:54.000+08:00","updated":"2023-12-12T15:18:04.000+08:00"}
+{"dg-publish":true,"dg-path":"王垠博文/Scheme 编程环境的设置.md","permalink":"/王垠博文/Scheme 编程环境的设置/","created":"2023-12-12T15:10:54.710+08:00","updated":"2023-12-12T15:18:04.412+08:00"}
 ---
 
 #Technomous #王垠 
