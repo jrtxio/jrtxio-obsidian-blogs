@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"王垠博文/GTF - Great Teacher Friedman.md","permalink":"/王垠博文/GTF - Great Teacher Friedman/","created":"2023-12-12T14:27:05.722+08:00","updated":"2023-12-12T14:38:52.937+08:00"}
+{"dg-publish":true,"dg-path":"王垠博文/GTF - Great Teacher Friedman.md","permalink":"/王垠博文/GTF - Great Teacher Friedman/","created":"2023-12-12T14:27:05.000+08:00","updated":"2023-12-12T14:38:52.000+08:00"}
 ---
 
 #Technomous #王垠
