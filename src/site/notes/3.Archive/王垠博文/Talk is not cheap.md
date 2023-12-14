@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"王垠博文/Talk is not cheap.md","permalink":"/王垠博文/Talk is not cheap/","created":"2023-12-12T17:10:07.819+08:00","updated":"2023-12-12T17:12:25.336+08:00"}
+{"dg-publish":true,"dg-path":"王垠博文/Talk is not cheap.md","permalink":"/王垠博文/Talk is not cheap/","created":"2023-12-12T17:10:07.000+08:00","updated":"2023-12-12T17:12:25.000+08:00"}
 ---
 
 #Technomous #王垠 
