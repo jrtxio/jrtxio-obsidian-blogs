@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"王垠博文/DRY原则的误区.md","permalink":"/王垠博文/DRY原则的误区/","created":"2023-12-12T18:04:50.000+08:00","updated":"2023-12-12T18:06:40.000+08:00"}
+{"dg-publish":true,"dg-path":"王垠博文/DRY原则的误区.md","permalink":"/王垠博文/DRY原则的误区/","created":"2023-12-12T18:04:50.738+08:00","updated":"2023-12-12T18:06:40.555+08:00"}
 ---
 
 #Technomous #王垠 
