@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"王垠博文/RSS与三不主义.md","permalink":"/王垠博文/RSS与三不主义/","created":"2023-12-13T09:27:13.000+08:00","updated":"2023-12-13T09:27:29.000+08:00"}
+{"dg-publish":true,"dg-path":"王垠博文/RSS与三不主义.md","permalink":"/王垠博文/RSS与三不主义/","created":"2023-12-13T09:27:13.045+08:00","updated":"2023-12-13T09:27:29.685+08:00"}
 ---
 
 #Technomous #王垠 
