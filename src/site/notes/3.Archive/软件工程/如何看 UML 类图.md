@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"软件工程/如何看 UML 类图.md","permalink":"/软件工程/如何看 UML 类图/","created":"2023-12-07T14:58:17.000+08:00","updated":"2023-12-11T10:13:22.000+08:00"}
+{"dg-publish":true,"dg-path":"软件工程/如何看 UML 类图.md","permalink":"/软件工程/如何看 UML 类图/","created":"2023-12-07T14:58:17.000+08:00","updated":"2023-12-11T10:13:22.566+08:00"}
 ---
 
 #Technomous 
