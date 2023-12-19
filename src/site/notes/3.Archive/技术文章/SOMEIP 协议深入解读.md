@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/SOMEIP 协议深入解读.md","permalink":"/技术文章/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-19T16:46:25.559+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/SOMEIP 协议深入解读.md","permalink":"/技术文章/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-19T17:47:13.392+08:00"}
 ---
 
 #Technomous #SOMEIP
@@ -250,8 +250,6 @@ Option 用来辅助 Entry 实现其功能，是 Entry 携带的附加信息。�
 	Enpoint Option 包含 IPv4 Endpoint Option，IPv6 Endpoint Option，IPv4 Multicast Option，IPv6 Multicast Option，IPv4 SD Endpoint Option 和 IPv6 SD Endpoint Option。它们都是由 Length + Type + Reserved1 + IP 地址 + Reserved2 + 协议类型 + Port 号组成。
 	
 	![20230831180917.png|650](/img/user/0.Asset/resource/20230831180917.png)
-	![20230831180931.png|650](/img/user/0.Asset/resource/20230831180931.png)
-	![20230831180943.png|650](/img/user/0.Asset/resource/20230831180943.png)
 - Configuration Option
 
 	![20230831181140.png|650](/img/user/0.Asset/resource/20230831181140.png)
