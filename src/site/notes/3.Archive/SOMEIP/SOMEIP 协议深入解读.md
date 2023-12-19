@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"SOMEIP/SOMEIP 协议深入解读.md","permalink":"/SOMEIP/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-19T15:32:03.509+08:00"}
+{"dg-publish":true,"dg-path":"SOMEIP/SOMEIP 协议深入解读.md","permalink":"/SOMEIP/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-19T15:40:16.188+08:00"}
 ---
 
 #Technomous #SOMEIP
@@ -181,36 +181,35 @@ SOME/IP-SD 报文也是一种 SOME/IP 报文，是在 SOME/IP 报文的基础上
 	
 	Unicat Flag：单播标识并不是说这条 SD 报文是单播还是组播，那是更底层协议干的事情，这里用来标识当前的服务发现管理器支持发送单播的能力，默认为 1 即可。
 
-#### SOME/IP-SD Entry & Option
+- SOME/IP-SD Entry & Option
 
-![20230830142445.png|550](/img/user/0.Asset/resource/20230830142445.png)
+	![20230830142445.png|450](/img/user/0.Asset/resource/20230830142445.png)
+	Entry 分为 Service Entry 和 EventGroup Entry 两种，其中 Service Entry 主要用于 Find/Offer/Stop Offer 三种操作，EventGroup Entry 用于 Subscribe/Stop Subscribe 和 Subscribe Ack/Subscribe Nack 来订阅特定的服务事件。
 
-Entry 分为 Service Entry 和 EventGroup Entry 两种，其中 Service Entry 主要用于 Find/Offer/Stop Offer 三种操作，EventGroup Entry 用于 Subscribe/Stop Subscribe 和 Subscribe Ack/Subscribe Nack 来订阅特定的服务事件。
+	Option 包含 Endpoint Option、Configuration Option 和 Load Balancing Option 三种。其中 Endpoint 包含 IPv4 Endpoint Option、IPv6 Endpoint Option、IPv4 Multicast Option、IPv6 Multicast Option、IPv4 SD Endpoint Option 和 IPv6 SD Endpoint Option 共 6 种。
 
-Option 包含 Endpoint Option、Configuration Option 和 Load Balancing Option 三种。其中 Endpoint 包含 IPv4 Endpoint Option、IPv6 Endpoint Option、IPv4 Multicast Option、IPv6 Multicast Option、IPv4 SD Endpoint Option 和 IPv6 SD Endpoint Option 共 6 种。
+	Entry 和 Option 是 SOME/IP-SD 报文最重要的内容，是服务发现功能的承载。SOME/IP-SD 的 Payload 除了前面 4 个字节的标志位，都是 Entry 和 Option 的内容。可以分为 2 个大部分： Length of Entries Array + Entry 1~n 为一个部分，是用来描述 Entry 的。Length of Options Array + Option 1~m 为一个部分，是用来描述 Option 的。
 
-Entry 和 Option 是 SOME/IP-SD 报文最重要的内容，是服务发现功能的承载。SOME/IP-SD 的 Payload 除了前面 4 个字节的标志位，都是 Entry 和 Option 的内容。可以分为 2 个大部分： Length of Entries Array + Entry 1~n 为一个部分，是用来描述 Entry 的。Length of Options Array + Option 1~m 为一个部分，是用来描述 Option 的。
+	![20230703154432.png|650](/img/user/0.Asset/resource/20230703154432.png)
 
-![20230703154432.png|650](/img/user/0.Asset/resource/20230703154432.png)
+	- Length of Entries Array：表示下面的 Entry 1~n 总共占用了多少 bytes
+	- Entry 1~n：至少要有一个 Entry。每个 Entry 代表了一个服务发现的功能，比如服务发布、订阅或者订阅成功等
+	- Length of Options Array：表示下面的 Option 1~m 总共占用了多少 bytes
+	- Option 1~m 可以有零个或多个 Option。每一个 Option 的内容是协助 Entry 完成其任务，一般用来存放 Server 端的 IP 和 Port，供 Client 端请求数据时才知道地址。但是为啥不直接放在 Entry 里面呢？**因为可能有几个 Entry 共用一个 Option，所以单独提取出来减少报文长度**。每一条 Option 的长度可能是不同的，甚至还可以放一些用户自定义的参数进去。
 
-- Length of Entries Array：表示下面的 Entry 1~n 总共占用了多少 bytes
-- Entry 1~n：至少要有一个 Entry。每个 Entry 代表了一个服务发现的功能，比如服务发布、订阅或者订阅成功等
-- Length of Options Array：表示下面的 Option 1~m 总共占用了多少 bytes
-- Option 1~m 可以有零个或多个 Option。每一个 Option 的内容是协助 Entry 完成其任务，一般用来存放 Server 端的 IP 和 Port，供 Client 端请求数据时才知道地址。但是为啥不直接放在 Entry 里面呢？**因为可能有几个 Entry 共用一个 Option，所以单独提取出来减少报文长度**。每一条 Option 的长度可能是不同的，甚至还可以放一些用户自定义的参数进去。
+	![20230831164730.png|650](/img/user/0.Asset/resource/20230831164730.png)
 
-![20230831164730.png|650](/img/user/0.Asset/resource/20230831164730.png)
+	这里需要着重讲解一下 Entry 对 Option 的引用方式，一条 SOME/IP-SD 报文中的 Entry 的个数可以是 1~n，而 Option 的个数可以是 0~m，那么 Entry 和 Option 就不是一一对应的，而一条 Entry 通常用 0~5 个 Option，那么这些 Entry 怎么知道哪些 Option 是自己需要的呢？答案就在 Entry 的内容里面，有 3 个 bytes 的数据用于索引哪些 Option 是自己需要的。这个 3 个 bytes 分为两组，Index 1st options 和 num of opt 1 为一组（用绿字表示），Index 2nd Options 和 num of opt 2 为一组（用蓝字表示）。
 
-这里需要着重讲解一下 Entry 对 Option 的引用方式，一条 SOME/IP-SD 报文中的 Entry 的个数可以是 1~n，而 Option 的个数可以是 0~m，那么 Entry 和 Option 就不是一一对应的，而一条 Entry 通常用 0~5 个 Option，那么这些 Entry 怎么知道哪些 Option 是自己需要的呢？答案就在 Entry 的内容里面，有 3 个 bytes 的数据用于索引哪些 Option 是自己需要的。这个 3 个 bytes 分为两组，Index 1st options 和 num of opt 1 为一组（用绿字表示），Index 2nd Options 和 num of opt 2 为一组（用蓝字表示）。
+	- Index 表示当前 Entry 所用到的 Option 位于 Option Array 中的哪个位置，即第几个 Option
+	（从 0 开始计算）。比如下图中的 Index 1st options = 0，那么就去找位于 0 位的 Option，也就是 Option1 
+	- num 表示从 Index 找到 Option 的位置后，后面多少个 Option 都是该 Entry 需要的。比如上图中 Num of opt 1 = 2，表示从 Option1 开始的两个 Option 都是这个 Entry 要使用的，分别为 Option1 和 Option2
 
-- Index 表示当前 Entry 所用到的 Option 位于 Option Array 中的哪个位置，即第几个 Option
-（从 0 开始计算）。比如下图中的 Index 1st options = 0，那么就去找位于 0 位的 Option，也就是 Option1 
-- num 表示从 Index 找到 Option 的位置后，后面多少个 Option 都是该 Entry 需要的。比如上图中 Num of opt 1 = 2，表示从 Option1 开始的两个 Option 都是这个 Entry 要使用的，分别为 Option1 和 Option2
+	我们再看看 Index 2nd options = m -1，那么从 Option m 开始寻找，由于 num of opt 2 = 1，那么就只需要 Option m 这一个。
 
-我们再看看 Index 2nd options = m -1，那么从 Option m 开始寻找，由于 num of opt 2 = 1，那么就只需要 Option m 这一个。
-
-从上面的例子可以看到，每一个 Entry 设计了两组 Index 和 Num 来索引 Option，为啥要两组呢？按道理一组不是也可以吗？当然，如果没有功能 Option 的话，一组也是可以的。设计成两组的目的是：将公共 Option 和独立 Option 分开索引。假如 Option m 是一个公共的 Option 同时还被别的 Entry 也索引了，而 Entry 1 需要用到 Option1，2 和 m 三个 Option，用一组 
-Index + Num 就无法完成，因而设计了两组。
-##### SOME/IP-SD Entry
+	从上面的例子可以看到，每一个 Entry 设计了两组 Index 和 Num 来索引 Option，为啥要两组呢？按道理一组不是也可以吗？当然，如果没有功能 Option 的话，一组也是可以的。设计成两组的目的是：将公共 Option 和独立 Option 分开索引。假如 Option m 是一个公共的 Option 同时还被别的 Entry 也索引了，而 Entry 1 需要用到 Option1，2 和 m 三个 Option，用一组 
+	Index + Num 就无法完成，因而设计了两组。
+#### SOME/IP-SD Entry
 
 Entry 的类型包含下表 7 种类型。
 
@@ -242,7 +241,7 @@ Entry 按照类型的格式可以分为两种：Entry Type 1：服务类型（Se
 	3. Counter 是指如果一个事件组被一个 Client 端的多个消费者订阅，而这几个事件消费者得有所区别，不然无法响应到对应的那个消费者上去，所以这里用 Counter 来做区分。
 	4. EventGroup ID 指事件组的编号。
 
-##### SOME/IP-SD Option
+#### SOME/IP-SD Option
 
 ![20230831180201.png|650](/img/user/0.Asset/resource/20230831180201.png)
 
@@ -250,7 +249,7 @@ Option 用来辅助 Entry 实现其功能，是 Entry 携带的附加信息。�
 
 - Endpoint Option
 	Enpoint Option 包含 IPv4 Endpoint Option，IPv6 Endpoint Option，IPv4 Multicast Option，IPv6 Multicast Option，IPv4 SD Endpoint Option 和 IPv6 SD Endpoint Option。它们都是由 Length + Type + Reserved1 + IP 地址 + Reserved2 + 协议类型 + Port 号组成。
-
+	
 	![20230831180917.png|650](/img/user/0.Asset/resource/20230831180917.png)
 	![20230831180931.png|650](/img/user/0.Asset/resource/20230831180931.png)
 	![20230831180943.png|650](/img/user/0.Asset/resource/20230831180943.png)
@@ -258,7 +257,6 @@ Option 用来辅助 Entry 实现其功能，是 Entry 携带的附加信息。�
 
 	![20230831181140.png|650](/img/user/0.Asset/resource/20230831181140.png)
 	Configuration Option 主要用于用户自定义信息的传输。这些信息都是以 String 类型进行传输。这部分信息遵循以下规则：
-
 	![20230831181433.png|250](/img/user/0.Asset/resource/20230831181433.png)
 	公式里的 n 代表，前面的部分可以重复多次，最后的以 `0` 结尾即可。
 
