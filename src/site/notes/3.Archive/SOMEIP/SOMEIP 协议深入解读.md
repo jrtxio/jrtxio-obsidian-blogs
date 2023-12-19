@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"SOMEIP/SOMEIP 协议深入解读.md","permalink":"/SOMEIP/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-19T15:40:16.188+08:00"}
+{"dg-publish":true,"dg-path":"SOMEIP/SOMEIP 协议深入解读.md","permalink":"/SOMEIP/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-19T15:49:42.024+08:00"}
 ---
 
 #Technomous #SOMEIP
@@ -16,7 +16,7 @@ SOME/IP 支持的中间件功能：
 - 发布/订阅（Pub/Sub）- 动态配置需要哪些数据发送到客户端。
 - UDP 消息分段 - 允许在不需要分段的情况下通过 UDP 传输大型 SOME/IP 消息。
 
-下面我们就来分析一下这些功能都解决了哪些问题：
+下面就来看一下这些功能解决了哪些问题：
 
 - 序列化：在底层的通信中，都是基于原始的字节流。都是上层的通信过程中，我们传输的都是结构化的数据。这种结构化的数据传输需要转换成字节流的形式便于传输，这就是所谓的序列化。
 - 远程过程调用（RPC）：如果将基于以太网的通信退化到基于信号编码，我们的整个开发就会类似传统的 CAN 编码的设计方式，虽然信噪比提升了，但是开发的效率大大降低，也不利于项目后期的升级。SOME/IP 提供的 RPC 的机制其实和 SOA 有很大的关系。SOA 希望我们将软件模块化，基于接口进行开发。所谓的模块化，在结构化编程中的体现就是函数，在面向对象编程中就是对象。为了在分布式开发中充分利用这种优势，我们需要让远程的过程调用就像是本地的过程调用一样。
@@ -35,13 +35,11 @@ SOME/IP 是一种面向服务（SOA）的中间件实现方案。面向服务是
 
 面向服务的架构是众多软件架构中的一种。因面向服务架构风格具有基于标准、松散耦合、共享服务和粗粒度等优势，表现出易于集成现有系统、具有标准化的架构、提高开发效率、降低开发维护复杂度等特征，更符合智能网联化时代车载系统对软件架构的要求，所以被汽车行业引入和采用。
 
-# 深入解读协议
-
-我们从两个方面来理解 SOME/IP 协议的内容，通信方式和报文格式。这里先提一下 SOME/IP-SD 协议其实是 SOME/IP 的子协议，它与 SOME/IP 协议共用了报文头的格式。所以当我们提到 SOME/IP 协议的时候其实也包含了 SOME/IP-SD 协议部分。
-
-## SOME/IP 交互流程
+# 协议交互流程
 
 ![20230831160926.png|650](/img/user/0.Asset/resource/20230831160926.png)
+
+我们将从两个方面来理解 SOME/IP 协议的内容，通信方式和报文格式。SOME/IP-SD 协议其实是 SOME/IP 的子协议，它与 SOME/IP 协议共用了报文头的格式。所以当我们提到 SOME/IP 协议的时候其实也包含了 SOME/IP-SD 协议部分。
 
 SOME/IP 协议的交互流程包含两个重要的部分：
 
@@ -55,8 +53,8 @@ SOME/IP 协议可以使用 TCP/UDP 作为传输层协议。从上图的交互过
 SOME/IP 通信阶段可以基于延时要求选择使用 TCP 协议或者 UDP 协议。需要注意的是一个 UDP 包的大小不能超过（1400 字节）。使用 UDP 协议传输小型报文的时候，为了提高效率会将多个报文会放在一个 UDP 包里。使用 UDP 协议传输大型报文的时候，就需要使用 UDP 协议的 SOME/IP-TP 协议。
 
 SOME/IP 的报文头中，并没有定义额外的标志符（Instance ID）来区分各个实例，所以**传输层的端口号**会用来区分实例。因此不同的实例不可以在相同的端口上提供。
-## SOME/IP 服务接口
 
+# 协议服务接口
 
 
 SOA 中服务之间是通过接口的方式进行交互的，SOME/IP 作为一种 SOA 中间件，也有自己的服务接口，分别是 Method、Event、Field 三种类型。三种接口类型在协议过程中的应用如下图所示。
@@ -69,13 +67,13 @@ SOA 中服务之间是通过接口的方式进行交互的，SOME/IP 作为一�
 	![20230628142154.png|450](/img/user/0.Asset/resource/20230628142154.png)
 
 
-## SOME/IP 报文格式
+# 协议报文格式
 
 ![20230628144134.png|650](/img/user/0.Asset/resource/20230628144134.png)
 
 如上图所示，SOME/IP 消息包含两个部分：Header 和 Payload。
 
-### SOME/IP Header
+## SOME/IP Header
 
 ![20230901132646.png|650](/img/user/0.Asset/resource/20230901132646.png)
 
@@ -117,6 +115,7 @@ Header 的长度为 16 字节，Payload 的长度是可变的。Header 部分由
 	- REQUEST 和 RESPONSE 用于 RR Method、Getter 和 Setter
 	- REQUEST_NO_RETURN 用于 FF Method
 	- NOTIFICATION 用于 Event 和 Notifier
+
 - Return Code
 
 	![20230831153238.png|650](/img/user/0.Asset/resource/20230831153238.png)
@@ -124,7 +123,7 @@ Header 的长度为 16 字节，Payload 的长度是可变的。Header 部分由
 	对于 REQUEST，REQUEST_NO_RETURN 和 NOTIFICATION 报文来讲，其自带的 Return Code 永远都是 0x00（E_OK）。**只有 RESPONSE 和 ERROR 才可能携带含有有效值的 Return Code**，其中 0x00 是返回正确，0x01 到 0x1A 是 SOME/IP 官方设置的错误码，0x0B 到 0x1F 是官方保留的错误码，而 0x20 到 0x5E 是用户能使用的错误码（用户可以传入自定义的错误码 0x01，但是 SOME/IP 会自动加上 0x1F，变成 0x20 传出，在对端解析的时候，又会减去 0x1F，变成 0x01 给应用层）。
 
 	![20230831155601.png|650](/img/user/0.Asset/resource/20230831155601.png)
-### SOME/IP Payload
+## SOME/IP Payload
 
 Payload 就是上层业务需要传输的有效数据。很多时候还需要做一些功能安全的通信，需要用到 E2E 保护，那么 E2E 的格式头也是在 Payload 里面，如下图所示。
 
@@ -140,7 +139,7 @@ Payload 就是上层业务需要传输的有效数据。很多时候还需要做
 
 	![20230628101043.png|650](/img/user/0.Asset/resource/20230628101043.png)
 
-## SOME/IP-SD 报文格式
+## SOME/IP-SD
 
 ![20230831162258.png|650](/img/user/0.Asset/resource/20230831162258.png)
 
@@ -209,6 +208,7 @@ SOME/IP-SD 报文也是一种 SOME/IP 报文，是在 SOME/IP 报文的基础上
 
 	从上面的例子可以看到，每一个 Entry 设计了两组 Index 和 Num 来索引 Option，为啥要两组呢？按道理一组不是也可以吗？当然，如果没有功能 Option 的话，一组也是可以的。设计成两组的目的是：将公共 Option 和独立 Option 分开索引。假如 Option m 是一个公共的 Option 同时还被别的 Entry 也索引了，而 Entry 1 需要用到 Option1，2 和 m 三个 Option，用一组 
 	Index + Num 就无法完成，因而设计了两组。
+
 #### SOME/IP-SD Entry
 
 Entry 的类型包含下表 7 种类型。
@@ -264,7 +264,7 @@ Option 用来辅助 Entry 实现其功能，是 Entry 携带的附加信息。�
 
 	直接举个例子，我们想传输两个信息 abc = x，def = 123。按照前面的公式，第一个信息的字符长度为 0x05，即 a b c = x。第二个信息的长度为 0x07，即 d e f = 1 2 3 。最后以 ` 0`  结束这个字符串。值得注意的是，因为传输的时候都是以字符串表示的，所以用户还需自行转换成对应的值。
 
-# 协议相关文档
+# 协议规范文档
 
 ![20230619113046.png|650](/img/user/0.Asset/resource/20230619113046.png)
 
