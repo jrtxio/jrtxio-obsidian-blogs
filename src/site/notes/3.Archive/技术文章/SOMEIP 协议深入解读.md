@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/SOMEIP 协议深入解读.md","permalink":"/技术文章/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-19T15:49:42.024+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/SOMEIP 协议深入解读.md","permalink":"/技术文章/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-19T16:46:25.559+08:00"}
 ---
 
 #Technomous #SOMEIP
@@ -182,7 +182,6 @@ SOME/IP-SD 报文也是一种 SOME/IP 报文，是在 SOME/IP 报文的基础上
 
 - SOME/IP-SD Entry & Option
 
-	![20230830142445.png|450](/img/user/0.Asset/resource/20230830142445.png)
 	Entry 分为 Service Entry 和 EventGroup Entry 两种，其中 Service Entry 主要用于 Find/Offer/Stop Offer 三种操作，EventGroup Entry 用于 Subscribe/Stop Subscribe 和 Subscribe Ack/Subscribe Nack 来订阅特定的服务事件。
 
 	Option 包含 Endpoint Option、Configuration Option 和 Load Balancing Option 三种。其中 Endpoint 包含 IPv4 Endpoint Option、IPv6 Endpoint Option、IPv4 Multicast Option、IPv6 Multicast Option、IPv4 SD Endpoint Option 和 IPv6 SD Endpoint Option 共 6 种。
