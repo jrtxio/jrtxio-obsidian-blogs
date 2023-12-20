@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/SOMEIP 协议深入解读.md","permalink":"/技术文章/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-19T17:47:13.392+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/SOMEIP 协议深入解读.md","permalink":"/技术文章/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-20T09:41:56.843+08:00"}
 ---
 
 #Technomous #SOMEIP
@@ -280,5 +280,3 @@ AUTOSAR 的 SOME/IP 协议包含以下部分：
 GENIVI 的 SOME/IP 协议包含以下部分：
 
 - SOME/IP_Specification_Draft_ReRelease
-
-
