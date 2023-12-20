@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/SOMEIP 协议深入解读.md","permalink":"/技术文章/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-20T09:41:56.843+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/SOMEIP 协议深入解读.md","permalink":"/技术文章/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-20T14:02:03.824+08:00"}
 ---
 
 #Technomous #SOMEIP
@@ -52,18 +52,16 @@ SOME/IP 协议可以使用 TCP/UDP 作为传输层协议。从上图的交互过
 
 SOME/IP 通信阶段可以基于延时要求选择使用 TCP 协议或者 UDP 协议。需要注意的是一个 UDP 包的大小不能超过（1400 字节）。使用 UDP 协议传输小型报文的时候，为了提高效率会将多个报文会放在一个 UDP 包里。使用 UDP 协议传输大型报文的时候，就需要使用 UDP 协议的 SOME/IP-TP 协议。
 
-SOME/IP 的报文头中，并没有定义额外的标志符（Instance ID）来区分各个实例，所以**传输层的端口号**会用来区分实例。因此不同的实例不可以在相同的端口上提供。
-
 # 协议服务接口
 
 
-SOA 中服务之间是通过接口的方式进行交互的，SOME/IP 作为一种 SOA 中间件，也有自己的服务接口，分别是 Method、Event、Field 三种类型。三种接口类型在协议过程中的应用如下图所示。
+SOA 理念中服务之间是通过接口的方式进行交互的，SOME/IP 作为一种 SOA 中间件，也有自己的服务接口，分别是 Method、Event、Field 三种类型。三种接口类型在协议交互过程中的应用如下图所示。
 
-- Method：远程过程调用接口。
+- Method：远程过程调用接口，根据有响应和无响应分为 RR Method 和 FF Method。
 	![20230628142209.png|300](/img/user/0.Asset/resource/20230628142209.png)
 - Event：周期性或更改时发送的数据传输接口。
 	![20230628142128.png|300](/img/user/0.Asset/resource/20230628142128.png)
-- Field：通过 Event 和 Method 组合产生的语法糖。
+- Field：通过 Event 和 Method 组合产生的语法糖，Method 称为 Getter/Setter，Event 称为 Notifier。
 	![20230628142154.png|450](/img/user/0.Asset/resource/20230628142154.png)
 
 
@@ -109,12 +107,12 @@ Header 的长度为 16 字节，Payload 的长度是可变的。Header 部分由
 	接口版本号指的是 Payload 里的数据最后反序列化形成的接口的版本。服务接口是由用户设计并定义的，如果改动了某些接口导致不能与旧版本接口兼容，就要修改接口版本号。
 
 - Message Type
-	报文类型指代了本条 SOME/IP 报文执行了什么功能（包含 SOME/IP TP 类型）。
+	报文类型指代了本条 SOME/IP 报文执行了什么功能（包含 SOME/IP-TP 类型）。
 
 	![20230831155431.png|650](/img/user/0.Asset/resource/20230831155431.png)
-	- REQUEST 和 RESPONSE 用于 RR Method、Getter 和 Setter
-	- REQUEST_NO_RETURN 用于 FF Method
-	- NOTIFICATION 用于 Event 和 Notifier
+	- REQUEST 和 RESPONSE 用于 RR Method、Getter 和 Setter。
+	- REQUEST_NO_RETURN 用于 FF Method。
+	- NOTIFICATION 用于 Event 和 Notifier。
 
 - Return Code
 
@@ -123,18 +121,18 @@ Header 的长度为 16 字节，Payload 的长度是可变的。Header 部分由
 	对于 REQUEST，REQUEST_NO_RETURN 和 NOTIFICATION 报文来讲，其自带的 Return Code 永远都是 0x00（E_OK）。**只有 RESPONSE 和 ERROR 才可能携带含有有效值的 Return Code**，其中 0x00 是返回正确，0x01 到 0x1A 是 SOME/IP 官方设置的错误码，0x0B 到 0x1F 是官方保留的错误码，而 0x20 到 0x5E 是用户能使用的错误码（用户可以传入自定义的错误码 0x01，但是 SOME/IP 会自动加上 0x1F，变成 0x20 传出，在对端解析的时候，又会减去 0x1F，变成 0x01 给应用层）。
 
 	![20230831155601.png|650](/img/user/0.Asset/resource/20230831155601.png)
+值得注意的是 SOME/IP 的报文头中，并没有定义额外的标志符（Instance ID）来区分各个实例，所以传输层的**端口号**会用来区分实例。因此不同的实例不可以在相同的端口上提供。
 ## SOME/IP Payload
 
 Payload 就是上层业务需要传输的有效数据。很多时候还需要做一些功能安全的通信，需要用到 E2E 保护，那么 E2E 的格式头也是在 Payload 里面，如下图所示。
 
-![20230901140547.png|650](/img/user/0.Asset/resource/20230901140547.png)
 ![20230901140609.png|650](/img/user/0.Asset/resource/20230901140609.png)
 
 - 序列化
 
 	![20230831155941.png|350](/img/user/0.Asset/resource/20230831155941.png)
 
-	- 大小端：大小端是网络中常见的通信方式（例如 TCP/IP），所以 SOME/IP 格式头也使用大端模式。由于 Payload 部分是用户自定义的内容，所以用户可以自己决定大小端。
+	- 大小端：大端是网络中常见的通信方式（例如 TCP/IP），所以 SOME/IP 格式头也使用大端模式。由于 Payload 部分是用户自定义的内容，所以用户可以自己决定大小端。
 	- 字节流：由于网络传输都是字节流，所以数据必须进行序列化和反序列化。以下为目前 CP 协议中 SOME/IP 支持的所有序列化数据类型。
 
 	![20230628101043.png|650](/img/user/0.Asset/resource/20230628101043.png)
@@ -199,9 +197,8 @@ SOME/IP-SD 报文也是一种 SOME/IP 报文，是在 SOME/IP 报文的基础上
 
 	这里需要着重讲解一下 Entry 对 Option 的引用方式，一条 SOME/IP-SD 报文中的 Entry 的个数可以是 1~n，而 Option 的个数可以是 0~m，那么 Entry 和 Option 就不是一一对应的，而一条 Entry 通常用 0~5 个 Option，那么这些 Entry 怎么知道哪些 Option 是自己需要的呢？答案就在 Entry 的内容里面，有 3 个 bytes 的数据用于索引哪些 Option 是自己需要的。这个 3 个 bytes 分为两组，Index 1st options 和 num of opt 1 为一组（用绿字表示），Index 2nd Options 和 num of opt 2 为一组（用蓝字表示）。
 
-	- Index 表示当前 Entry 所用到的 Option 位于 Option Array 中的哪个位置，即第几个 Option
-	（从 0 开始计算）。比如下图中的 Index 1st options = 0，那么就去找位于 0 位的 Option，也就是 Option1 
-	- num 表示从 Index 找到 Option 的位置后，后面多少个 Option 都是该 Entry 需要的。比如上图中 Num of opt 1 = 2，表示从 Option1 开始的两个 Option 都是这个 Entry 要使用的，分别为 Option1 和 Option2
+	Index 表示当前 Entry 所用到的 Option 位于 Option Array 中的哪个位置，即第几个 Option
+	（从 0 开始计算）。比如下图中的 Index 1st options = 0，那么就去找位于 0 位的 Option，也就是 Option1 。num 表示从 Index 找到 Option 的位置后，后面多少个 Option 都是该 Entry 需要的。比如上图中 Num of opt 1 = 2，表示从 Option1 开始的两个 Option 都是这个 Entry 要使用的，分别为 Option1 和 Option2。
 
 	我们再看看 Index 2nd options = m -1，那么从 Option m 开始寻找，由于 num of opt 2 = 1，那么就只需要 Option m 这一个。
 
@@ -212,17 +209,14 @@ SOME/IP-SD 报文也是一种 SOME/IP 报文，是在 SOME/IP 报文的基础上
 
 Entry 的类型包含下表 7 种类型。
 
-![20230703172618.png|650](/img/user/0.Asset/resource/20230703172618.png)
+![20230703172618.png|550](/img/user/0.Asset/resource/20230703172618.png)
 
-Entry 按照类型的格式可以分为两种：Entry Type 1：服务类型（Service Entry Type）和 Entry Type 2：事件组类型（EventGroup Entry Type）。
-
-- 对于服务发布而言，一般仅需要 Offer/Stop Offer 就足够了，按时为了快速激活服务，还可以使用 Find 去主动寻找。
-- 对于事件订阅而言，需要使用 Subscribe/Stop Subscribe 和 Subscribe Ack/Nack。
+Entry 按照类型的格式可以分为两种：Entry Type 1：服务类型（Service Entry Type）和 Entry Type 2：事件组类型（EventGroup Entry Type）。对于服务发布而言，一般仅需要 Offer/Stop Offer 就足够了，按时为了快速激活服务，还可以使用 Find 去主动寻找。对于事件订阅而言，需要使用 Subscribe/Stop Subscribe 和 Subscribe Ack/Nack。
 
 - Service Entry Type
 
-	![20230831171317.png|650](/img/user/0.Asset/resource/20230831171317.png)
-
+	![20230831171317.png|550](/img/user/0.Asset/resource/20230831171317.png)
+	
 	1. 首先是 Type，对应上面表格里的 0x00 和 0x01 两种。
 	2. 然后是 Index 和 Num，前面已经讲过，这里不再赘述。
 	3. Service ID 就是本条 Entry 所管理的服务编号，对应业务报文里的 Message ID 里面的 Service ID。
@@ -233,8 +227,8 @@ Entry 按照类型的格式可以分为两种：Entry Type 1：服务类型（Se
 
 - EventGroup Entry Type
 
-	![20230831172223.png|650](/img/user/0.Asset/resource/20230831172223.png)
-
+	![20230831172223.png|550](/img/user/0.Asset/resource/20230831172223.png)
+	
 	1. 前 12 个字节与 Service Entry Type 一致。
 	2. Reserved 保留 12 bit 的数据。
 	3. Counter 是指如果一个事件组被一个 Client 端的多个消费者订阅，而这几个事件消费者得有所区别，不然无法响应到对应的那个消费者上去，所以这里用 Counter 来做区分。
@@ -242,21 +236,30 @@ Entry 按照类型的格式可以分为两种：Entry Type 1：服务类型（Se
 
 #### SOME/IP-SD Option
 
-![20230831180201.png|650](/img/user/0.Asset/resource/20230831180201.png)
 
-Option 用来辅助 Entry 实现其功能，是 Entry 携带的附加信息。一般是用来告诉对端自己的业务的 IP 和 Port 信息，方便对端通过相应的 IP 和 Port 来发送报文。除了 SOME/IP-SD Endpoint Option 不与任何 Entry 关联，否则就不会存在。各类 Entry 所能关联的 Option 也是有要求的，如上图所示。
+| 种类                    | 作用                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IPv4 Endpoint Option    | 本地业务的 IP 和 Port 信息，通过 SD 报文发送给对方，对方收到该信息后，才知道该往哪里传输（比如，Offer 中可以携带 Server 的 IP 和 Port，Client 收到 Offer 后，才知道往哪里发送 Request 报文，携带 IP 和 Port，也促使 Server 的动态部署能力）                                                                                                                                                                                                                                  |
+| IPv6 Endpoint Option    | 同上                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| IPv4 Muticast Option    | 同上                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| IPv6 Multicast Option   | 同上                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| IPv4 SD Endpoint Option | SD Endpoint Option 与上面的 Option 最大的区别就是其携带的是 SD 的 IP 和 Port，而不是业务的 IP 和 Port。大家肯定会疑惑 SD 报文在 IP 层不是有 IP 和 Port 信息吗？为什么 SD 报文里还要再携带一次呢、那是因为有时候在网络拓扑上，发送服务发现组播报文的 ECU 和服务所在的 ECU 可能不是一个，从而导致发送订阅报文给了错误的 ECU（该场景很少出现，因此 SD Endpoint Option 也很少使用）。需要注意的一点是，如果使用了 SD Endpoint Option，那么协议要求其一定要放在所有 Option 首位。 |
+| IPv6 SD Endpoint Option | 同上                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Configuration Option    | 一般来说就是自定义 Option，用户可以通过发送字符串的形式携带信息。                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Load Balancing Option   | 意义不大，AUTOSAR CP 里直接把这个 Option 删除了。                                                                                                                                                                                                                                                                                                                                                                                                                            |
+
+Option 包含的种类如上图所示。Option 用来辅助 Entry 实现其功能，是 Entry 携带的附加信息。一般是用来告诉对端自己的业务的 IP 和 Port 信息，方便对端通过相应的 IP 和 Port 来发送报文。除了 SOME/IP-SD Endpoint Option 不与任何 Entry 关联，但是其他的 Option 一定是与某个 Entry 关联，否则就不会存在。各类 Entry 所能关联的 Option 也是有要求的，如下图所示。
+
+![20230831180201.png|450](/img/user/0.Asset/resource/20230831180201.png)
 
 - Endpoint Option
 	Enpoint Option 包含 IPv4 Endpoint Option，IPv6 Endpoint Option，IPv4 Multicast Option，IPv6 Multicast Option，IPv4 SD Endpoint Option 和 IPv6 SD Endpoint Option。它们都是由 Length + Type + Reserved1 + IP 地址 + Reserved2 + 协议类型 + Port 号组成。
 	
 	![20230831180917.png|650](/img/user/0.Asset/resource/20230831180917.png)
 - Configuration Option
-
 	![20230831181140.png|650](/img/user/0.Asset/resource/20230831181140.png)
-	Configuration Option 主要用于用户自定义信息的传输。这些信息都是以 String 类型进行传输。这部分信息遵循以下规则：
-	![20230831181433.png|250](/img/user/0.Asset/resource/20230831181433.png)
-	公式里的 n 代表，前面的部分可以重复多次，最后的以 `0` 结尾即可。
-
+	Configuration Option 主要用于用户自定义信息的传输。这些信息都是以 String 类型进行传输。这部分信息遵循规则：`([len] [name] [=] [value]) * n + [0]`，公式里的 n 代表，前面的部分可以重复多次，最后的以 `0` 结尾即可。
+	
 	![20230831181806.png|650](/img/user/0.Asset/resource/20230831181806.png)
 
 	直接举个例子，我们想传输两个信息 abc = x，def = 123。按照前面的公式，第一个信息的字符长度为 0x05，即 a b c = x。第二个信息的长度为 0x07，即 d e f = 1 2 3 。最后以 ` 0`  结束这个字符串。值得注意的是，因为传输的时候都是以字符串表示的，所以用户还需自行转换成对应的值。
