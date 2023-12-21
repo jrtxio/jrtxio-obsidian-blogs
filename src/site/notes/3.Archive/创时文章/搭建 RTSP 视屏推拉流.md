@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"创时文章/搭建 RTSP 视屏推拉流.md","permalink":"/创时文章/搭建 RTSP 视屏推拉流/","created":"2023-11-06T10:34:28.000+08:00","updated":"2023-12-07T21:13:53.000+08:00"}
+{"dg-publish":true,"dg-path":"创时文章/搭建 RTSP 视屏推拉流.md","permalink":"/创时文章/搭建 RTSP 视屏推拉流/","created":"2023-11-06T10:34:28.000+08:00","updated":"2023-12-21T09:44:15.802+08:00"}
 ---
 
 #Technomous
@@ -28,14 +28,17 @@ RTSP 协议交互过程中涉及三者，RTSP Pusher、RTSP Server、RTSP Client
 首先启动 rtsp 服务器 mediamtx，然后使用 ffmpeg 向 mediamtx 进行推流，使用 ffmpeg 的组件 ffplay 从 mediamtx 拉流播放视屏。
 
 - mediamtx 启动
+
 ``` shell
 ./mediamtx
 ```
 
 - ffmpeg 推流
+
 ``` shell
 ffmpeg -re -stream_loop -1 -i juren.mp4 -c copy -f rtsp rtsp://localhost:8554/stream
 ```
+
 `-re` ：这个选项告诉 ffmpeg 以视屏的原生帧率播放，这对于流式传输视屏文件非常重要。
 `-stream_loop -1`：此选项用于是 ffmpeg 将输入文件无限循环播放（-1 次），以便保持连续播放。
 `-i juren.mp4`：这是输入文件标志，指定要流式传输的视屏文件，这里是 "juren.mp4"。
@@ -44,9 +47,11 @@ ffmpeg -re -stream_loop -1 -i juren.mp4 -c copy -f rtsp rtsp://localhost:8554/st
 `rtsp://localhost:8554/stream`：这是输出 URL，RTSP 流将在此 URL 上提供。在这种情况下，流将在 "`rtsp://localhost:8554/stream`" 上可用。
 
 - ffplay 拉流
+
 ``` shell
 ffplay -rtsp_transport tcp -i rtsp://localhost:8554/stream
 ```
+
 `-rtsp_transport tcp`：这个选项制定了 RTSP 流的传输方式，使用 TCP。RTSP 支持多种传输方式，包括 UDP 和 TCP。使用 TCP 可以更可靠的处理数据传输，但可能会增加一些延迟。
 `-i rtsp://locaohost:8554/stream`：这是 RTSP 流的 URL，其中 `rtsp://locaohost:8554/stream` 是流的位置。
 
