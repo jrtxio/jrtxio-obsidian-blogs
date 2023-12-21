@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Ubuntu 包管理工具 aptitude 使用教程.md","permalink":"/技术文章/Ubuntu 包管理工具 aptitude 使用教程/","created":"2023-12-21T10:55:36.865+08:00","updated":"2023-12-21T11:01:02.060+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Ubuntu 包管理工具 aptitude 使用教程.md","permalink":"/技术文章/Ubuntu 包管理工具 aptitude 使用教程/","created":"2023-12-21T10:55:36.865+08:00","updated":"2023-12-21T11:05:16.446+08:00"}
 ---
 
 #Technomous #Linux 
@@ -9,7 +9,7 @@ aptitude 是 Debian Linux 系统中软件包管理工具。aptitude 命令与 ap
 # 语法
 
 ```shell
-aptitude(选项)(参数)
+aptitude (选项)(参数)
 ```
 
 # 选项
@@ -29,7 +29,7 @@ aptitude(选项)(参数)
 
 # 实例
 
-以下是我总结的一些常用 aptitude 命令，仅供参考：
+以下是一些常用 aptitude 命令，可供参考：
 
 ```shell
 aptitude update            # 更新可用的包列表
