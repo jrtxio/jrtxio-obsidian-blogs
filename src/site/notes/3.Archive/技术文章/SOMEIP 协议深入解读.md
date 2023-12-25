@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/SOMEIP 协议深入解读.md","permalink":"/技术文章/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-22T15:05:24.832+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/SOMEIP 协议深入解读.md","permalink":"/技术文章/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-25T11:07:30.413+08:00"}
 ---
 
 #Technomous #SOMEIP
@@ -37,9 +37,9 @@ SOME/IP 是一种面向服务（SOA）的中间件实现方案。面向服务是
 
 # 协议交互流程
 
-![20230831160926.png|650](/img/user/0.Asset/resource/20230831160926.png)
+![20230831160926.png|500](/img/user/0.Asset/resource/20230831160926.png)
 
-我们将从两个方面来理解 SOME/IP 协议的内容，通信方式和报文格式。SOME/IP-SD 协议其实是 SOME/IP 的子协议，它与 SOME/IP 协议共用了报文头的格式。所以当我们提到 SOME/IP 协议的时候其实也包含了 SOME/IP-SD 协议部分。
+下面我们从两个方面来理解 SOME/IP 协议的内容，通信方式和报文格式。SOME/IP-SD 协议其实是 SOME/IP 的子协议，它与 SOME/IP 协议共用了报文头的格式。所以当我们提到 SOME/IP 协议的时候其实也包含了 SOME/IP-SD 协议部分。
 
 SOME/IP 协议的交互流程包含两个重要的部分：
 
@@ -115,11 +115,9 @@ Header 的长度为 16 字节，Payload 的长度是可变的。Header 部分由
 	- NOTIFICATION 用于 Event 和 Notifier。
 
 - Return Code
-
 	![20230831153238.png|650](/img/user/0.Asset/resource/20230831153238.png)
-
 	对于 REQUEST，REQUEST_NO_RETURN 和 NOTIFICATION 报文来讲，其自带的 Return Code 永远都是 0x00（E_OK）。**只有 RESPONSE 和 ERROR 才可能携带含有有效值的 Return Code**，其中 0x00 是返回正确，0x01 到 0x1A 是 SOME/IP 官方设置的错误码，0x0B 到 0x1F 是官方保留的错误码，而 0x20 到 0x5E 是用户能使用的错误码（用户可以传入自定义的错误码 0x01，但是 SOME/IP 会自动加上 0x1F，变成 0x20 传出，在对端解析的时候，又会减去 0x1F，变成 0x01 给应用层）。
-
+	
 	![20230831155601.png|650](/img/user/0.Asset/resource/20230831155601.png)
 值得注意的是 SOME/IP 的报文头中，并没有定义额外的标志符（Instance ID）来区分各个实例，所以传输层的**端口号**会用来区分实例。因此不同的实例不可以在相同的端口上提供。
 ## SOME/IP Payload
