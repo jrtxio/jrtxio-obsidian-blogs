@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/SOMEIP 协议深入解读.md","permalink":"/技术文章/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-22T15:05:24.000+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/SOMEIP 协议深入解读.md","permalink":"/技术文章/SOMEIP 协议深入解读/","created":"2023-06-19T10:20:30.000+08:00","updated":"2023-12-22T15:05:24.832+08:00"}
 ---
 
 #Technomous #SOMEIP
