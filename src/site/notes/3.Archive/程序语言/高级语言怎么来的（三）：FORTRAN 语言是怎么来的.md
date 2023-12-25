@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"程序语言/高级语言怎么来的（三）：FORTRAN 语言是怎么来的.md","permalink":"/程序语言/高级语言怎么来的（三）：FORTRAN 语言是怎么来的/","created":"2023-10-09T09:51:34.000+08:00","updated":"2023-12-15T16:56:42.753+08:00"}
+{"dg-publish":true,"dg-path":"程序语言/高级语言怎么来的（三）：FORTRAN 语言是怎么来的.md","permalink":"/程序语言/高级语言怎么来的（三）：FORTRAN 语言是怎么来的/","created":"2023-10-09T09:51:34.000+08:00","updated":"2023-12-15T16:56:42.000+08:00"}
 ---
 
 #Technomous
