@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"程序语言/高级语言怎么来的（五）：LISP 语言是怎么来的 – LISP 和 AI 的青梅竹马 B.md","permalink":"/程序语言/高级语言怎么来的（五）：LISP 语言是怎么来的 – LISP 和 AI 的青梅竹马 B/","created":"2023-10-09T09:53:20.000+08:00","updated":"2023-12-15T16:53:38.000+08:00"}
+{"dg-publish":true,"dg-path":"程序语言/高级语言怎么来的（五）：LISP 语言是怎么来的 – LISP 和 AI 的青梅竹马 B.md","permalink":"/程序语言/高级语言怎么来的（五）：LISP 语言是怎么来的 – LISP 和 AI 的青梅竹马 B/","created":"2023-10-09T09:53:20.000+08:00","updated":"2023-12-15T16:53:38.206+08:00"}
 ---
 
 #Technomous #Lisp
