@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Linux 包管理工具 aptitude 教程.md","permalink":"/技术文章/Linux 包管理工具 aptitude 教程/","created":"2023-12-21T10:55:36.000+08:00","updated":"2023-12-21T11:05:16.000+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Linux 包管理工具 aptitude 教程.md","permalink":"/技术文章/Linux 包管理工具 aptitude 教程/","created":"2023-12-21T10:55:36.865+08:00","updated":"2023-12-21T11:05:16.446+08:00"}
 ---
 
 #Technomous #Linux 
