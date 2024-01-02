@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/我的 Obsidian 设置和使用教程.md","permalink":"/工具教程/我的 Obsidian 设置和使用教程/","created":"2023-12-10T14:49:13.000+08:00","updated":"2023-12-27T15:51:44.662+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/我的 Obsidian 设置和使用教程.md","permalink":"/工具教程/我的 Obsidian 设置和使用教程/","created":"2023-12-10T14:49:13.000+08:00","updated":"2024-01-02T23:05:30.615+08:00"}
 ---
 
 #Technomous
 
-这是一篇简单记录我的 Obsidian 设置和使用技巧的教程，可以用来在全新的电脑中快速恢复 Obsidian 环境。
+这是一篇简单记录我的 Obsidian 设置和使用技巧的教程。
 
 # 笔记结构
 
