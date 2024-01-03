@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/我的 Surge 配置和使用教程.md","permalink":"/工具教程/我的 Surge 配置和使用教程/","created":"2024-01-03T10:40:48.465+08:00","updated":"2024-01-03T13:19:33.701+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/我的 Surge 配置和使用教程.md","permalink":"/工具教程/我的 Surge 配置和使用教程/","created":"2024-01-03T10:40:48.000+08:00","updated":"2024-01-03T22:36:50.967+08:00"}
 ---
 
 #Technomous 
 
-我的 Surge 配置文件的如下所示。整个配置文件的核心在于规则部分的设计，下面将深入讲解规则部分的设计思路和规则的详细含义。其他部分配置的含义可以参考 Surge 的[用户手册](https://manual.nssurge.com/)自行理解。
+我的 Surge 配置文件如下所示。整个配置文件的核心在于规则部分的设计，下面将深入讲解规则的设计思路和具体含义。其他部分配置可以参考 Surge 的[用户手册](https://manual.nssurge.com/)自行理解。
 
 ```
 [General]
