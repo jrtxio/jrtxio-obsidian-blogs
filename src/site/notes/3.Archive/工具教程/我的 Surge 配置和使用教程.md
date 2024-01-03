@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/我的 Surge 配置和使用教程.md","permalink":"/工具教程/我的 Surge 配置和使用教程/","created":"2024-01-03T10:40:48.000+08:00","updated":"2024-01-03T22:36:50.967+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/我的 Surge 配置和使用教程.md","permalink":"/工具教程/我的 Surge 配置和使用教程/","created":"2024-01-03T10:40:48.000+08:00","updated":"2024-01-03T22:41:08.348+08:00"}
 ---
 
 #Technomous 
@@ -44,42 +44,42 @@ hide-crash-reporter-request = 1
 keyword-filter = (null)
 
 [Proxy]
-🇭🇰 Hong Kong丨01 = 
-🇭🇰 Hong Kong丨02 = 
-🇭🇰 Hong Kong丨03 = 
-🇭🇰 Hong Kong丨04 = 
-🇭🇰 Hong Kong丨05 = 
-🇭🇰 Hong Kong丨06 = 
-🇭🇰 Hong Kong丨07 = 
-🇭🇰 Hong Kong丨08 = 
-🇭🇰 Hong Kong丨09 = 
-🇭🇰 Hong Kong丨10 = 
-🇨🇳 Taiwan丨01 = 
-🇨🇳 Taiwan丨02 = 
-🇨🇳 Taiwan丨03 = 
-🇨🇳 Taiwan丨04 = 
-🇨🇳 Taiwan丨05 = 
-🇸🇬 Singapore丨01 = 
-🇸🇬 Singapore丨02 = 
-🇸🇬 Singapore丨03 = 
-🇸🇬 Singapore丨04 = 
-🇸🇬 Singapore丨05 = 
-🇯🇵 Japan丨01 = 
-🇯🇵 Japan丨02 = 
-🇯🇵 Japan丨03 = 
-🇯🇵 Japan丨04 = 
-🇯🇵 Japan丨05 = 
-🇺🇸 United States丨01 = 
-🇺🇸 United States丨02 = 
-🇺🇸 United States丨03 = 
-🇺🇸 United States丨04 = 
-🇺🇸 United States丨05 = 
-🇰🇷 South Korea丨01 = 
-🇰🇷 South Korea丨02 = 
-🇨🇦 Canada丨01 = 
-🇨🇦 Canada丨02 = 
-🇬🇧 Great Britain丨01 = 
-🇬🇧 Great Britain丨02 = 
+🇭🇰 Hong Kong丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨03 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨04 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨05 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨06 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨07 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨08 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨09 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨10 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇳 Taiwan丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇳 Taiwan丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇳 Taiwan丨03 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇳 Taiwan丨04 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇳 Taiwan丨05 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇸🇬 Singapore丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇸🇬 Singapore丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇸🇬 Singapore丨03 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇸🇬 Singapore丨04 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇸🇬 Singapore丨05 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇯🇵 Japan丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇯🇵 Japan丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇯🇵 Japan丨03 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇯🇵 Japan丨04 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇯🇵 Japan丨05 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇺🇸 United States丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇺🇸 United States丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇺🇸 United States丨03 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇺🇸 United States丨04 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇺🇸 United States丨05 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇰🇷 South Korea丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇰🇷 South Korea丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇦 Canada丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇦 Canada丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇬🇧 Great Britain丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇬🇧 Great Britain丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
 
 [Proxy Group]
 Proxy = select, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇰🇷 Korea, 🇨🇦 Canada, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain
@@ -125,10 +125,10 @@ FINAL,DIRECT,dns-failed
 "iPhone X" cellular-mode=true
 
 [MITM]
-ca-passphrase = 
-ca-p12 = 
-hostname = *.google.cn, *.google.com, *.openai.com, *.ai.com, *.cloudflareclient.com
-hostname-disabled = *.openai.com, *.ai.com
+skip-server-cert-verify = true
+h2 = true
+hostname = *.google.com, *.openai.com
+hostname-disabled = *.openai.com, *.google.com
 ```
 # 设计思路
 
