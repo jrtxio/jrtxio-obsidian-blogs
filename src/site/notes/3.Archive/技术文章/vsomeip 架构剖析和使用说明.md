@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/vsomeip 架构剖析和使用说明.md","permalink":"/技术文章/vsomeip 架构剖析和使用说明/","created":"2023-08-28T16:22:57.000+08:00","updated":"2023-12-28T16:14:13.762+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/vsomeip 架构剖析和使用说明.md","permalink":"/技术文章/vsomeip 架构剖析和使用说明/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-01-04T10:18:39.270+08:00"}
 ---
 
 #Technomous #SOMEIP #vsomeip 
@@ -9,6 +9,7 @@
 ![20231226135510.png|300](/img/user/0.Asset/resource/20231226135510.png)
 
 我们先大致看一下如果需要深入了解 vsomeip 需要有哪些前置的知识。vsomeip 作为 SOME/IP 协议的一种实现，自然需要对 SOME/IP 协议有一个全面的了解。其次 vsomeip 使用 C++ 语言实现，所以需要对 C++ 编程有一定的了解。vsomeip 是基于 boost 库进行实现的，所以对 boost 的 asio 网络编程、statechart 状态机和 log 日志功能需要有一定的了解。如果想要对整个架构设计有一个全面的把握，我们也还需要一些面向对象编程范式的设计知识。为了对通信的网络报文进行一定的分析，需要用到 wireshark 等网络分析工具。
+
 # 项目简介
 
 vsomeip 是 GENIVI 实现的开源 SOME/IP 库，由 C++ 编写，目前主要实现了 SOME/IP 的通信和服务发现功能，并在此基础上增加了少许安全机制。
@@ -150,7 +151,6 @@ PRODUCT_PACKAGES += \
     libvsomeip_sd \
     libvsomeip_e2e \
 ```
-
 
 ## Windows 平台编译
 
