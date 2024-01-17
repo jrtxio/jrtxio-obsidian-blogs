@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/vsomeip 架构剖析和使用说明.md","permalink":"/技术文章/vsomeip 架构剖析和使用说明/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-01-04T10:18:39.270+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/vsomeip 架构剖析和使用说明.md","permalink":"/技术文章/vsomeip 架构剖析和使用说明/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-01-16T15:10:57.916+08:00"}
 ---
 
 #Technomous #SOMEIP #vsomeip 
@@ -8,7 +8,63 @@
 
 ![20231226135510.png|300](/img/user/0.Asset/resource/20231226135510.png)
 
-我们先大致看一下如果需要深入了解 vsomeip 需要有哪些前置的知识。vsomeip 作为 SOME/IP 协议的一种实现，自然需要对 SOME/IP 协议有一个全面的了解。其次 vsomeip 使用 C++ 语言实现，所以需要对 C++ 编程有一定的了解。vsomeip 是基于 boost 库进行实现的，所以对 boost 的 asio 网络编程、statechart 状态机和 log 日志功能需要有一定的了解。如果想要对整个架构设计有一个全面的把握，我们也还需要一些面向对象编程范式的设计知识。为了对通信的网络报文进行一定的分析，需要用到 wireshark 等网络分析工具。
+剖析 vsomeip 之前我们先大致看一下需要具备哪些知识体系。首先 vsomeip 作为 SOME/IP 协议的一种实现，对协议规范的了解自然是必不可少的。其次 vsomeip 使用 C++ 语言实现，需要对 C++ 编程有一定的了解。vsomeip 是基于 boost 库进行实现的，对其中的 asio 网络编程、statechart 状态机和 log 日志功能需要有一定的了解。如果想要对整个架构设计有一个全面的把握，我们还需要一些面向对象编程范式的设计知识。为了对通信的网络报文进行分析，还需能够简单实用 wireshark 等网络分析工具。 
+
+## BOOST 网络编程
+
+
+## OOP 的多态设计
+
+![20240115135229.png|350](/img/user/0.Asset/resource/20240115135229.png)
+
+vsomeip 本身采用的是面向对象编程范式来实现的。上图展示了面向对象的全貌和发展过程，我们可以据此来探索 vsomeip 的开发过程。此处不展开论述，仅讲述面向对象三大特性（封装、继承和多态）中的多态。下面是一个多态代码示例：
+
+``` cpp
+#include <iostream>
+
+class Animal {
+public:
+    virtual void makeSound() const {
+        std::cout << "Animal make a sound." << std::endl;
+    }
+};
+
+class Dog : public Animal {
+public:
+    void makeSound() const override {
+        std::cout << "Dog barks." << std::endl;
+    } 
+};
+
+class Cat : public Animal {
+public:
+    void makeSound() const override {
+        std::cout << "Cat meows." << std::endl;
+    }
+};
+
+int main() {
+    Animal animal;
+    Dog dog;
+    Cat cat;
+
+    Animal* animalPtr = &dog;
+    animalPtr -> makeSound();
+
+    animalPtr = &cat;
+    animalPtr -> makeSound();
+
+    return 0;
+}
+
+/* compile command: g++ polymorphics.cpp -o polymorhics */
+```
+
+编译执行结果：
+
+![20240115105700.png|550](/img/user/0.Asset/resource/20240115105700.png)
+
+在 vsomeip 中多态的应用十分广泛，这是因为多态可以极大提升架构的可扩展性。你可能无法知道许多未来的扩展需求，利用多态你可以将核心的逻辑提取出来，未来扩展的应用代码将不会影响核心的代码逻辑，也无需大面积的改动已有的代码。
 
 # 项目简介
 
@@ -30,37 +86,75 @@ vsomeip 不仅涵盖了设备之间的 SOME/IP 通信（外部通信），还涵
 
 vsomeip 的主体模块包含 service discovery、endpoint、routing、configuration、runtime、message 和 logging 模块。
 
-- service discovery：服务发现功能的实现
-- endpoint：通信功能的实现
-- routing：路由功能的实现
-- configuration：配置功能的实现
 - runtime：应用程序运行时
 - message：报文模块的实现
 - logging：日志记录功能的实现
+- endpoint：通信功能的实现
+- routing：路由功能的实现
+- configuration：配置功能的实现
+- service discovery：服务发现功能的实现
+
+## message
+
+在分析 message 模块的设计之前，我们看一下 SOME/IP 报文结构。因为报文头的结构是共用的，可以抽象出 message_base 作为基类，这样所有的报文都可以通过继承重用这部分代码。为了让 sd 报文可以复用 message_base 基类，所有单独提取除了 message 接口文件。
+
+![20230901132646.png|650](/img/user/0.Asset/resource/20230901132646.png)
+
+![20240116131755.png|650](/img/user/0.Asset/resource/20240116131755.png)
+
+## service discovery
+
+在分析 service discovery 类图之前，我们先看一下 sd 报文的结构，报文头部分和 message 部分是相同的，所以继承相同的 message_base_impl 基类便可以实现复用。
+
+![20230831162258.png|650](/img/user/0.Asset/resource/20230831162258.png)
+
+我们可以再看一下 service entry 和 eventgroup entry 的报文结构，除了最后 4 个字节不一样，前面都是相同的，所以自然就可以设计出其中的继承结构。
+
+![20230831171317.png|650](/img/user/0.Asset/resource/20230831171317.png)
+
+![20230831172223.png|650](/img/user/0.Asset/resource/20230831172223.png)
+
+我们再来看一下 ipv4、ipv6 等 option 的结构，前面的字段也是相同的。自然也可以提取出类似的继承关系。
+
+![20230831180917.png|650](/img/user/0.Asset/resource/20230831180917.png)
+
+根据上面的报文结构分析，我们再来看一下 service discovery 报文的类图就很容易理解了。
+
+![20240116143058.png|650](/img/user/0.Asset/resource/20240116143058.png)
+
+## endpoint
+
+![20240116150913.png|650](/img/user/0.Asset/resource/20240116150913.png)
+
+vsomeip 应用通过 endpoint 通信，endpoint 包含三种类型 local endpoint、tcp endpoint 和 udp endpoint。同一个设备的进程之间通过 local endpoint 进行 IPC 通信。不同设备之间需要通过 tcp/udp endpoint 进行通信。
+
+- local endpoint 包装了 boost::asio::local::stream_protocol
+- tcp endpoint 包装了 boost::asio::ip::tcp
+- udp endpoint 包装了 boost::asio::ip::udp
 
 # 文档资源
 
 vsomeip 仓库中包含以下文档：
 
-* vsomeipUserGuide
-* vsomeipProtocol
-* doxygen.in
-* multicast.txt
-* vsomeip.eap
+- vsomeipUserGuide
+- vsomeipProtocol
+- doxygen.in
+- multicast.txt
+- vsomeip.eap
 
 vsomeipUserGuide 文件是 vsomeip 用户使用指南，vsomeipProtocol 文件是 vsomeip 命令。doxygen.in 是 Doxygen 的配置文件，用来生成源码的注释文档。multicast.txt 文档描述了 Linux 系统下使用 IP 多播需要执行的指令。vsomeip.eap 文件需要通过 Enterprise Architect 打开，里面包含了 vsomeip 的架构设计及模块的 UML 设计图。
 # 编译安装
 
 vsomeip 协议栈实现了 SOME/IP 协议，协议栈包含：
 
-* 一个 SOME/IP 共享库（libvsomeip3.so）
-* 一个 SOME/IP 配置共享库 （libvsomeip3-cfg.so）
-* 一个 SOME/IP 服务发现共享库（libvsomeip3-sd.so）
-* 一个 SOME/IP E2E 保护模块共享库（libvsomeip3-e2e.so）
+- 一个 SOME/IP 共享库（libvsomeip3.so）
+- 一个 SOME/IP 配置共享库 （libvsomeip3-cfg.so）
+- 一个 SOME/IP 服务发现共享库（libvsomeip3-sd.so）
+- 一个 SOME/IP E2E 保护模块共享库（libvsomeip3-e2e.so）
 
 可选模块：
 
-* 一个与 vsomeip v2 兼容的共享库（libsomeip.so）
+- 一个与 vsomeip v2 兼容的共享库（libsomeip.so）
 
 ## Linux 平台的编译
 ### 依赖
