@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/vsomeip 架构剖析和使用说明.md","permalink":"/技术文章/vsomeip 架构剖析和使用说明/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-01-16T15:10:57.916+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/vsomeip 架构剖析和使用说明.md","permalink":"/技术文章/vsomeip 架构剖析和使用说明/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-01-17T17:00:43.597+08:00"}
 ---
 
 #Technomous #SOMEIP #vsomeip 
@@ -86,8 +86,8 @@ vsomeip 不仅涵盖了设备之间的 SOME/IP 通信（外部通信），还涵
 
 vsomeip 的主体模块包含 service discovery、endpoint、routing、configuration、runtime、message 和 logging 模块。
 
-- runtime：应用程序运行时
-- message：报文模块的实现
+- runtime：应用程序运行时管理
+- message：报文功能的实现
 - logging：日志记录功能的实现
 - endpoint：通信功能的实现
 - routing：路由功能的实现
