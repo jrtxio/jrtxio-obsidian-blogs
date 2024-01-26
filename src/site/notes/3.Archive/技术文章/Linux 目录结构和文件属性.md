@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Linux 目录结构和文件属性.md","permalink":"/技术文章/Linux 目录结构和文件属性/","created":"2023-05-13T22:25:55.000+08:00","updated":"2023-12-08T10:36:38.391+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Linux 目录结构和文件属性.md","permalink":"/技术文章/Linux 目录结构和文件属性/","created":"2023-05-13T22:25:55.000+08:00","updated":"2023-12-08T10:36:38.000+08:00"}
 ---
 
 #Technomous #Linux 
