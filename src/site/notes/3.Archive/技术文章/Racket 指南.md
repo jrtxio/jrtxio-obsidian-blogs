@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Racket 指南.md","permalink":"/技术文章/Racket 指南/","created":"2023-10-23T13:54:35.000+08:00","updated":"2024-01-09T09:59:24.000+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Racket 指南.md","permalink":"/技术文章/Racket 指南/","created":"2023-10-23T13:54:35.000+08:00","updated":"2024-01-09T09:59:24.139+08:00"}
 ---
 
 #Technomous #Lisp #Racket
