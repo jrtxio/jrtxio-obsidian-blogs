@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/vsomeip 架构剖析和使用说明.md","permalink":"/技术文章/vsomeip 架构剖析和使用说明/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-01-18T15:57:20.000+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/vsomeip 架构剖析和使用说明.md","permalink":"/技术文章/vsomeip 架构剖析和使用说明/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-01-18T15:57:20.210+08:00"}
 ---
 
 #Technomous #SOMEIP #vsomeip 
