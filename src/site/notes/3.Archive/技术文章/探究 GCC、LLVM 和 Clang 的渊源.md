@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/探究 GCC、LLVM 和 Clang 的渊源.md","permalink":"/技术文章/探究 GCC、LLVM 和 Clang 的渊源/","created":"2022-09-20T14:32:43.000+08:00","updated":"2024-01-18T17:16:46.665+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/探究 GCC、LLVM 和 Clang 的渊源.md","permalink":"/技术文章/探究 GCC、LLVM 和 Clang 的渊源/","created":"2022-09-20T14:32:43.000+08:00","updated":"2024-01-30T09:43:57.720+08:00"}
 ---
 
-#Technomous #编译与调试
+#Technomous
 
 传统的编译器通常分为三个部分，前端（frontEnd），优化器（Optimizer）和后端（backEnd）。在编译过程中，前端主要负责词法和语法分析，将源代码转化为抽象语法树；优化器则是在前端的基础上，对得到的中间代码进行优化，使代码更加高效；后端则是将已经优化的中间代码转换为针对各自平台的机器代码。
 
