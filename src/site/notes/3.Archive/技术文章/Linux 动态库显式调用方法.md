@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Linux 动态库显式调用方法.md","permalink":"/技术文章/Linux 动态库显式调用方法/","created":"2023-02-16T19:13:12.000+08:00","updated":"2024-01-18T15:07:06.047+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Linux 动态库显式调用方法.md","permalink":"/技术文章/Linux 动态库显式调用方法/","created":"2023-02-16T19:13:12.000+08:00","updated":"2024-01-30T09:45:21.263+08:00"}
 ---
 
-#Technomous #编译与调试
+#Technomous #Compile 
 
 通过包含 `<dlfcn.h>` 头文件我们便可使用 Linux 上的动态库操作函数。以下介绍其中常用的函数。
 
