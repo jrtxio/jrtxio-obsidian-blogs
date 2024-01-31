@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/自动驾驶通信中间件 SOMEIP 与 DDS 部署方案.md","permalink":"/技术文章/自动驾驶通信中间件 SOMEIP 与 DDS 部署方案/","created":"2024-01-29T17:02:01.842+08:00","updated":"2024-01-30T09:33:42.898+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/自动驾驶通信中间件 SOMEIP 与 DDS 部署方案.md","permalink":"/技术文章/自动驾驶通信中间件 SOMEIP 与 DDS 部署方案/","created":"2024-01-29T17:02:01.000+08:00","updated":"2024-01-30T22:41:49.000+08:00"}
 ---
 
 #Technomous #SOMEIP #DDS
@@ -8,9 +8,9 @@
 
 # SOME/IP
 
-![20240130093251.png|650](/img/user/0.Asset/resource/20240130093251.png)
+![20240130224135.png|650](/img/user/0.Asset/resource/20240130224135.png)
 
-SH 端 SOME/IP 方案是基于经典 AutoSAR 本身的模块实现。PH 端可以基于开源的 vsomeip 协议栈进行部署。
+SH 端 SOME/IP 方案是基于 Classic AutoSAR 本身的模块实现。PH 端可以基于开源的 vsomeip 协议栈进行部署。
 
 # DDS
 
