@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/vsomeip 剖析和使用说明.md","permalink":"/技术文章/vsomeip 剖析和使用说明/","dgEnableSearch":"true","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-02-02T13:46:50.106+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/vsomeip 剖析和使用说明.md","permalink":"/技术文章/vsomeip 剖析和使用说明/","dgEnableSearch":"true","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-02-02T13:51:23.820+08:00"}
 ---
 
 #Technomous #SOMEIP #vsomeip 
@@ -37,6 +37,10 @@ int main() {
 - 每个 asio 程序都至少有一个 io_context 对象，它代表了操作系统的 I/O 服务（io_context 在 Boost 1.66 之前一直叫 io_service），把你的程序和这些服务链接起来。ioc.run 是一个阻塞（blocking）调用，姑且把它想象成一个 loop（事件循环），直到所有异步操作完成后，loop 才结束，run 才返回。
 - 根据 I/O 操作的不同，asio 提供了不同 I/O 对象，比如 timer（定时器），socket 等。Timer 是最简单的一种 I/O 对象，可以用来实现异步调用的超时机制。上面代码先创建了一个 steady_timer，指定时间 3 秒，然后异步等待这个 timer，3 秒后，timer 超时结束，print 被调用。
 - async_wait 初始化了一个异步操作，但是这个异步操作的执行，要等到 ioc.run 时才开始。
+
+编译执行结果：
+
+![20240202135059.png|550](/img/user/0.Asset/resource/20240202135059.png)
 ## OOP 多态应用场景
 
 ![20240115135229.png|350](/img/user/0.Asset/resource/20240115135229.png)
