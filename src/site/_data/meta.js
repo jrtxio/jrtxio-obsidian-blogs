@@ -1,7 +1,4 @@
 require("dotenv").config();
-const axios = require("axios");
-const fs = require("fs");
-const crypto = require("crypto");
 const { globSync } = require("glob");
 
 module.exports = async (data) => {
@@ -68,7 +65,7 @@ module.exports = async (data) => {
     bodyClasses: bodyClasses.join(" "),
     noteIconsSettings,
     timestampSettings,
-    baseTheme: process.env.BASE_THEME || "light",
+    baseTheme: process.env.BASE_THEME || "dark",
     siteName: process.env.SITE_NAME_HEADER || "Digital Garden",
     mainLanguage: process.env.SITE_MAIN_LANGUAGE || "en",
     siteBaseUrl: baseUrl,
