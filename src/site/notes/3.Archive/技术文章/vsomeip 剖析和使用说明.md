@@ -1,14 +1,14 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/vsomeip 剖析和使用说明.md","permalink":"/技术文章/vsomeip 剖析和使用说明/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-02-02T14:10:30.598+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/vsomeip 剖析和使用说明.md","permalink":"/技术文章/vsomeip 剖析和使用说明/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-02-02T15:13:15.159+08:00"}
 ---
 
 #Technomous #SOMEIP #vsomeip 
 
 # 知识体系
 
-![20231226135510.png|300](/img/user/0.Asset/resource/20231226135510.png)
+![20240202151229.png|300](/img/user/0.Asset/resource/20240202151229.png)
 
-剖析之前我们先大概分析一下学习 vsomeip 需要掌握哪些知识点。首先 vsomeip 作为 SOME/IP 协议的一种实现，对协议规范的了解自然是必不可少的。其次 vsomeip 使用 C++ 语言实现，需要对 C++ 编程有一定的了解。vsomeip 是基于 boost 库进行实现的，涉及到其中的 asio 网络编程、statechart 状态机和 log 日志功能。如果想要对整个架构设计有一个全面的把握，我们还需要一些面向对象和设计模式的基础。为了解析通信的网络报文，还需要能够简单使用 wireshark 等网络分析工具。 
+剖析之前我们先大概分析一下学习 vsomeip 需要掌握哪些知识点。首先 vsomeip 作为 SOME/IP 协议的一种实现，对协议规范的了解自然是必不可少的。其次 vsomeip 使用 C++ 语言实现，需要对 C++ 编程有一定的了解。vsomeip 是基于 boost 库进行实现的，涉及到其中的 asio 网络编程和 log 日志功能。如果想要对整个架构设计有一个全面的把握，我们还需要一些面向对象和设计模式的基础。为了解析通信的网络报文，还需要能够简单使用 wireshark 等网络分析工具。 
 
 ## ASIO 异步网络编程
 
