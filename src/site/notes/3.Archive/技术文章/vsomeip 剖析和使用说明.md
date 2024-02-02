@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/vsomeip 剖析和使用说明.md","permalink":"/技术文章/vsomeip 剖析和使用说明/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-02-02T15:13:15.159+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/vsomeip 剖析和使用说明.md","permalink":"/技术文章/vsomeip 剖析和使用说明/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-02-02T17:58:23.781+08:00"}
 ---
 
 #Technomous #SOMEIP #vsomeip 
@@ -10,9 +10,9 @@
 
 剖析之前我们先大概分析一下学习 vsomeip 需要掌握哪些知识点。首先 vsomeip 作为 SOME/IP 协议的一种实现，对协议规范的了解自然是必不可少的。其次 vsomeip 使用 C++ 语言实现，需要对 C++ 编程有一定的了解。vsomeip 是基于 boost 库进行实现的，涉及到其中的 asio 网络编程和 log 日志功能。如果想要对整个架构设计有一个全面的把握，我们还需要一些面向对象和设计模式的基础。为了解析通信的网络报文，还需要能够简单使用 wireshark 等网络分析工具。 
 
-## ASIO 异步网络编程
+## 异步网络编程
 
-asio，即异步 IO（Asynchronous Input/Output），本是一个独立的 C++ 网络程序库，似乎并不为人所知。后来因为被 Boost 相中，才声名鹊起。如何理解异步 IO？简单来说，就是你发起一个 IO 操作，却不用等它结束，你可以继续做其他事情，当它结束时，你会得到通知。
+ASIO，即异步 IO（Asynchronous Input/Output），本是一个独立的 C++ 网络程序库，似乎并不为人所知。后来因为被 Boost 相中，才声名鹊起。如何理解异步 IO？简单来说，就是你发起一个 IO 操作，却不用等它结束，你可以继续做其他事情，当它结束时，你会得到通知。
 
 ``` cpp
 #include <iostream>
@@ -41,7 +41,7 @@ int main() {
 编译执行结果：
 
 ![20240202135059.png|550](/img/user/0.Asset/resource/20240202135059.png)
-## OOP 多态应用场景
+## 多态应用场景
 
 ![20240115135229.png|350](/img/user/0.Asset/resource/20240115135229.png)
 
