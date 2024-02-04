@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Linux 内核简析.md","permalink":"/技术文章/Linux 内核简析/","created":"2023-02-07T09:26:41.000+08:00","updated":"2024-01-16T15:46:07.131+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Linux 内核简析.md","permalink":"/技术文章/Linux 内核简析/","dgPassFrontmatter":true,"created":"2023-02-07T09:26:41.000+08:00","updated":"2024-01-16T15:46:07.131+08:00"}
 ---
 
 #Technomous #Linux
