@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Linux 动态库显式加载方法.md","permalink":"/技术文章/Linux 动态库显式加载方法/","created":"2023-02-16T19:13:12.000+08:00","updated":"2024-01-30T09:45:21.263+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Linux 动态库显式加载方法.md","permalink":"/技术文章/Linux 动态库显式加载方法/","dgPassFrontmatter":true,"created":"2023-02-16T19:13:12.000+08:00","updated":"2024-01-30T09:45:21.263+08:00"}
 ---
 
 #Technomous #Compile 
