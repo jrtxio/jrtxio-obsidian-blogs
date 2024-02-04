@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/搭建 RTSP 视屏推拉流.md","permalink":"/技术文章/搭建 RTSP 视屏推拉流/","created":"2023-11-06T10:34:28.000+08:00","updated":"2023-12-21T09:44:15.802+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/搭建 RTSP 视屏推拉流.md","permalink":"/技术文章/搭建 RTSP 视屏推拉流/","dgPassFrontmatter":true,"created":"2023-11-06T10:34:28.000+08:00","updated":"2023-12-21T09:44:15.802+08:00"}
 ---
 
 #Technomous
