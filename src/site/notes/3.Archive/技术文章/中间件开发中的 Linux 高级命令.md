@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/中间件开发中的 Linux 高级命令.md","permalink":"/技术文章/中间件开发中的 Linux 高级命令/","created":"2023-12-13T16:10:03.643+08:00","updated":"2024-02-02T11:23:25.995+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/中间件开发中的 Linux 高级命令.md","permalink":"/技术文章/中间件开发中的 Linux 高级命令/","dgPassFrontmatter":true,"created":"2023-12-13T16:10:03.643+08:00","updated":"2024-02-02T11:23:25.995+08:00"}
 ---
 
 #Technomous #Linux 
