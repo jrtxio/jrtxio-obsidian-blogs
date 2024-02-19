@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/中间件开发中的 Linux 高级命令.md","permalink":"/技术文章/中间件开发中的 Linux 高级命令/","created":"2023-12-13T16:10:03.643+08:00","updated":"2024-02-02T11:23:25.995+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/中间件开发中的 Linux 高级命令.md","permalink":"/技术文章/中间件开发中的 Linux 高级命令/","created":"2023-12-13T16:10:03.643+08:00","updated":"2024-02-19T14:57:32.424+08:00"}
 ---
 
 #Technomous #Linux 
@@ -61,7 +61,7 @@ mount -o remount,rw /app
 - `-o remount,rw`：通过 `-o` 选项指定挂载选项，`remount` 表示重新挂载，`rw` 表示可读写（read-write）模式。
 - `/app` 是指定的文件系统，这里表示 `/app` 目录。
 
-> [!important]
+> [!WARNING]
 > `df` 主要关注文件系统的磁盘空间使用情况。
 > `mount` 提供了有关有关文件系统挂载点的详细信息，包含文件系统类型、挂载点和其他选项。
 > `/etc/mtab` 文件是一个记录已挂载文件系统信息的静态文件，`cat /etc/mtab` 会显示其中的内容。在某些系统上，`/etc/mtab` 可能是一个符号链接，指向 `/proc/self/mounts`，它是一个虚拟文件，提供了一个与 `cat /etc/mtab` 相似的信息。
@@ -146,7 +146,7 @@ iptables -A OUTPUT -p igmp -j DROP
 - `-p igmp`：指定协议类型为 IGMP。
 - `-j DROP`：表示对匹配的数据包执行 DROP 操作，即拒绝该数据包。
 
-> [!attention]
+> [!WARNING]
 > 如果要确保规则在系统重启后仍然生效，你可能需要将规则保存到防火墙配置中。
 
 14. 拒绝发送的 TCP RST 数据包。
