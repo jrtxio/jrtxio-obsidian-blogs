@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/谈 C 和 Lisp 调试.md","permalink":"/技术文章/谈 C 和 Lisp 调试/","updated":"2024-01-30T13:24:31.330+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/谈 C 和 Lisp 调试.md","permalink":"/技术文章/谈 C 和 Lisp 调试/","dgPassFrontmatter":true}
 ---
 
 #Technomous #Debug #Lisp 
