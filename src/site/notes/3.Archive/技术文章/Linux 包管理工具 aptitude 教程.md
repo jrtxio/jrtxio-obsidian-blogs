@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Linux 包管理工具 aptitude 教程.md","permalink":"/技术文章/Linux 包管理工具 aptitude 教程/","updated":"2024-01-16T15:47:25.174+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Linux 包管理工具 aptitude 教程.md","permalink":"/技术文章/Linux 包管理工具 aptitude 教程/","dgPassFrontmatter":true}
 ---
 
 #Technomous #Linux 
