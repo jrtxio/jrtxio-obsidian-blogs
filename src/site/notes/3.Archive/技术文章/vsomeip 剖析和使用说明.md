@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/vsomeip 剖析和使用说明.md","permalink":"/技术文章/vsomeip 剖析和使用说明/","dgPassFrontmatter":true,"created":"2023-08-28T16:22:57.000+08:00","updated":"2024-02-04T14:04:47.264+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/vsomeip 剖析和使用说明.md","permalink":"/技术文章/vsomeip 剖析和使用说明/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-02-19T14:48:12.724+08:00"}
 ---
 
 #Technomous #SOMEIP #vsomeip 
@@ -220,7 +220,7 @@ make
 make install
 ```
 
-### 带有预定义单播和/或诊断地址的编译
+#### 带有预定义单播和/或诊断地址的编译
 
 要预定义单播地址，请这样调用 cmake：
 
@@ -236,7 +236,7 @@ cmake -DDIAGNOSIS_ADDRESS=<YOUR DIAGNOSIS ADDRESS> ..
 
 诊断地址是一个单字节值。
 
-### 使用自定义默认配置文件夹的编译
+#### 使用自定义默认配置文件夹的编译
 
 要更改默认配置文件夹，请这样调用 cmake：
 
@@ -246,7 +246,7 @@ cmake -DDEFAULT_CONFIGURATION_FOLDER=<DEFAULT CONFIGURATION FOLDER> ..
 
 默认配置文件夹为 /etc/vsomeip。
 
-### 使用自定义默认配置文件的编译
+#### 使用自定义默认配置文件的编译
 
 要更改默认配置文件，请这样调用 cmake：
 
@@ -256,7 +256,7 @@ cmake -DDEFAULT_CONFIGURATION_FILE=<DEFAULT CONFIGURATION FILE> ..
 
 默认配置文件是 /etc/vsomeip.json。
 
-### 带有信号处理的编译
+#### 带有信号处理的编译
 
 要使用启用信号处理（SIGINT/SIGTERM）编译 vsomeip，请这样调用 cmake：
 
