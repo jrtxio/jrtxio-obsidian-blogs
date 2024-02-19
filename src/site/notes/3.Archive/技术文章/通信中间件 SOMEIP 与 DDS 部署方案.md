@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/通信中间件 SOMEIP 与 DDS 部署方案.md","permalink":"/技术文章/通信中间件 SOMEIP 与 DDS 部署方案/","dgPassFrontmatter":true,"created":"2024-01-29T17:02:01.000+08:00","updated":"2024-01-30T22:41:49.000+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/通信中间件 SOMEIP 与 DDS 部署方案.md","permalink":"/技术文章/通信中间件 SOMEIP 与 DDS 部署方案/","created":"2024-01-29T17:02:01.000+08:00","updated":"2024-01-30T22:41:49.000+08:00"}
 ---
 
 #Technomous #SOMEIP #DDS
