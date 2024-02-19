@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/剖析 UDS 诊断帧.md","permalink":"/技术文章/剖析 UDS 诊断帧/","created":"2020-10-30T13:51:54.000+08:00","updated":"2024-02-19T13:52:30.297+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/剖析 UDS 诊断帧.md","permalink":"/技术文章/剖析 UDS 诊断帧/","created":"2020-10-30T13:51:54.000+08:00","updated":"2024-02-19T14:56:44.912+08:00"}
 ---
 
 #Technomous #AUTOSAR #UDS 
@@ -50,7 +50,7 @@ UDS 诊断服务通常是通过 CAN 总线实现。对于 CAN 诊断帧有两种
 
 首先发送端会以一个 FirstFrame 开启通信，告诉接收端还有后续的内容要发，FirstFrame 使用前两个字节作为 PCI 信息，第一个字节高 4 bit 为 0001，标识这是一个 FirstFrame，低 4 bit 加上第二个字节用于描述总共发送的数据长度是多少（包括在 FirstFrame 中和后续在 ConsecutiveFrame 中的所有数据）。
 	
-> [!important]
+> [!WARNING]
 > 该数据长度不包含 ConsecutiveFrame 的 PCI 部分。
 
 ### 流控帧
@@ -62,7 +62,7 @@ BS 指示发送端一次可以发送多少个 ConsecutiveFrame，当发送 Conse
 接收端根据自身的接收和处理能力使用 STmin 指示发送端在发送 ConsecutiveFrame 时最小的时间间隔是多少，从而实现流控制。
 
 
-> [!important]
+> [!WARNING]
 > 需要提一下的是，BS 和 STmin 等于 0 时，表示接收端可以以最快的速度来接收数据，发送端可以一次发送的 ConsecutiveFrame 数量不受限制。
 
 ### 连续帧
