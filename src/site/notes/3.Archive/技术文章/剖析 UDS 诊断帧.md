@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/剖析 UDS 诊断帧.md","permalink":"/技术文章/剖析 UDS 诊断帧/","updated":"2024-02-19T14:56:44.912+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/剖析 UDS 诊断帧.md","permalink":"/技术文章/剖析 UDS 诊断帧/","dgPassFrontmatter":true}
 ---
 
 #Technomous #AUTOSAR #UDS 
