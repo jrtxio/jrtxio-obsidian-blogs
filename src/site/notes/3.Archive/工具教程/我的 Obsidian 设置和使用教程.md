@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/我的 Obsidian 设置和使用教程.md","permalink":"/工具教程/我的 Obsidian 设置和使用教程/","updated":"2024-02-19T14:44:10.953+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/我的 Obsidian 设置和使用教程.md","permalink":"/工具教程/我的 Obsidian 设置和使用教程/","dgPassFrontmatter":true}
 ---
 
 #Technomous
