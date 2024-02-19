@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/探究 GCC、LLVM 和 Clang 的渊源.md","permalink":"/技术文章/探究 GCC、LLVM 和 Clang 的渊源/","updated":"2024-01-30T09:43:57.720+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/探究 GCC、LLVM 和 Clang 的渊源.md","permalink":"/技术文章/探究 GCC、LLVM 和 Clang 的渊源/","dgPassFrontmatter":true}
 ---
 
 #Technomous
