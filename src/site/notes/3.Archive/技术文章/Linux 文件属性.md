@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Linux 文件属性.md","permalink":"/技术文章/Linux 文件属性/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-path":"技术文章/Linux 文件属性.md","permalink":"/技术文章/Linux 文件属性/","dgPassFrontmatter":true,"created":"2024-02-19T13:23:09.000+08:00","updated":"2024-02-19T13:23:20.000+08:00"}
 ---
 
 #Technomous
