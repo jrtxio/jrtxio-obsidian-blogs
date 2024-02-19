@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/ETAS Adaptive AUTOSAR 技术细节剖析.md","permalink":"/技术文章/ETAS Adaptive AUTOSAR 技术细节剖析/","updated":"2023-12-13T15:26:59.148+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/ETAS Adaptive AUTOSAR 技术细节剖析.md","permalink":"/技术文章/ETAS Adaptive AUTOSAR 技术细节剖析/","dgPassFrontmatter":true}
 ---
 
 #Technomous #SILK 
