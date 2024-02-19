@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/深入解读 DoIP 协议.md","permalink":"/技术文章/深入解读 DoIP 协议/","updated":"2023-12-24T16:18:47.000+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/深入解读 DoIP 协议.md","permalink":"/技术文章/深入解读 DoIP 协议/","dgPassFrontmatter":true}
 ---
 
 #Technomous #DoIP
