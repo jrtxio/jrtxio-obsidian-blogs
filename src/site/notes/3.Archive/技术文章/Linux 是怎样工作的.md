@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Linux 是怎样工作的.md","permalink":"/技术文章/Linux 是怎样工作的/","dgPassFrontmatter":true,"created":"2023-05-18T22:48:55.000+08:00","updated":"2023-12-08T10:36:47.345+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Linux 是怎样工作的.md","permalink":"/技术文章/Linux 是怎样工作的/","dgPassFrontmatter":true,"created":"2023-05-18T22:48:55.000+08:00","updated":"2024-02-28T13:16:38.044+08:00"}
 ---
 
 #Technomous #Linux 
@@ -8,7 +8,7 @@
 
 在计算机运行时，在硬件设备上会重复执行以下步骤。
 
-![20230518230004.png|300](/img/user/0.Asset/resource/20230518230004.png)
+![Pasted image 20230518230004.png|300](/img/user/0.Asset/resource/Pasted%20image%2020230518230004.png)
 
 1. 通过输入设备或网络适配器，向计算机发起请求。
 2. 读取内存中的命令，并在 CPU 上执行，把结果写入负责保存数据的内存区域中。
@@ -21,15 +21,15 @@
 - 中间件：例如 Web 服务器、数据库系统
 - OS：直接控制硬件设备，同时为应用程序与中间件提供运行环境的程序，例如 Linux。
 
-![20230518230105.png|300](/img/user/0.Asset/resource/20230518230105.png)
+![Pasted image 20230518230105.png|300](/img/user/0.Asset/resource/Pasted%20image%2020230518230105.png)
 
 通常情况下，程序在 OS 上以进程为单位运行。每个程序由一个或多个进程构成。包括 Linux 在内的大部分 OS 能同时运行多个进程。
 
-![20230518230345.png|400](/img/user/0.Asset/resource/20230518230345.png)
+![Pasted image 20230518230345.png|400](/img/user/0.Asset/resource/Pasted%20image%2020230518230345.png)
 
 调用外部设备是 Linux 的一个重要功能。如果没有 Linux 这样的 OS，就不得不为每个进程单独编写调用设备的代码。
 
-![20230518231441.png|400](/img/user/0.Asset/resource/20230518231441.png)
+![Pasted image 20230518231441.png|400](/img/user/0.Asset/resource/Pasted%20image%2020230518231441.png)
 
 当不存在 OS 时的设备调用在这种情况下，会存在以下缺点。
 
@@ -39,15 +39,15 @@
 
 为了解决上述问题，Linux 把设备调用处理整合成了一个叫做设备驱动程序的程序，使进程通过设备驱动程序访问设备。
 
-![20230518231720.png|400](/img/user/0.Asset/resource/20230518231720.png)
+![Pasted image 20230518231720.png|400](/img/user/0.Asset/resource/Pasted%20image%2020230518231720.png)
 
 虽然世界上存在各种设备，当对于同一类型的设备，Linux 可以通过同一个接口进行调用。
 
-![20230518231818.png|400](/img/user/0.Asset/resource/20230518231818.png)
+![Pasted image 20230518231818.png|400](/img/user/0.Asset/resource/Pasted%20image%2020230518231818.png)
 
 通过同一个接口调用同一类型的设备。在某个进程因为 Bug 或程序员的恶意操作而违背了“通过设备驱动程序访问设备”这一规则的情况下，依然会出现多个进程同时调用设备的情况。为了避免这种情况，Linux 借助硬件，使进程无法直接访问设备。具体来说，CPU 存在内核模式和用户模式两种模式，只有处于内核模式时才允许访问设备。另外，使设备驱动程序在内核模式下运行，使进程在用户模式下运行。
 
-![20230518232133.png|400](/img/user/0.Asset/resource/20230518232133.png)
+![Pasted image 20230518232133.png|400](/img/user/0.Asset/resource/Pasted%20image%2020230518232133.png)
 
 进程在用户模式下运行，设备驱动程序在内核模式下运行。除此之外，还有许多不应被普通进程调用的处理程序，如下所示。
 
@@ -59,7 +59,7 @@
 
 需要指出的是，OS 并不单指内核，它是由内核和许多在用户模式下运行的程序构成的。关于 Linux 中的在用户模式下运行的功能，以及作为进程与内核的通信接口的系统调用，我们将在下一节具体说明。第三节将对负责创建与终止进程的进程管理系统进行说明。内核负责管理计算机系统上的 CPU 和内存等各种资源，然后把这些资源按需分配给在系统上运行的各个进程。
 
-![20230518232653.png|400](/img/user/0.Asset/resource/20230518232653.png)
+![Pasted image 20230518232653.png|400](/img/user/0.Asset/resource/Pasted%20image%2020230518232653.png)
 
 内核管理着 CPU 和内存等资源。负责管理 CPU 资源的进程调度器的相关内容将在第4节详细说明，负责管理内存的内存管理系统的相关内容将在第 5 节详细说明。
 
