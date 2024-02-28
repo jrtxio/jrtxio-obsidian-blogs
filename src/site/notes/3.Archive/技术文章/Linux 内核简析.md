@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Linux 内核简析.md","permalink":"/技术文章/Linux 内核简析/","dgPassFrontmatter":true,"created":"2023-02-07T09:26:41.000+08:00","updated":"2024-01-16T15:46:07.131+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Linux 内核简析.md","permalink":"/技术文章/Linux 内核简析/","dgPassFrontmatter":true,"created":"2023-02-07T09:26:41.000+08:00","updated":"2024-02-28T13:13:44.161+08:00"}
 ---
 
 #Technomous #Linux
@@ -10,7 +10,7 @@
 
 下图是一个典型的 Linux 操作系统架构图：
 
-![20230207092718.png|400](/img/user/0.Asset/resource/20230207092718.png)
+![Pasted image 20230207092718.png|400](/img/user/0.Asset/resource/Pasted%20image%2020230207092718.png)
 
 Linux 操作系统主要分成两部分：
 
@@ -33,7 +33,7 @@ Linux 操作系统主要分成两部分：
 
 根据内核的核心功能，Linux 内核提出了 5 个子系统，分别为：系统调用、进程管理、内存管理、文件系统、网络管理，如下图示：
 
-![350](/img/user/0.Asset/resource/20230207092734.png)
+![350](/img/user/0.Asset/resource/Pasted image 20230207092734.png)
 
 ## 系统调用（System Call Interface）
 
