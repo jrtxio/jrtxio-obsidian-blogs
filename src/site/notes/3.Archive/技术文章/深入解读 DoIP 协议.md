@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/深入解读 DoIP 协议.md","permalink":"/技术文章/深入解读 DoIP 协议/","dgPassFrontmatter":true,"created":"2023-08-29T15:40:16.000+08:00","updated":"2023-12-24T16:18:47.000+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/深入解读 DoIP 协议.md","permalink":"/技术文章/深入解读 DoIP 协议/","dgPassFrontmatter":true,"created":"2023-08-29T15:40:16.000+08:00","updated":"2024-02-28T13:15:54.859+08:00"}
 ---
 
 #Technomous #DoIP
 
 # 协议简介
 
-![20230421145334.png|200](/img/user/0.Asset/resource/20230421145334.png)
+![Pasted image 20230421145334.png|200](/img/user/0.Asset/resource/Pasted%20image%2020230421145334.png)
 
 功能：
 
@@ -21,7 +21,7 @@
 
 # 网络架构
 
-![20230418151154.png|600](/img/user/0.Asset/resource/20230418151154.png)
+![Pasted image 20230418151154.png|600](/img/user/0.Asset/resource/Pasted%20image%2020230418151154.png)
 
 车辆网络分为车内网（Vehicle network）和车外网（External network），车内网和车外网之间，有两组重要的线束，其中一组是用于数据传输的以太网线，另一组是用于诊断功能激活的激活线。以太网线就是常见的四线制 TX 标准网线。而激活线的设计，是用于车内诊断功能激活。出于能耗和电磁干扰的考虑，要求非诊断通信期间，与诊断相关的功能处于关闭状态，这样一方面可以降低能耗，另一方面减少对网络带宽的消耗，从而降低电磁干扰。
 
@@ -39,7 +39,7 @@
 
 # 交互流程
 
-![20230425133735.png|600](/img/user/0.Asset/resource/20230425133735.png)
+![Pasted image 20230425133735.png|600](/img/user/0.Asset/resource/Pasted%20image%2020230425133735.png)
 
 交互流程涉及到 Actor、Client DoIP entity、Server DoIP entity 和 Vehicle non DoIP ECU 四个角色，它们之间的交互涉及到以下流程：
 
@@ -65,7 +65,7 @@
 
 ## 报文格式
 
-![20230418151906.png|500](/img/user/0.Asset/resource/20230418151906.png)
+![Pasted image 20230418151906.png|500](/img/user/0.Asset/resource/Pasted%20image%2020230418151906.png)
 
 1. 协议版本号：
 
@@ -157,7 +157,7 @@ Gateway 的功能需要从两个方面去分析：
 
 * DoIP Gateway to Classical Bus Systems
 
-![20230421150529.png|500](/img/user/0.Asset/resource/20230421150529.png)
+![Pasted image 20230421150529.png|500](/img/user/0.Asset/resource/Pasted%20image%2020230421150529.png)
 
 在传统的总线系统下，对 ECU 的寻址是通过逻辑 DoIP 地址，此时 Gateway 需要保存地址映射表并转发 UDS 报文。
 
@@ -165,7 +165,7 @@ Gateway 的功能需要从两个方面去分析：
 
 * Diagnostics of In-Vehicle Ethernet ECUs
 
-![20230421152337.png|500](/img/user/0.Asset/resource/20230421152337.png)
+![Pasted image 20230421152337.png|500](/img/user/0.Asset/resource/Pasted%20image%2020230421152337.png)
 
 目前 ISO 13400 并没有明确指定但是目前有两种实现模式：
 
