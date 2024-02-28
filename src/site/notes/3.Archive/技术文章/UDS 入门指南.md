@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/UDS 入门指南.md","permalink":"/技术文章/UDS 入门指南/","dgPassFrontmatter":true,"created":"2023-03-09T16:41:30.000+08:00","updated":"2023-12-18T10:45:30.325+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/UDS 入门指南.md","permalink":"/技术文章/UDS 入门指南/","dgPassFrontmatter":true,"created":"2023-03-09T16:41:30.000+08:00","updated":"2024-02-28T13:13:03.858+08:00"}
 ---
 
 #Technomous #AUTOSAR #UDS
@@ -16,7 +16,7 @@ UDS 全称是 Unified Diagnostic Services，翻译过来是统一的诊断服务
 
 所有协议的最详细的描述都是其**规范文件**。可能是国际标准规范文件，也可能是某个特定公司的规范文件。这些都是深究协议细节时第一手的资料。下面我们来详细分析一下 UDS 涉及到哪些国际标准规范文件。在 ISO 14229-1 的文档中给出了概括性的描述。从下图可以看出 UDS 规范从 OSI 模型的第五层和第七层（会话层和应用层）进行了描述。
 
-![20230309170805.png|650](/img/user/0.Asset/resource/20230309170805.png)
+![Pasted image 20230309170805.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230309170805.png)
 
 这么多协议我们先从哪一个入手呢？我的经验是从应用层的 ISO 14229-1 协议开始入手，先从整体上了解 UDS 包含哪些功能，再根据实际需求深究其他部分的细节。
 
