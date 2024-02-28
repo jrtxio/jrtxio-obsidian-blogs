@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/搭建 RTSP 视屏推拉流.md","permalink":"/技术文章/搭建 RTSP 视屏推拉流/","dgPassFrontmatter":true,"created":"2023-11-06T10:34:28.000+08:00","updated":"2023-12-21T09:44:15.802+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/搭建 RTSP 视屏推拉流.md","permalink":"/技术文章/搭建 RTSP 视屏推拉流/","dgPassFrontmatter":true,"created":"2023-11-06T10:34:28.000+08:00","updated":"2024-02-28T13:22:28.657+08:00"}
 ---
 
 #Technomous
@@ -8,11 +8,11 @@
 
 - RTSP Pusher
 
-![20231109161711.png|650](/img/user/0.Asset/resource/20231109161711.png)
+![Pasted image 20231109161711.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231109161711.png)
 
 - RTSP Server
 
-![20231108111320.png|650](/img/user/0.Asset/resource/20231108111320.png)
+![Pasted image 20231108111320.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231108111320.png)
 
 
 RTSP 协议交互过程中涉及三者，RTSP Pusher、RTSP Server、RTSP Client。RTSP Pusher 将视屏推送到 RTSP Server，RTSP Client 从 RTSP Server 拉取视频流。以下搭建的推拉流过程过程三者均包含。值得注意的是，这个三者并不一定需要同时出现，比如 RTSP Pusher。因为 RTSP Server 的视屏流的来源并不是仅来自于 RTSP Pusher，也可能直接来自于音视频设备等，所以在实际的应用过程中需要灵活选择。
@@ -63,31 +63,31 @@ ffplay -rtsp_transport tcp -i rtsp://localhost:8554/stream
 
 - 选择串流功能
 
-![20231106153349.png|650](/img/user/0.Asset/resource/20231106153349.png)
+![Pasted image 20231106153349.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231106153349.png)
 
 - 添加视屏文件
 
-![20231106153434.png|650](/img/user/0.Asset/resource/20231106153434.png)
+![Pasted image 20231106153434.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231106153434.png)
 
-![20231106153518.png|650](/img/user/0.Asset/resource/20231106153518.png)
+![Pasted image 20231106153518.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231106153518.png)
 
-![20231106153608.png|650](/img/user/0.Asset/resource/20231106153608.png)
+![Pasted image 20231106153608.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231106153608.png)
 
 - 添加串流服务器
 
-![20231106153641.png|650](/img/user/0.Asset/resource/20231106153641.png)
+![Pasted image 20231106153641.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231106153641.png)
 
 - 设置RTSP参数
 
-![20231106154530.png|650](/img/user/0.Asset/resource/20231106154530.png)
+![Pasted image 20231106154530.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231106154530.png)
 
 - 选择转码格式
 
-![20231106153755.png|650](/img/user/0.Asset/resource/20231106153755.png)
+![Pasted image 20231106153755.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231106153755.png)
 
 - 拼接串流地址
 
-![20231106154615.png|650](/img/user/0.Asset/resource/20231106154615.png)
+![Pasted image 20231106154615.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231106154615.png)
 
 最终生成的串流地址是 `rtsp://[ip]:8554/stream` ，`[ip]` 地址替换成本机的 ip 地址。
 
@@ -95,13 +95,13 @@ ffplay -rtsp_transport tcp -i rtsp://localhost:8554/stream
 
 - 添加网络流
 
-![20231106152243.png|650](/img/user/0.Asset/resource/20231106152243.png)
+![Pasted image 20231106152243.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231106152243.png)
 
 - 添加网络地址
 
-![20231106154719.png|650](/img/user/0.Asset/resource/20231106154719.png)
+![Pasted image 20231106154719.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231106154719.png)
 
-![20231106154751.png|650](/img/user/0.Asset/resource/20231106154751.png)
+![Pasted image 20231106154751.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231106154751.png)
 
 ## 串流客户端 ffplay
 
