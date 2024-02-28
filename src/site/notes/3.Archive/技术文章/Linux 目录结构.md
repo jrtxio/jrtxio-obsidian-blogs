@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Linux 目录结构.md","permalink":"/技术文章/Linux 目录结构/","dgPassFrontmatter":true,"created":"2023-05-13T22:25:55.000+08:00","updated":"2024-02-19T13:23:08.850+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Linux 目录结构.md","permalink":"/技术文章/Linux 目录结构/","dgPassFrontmatter":true,"created":"2023-05-13T22:25:55.000+08:00","updated":"2024-02-28T13:16:11.743+08:00"}
 ---
 
 #Technomous #Linux 
@@ -8,5 +8,5 @@ Linux 和 Windows 最大的差别在于目录。Windows 中每一个分区都对
 
 Ubuntu 中的目录遵循 FHS 标准（Filesystem Hierarchy Standard，文件系统层次标准）。它定义了文件系统中目录、文件分类存放的原则、定义了系统运行所需的最小文件、目录的集合，并列举了不遵循这些原则的例外情况及其原因。FHS 并不是一个强制标准，但是大多的 Linux、Unix 发行版本遵循 FHS。这些目录的简单介绍如下图：
 
-![20230513224030.png|650](/img/user/0.Asset/resource/20230513224030.png)
+![Pasted image 20230513224030.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230513224030.png)
 
