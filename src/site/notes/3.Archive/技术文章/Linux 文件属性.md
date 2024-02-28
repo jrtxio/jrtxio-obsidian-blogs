@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Linux 文件属性.md","permalink":"/技术文章/Linux 文件属性/","dgPassFrontmatter":true,"created":"2024-02-19T13:23:09.789+08:00","updated":"2024-02-19T13:23:20.725+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Linux 文件属性.md","permalink":"/技术文章/Linux 文件属性/","dgPassFrontmatter":true,"created":"2024-02-19T13:23:09.789+08:00","updated":"2024-02-28T13:16:14.202+08:00"}
 ---
 
 #Technomous
 
 通过在终端执行 `ls -al` 命令显示当前目录下的所有文件及文件夹的详细信息。文件属性示意图如下图所示：
 
-![20230514001311.png|650](/img/user/0.Asset/resource/20230514001311.png)
+![Pasted image 20230514001311.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230514001311.png)
 
 第一个字符表示"文件类型"，它是目录、文件或链接文件等。
 
