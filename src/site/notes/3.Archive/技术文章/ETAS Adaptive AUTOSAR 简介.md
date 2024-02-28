@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/ETAS Adaptive AUTOSAR 简介.md","permalink":"/技术文章/ETAS Adaptive AUTOSAR 简介/","dgPassFrontmatter":true,"created":"2023-04-06T10:17:11.000+08:00","updated":"2023-12-07T21:20:46.000+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/ETAS Adaptive AUTOSAR 简介.md","permalink":"/技术文章/ETAS Adaptive AUTOSAR 简介/","dgPassFrontmatter":true,"created":"2023-04-06T10:17:11.000+08:00","updated":"2024-02-28T13:14:19.337+08:00"}
 ---
 
 #Technomous #SILK 
 
 # 为什么需要 Adaptive AUTOSAR
 
-![20230406102729.png|650](/img/user/0.Asset/resource/20230406102729.png)
+![Pasted image 20230406102729.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230406102729.png)
 
 Adaptive AUTOSAR 的出现是为了解决 Classic AUTOSAR 和信息娱乐系统的一些问题。从中我们可以大致总结出 Adaptive AUTOSAR 平台的一些特点：
 
@@ -39,7 +39,7 @@ Adaptive AUTOSAR 的出现是为了解决 Classic AUTOSAR 和信息娱乐系统�
 
 # Adaptive AUTOSAR 包含哪些模块
 
-![20230406111919.png|650](/img/user/0.Asset/resource/20230406111919.png)
+![Pasted image 20230406111919.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230406111919.png)
 
 AP(AUTOSAR Adaptive Platform)是 ARA（AUTOSAR Runtime for Adaptive Applications）的实现。AP 提供了两种接口：Service 和 API，为 Adaptive Application 提供了运行时环境 ARA。
 
@@ -63,11 +63,11 @@ RTA VRTE 通过虚拟机的方式进行分发，提供 Virtualbox 镜像。也�
 
 ## RTA VRTE 使用
 
-![20230406131326.png|650](/img/user/0.Asset/resource/20230406131326.png)
+![Pasted image 20230406131326.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230406131326.png)
 
 RTA VRTE 的开发配置通过 VRTE Adaptive Studio 进行，编译和部署都是通过 RTA VRTE 提供的脚本自动化进行。部署包含多种不同的平台，机器可以是真实的物理机器、完全虚拟化的容器、系统级虚拟化环境或其他任意虚拟环境。
 
-![20230406110121.png|650](/img/user/0.Asset/resource/20230406110121.png)
+![Pasted image 20230406110121.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230406110121.png)
 
 ## 上机演示
 
