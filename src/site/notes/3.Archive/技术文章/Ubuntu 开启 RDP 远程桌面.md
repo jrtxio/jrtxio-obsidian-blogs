@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Ubuntu 开启 RDP 远程桌面.md","permalink":"/技术文章/Ubuntu 开启 RDP 远程桌面/","dgPassFrontmatter":true,"created":"2023-12-05T09:35:25.000+08:00","updated":"2023-12-07T21:26:00.000+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Ubuntu 开启 RDP 远程桌面.md","permalink":"/技术文章/Ubuntu 开启 RDP 远程桌面/","dgPassFrontmatter":true,"created":"2023-12-05T09:35:25.000+08:00","updated":"2024-02-28T13:24:42.471+08:00"}
 ---
 
 #Technomous #Linux 
@@ -10,7 +10,7 @@ Ubuntu 22.04 之后可以开启内置的微软的远程桌面 RDP 协议。本�
 
 通过 Ubuntu 的 Settings -> Sharing 打开 Remote Desktop 和 Remote Control 功能，同时设置好 User Name 和 Password 即可。之后便可通过 Windows 自带的 Remote Desktop Connection 工具远程连接到 Ubuntu 了。
 
-![20231205094935.png|650](/img/user/0.Asset/resource/20231205094935.png)
+![Pasted image 20231205094935.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231205094935.png)
 
 # 锁屏连接方案
 
@@ -24,7 +24,7 @@ sudo apt install gnome-shell-extensions
 
 - 安装 allow locked remoted desktop
 
-![20231205100418.png|650](/img/user/0.Asset/resource/20231205100418.png)
+![Pasted image 20231205100418.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231205100418.png)
 
 # 其他远程方案
 
