@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/剖析 UDS 诊断帧.md","permalink":"/技术文章/剖析 UDS 诊断帧/","dgPassFrontmatter":true,"created":"2020-10-30T13:51:54.000+08:00","updated":"2024-02-19T14:56:44.912+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/剖析 UDS 诊断帧.md","permalink":"/技术文章/剖析 UDS 诊断帧/","dgPassFrontmatter":true,"created":"2020-10-30T13:51:54.000+08:00","updated":"2024-02-28T13:31:58.760+08:00"}
 ---
 
 #Technomous #AUTOSAR #UDS 
@@ -10,7 +10,7 @@ UDS 诊断服务通常是通过 CAN 总线实现。对于 CAN 诊断帧有两种
 
 在总线上往往连着众多 ECU 设备(如下图所示)，作为诊断设备既可以单独与某一 ECU 进行通信，也可以同时与所有总线上的 ECU 设备通信。
 
-![20201030114232.png|550](/img/user/0.Asset/resource/20201030114232.png)
+![Pasted image 20201030114232.png|550](/img/user/0.Asset/resource/Pasted%20image%2020201030114232.png)
 
 ## 物理寻址
 
@@ -24,19 +24,19 @@ UDS 诊断服务通常是通过 CAN 总线实现。对于 CAN 诊断帧有两种
 
 对于帧的类型，通过需要发送的数据长度来确定。在正常寻址模式下，当数据长度小于等于 7 byte，则用单帧的形式发送。如下图所示：
 
-![20201030114431.png|250](/img/user/0.Asset/resource/20201030114431.png)
+![Pasted image 20201030114431.png|250](/img/user/0.Asset/resource/Pasted%20image%2020201030114431.png)
 
 当数据长度大于 7 byte，数据需要分多帧才能发送完成，则需要使用到首帧、流控帧、连续帧。多帧的机制如下图所示。
 
-![20201030134132.png|250](/img/user/0.Asset/resource/20201030134132.png)
+![Pasted image 20201030134132.png|250](/img/user/0.Asset/resource/Pasted%20image%2020201030134132.png)
 
 对于不同的帧，通过 CAN 数据场的中的 PCI （Protocol control information）来进行区分。
 
-![20240219134333.png|550](/img/user/0.Asset/resource/20240219134333.png)
+![Pasted image 20240219134333.png|550](/img/user/0.Asset/resource/Pasted%20image%2020240219134333.png)
 
 以下是对 PCI 段的详细解释。
 
-![20240219135215.png|550](/img/user/0.Asset/resource/20240219135215.png)
+![Pasted image 20240219135215.png|550](/img/user/0.Asset/resource/Pasted%20image%2020240219135215.png)
 
 ## 单帧
 
@@ -71,7 +71,7 @@ ConsecutiveFrame 就是承载 FirstFrame 无法完全承载的剩余数据了，
 
 # 报文举例
 
-![20201030114571.png|650](/img/user/0.Asset/resource/20201030114571.png)
+![Pasted image 20201030114571.png|650](/img/user/0.Asset/resource/Pasted%20image%2020201030114571.png)
 
 上图为实际开发中的 $22 诊断的 F1 87 的读取与响应，可结合上面的首帧、流控帧、连续帧进行对应分析。
 
