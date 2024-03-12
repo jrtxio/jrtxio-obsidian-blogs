@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/我的 Surge 配置和使用教程.md","permalink":"/工具教程/我的 Surge 配置和使用教程/","dgPassFrontmatter":true,"created":"2024-01-03T10:40:48.000+08:00","updated":"2024-02-19T14:03:02.642+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/我的 Surge 配置和使用教程.md","permalink":"/工具教程/我的 Surge 配置和使用教程/","dgPassFrontmatter":true,"created":"2024-01-03T10:40:48.000+08:00","updated":"2024-03-13T00:06:36.181+08:00"}
 ---
 
 #Technomous 
@@ -44,42 +44,42 @@ hide-crash-reporter-request = 1
 keyword-filter = (null)
 
 [Proxy]
-🇭🇰 Hong Kong丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨03 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨04 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨05 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨06 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨07 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨08 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨09 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨10 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇳 Taiwan丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇳 Taiwan丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇳 Taiwan丨03 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇳 Taiwan丨04 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇳 Taiwan丨05 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇸🇬 Singapore丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇸🇬 Singapore丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇸🇬 Singapore丨03 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇸🇬 Singapore丨04 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇸🇬 Singapore丨05 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇯🇵 Japan丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇯🇵 Japan丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇯🇵 Japan丨03 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇯🇵 Japan丨04 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇯🇵 Japan丨05 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇺🇸 United States丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇺🇸 United States丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇺🇸 United States丨03 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇺🇸 United States丨04 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇺🇸 United States丨05 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇰🇷 South Korea丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇰🇷 South Korea丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇦 Canada丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇦 Canada丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇬🇧 Great Britain丨01 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-🇬🇧 Great Britain丨02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨03 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨04 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨05 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨06 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨07 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨08 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨09 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨10 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇳 Taiwan丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇳 Taiwan丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇳 Taiwan丨03 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇳 Taiwan丨04 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇳 Taiwan丨05 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇸🇬 Singapore丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇸🇬 Singapore丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇸🇬 Singapore丨03 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇸🇬 Singapore丨04 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇸🇬 Singapore丨05 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇯🇵 Japan丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇯🇵 Japan丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇯🇵 Japan丨03 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇯🇵 Japan丨04 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇯🇵 Japan丨05 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇺🇸 United States丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇺🇸 United States丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇺🇸 United States丨03 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇺🇸 United States丨04 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇺🇸 United States丨05 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇰🇷 South Korea丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇰🇷 South Korea丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇦 Canada丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇨🇦 Canada丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇬🇧 Great Britain丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇬🇧 Great Britain丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
 
 [Proxy Group]
 Proxy = select, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇰🇷 Korea, 🇨🇦 Canada, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain
@@ -136,9 +136,9 @@ hostname-disabled = *.openai.com, *.google.com
 
 - unblocked.list：这个规则集用来保存一定不能被代理的域名，算是一种强制性的保障。
 - blocked.list：这个规则集用来保存我常用的需要代理的域名。
-- openai.list：这个规则集是所有 OpenAI 相关的域名，可以方便的选择不同的区域。
-- Netflix：这个规则集是所有 Netflix 相关的域名，可以方便的选择不同的区域。
-- Telegram：这个规则集是所有 Telegram 相关的域名，可以方便的选择不同的区域。
+- openai.list：这个规则集是所有 openai 相关的域名，可以方便的选择不同的区域。
+- netflix：这个规则集是所有 netflix 相关的域名，可以方便的选择不同的区域。
+- telegram：这个规则集是所有 telegram 相关的域名，可以方便的选择不同的区域。
 
 # 配置规则
 
