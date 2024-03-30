@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/我的 Surge 配置和使用教程.md","permalink":"/工具教程/我的 Surge 配置和使用教程/","dgPassFrontmatter":true,"created":"2024-01-03T10:40:48.000+08:00","updated":"2024-03-13T00:06:36.181+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/我的 Surge 配置和使用教程.md","permalink":"/工具教程/我的 Surge 配置和使用教程/","dgPassFrontmatter":true,"created":"2024-01-03T10:40:48.000+08:00","updated":"2024-03-30T16:02:20.487+08:00"}
 ---
 
 #Technomous 
@@ -9,15 +9,14 @@
 ```
 [General]
 loglevel = notify
-skip-proxy = 127.0.0.1, 192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10,localhost,*.local
-dns-server = 223.5.5.5, 119.29.29.29, 114.114.114.114, system
-internet-test-url = http://connect.rom.miui.com/generate_204
-proxy-test-url = http://www.gstatic.com/generate_204
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10,localhost,*.local, seed-sequoia.siri.apple.com,sequoia.apple.com
+internet-test-url = http://www.baidu.com
+proxy-test-url = http://www.qualcomm.cn/generate_204
 test-timeout = 4
-external-controller-access = pwd@0.0.0.0:6170
+external-controller-access = 19960321@0.0.0.0:6170
 always-real-ip = *.apple.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com,*.msftncsi.com
 http-api-web-dashboard = true
-http-api = pwd@127.0.0.1:6166
+http-api = 19960321@127.0.0.1:6166
 http-api-tls = true
 ipv6 = false
 use-local-host-item-for-proxy = true
@@ -33,60 +32,84 @@ allow-hotspot-access = true
 allow-wifi-access = true
 wifi-access-http-port = 8888
 wifi-access-socks5-port = 8889
-allow-hotspot-access = true
-
-[Replica]
-hide-apple-request = 1
-hide-crashlytics-request = true
-hide-udp = 0
-keyword-filter-type = none
-hide-crash-reporter-request = 1
-keyword-filter = (null)
+dns-server = system
 
 [Proxy]
-🇭🇰 Hong Kong丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨03 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨04 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨05 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨06 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨07 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨08 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨09 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇭🇰 Hong Kong丨10 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇳 Taiwan丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇳 Taiwan丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇳 Taiwan丨03 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇳 Taiwan丨04 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇳 Taiwan丨05 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇸🇬 Singapore丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇸🇬 Singapore丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇸🇬 Singapore丨03 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇸🇬 Singapore丨04 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇸🇬 Singapore丨05 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇯🇵 Japan丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇯🇵 Japan丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇯🇵 Japan丨03 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇯🇵 Japan丨04 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇯🇵 Japan丨05 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇺🇸 United States丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇺🇸 United States丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇺🇸 United States丨03 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇺🇸 United States丨04 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇺🇸 United States丨05 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇰🇷 South Korea丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇰🇷 South Korea丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇦 Canada丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇨🇦 Canada丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇬🇧 Great Britain丨01 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
-🇬🇧 Great Britain丨02 = ss, abc.com, 443, encrypt-method = rc4-md5, password = 密码
+🇭🇰 Hong Kong丨01 = 
+🇭🇰 Hong Kong丨02 = 
+🇭🇰 Hong Kong丨03 = 
+🇭🇰 Hong Kong丨04 = 
+🇭🇰 Hong Kong丨05 = 
+🇭🇰 Hong Kong丨06 = 
+🇭🇰 Hong Kong丨07 = 
+🇭🇰 Hong Kong丨08 = 
+🇭🇰 Hong Kong丨09 = 
+🇭🇰 Hong Kong丨10 = 
+🇭🇰 Hong Kong丨11 = 
+🇭🇰 Hong Kong丨12 =
+🇭🇰 Hong Kong丨13 = 
+🇭🇰 Hong Kong丨14 = 
+🇭🇰 Hong Kong丨15 = 
+🇨🇳 Taiwan丨01 = 
+🇨🇳 Taiwan丨02 = 
+🇨🇳 Taiwan丨03 = 
+🇨🇳 Taiwan丨04 = 
+🇨🇳 Taiwan丨05 = 
+🇨🇳 Taiwan丨06 = 
+🇨🇳 Taiwan丨07 = 
+🇨🇳 Taiwan丨08 = 
+🇨🇳 Taiwan丨09 = 
+🇨🇳 Taiwan丨10 = 
+🇸🇬 Singapore丨01 = 
+🇸🇬 Singapore丨02 = 
+🇸🇬 Singapore丨03 = 
+🇸🇬 Singapore丨04 = 
+🇸🇬 Singapore丨05 = 
+🇸🇬 Singapore丨06 = 
+🇸🇬 Singapore丨07 = 
+🇸🇬 Singapore丨08 = 
+🇸🇬 Singapore丨09 = 
+🇸🇬 Singapore丨10 = 
+🇯🇵 Japan丨01 = 
+🇯🇵 Japan丨02 = 
+🇯🇵 Japan丨03 = 
+🇯🇵 Japan丨04 = 
+🇯🇵 Japan丨05 = 
+🇯🇵 Japan丨06 = 
+🇯🇵 Japan丨07 = 
+🇯🇵 Japan丨08 = 
+🇯🇵 Japan丨09 = 
+🇯🇵 Japan丨10 = 
+🇺🇸 United States丨01 = 
+🇺🇸 United States丨02 = 
+🇺🇸 United States丨03 = 
+🇺🇸 United States丨04 = 
+🇺🇸 United States丨05 = 
+🇺🇸 United States丨06 = 
+🇺🇸 United States丨07 =
+🇺🇸 United States丨08 = 
+🇺🇸 United States丨09 = 
+🇺🇸 United States丨10 = 
+🇰🇷 South Korea丨01 = 
+🇰🇷 South Korea丨02 = 
+🇨🇦 Canada丨01 = 
+🇨🇦 Canada丨02 = 
+🇬🇧 Great Britain丨01 = 
+🇬🇧 Great Britain丨02 = 
+🇹🇷 Turkey丨01 = 
+🇮🇳 India丨01 = 
+🇳🇱 Netherlands丨01 = 
+🇫🇷 France | 01 = 
+🇩🇪 Germany | 01 = 
 
 [Proxy Group]
-Proxy = select, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇰🇷 Korea, 🇨🇦 Canada, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain
-Auto = fallback, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea
-OpenAI = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea
-Netflix = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea
-Telegram = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea
+Proxy = select, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
+Auto = fallback, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
+OpenAI = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
+Claude = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
+Gemini = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
+Netflix = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
+Telegram = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
 🇭🇰 Hong Kong = select, 🇭🇰 Hong Kong丨01, 🇭🇰 Hong Kong丨02, 🇭🇰 Hong Kong丨03, 🇭🇰 Hong Kong丨04, 🇭🇰 Hong Kong丨05, 🇭🇰 Hong Kong丨06, 🇭🇰 Hong Kong丨07, 🇭🇰 Hong Kong丨08, 🇭🇰 Hong Kong丨09, 🇭🇰 Hong Kong丨10
 🇸🇬 Singapore = select, 🇸🇬 Singapore丨01, 🇸🇬 Singapore丨02, 🇸🇬 Singapore丨03, 🇸🇬 Singapore丨04, 🇸🇬 Singapore丨05
 🇯🇵 Japan = select, 🇯🇵 Japan丨01, 🇯🇵 Japan丨02, 🇯🇵 Japan丨03, 🇯🇵 Japan丨04, 🇯🇵 Japan丨05
@@ -95,15 +118,22 @@ Telegram = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺�
 🇺🇸 United States = select, 🇺🇸 United States丨01, 🇺🇸 United States丨02, 🇺🇸 United States丨03, 🇺🇸 United States丨04, 🇺🇸 United States丨05
 🇨🇳 Taiwan = select, 🇨🇳 Taiwan丨01, 🇨🇳 Taiwan丨02, 🇨🇳 Taiwan丨03, 🇨🇳 Taiwan丨04, 🇨🇳 Taiwan丨05
 🇬🇧 Great Britain = select, 🇬🇧 Great Britain丨01, 🇬🇧 Great Britain丨02
+🇹🇷 Turkey = select, 🇹🇷 Turkey丨01
+🇮🇳 India = select, 🇮🇳 India丨01
+🇳🇱 Netherlands = select, 🇳🇱 Netherlands丨01
+🇫🇷 France = select, 🇫🇷 France | 01
+🇩🇪 Germany = select, 🇩🇪 Germany | 01
 
 [Rule]
-PROCESS-NAME,Resilio Sync,DIRECT
+PROCESS-NAME,/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync,DIRECT
 RULE-SET,SYSTEM,DIRECT
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/unblock.list,DIRECT
-RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/blocked.list,Proxy
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/openai.list,OpenAI
+RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/claude.list,Claude
+RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/gemini.list,Gemini
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/netflix.list,Netflix
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/telegram.list,Telegram
+RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/blocked.list,Proxy
 RULE-SET,LAN,DIRECT
 GEOIP,CN,DIRECT
 FINAL,DIRECT,dns-failed
@@ -135,21 +165,25 @@ hostname-disabled = *.openai.com, *.google.com
 我们无法穷举黑名单列表，同时我们也无法穷举白名单列表，而且这两个列表处于动态的不稳定状态。基于这种认知下，由于我大多数情况下都是使用白名单列表。我的 Surge 配置文件规则匹配是基于黑名单模式，默认情况下所有未匹配的域名都直接放行。这样可以减少在使用未知软件时的问题，比如各种银行客户端，支付宝等应用。所有的黑名单由我自己来定制化的维护。一些需要特定区域代理的软件使用单独的 list，比如 openai.list。目前维护的 list 如下：
 
 - unblocked.list：这个规则集用来保存一定不能被代理的域名，算是一种强制性的保障。
-- blocked.list：这个规则集用来保存我常用的需要代理的域名。
 - openai.list：这个规则集是所有 openai 相关的域名，可以方便的选择不同的区域。
+- claude.list：这个规则集是所有 claude 相关的域名，可以方便的选择不同的区域。
+- gemini.list：这个规则集是所有 gemini 相关的域名，可以方便的选择不同的区域。
 - netflix：这个规则集是所有 netflix 相关的域名，可以方便的选择不同的区域。
 - telegram：这个规则集是所有 telegram 相关的域名，可以方便的选择不同的区域。
+- blocked.list：这个规则集用来保存我常用的需要代理的域名。
 
 # 配置规则
 
 ```
-PROCESS-NAME,Resilio-Sync,DIRECT
+PROCESS-NAME,/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync,DIRECT
 RULE-SET,SYSTEM,DIRECT
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/unblock.list,DIRECT
-RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/blocked.list,Proxy
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/openai.list,OpenAI
+RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/claude.list,Claude
+RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/gemini.list,Gemini
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/netflix.list,Netflix
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/telegram.list,Telegram
+RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/blocked.list,Proxy
 RULE-SET,LAN,DIRECT
 GEOIP,CN,DIRECT
 FINAL,DIRECT,dns-failed
@@ -158,7 +192,7 @@ FINAL,DIRECT,dns-failed
 ## Process Rule
 
 ```
-PROCESS-NAME,Resilio-Sync,DIRECT
+PROCESS-NAME,/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync,DIRECT
 ```
 
 这是用于匹配软件进程的规则，该规则只在 Surge macOS 版生效，iOS 版会自动忽略这个类型的规则。规则会匹配这个进程名的程序，支持 `*` 和 `?` 两种通配符。
