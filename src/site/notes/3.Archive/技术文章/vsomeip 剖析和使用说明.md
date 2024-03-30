@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/vsomeip 剖析和使用说明.md","permalink":"/技术文章/vsomeip 剖析和使用说明/","dgPassFrontmatter":true,"created":"2023-08-28T16:22:57.000+08:00","updated":"2024-02-28T13:31:26.140+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/vsomeip 剖析和使用说明.md","permalink":"/技术文章/vsomeip 剖析和使用说明/","dgPassFrontmatter":true,"created":"2023-08-28T16:22:57.000+08:00","updated":"2024-02-29T10:33:09.000+08:00"}
 ---
 
-#Technomous #SOMEIP #vsomeip 
+#Technomous #SOMEIP
 
 # 知识体系
 
