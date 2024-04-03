@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/快速建模语言 Racket 概况.md","permalink":"/技术文章/快速建模语言 Racket 概况/","dgPassFrontmatter":true,"created":"2024-01-16T16:21:33.000+08:00","updated":"2024-04-02T15:31:01.457+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/快速建模语言 Racket 概况.md","permalink":"/技术文章/快速建模语言 Racket 概况/","created":"2024-01-16T16:21:33.000+08:00","updated":"2024-04-02T15:31:01.457+08:00"}
 ---
 
 #Technomous #Lisp #Racket 
