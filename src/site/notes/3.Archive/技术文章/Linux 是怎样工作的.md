@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Linux 是怎样工作的.md","permalink":"/技术文章/Linux 是怎样工作的/","dgPassFrontmatter":true,"created":"2023-05-18T22:48:55.000+08:00","updated":"2024-02-28T13:16:38.000+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Linux 是怎样工作的.md","permalink":"/技术文章/Linux 是怎样工作的/","created":"2023-05-18T22:48:55.000+08:00","updated":"2024-02-28T13:16:38.000+08:00"}
 ---
 
 #Technomous #Linux 
