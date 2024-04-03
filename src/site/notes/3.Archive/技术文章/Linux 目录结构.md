@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/Linux 目录结构.md","permalink":"/技术文章/Linux 目录结构/","dgPassFrontmatter":true,"created":"2023-05-13T22:25:55.000+08:00","updated":"2024-02-28T13:16:11.000+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/Linux 目录结构.md","permalink":"/技术文章/Linux 目录结构/","created":"2023-05-13T22:25:55.000+08:00","updated":"2024-02-28T13:16:11.000+08:00"}
 ---
 
 #Technomous #Linux 
