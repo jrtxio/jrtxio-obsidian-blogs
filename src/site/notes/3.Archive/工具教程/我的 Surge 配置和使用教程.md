@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/我的 Surge 配置和使用教程.md","permalink":"/工具教程/我的 Surge 配置和使用教程/","created":"2024-01-03T10:40:48.000+08:00","updated":"2024-03-30T16:02:20.487+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/我的 Surge 配置和使用教程.md","permalink":"/工具教程/我的 Surge 配置和使用教程/","created":"2024-01-03T10:40:48.000+08:00","updated":"2024-04-06T12:38:36.914+08:00"}
 ---
 
 #Technomous 
@@ -175,7 +175,7 @@ hostname-disabled = *.openai.com, *.google.com
 # 配置规则
 
 ```
-PROCESS-NAME,/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync,DIRECT
+PROCESS-NAME,Resilio Sync,DIRECT
 RULE-SET,SYSTEM,DIRECT
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/unblock.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/openai.list,OpenAI
