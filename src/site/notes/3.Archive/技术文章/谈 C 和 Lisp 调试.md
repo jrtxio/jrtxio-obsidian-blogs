@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/谈 C 和 Lisp 调试.md","permalink":"/技术文章/谈 C 和 Lisp 调试/","created":"2023-03-14T16:59:32.000+08:00","updated":"2024-01-30T13:24:31.000+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/谈 C 和 Lisp 调试.md","permalink":"/技术文章/谈 C 和 Lisp 调试/","created":"2023-03-14T16:59:32.000+08:00","updated":"2024-05-11T11:01:54.580+08:00"}
 ---
 
-#Technomous #Debug #Lisp 
+#Technomous #调试 #Lisp 
 
 C 语言是一种静态类型、编译型、命令式的语言，它需要先编译成可执行文件，然后运行。而 Lisp 是一种动态类型、解释型、函数式的语言，它不需要编译，直接在解释器中运行。C 和 Lisp 的调试方式有：
 
