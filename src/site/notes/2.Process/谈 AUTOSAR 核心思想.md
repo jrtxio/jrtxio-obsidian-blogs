@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/谈 AUTOSAR 核心思想/","created":"2024-06-28T09:02:22.707+08:00","updated":"2024-06-28T09:28:21.643+08:00"}
+{"dg-publish":true,"permalink":"/2.Process/谈 AUTOSAR 核心思想/","created":"2024-06-28T09:02:22.707+08:00","updated":"2024-06-28T09:29:22.803+08:00"}
 ---
-
 
 #CyberUnit
 
