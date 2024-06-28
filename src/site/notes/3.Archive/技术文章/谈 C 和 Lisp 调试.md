@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"技术文章/谈 C 和 Lisp 调试.md","permalink":"/技术文章/谈 C 和 Lisp 调试/","created":"2023-03-14T16:59:32.000+08:00","updated":"2024-05-11T11:01:54.580+08:00"}
+{"dg-publish":true,"dg-path":"技术文章/谈 C 和 Lisp 调试.md","permalink":"/技术文章/谈 C 和 Lisp 调试/","created":"2023-03-14T16:59:32.000+08:00","updated":"2024-05-11T11:01:54.000+08:00"}
 ---
 
 #Technomous #调试 #Lisp 
