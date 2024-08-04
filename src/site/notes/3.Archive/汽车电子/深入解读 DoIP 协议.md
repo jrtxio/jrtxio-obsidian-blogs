@@ -1,19 +1,17 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/深入解读 DoIP 协议.md","permalink":"/汽车电子/深入解读 DoIP 协议/","created":"2023-08-29T15:40:16.000+08:00","updated":"2024-02-28T13:15:54.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/深入解读 DoIP 协议.md","permalink":"/汽车电子/深入解读 DoIP 协议/","created":"2023-08-29T15:40:16.000+08:00","updated":"2024-08-04T23:08:13.020+08:00"}
 ---
 
 #Technomous #DoIP
 
 # 协议简介
 
-![Pasted image 20230421145334.png|200](/img/user/0.Asset/resource/Pasted%20image%2020230421145334.png)
-
-功能：
+协议功能：
 
 * 诊断和 ECU 的重编程
 * 车辆接入协议
 
-优势：
+协议优势：
 
 * 高速的车辆访问
 * 基于成熟的以太网和 TCP/IP 协议栈
@@ -65,7 +63,7 @@
 
 ## 报文格式
 
-![Pasted image 20230418151906.png|500](/img/user/0.Asset/resource/Pasted%20image%2020230418151906.png)
+![Pasted image 20230418151906.png|600](/img/user/0.Asset/resource/Pasted%20image%2020230418151906.png)
 
 1. 协议版本号：
 
