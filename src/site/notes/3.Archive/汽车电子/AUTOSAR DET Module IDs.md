@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/AUTOSAR DET Module IDs.md","permalink":"/汽车电子/AUTOSAR DET Module IDs/","created":"2024-08-12T19:00:40.000+08:00","updated":"2024-08-12T19:07:49.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/AUTOSAR DET Module IDs.md","permalink":"/汽车电子/AUTOSAR DET Module IDs/","created":"2024-08-12T19:00:40.637+08:00","updated":"2024-08-12T19:07:49.685+08:00"}
 ---
 
 #CyberUnit #AUTOSAR 

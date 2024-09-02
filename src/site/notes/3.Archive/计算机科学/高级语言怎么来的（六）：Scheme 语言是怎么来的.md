@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"计算机科学/高级语言怎么来的（六）：Scheme 语言是怎么来的.md","permalink":"/计算机科学/高级语言怎么来的（六）：Scheme 语言是怎么来的/","created":"2023-10-09T09:53:52.000+08:00","updated":"2024-08-31T22:06:38.353+08:00"}
+{"dg-publish":true,"dg-path":"计算机科学/高级语言怎么来的（六）：Scheme 语言是怎么来的.md","permalink":"/计算机科学/高级语言怎么来的（六）：Scheme 语言是怎么来的/","created":"2023-10-09T09:53:52.000+08:00","updated":"2024-08-31T22:06:38.000+08:00"}
 ---
 
 #Technomous #Lisp #PL 
