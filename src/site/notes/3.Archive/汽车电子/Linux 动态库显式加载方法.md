@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/Linux 动态库显式加载方法.md","permalink":"/汽车电子/Linux 动态库显式加载方法/","created":"2023-02-16T19:13:12.000+08:00","updated":"2024-02-20T13:38:36.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/Linux 动态库显式加载方法.md","permalink":"/汽车电子/Linux 动态库显式加载方法/","created":"2023-02-16T19:13:12.000+08:00","updated":"2024-11-15T13:54:03.518+08:00"}
 ---
 
-#Technomous #编译
+#Technomous 
 
 通过包含 `<dlfcn.h>` 头文件我们便可使用 Linux 上的动态库操作函数。以下介绍其中常用的函数。
 
