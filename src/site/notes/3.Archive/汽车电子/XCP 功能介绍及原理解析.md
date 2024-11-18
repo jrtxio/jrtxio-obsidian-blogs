@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/XCP 功能介绍及原理解析.md","permalink":"/汽车电子/XCP 功能介绍及原理解析/","created":"2022-08-08T23:11:58.000+08:00","updated":"2024-09-01T21:48:09.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/XCP 功能介绍及原理解析.md","permalink":"/汽车电子/XCP 功能介绍及原理解析/","created":"2022-08-08T23:11:58.000+08:00","updated":"2024-11-18T11:05:17.000+08:00"}
 ---
 
-#Ofilm #AUTOSAR 
+#Ofilm #AutoSAR
 
 # 功能简介
 

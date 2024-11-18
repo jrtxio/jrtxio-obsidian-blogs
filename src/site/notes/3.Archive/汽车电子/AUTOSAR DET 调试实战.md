@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/AUTOSAR DET 调试实战.md","permalink":"/汽车电子/AUTOSAR DET 调试实战/","created":"2024-08-12T19:00:40.000+08:00","updated":"2024-11-18T11:40:48.309+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/AUTOSAR DET 调试实战.md","permalink":"/汽车电子/AUTOSAR DET 调试实战/","created":"2024-08-12T19:00:40.000+08:00","updated":"2024-11-18T11:40:48.000+08:00"}
 ---
 
 #CyberUnit #AutoSAR

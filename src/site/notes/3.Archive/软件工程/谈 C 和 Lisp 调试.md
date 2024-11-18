@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"软件工程/谈 C 和 Lisp 调试.md","permalink":"/软件工程/谈 C 和 Lisp 调试/","created":"2023-03-14T16:59:32.000+08:00","updated":"2024-11-15T13:58:04.280+08:00"}
+{"dg-publish":true,"dg-path":"软件工程/谈 C 和 Lisp 调试.md","permalink":"/软件工程/谈 C 和 Lisp 调试/","created":"2023-03-14T16:59:32.000+08:00","updated":"2024-11-15T13:58:04.000+08:00"}
 ---
 
 #Technomous #Debug #Lisp 

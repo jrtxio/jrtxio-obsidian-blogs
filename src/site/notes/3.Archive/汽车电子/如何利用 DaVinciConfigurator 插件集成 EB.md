@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/如何利用 DaVinciConfigurator 插件集成 EB.md","permalink":"/汽车电子/如何利用 DaVinciConfigurator 插件集成 EB/","created":"2024-02-28T11:08:10.000+08:00","updated":"2024-09-01T21:59:20.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/如何利用 DaVinciConfigurator 插件集成 EB.md","permalink":"/汽车电子/如何利用 DaVinciConfigurator 插件集成 EB/","created":"2024-02-28T11:08:10.000+08:00","updated":"2024-11-18T10:59:53.000+08:00"}
 ---
 
-#Technomous #AUTOSAR 
+#Technomous #AutoSAR
 
 # 插件功能
 

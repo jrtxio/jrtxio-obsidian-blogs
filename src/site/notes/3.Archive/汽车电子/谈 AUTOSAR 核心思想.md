@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/谈 AUTOSAR 核心思想.md","permalink":"/汽车电子/谈 AUTOSAR 核心思想/","created":"2024-06-28T09:02:22.000+08:00","updated":"2024-08-13T10:28:02.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/谈 AUTOSAR 核心思想.md","permalink":"/汽车电子/谈 AUTOSAR 核心思想/","created":"2024-06-28T09:02:22.000+08:00","updated":"2024-11-18T10:59:13.000+08:00"}
 ---
 
-#CyberUnit #AUTOSAR 
+#CyberUnit #AutoSAR
 
 首先解释一下 AUTOSAR 的核心思想：
 

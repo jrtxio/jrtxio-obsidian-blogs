@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/compiler linker debugger minimal files to build a project.md","permalink":"/汽车电子/compiler linker debugger minimal files to build a project/","created":"2023-02-16T19:10:11.000+08:00","updated":"2024-11-15T13:53:44.510+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/compiler linker debugger minimal files to build a project.md","permalink":"/汽车电子/compiler linker debugger minimal files to build a project/","created":"2023-02-16T19:10:11.000+08:00","updated":"2024-11-15T13:53:44.000+08:00"}
 ---
 
 #Technomous 

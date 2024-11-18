@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/UDS 入门指南.md","permalink":"/汽车电子/UDS 入门指南/","created":"2023-03-09T16:41:30.000+08:00","updated":"2024-02-28T13:13:03.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/UDS 入门指南.md","permalink":"/汽车电子/UDS 入门指南/","created":"2023-03-09T16:41:30.000+08:00","updated":"2024-11-18T11:05:47.000+08:00"}
 ---
 
-#Technomous #AUTOSAR #UDS
+#Technomous #AutoSAR #UDS
 
 # 车辆诊断技术
 
