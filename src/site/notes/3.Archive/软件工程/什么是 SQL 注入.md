@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"软件工程/什么是 SQL 注入.md","permalink":"/软件工程/什么是 SQL 注入/","created":"2024-11-15T14:53:34.074+08:00","updated":"2024-11-15T15:45:14.987+08:00"}
+{"dg-publish":true,"dg-path":"软件工程/什么是 SQL 注入.md","permalink":"/软件工程/什么是 SQL 注入/","created":"2024-11-15T14:53:34.074+08:00","updated":"2024-11-18T10:53:25.622+08:00"}
 ---
 
 #Innolight
@@ -63,11 +63,11 @@ SELECT * FROM 表名 WHERE summary LIKE ‘%峰区%’ OR title LIKE ‘%峰区%
 
 由于程序没有对我输入什么做更多处理，那么要是打一段 SQL 语句在搜索框里会出现怎样的情况呢？这次来输入 单引号 “ ‘ ” 试一试：
 
-![Pasted image 20241115150436.png|500](/img/user/0.Asset/resource/Pasted%20image%2020241115150436.png)
+![Pasted image 20241115150436.png|650](/img/user/0.Asset/resource/Pasted%20image%2020241115150436.png)
 
 这已经说明 SQL 语句在执行中出现了故障，为什么呢？来看一看：
 
-![Pasted image 20241115150834.png|500](/img/user/0.Asset/resource/Pasted%20image%2020241115150834.png)
+![Pasted image 20241115150834.png|650](/img/user/0.Asset/resource/Pasted%20image%2020241115150834.png)
 
 由于我输入了一个单引号，拼接后的 SQL 语句因为我的单引号和语句中原本的单引号造成了闭合，这让黑色部分成了有效的部分。而红色部分，由于多出来的百分号导致出现了语法错误，所以这条命令无法执行。
 
