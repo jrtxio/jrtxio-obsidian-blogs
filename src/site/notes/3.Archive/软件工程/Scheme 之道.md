@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"软件工程/Scheme 之道.md","permalink":"/软件工程/Scheme 之道/","created":"2023-12-27T13:04:23.000+08:00","updated":"2024-12-17T21:43:23.945+08:00"}
+{"dg-publish":true,"dg-path":"软件工程/Scheme 之道.md","permalink":"/软件工程/Scheme 之道/","created":"2023-12-27T13:04:23.000+08:00","updated":"2024-12-17T21:43:23.000+08:00"}
 ---
 
 #Technomous #Lisp 
