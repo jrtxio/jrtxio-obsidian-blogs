@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/Linux 文件属性.md","permalink":"/汽车电子/Linux 文件属性/","created":"2024-02-19T13:23:09.000+08:00","updated":"2024-02-28T13:16:14.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/Linux 文件属性.md","permalink":"/汽车电子/Linux 文件属性/","created":"2024-02-19T13:23:09.000+08:00","updated":"2024-12-27T16:08:22.345+08:00"}
 ---
 
-#Technomous
+#Technomous #Linux 
 
 通过在终端执行 `ls -al` 命令显示当前目录下的所有文件及文件夹的详细信息。文件属性示意图如下图所示：
 
