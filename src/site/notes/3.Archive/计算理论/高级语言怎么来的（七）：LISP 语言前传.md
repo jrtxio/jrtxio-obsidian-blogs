@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"计算理论/高级语言怎么来的（七）：LISP 语言前传.md","permalink":"/计算理论/高级语言怎么来的（七）：LISP 语言前传/","created":"2023-10-09T09:54:33.000+08:00","updated":"2024-11-19T10:46:20.261+08:00"}
+{"dg-publish":true,"dg-path":"计算理论/高级语言怎么来的（七）：LISP 语言前传.md","permalink":"/计算理论/高级语言怎么来的（七）：LISP 语言前传/","created":"2023-10-09T09:54:33.000+08:00","updated":"2024-12-31T10:06:05.219+08:00"}
 ---
 
-#Technomous #Lisp #PL 
+#Technomous #Lisp #PLT 
 
 Lisp 的主要设计者 John McCarthy 曾经就 Lisp 的发展史，专门写过一篇 History of Lisp 的文章。这里介绍的历史，基本史实部分参照了 John McCarthy 的这篇文章，以及同时期 MIT 的关于 Lisp 的技术报告。
 

@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"计算理论/符号与机器（五）：重新发明 Lambda 演算.md","permalink":"/计算理论/符号与机器（五）：重新发明 Lambda 演算/","created":"2023-03-05T17:01:40.000+08:00","updated":"2024-11-19T10:45:33.701+08:00"}
+{"dg-publish":true,"dg-path":"计算理论/符号与机器（五）：重新发明 Lambda 演算.md","permalink":"/计算理论/符号与机器（五）：重新发明 Lambda 演算/","created":"2023-03-05T17:01:40.000+08:00","updated":"2024-12-31T10:05:01.807+08:00"}
 ---
 
-#Technomous #PL
+#Technomous #PLT
 
 > 问题：给出一个系统，能够自动判定 1 + 1 = 2。
 

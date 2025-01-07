@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"计算理论/高级语言怎么来的（四）：LISP 语言是怎么来的 – LISP 和 AI 的青梅竹马 A.md","permalink":"/计算理论/高级语言怎么来的（四）：LISP 语言是怎么来的 – LISP 和 AI 的青梅竹马 A/","created":"2023-10-09T09:52:27.000+08:00","updated":"2024-11-19T10:46:14.557+08:00"}
+{"dg-publish":true,"dg-path":"计算理论/高级语言怎么来的（四）：LISP 语言是怎么来的 – LISP 和 AI 的青梅竹马 A.md","permalink":"/计算理论/高级语言怎么来的（四）：LISP 语言是怎么来的 – LISP 和 AI 的青梅竹马 A/","created":"2023-10-09T09:52:27.000+08:00","updated":"2024-12-31T10:05:28.965+08:00"}
 ---
 
-#Technomous #Lisp #PL 
+#Technomous #Lisp #PLT 
 
 LISP 语言的历史和一些番外的八卦和有趣的逸事，其实值得花一本书讲。我打算用三篇文章扼要的介绍一下 LISP 的早期历史。讲 LISP，躲不过要讲 AI（人工智能）的，所以干脆我就先八卦八卦他们的青梅竹马好了。
 

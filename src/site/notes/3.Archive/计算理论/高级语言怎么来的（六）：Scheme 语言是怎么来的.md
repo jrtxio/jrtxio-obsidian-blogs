@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"计算理论/高级语言怎么来的（六）：Scheme 语言是怎么来的.md","permalink":"/计算理论/高级语言怎么来的（六）：Scheme 语言是怎么来的/","created":"2023-10-09T09:53:52.000+08:00","updated":"2024-11-19T10:46:17.874+08:00"}
+{"dg-publish":true,"dg-path":"计算理论/高级语言怎么来的（六）：Scheme 语言是怎么来的.md","permalink":"/计算理论/高级语言怎么来的（六）：Scheme 语言是怎么来的/","created":"2023-10-09T09:53:52.000+08:00","updated":"2024-12-31T10:05:41.262+08:00"}
 ---
 
-#Technomous #Lisp #PL 
+#Technomous #Lisp #PLT 
 
 Scheme 是 LISP 的一个方言（dialect）。著名的 SICP 书就是以 Scheme 为教学语言（实际上 SICP 的作者就是 Scheme 的作者）。虽然 Scheme 本身只是一个精简化的适合教学的语言，可它首先提出的一些重要的思想，引领了新一代的 LISP 语言的出现。实际上，LISP 语言发展的历史是连续的，之所以我在这里人为的把 LISP 的发展史划分为上一代和现代，是因为随着 Scheme 首次引入并规范化了一些重要概念，LISP 语言出现了很多以前从来没有大规模普及的新特性。以 Common LISP 为代表的 LISP 语言也因为这些新特性，而焕发了第二春。人所共知的 Paul Graham 大叔，借着这一波 LISP 复兴的浪潮，不光写出了 On Lisp 这样的好书；而且还用 Common LISP 写出了一个在线电子商务平台，在 1998 年的时候以近 5 千万美元的价格卖给了 Yahoo! （凭借这笔买卖，Paul 大叔现在经营着 Y Combinator 天使投资，成为硅谷著名的天使）。前段时间卖给 Google 的 ITA，负担着世界上大部分的航班资讯查询，核心系统也是 Common LISP。虽然不该把 Common LISP 的很多成就全部归结到 Scheme，但 Scheme 作为一个重要的历史分水岭，探究一下它的历史来源还是很有趣的。
 

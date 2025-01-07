@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"计算理论/高级语言怎么来的（三）：FORTRAN 语言是怎么来的.md","permalink":"/计算理论/高级语言怎么来的（三）：FORTRAN 语言是怎么来的/","created":"2023-10-09T09:51:34.000+08:00","updated":"2024-11-19T10:46:12.513+08:00"}
+{"dg-publish":true,"dg-path":"计算理论/高级语言怎么来的（三）：FORTRAN 语言是怎么来的.md","permalink":"/计算理论/高级语言怎么来的（三）：FORTRAN 语言是怎么来的/","created":"2023-10-09T09:51:34.000+08:00","updated":"2024-12-31T10:05:57.569+08:00"}
 ---
 
-#Technomous #PL 
+#Technomous #PLT 
 
 # FORTRAN 语言是怎么来的
 
