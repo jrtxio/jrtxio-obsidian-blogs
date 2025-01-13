@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/Classic AutoSAR 的常用的技术点.md","permalink":"/汽车电子/Classic AutoSAR 的常用的技术点/","created":"2022-07-22T15:41:23.000+08:00","updated":"2024-11-19T11:29:09.441+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/Classic AutoSAR 的常用的技术点.md","permalink":"/汽车电子/Classic AutoSAR 的常用的技术点/","created":"2022-07-22T15:41:23.000+08:00","updated":"2024-11-19T11:29:09.000+08:00"}
 ---
 
 #Ofilm #AutoSAR
