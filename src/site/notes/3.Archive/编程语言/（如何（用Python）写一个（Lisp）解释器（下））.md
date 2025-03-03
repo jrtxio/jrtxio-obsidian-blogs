@@ -1,14 +1,14 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/（如何（用Python）写一个（Lisp）解释器（下））.md","permalink":"/编程语言/（如何（用Python）写一个（Lisp）解释器（下））/","created":"2024-01-04T13:05:42.000+08:00","updated":"2024-11-21T18:33:27.000+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/（如何（用Python）写一个（Lisp）解释器（下））.md","permalink":"/编程语言/（如何（用Python）写一个（Lisp）解释器（下））/","created":"2024-01-04T13:05:42.000+08:00","updated":"2025-02-25T10:50:21.000+08:00"}
 ---
 
-#Technomous #Lisp 
+#Technomous #PLT #Lisp 
 
 # 2 号语言：完整的Lispy
 
 现在我们来加上 3 个新的语法形式，构造一个更加完整的 Scheme 子集：
 
-![[Pasted image 20240104130617.png\|450]]
+![Pasted image 20240104130617.png|450](/img/user/0.Asset/resource/Pasted%20image%2020240104130617.png)
 
 lambda 特殊形式会创建一个过程（procedure）。（lambda这个名字来源于 Alonzo Church 的 [lambda calculus](https://link.zhihu.com/?target=http%3A//en.wikipedia.org/wiki/Lambda_calculus)）
 
@@ -22,7 +22,7 @@ lis.py> (circle-area 10)
 
 想法如下：在我们对 (circle-area 10) 求值时，首先提取过程主体部分 (* pi (* r r))，随后在仅有一个本地变量r的环境中求值，但该环境同时也能访问全局环境。下图演示了这种环境模型，局部环境（蓝色）嵌套在全局环境（红色）之中：
 
-![[Pasted image 20240104130648.png\|250]]
+![Pasted image 20240104130648.png|250](/img/user/0.Asset/resource/Pasted%20image%2020240104130648.png)
 
 当我们在一个被嵌套的环境中查找变量时，首先在本层查找，如果没有找到对应值的话就到外一层查找。
 
@@ -88,7 +88,7 @@ def eval(x, env=global_env):
 
 为了更好地理解过程和环境是怎样协同运作的，我们来看看下面这段程序。思考一下，在我们对 (account1 -20.00) 求值的时候，程序会生成一个怎样的环境呢？
 
-![[Pasted image 20240104130723.png\|650]]
+![Pasted image 20240104130723.png|650](/img/user/0.Asset/resource/Pasted%20image%2020240104130723.png)
 
 每个矩形框代表一个环境，环境的颜色和程序中新定义变量的颜色相对应。在程序的最后两行中，我们定义了 account1 并调用了 (account1 -20.00)，这表示我们创建了一个拥有 100 美金余额的账户，并从中取出 20 美金。在对 (account1 -20.00) 进行求值的过程中，我们会对黄色高亮部分进行求值。该表达式中有三个变量：amt 可以直接在最内层环境（绿色）中找到。但 balance 不在那一层环境之中，我们需要查找绿色的外一层环境（蓝色）。然而变量 ‘+’ 依然不能在这两个环境之中找到，所以我们需要在更外一层环境中寻找（红色的全局环境）。这一先在内层环境查找，再在外层环境中查找的方式被称为“词法作用域”(Lexical Scoping)。Env.find(var) 依照词法作用域规则查找变量所处的正确环境。
 

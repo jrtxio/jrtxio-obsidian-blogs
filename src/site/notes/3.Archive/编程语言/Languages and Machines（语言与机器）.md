@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/Languages and Machines（语言与机器）.md","permalink":"/编程语言/Languages and Machines（语言与机器）/","created":"2024-05-16T20:26:31.000+08:00","updated":"2025-02-21T16:28:51.323+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/Languages and Machines（语言与机器）.md","permalink":"/编程语言/Languages and Machines（语言与机器）/","created":"2024-05-16T20:26:31.000+08:00","updated":"2025-02-25T10:50:32.000+08:00"}
 ---
 
-#Technomous
+#Technomous #PLT 
 
 Models of computation may be divided into two categories, the λ-calculus, and all the others.
 计算模型可以分为两类，λ-演算和其他所有模型。

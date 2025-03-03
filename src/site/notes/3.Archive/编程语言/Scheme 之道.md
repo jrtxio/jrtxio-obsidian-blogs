@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/Scheme 之道.md","permalink":"/编程语言/Scheme 之道/","created":"2023-12-27T13:04:23.000+08:00","updated":"2025-01-12T18:13:45.000+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/Scheme 之道.md","permalink":"/编程语言/Scheme 之道/","created":"2023-12-27T13:04:23.000+08:00","updated":"2025-02-25T10:50:00.000+08:00"}
 ---
 
-#Technomous #Lisp 
+#Technomous #PLT #Lisp 
 
 # 开始之前
 

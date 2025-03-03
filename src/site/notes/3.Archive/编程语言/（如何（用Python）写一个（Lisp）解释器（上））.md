@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/（如何（用Python）写一个（Lisp）解释器（上））.md","permalink":"/编程语言/（如何（用Python）写一个（Lisp）解释器（上））/","created":"2024-01-04T11:28:28.000+08:00","updated":"2024-11-21T18:33:26.000+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/（如何（用Python）写一个（Lisp）解释器（上））.md","permalink":"/编程语言/（如何（用Python）写一个（Lisp）解释器（上））/","created":"2024-01-04T11:28:28.000+08:00","updated":"2025-02-25T10:50:14.000+08:00"}
 ---
 
-#Technomous #Lisp 
+#Technomous #PLT  #Lisp 
 
 这篇文章有两个目的：
 
@@ -54,7 +54,7 @@ Lispy 计算器是 Scheme 语言的一个子集，它只包含五种语法形式
 
 下面这张表列举了所有可用的语法形式：
 
-![[Pasted image 20240104113113.png\|450]]
+![Pasted image 20240104113113.png|450](/img/user/0.Asset/resource/Pasted%20image%2020240104113113.png)
 
 在表中“语法”一列中，var 必须为一个符号，number 必须为一个整数或浮点数，其他斜体字可以是任何表达式。其中的“arg...”表示零个或更多个"arg"。在“真正”的 Scheme 中，begin 是一个语法关键字，但在这个 Scheme 实现中，它只是一个普通的函数。
 
@@ -200,7 +200,7 @@ global_env = standard_env()
 
 现在，我们已经做好了实现 eval 函数的准备。来让我们重新看一遍 Lispy 计算器的语法形式表以加深一下记忆：
 
-![[Pasted image 20240104113345.png\|450]]
+![Pasted image 20240104113345.png|450](/img/user/0.Asset/resource/Pasted%20image%2020240104113345.png)
 
 来和 eval 的代码对比一下，是不是觉得很像？
 
