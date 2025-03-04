@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/Languages and Machines（语言与机器）.md","permalink":"/编程语言/Languages and Machines（语言与机器）/","created":"2024-05-16T20:26:31.000+08:00","updated":"2025-02-25T10:50:32.476+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/Languages and Machines（语言与机器）.md","permalink":"/编程语言/Languages and Machines（语言与机器）/","created":"2024-05-16T20:26:31.000+08:00","updated":"2025-02-25T10:50:32.000+08:00"}
 ---
 
 #Technomous #PLT 
