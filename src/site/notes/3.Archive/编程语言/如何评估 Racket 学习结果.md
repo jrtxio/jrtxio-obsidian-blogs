@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/如何评估 Racket 学习结果.md","permalink":"/编程语言/如何评估 Racket 学习结果/","created":"2025-02-10T15:20:17.558+08:00","updated":"2025-03-05T10:10:21.824+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/如何评估 Racket 学习结果.md","permalink":"/编程语言/如何评估 Racket 学习结果/","created":"2025-02-10T15:20:17.000+08:00","updated":"2025-03-05T10:10:21.000+08:00"}
 ---
 
 #Innolight #Lisp 

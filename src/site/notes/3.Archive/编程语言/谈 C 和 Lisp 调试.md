@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/谈 C 和 Lisp 调试.md","permalink":"/编程语言/谈 C 和 Lisp 调试/","created":"2023-03-14T16:59:32.000+08:00","updated":"2025-02-25T10:48:31.487+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/谈 C 和 Lisp 调试.md","permalink":"/编程语言/谈 C 和 Lisp 调试/","created":"2023-03-14T16:59:32.000+08:00","updated":"2025-02-25T10:48:31.000+08:00"}
 ---
 
 #Technomous #PLT #Lisp #Debug 
