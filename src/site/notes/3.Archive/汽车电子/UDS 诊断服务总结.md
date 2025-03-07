@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/UDS 诊断服务总结.md","permalink":"/汽车电子/UDS 诊断服务总结/","created":"2019-11-28T17:08:38.000+08:00","updated":"2024-11-19T11:22:40.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/UDS 诊断服务总结.md","permalink":"/汽车电子/UDS 诊断服务总结/","created":"2019-11-28T17:08:38.000+08:00","updated":"2024-11-19T11:22:40.709+08:00"}
 ---
 
 #BDStar #AutoSAR #UDS 

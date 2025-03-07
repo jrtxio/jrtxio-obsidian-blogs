@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/DoCAN 相关规范分析.md","permalink":"/汽车电子/DoCAN 相关规范分析/","created":"2019-11-07T09:20:24.000+08:00","updated":"2024-11-19T11:25:32.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/DoCAN 相关规范分析.md","permalink":"/汽车电子/DoCAN 相关规范分析/","created":"2019-11-07T09:20:24.000+08:00","updated":"2024-11-19T11:25:32.489+08:00"}
 ---
 
 #BDStar #AUTOSAR #UDS 

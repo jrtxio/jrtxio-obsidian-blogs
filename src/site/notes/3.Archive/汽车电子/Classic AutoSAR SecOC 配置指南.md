@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/Classic AutoSAR SecOC 配置指南.md","permalink":"/汽车电子/Classic AutoSAR SecOC 配置指南/","created":"2024-02-29T09:46:12.000+08:00","updated":"2024-11-19T13:49:57.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/Classic AutoSAR SecOC 配置指南.md","permalink":"/汽车电子/Classic AutoSAR SecOC 配置指南/","created":"2024-02-29T09:46:12.000+08:00","updated":"2024-11-19T13:49:57.348+08:00"}
 ---
 
 #Technomous #AutoSAR
