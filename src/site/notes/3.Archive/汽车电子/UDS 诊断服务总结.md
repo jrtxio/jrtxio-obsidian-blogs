@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/UDS 诊断服务总结.md","permalink":"/汽车电子/UDS 诊断服务总结/","created":"2019-11-28T17:08:38.000+08:00","updated":"2024-11-19T11:22:40.709+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/UDS 诊断服务总结.md","permalink":"/汽车电子/UDS 诊断服务总结/","created":"2019-11-28T17:08:38.000+08:00","updated":"2025-03-07T14:04:26.389+08:00"}
 ---
 
 #BDStar #AutoSAR #UDS 
@@ -26,7 +26,34 @@ UDS 的寻址模式分为两种，一种是物理寻址（点对点、一对一�
 
 UDS 的服务分为 6 大类，但常用的服务是加背景色的 15 种。这 15 种服务可粗略的划分为权限控制、读取数据/信息、写入数据/信息、通信控制、功能控制这几类。
 
-![650](/img/user/0.Asset/resource/Pasted image 20230307124312.png)
+| 功能单元    | SID  | 服务          | Service                            | 支持子服务 |
+| ------- | ---- | ----------- | ---------------------------------- | ----- |
+| 诊断和通信管理 | 0x10 | 诊断会话控制      | Diagnostics Session Control        | 支持    |
+|         | 0x11 | ECU 复位      | ECU Reset                          | 支持    |
+|         | 0x27 | 安全访问        | Security Access                    | 支持    |
+|         | 0x28 | 通讯控制        | Communication Control              | 支持    |
+|         | 0x3E | 待机握手        | Tester Present                     | 支持    |
+|         | 0x83 | 访问时间参数      | Access Timing Parameter            | 支持    |
+|         | 0x84 | 安全数据传输      | Secured Data Transmission          | -     |
+|         | 0x85 | 诊断故障码设置控制   | Control DTC Setting                | 支持    |
+|         | 0x86 | 事件响应        | Response On Event                  | 支持    |
+|         | 0x87 | 链路控制        | Link Control                       | 支持    |
+| 数据传输    | 0x22 | 通过 ID 读数据   | Read Data By Identifier            | -     |
+|         | 0x23 | 通过地址读数据     | Read Memory By Address             | -     |
+|         | 0x24 | 通过 ID 读比例数据 | Read Scaling Data By Identifier    | -     |
+|         | 0x2A | 通过周期 ID 读数据 | Read Data By Periodic Identifier   | -     |
+|         | 0x2C | 动态定义标识符     | Dynamically Define Data Identifier | 支持    |
+|         | 0x2E | 通过 ID 写数据   | Write Data By Identifier           | -     |
+|         | 0x3D | 通过地址写内存     | Write Memory By Address            | -     |
+| 存储数据传输  | 0x14 | 清除诊断信息      | Clear Diagnostic Information       | -     |
+|         | 0x19 | 读取故障码信息     | Read DTC Information               | 支持    |
+| 输入输出控制  | 0x2F | 通过标识符控制输入输出 | Input Output Control By Identifier | -     |
+| 例行程序    | 0x31 | 例行程序控制      | Routine Control                    | 支持    |
+| 上传下载    | 0x34 | 请求下载        | Request Download                   | -     |
+|         | 0x35 | 请求上传        | Request Upload                     | -     |
+|         | 0x36 | 数据传输        | Transfer Data                      | -     |
+|         | 0x37 | 请求退出传输      | Request Transfer Exit              | -     |
+|         | 0x38 | 请求文件传输      | Request File Transfer              | -     |
 
 # UDS 的请求命令的构成方式
 
