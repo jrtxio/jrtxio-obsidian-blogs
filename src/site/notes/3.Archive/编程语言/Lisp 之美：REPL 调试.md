@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/Lisp 之美：REPL 调试.md","permalink":"/编程语言/Lisp 之美：REPL 调试/","created":"2023-03-14T16:59:32.000+08:00","updated":"2025-03-07T13:35:25.296+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/Lisp 之美：REPL 调试.md","permalink":"/编程语言/Lisp 之美：REPL 调试/","created":"2023-03-14T16:59:32.000+08:00","updated":"2025-03-14T13:39:55.835+08:00"}
 ---
 
-#Technomous #PLT #Lisp #Debug 
+#Technomous #PLT #Lisp #Debug
 
 为了说明 REPL 调试的优势，我们选择 C 语言来进行对比。C 语言是一种静态类型、编译型、命令式的语言，它需要先编译成可执行文件，然后运行。而 Lisp 是一种动态类型、解释型、函数式的语言，它不需要编译，直接在解释器中运行。常见的调试方式有：
 
