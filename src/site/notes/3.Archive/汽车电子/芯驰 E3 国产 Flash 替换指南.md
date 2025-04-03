@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/芯驰 E3 国产 Flash 替换指南.md","permalink":"/汽车电子/芯驰 E3 国产 Flash 替换指南/","created":"2025-03-31T14:42:01.357+08:00","updated":"2025-04-03T09:12:30.364+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/芯驰 E3 国产 Flash 替换指南.md","permalink":"/汽车电子/芯驰 E3 国产 Flash 替换指南/","created":"2025-03-31T14:42:01.357+08:00","updated":"2025-04-03T09:13:50.472+08:00"}
 ---
 
 #Innolight
@@ -36,7 +36,7 @@ define region FLASH = mem:[from 0x100c1000 to 0x107fffff];
 define region IRAM = mem:[from 0x404000 to 0x5fffff];
 ```
 
-2. flashloader：这个配置定义了如何将编译后的代码烧录到 Flash 存储器中，和 flash 有很大的关系，需要修改。以下深入讲解以下这部分的配置：
+2. flashloader：这个配置定义了如何将编译后的代码烧录到 Flash 存储器中，和 Flash 有很大的关系。以下深入讲解这部分的配置：
 
 ``` board
 <?xml version="1.0" encoding="UTF-8"?>
@@ -78,7 +78,7 @@ define region IRAM = mem:[from 0x404000 to 0x5fffff];
 </flash_device>
 ```
 
-- exe(flashloader)：这是一个 Flash 烧录程序，负责将数据写入 Flash
+- exe（flashloader）：这是一个 Flash 烧录程序，负责将数据写入 Flash
 - macro：定义了 Flash 操作的宏定义，擦除、写入、校验等
 - page：表示 Flash 以 512 字节为单位进行操作
 - block：表示 Flash 以 0x40000(256 KB)为单位分块
