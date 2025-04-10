@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/Racket 编程入门：介绍/","created":"2025-04-09T18:56:45.040+08:00","updated":"2025-04-10T18:48:34.478+08:00"}
+{"dg-publish":true,"permalink":"/2.Process/Racket 编程入门：介绍/","created":"2025-04-09T18:56:45.040+08:00","updated":"2025-04-10T18:50:03.825+08:00"}
 ---
 
 #Innolight
@@ -42,7 +42,7 @@ DrRacket 支持多种编程和学习语言。在本书中，专门关注 Racket 
 
 ---
 
-\> **(+ 1 2 3);** this is an input, the following is an output
+\> **(+ 1 2 3) ;this is an input, the following is an output**
 6
 
 ---
@@ -62,9 +62,9 @@ DrRacket 支持多种编程和学习语言。在本书中，专门关注 Racket 
 	[yi (sqrt (- (sqr r) (sqr x)))] ; y-intersection
 
 	[π pi]
-	➊ [ϕ (asin (/ yi r))]
-	➋ [θ (- π ϕ)]
-	➌ [path (new dc-path%)])
+  ➊ [ϕ (asin (/ yi r))]
+  ➋ [θ (- π ϕ)]
+  ➌ [path (new dc-path%)])
 	(send dc set-brush b)
 ➍ (send path move-to 0 (- yi))
 ➎ (send path arc (- x r) y 2r 2r θ (+ π ϕ))
