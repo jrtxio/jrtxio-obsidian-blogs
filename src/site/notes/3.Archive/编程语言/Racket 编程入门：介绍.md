@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/Racket 编程入门：介绍.md","permalink":"/编程语言/Racket 编程入门：介绍/","created":"2025-04-09T18:56:45.040+08:00","updated":"2025-04-10T18:50:03.825+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/Racket 编程入门：介绍.md","permalink":"/编程语言/Racket 编程入门：介绍/","created":"2025-04-09T18:56:45.040+08:00","updated":"2025-04-11T13:53:41.357+08:00"}
 ---
 
 #Innolight
@@ -38,12 +38,14 @@ DrRacket 支持多种编程和学习语言。在本书中，专门关注 Racket 
 
 在定义部分输入的代码显示在如上所示的定义窗口中。
 
-在交互窗口中输入的表达式以一个尖括号 > 作为前缀显示，如下所示。尖括号时 DrRacket 的输入提示符。输出显示没有尖括号。为了方便区分输入和输出，在这本书中输入以粗体显示（但在 IDE 中它们不是粗体）。
+在交互窗口中输入的表达式以一个尖括号 > 作为前缀显示，如下所示。尖括号时 DrRacket 的输入提示符。输出显示没有尖括号。
 
 ---
 
-\> **(+ 1 2 3) ;this is an input, the following is an output**
+```
+> (+ 1 2 3) ;this is an input, the following is an output
 6
+```
 
 ---
 
