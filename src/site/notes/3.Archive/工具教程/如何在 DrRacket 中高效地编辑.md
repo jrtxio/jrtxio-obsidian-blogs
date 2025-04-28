@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/如何在 DrRacket 中高效地编辑.md","permalink":"/工具教程/如何在 DrRacket 中高效地编辑/","created":"2025-03-27T15:26:42.100+08:00","updated":"2025-03-27T17:05:29.706+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/如何在 DrRacket 中高效地编辑.md","permalink":"/工具教程/如何在 DrRacket 中高效地编辑/","created":"2025-03-27T15:26:42.100+08:00","updated":"2025-04-28T15:10:41.598+08:00"}
 ---
 
 #Innolight
 
-# 什么是结构化编辑
+# 结构化编辑
 
 通过在 DrRacket 中安装 [drracket-paredit](https://github.com/yjqww6/drracket-paredit) 插件，可以帮助我们在操作 S 表达式（S-expression ）时保持代码的结构性，从而避免在手动调整括号时引入问题。插件主要包含的功能如下：
 
