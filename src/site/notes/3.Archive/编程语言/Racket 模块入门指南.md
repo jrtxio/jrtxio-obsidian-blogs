@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/Racket 模块入门指南.md","permalink":"/编程语言/Racket 模块入门指南/","created":"2025-05-15T10:34:48.231+08:00","updated":"2025-05-15T13:56:35.685+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/Racket 模块入门指南.md","permalink":"/编程语言/Racket 模块入门指南/","created":"2025-05-15T10:34:48.231+08:00","updated":"2025-05-15T14:32:58.225+08:00"}
 ---
 
-#Innolight #Lisp 
+#Innolight #Lisp #Racket 
 
 Racket 的模块系统是其语言设计的核心之一，允许开发者以模块化的方式组织代码，使代码更易于理解、复用和维护。本指南旨在帮助新手了解如何定义、导入和使用 Racket 模块，逐步掌握模块化编程的基础知识。
 

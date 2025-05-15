@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/Racket 语言入门与实践.md","permalink":"/编程语言/Racket 语言入门与实践/","created":"2024-02-05T10:50:34.000+08:00","updated":"2024-08-08T09:08:11.000+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/Racket 语言入门与实践.md","permalink":"/编程语言/Racket 语言入门与实践/","created":"2024-02-05T10:50:34.000+08:00","updated":"2025-05-15T14:32:37.454+08:00"}
 ---
 
-#Technomous #Lisp 
+#Technomous #Lisp #Racket 
 
 # 语言优势概览
 
