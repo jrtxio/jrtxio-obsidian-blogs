@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/谈谈那些我常用的 NAS 服务.md","permalink":"/工具教程/谈谈那些我常用的 NAS 服务/","created":"2023-09-08T16:17:04.000+08:00","updated":"2024-02-28T13:21:00.000+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/谈谈那些我常用的 NAS 服务.md","permalink":"/工具教程/谈谈那些我常用的 NAS 服务/","created":"2023-09-08T16:17:04.000+08:00","updated":"2025-05-16T21:52:16.934+08:00"}
 ---
 
 #BDStar
@@ -28,7 +28,7 @@
 
 ![Pasted image 20230908162003.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230908162003.png)
 
-Docker 版的 Code Server，可以用来写一些简单的代码。利用它就可以在 iPad上愉快的写代码啦。
+Docker 版的 Code Server，可以用来写一些简单的代码。利用它就可以在 iPad上愉快地写代码啦。
 
 # File Browser
 
