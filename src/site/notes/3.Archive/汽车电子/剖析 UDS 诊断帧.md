@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/剖析 UDS 诊断帧.md","permalink":"/汽车电子/剖析 UDS 诊断帧/","created":"2020-10-30T13:51:54.000+08:00","updated":"2024-11-18T11:00:00.612+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/剖析 UDS 诊断帧.md","permalink":"/汽车电子/剖析 UDS 诊断帧/","created":"2020-10-30T13:51:54.000+08:00","updated":"2025-05-20T15:15:25.070+08:00"}
 ---
 
 #Technomous #AutoSAR #UDS 
@@ -10,8 +10,7 @@ UDS 诊断服务通常是通过 CAN 总线实现。对于 CAN 诊断帧有两种
 
 在总线上往往连着众多 ECU 设备(如下图所示)，作为诊断设备既可以单独与某一 ECU 进行通信，也可以同时与所有总线上的 ECU 设备通信。
 
-![Pasted image 20201030114232.png|550](/img/user/0.Asset/resource/Pasted%20image%2020201030114232.png)
-
+![Pasted image 20250520112939.png](/img/user/0.Asset/resource/Pasted%20image%2020250520112939.png)
 ## 物理寻址
 
 物理寻址是指总线上始终只有一个 ECU 响应诊断设备发出的诊断命令，实现点对点通信，例如上图中总线上仅 MMI 响应诊断设备的诊断命令。
@@ -24,19 +23,23 @@ UDS 诊断服务通常是通过 CAN 总线实现。对于 CAN 诊断帧有两种
 
 对于帧的类型，通过需要发送的数据长度来确定。在正常寻址模式下，当数据长度小于等于 7 byte，则用单帧的形式发送。如下图所示：
 
-![Pasted image 20201030114431.png|250](/img/user/0.Asset/resource/Pasted%20image%2020201030114431.png)
+![[Single Frame.drawio]]
+
+![Pasted image 20250520150838.png](/img/user/0.Asset/resource/Pasted%20image%2020250520150838.png)
 
 当数据长度大于 7 byte，数据需要分多帧才能发送完成，则需要使用到首帧、流控帧、连续帧。多帧的机制如下图所示。
 
-![Pasted image 20201030134132.png|250](/img/user/0.Asset/resource/Pasted%20image%2020201030134132.png)
+![Pasted image 20250520113627.png](/img/user/0.Asset/resource/Pasted%20image%2020250520113627.png)
 
 对于不同的帧，通过 CAN 数据场的中的 PCI （Protocol control information）来进行区分。
 
-![Pasted image 20240219134333.png|550](/img/user/0.Asset/resource/Pasted%20image%2020240219134333.png)
+![[UDS Message PCI.xlsx]]
+
+![Pasted image 20250520151236.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250520151236.png)
 
 以下是对 PCI 段的详细解释。
 
-![Pasted image 20240219135215.png|550](/img/user/0.Asset/resource/Pasted%20image%2020240219135215.png)
+![Pasted image 20250520113138.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250520113138.png)
 
 ## 单帧
 
@@ -49,7 +52,7 @@ UDS 诊断服务通常是通过 CAN 总线实现。对于 CAN 诊断帧有两种
 ### 首帧
 
 首先发送端会以一个 FirstFrame 开启通信，告诉接收端还有后续的内容要发，FirstFrame 使用前两个字节作为 PCI 信息，第一个字节高 4 bit 为 0001，标识这是一个 FirstFrame，低 4 bit 加上第二个字节用于描述总共发送的数据长度是多少（包括在 FirstFrame 中和后续在 ConsecutiveFrame 中的所有数据）。
-	
+
 > [!WARNING]
 > 该数据长度不包含 ConsecutiveFrame 的 PCI 部分。
 
