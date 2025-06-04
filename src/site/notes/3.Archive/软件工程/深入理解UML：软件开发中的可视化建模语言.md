@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"软件工程/深入理解UML：软件开发中的可视化建模语言.md","permalink":"/软件工程/深入理解UML：软件开发中的可视化建模语言/","created":"2025-04-02T11:34:03.058+08:00","updated":"2025-04-02T14:01:30.254+08:00"}
+{"dg-publish":true,"dg-path":"软件工程/深入理解UML：软件开发中的可视化建模语言.md","permalink":"/软件工程/深入理解UML：软件开发中的可视化建模语言/","created":"2025-04-02T11:34:03.058+08:00","updated":"2025-06-04T11:20:20.887+08:00"}
 ---
 
 #Innolight
@@ -68,15 +68,15 @@ UML 由基本的组成可以从三大块去了解：**事物/关系/图**
 
 更为详细的描述，看看下面这些表吧：
 
-![Pasted image 20250402114018.png](/img/user/0.Asset/resource/Pasted%20image%2020250402114018.png)
+![Pasted image 20250402114018.png|500](/img/user/0.Asset/resource/Pasted%20image%2020250402114018.png)
 
-![Pasted image 20250402114025.png](/img/user/0.Asset/resource/Pasted%20image%2020250402114025.png)
+![Pasted image 20250402114025.png|500](/img/user/0.Asset/resource/Pasted%20image%2020250402114025.png)
 
-![Pasted image 20250402114034.png](/img/user/0.Asset/resource/Pasted%20image%2020250402114034.png)
+![Pasted image 20250402114034.png|500](/img/user/0.Asset/resource/Pasted%20image%2020250402114034.png)
 
-![Pasted image 20250402114045.png](/img/user/0.Asset/resource/Pasted%20image%2020250402114045.png)
+![Pasted image 20250402114045.png|500](/img/user/0.Asset/resource/Pasted%20image%2020250402114045.png)
 
-![Pasted image 20250402114053.png](/img/user/0.Asset/resource/Pasted%20image%2020250402114053.png)
+![Pasted image 20250402114053.png|500](/img/user/0.Asset/resource/Pasted%20image%2020250402114053.png)
 
 ## 图（Diagram）
 
@@ -98,7 +98,7 @@ UML 由基本的组成可以从三大块去了解：**事物/关系/图**
 
 ### 用例图
 
-![Pasted image 20250402135349.png](/img/user/0.Asset/resource/Pasted%20image%2020250402135349.png)
+![Pasted image 20250402135349.png|500](/img/user/0.Asset/resource/Pasted%20image%2020250402135349.png)
 
 - 参与者/Actor：图中的小人，表示系统的用户，如人/机器/内部的其他子系统/硬件等
 - 用例/Use Case：图中的椭圆框及描述，描述参与者与系统交互所实现的工作内容经常会配合附加文本进行详细描述
@@ -147,7 +147,7 @@ UML 由基本的组成可以从三大块去了解：**事物/关系/图**
 
 描述了一个图书管理系统如何从订单发起后的所有交互概要图，每个子图上面的 ref 表示引用了一个更详细的图，比如 Add to Shopping Basket 放入购物篮的具体动作：
 
-![Pasted image 20250402135645.png](/img/user/0.Asset/resource/Pasted%20image%2020250402135645.png)
+![Pasted image 20250402135645.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250402135645.png)
 
 ### 复合结构图/Composite Structure
 
@@ -195,7 +195,7 @@ UML 由基本的组成可以从三大块去了解：**事物/关系/图**
 
 ### 部署图/Deployment Diagram
 
-![Pasted image 20250402140054.png](/img/user/0.Asset/resource/Pasted%20image%2020250402140054.png)
+![Pasted image 20250402140054.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250402140054.png)
 
 # 总结一下
 
