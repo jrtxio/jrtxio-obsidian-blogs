@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/芯驰 E3 国产 Flash 替换指南.md","permalink":"/汽车电子/芯驰 E3 国产 Flash 替换指南/","created":"2025-03-31T14:42:01.357+08:00","updated":"2025-06-03T10:33:39.143+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/芯驰 E3 国产 Flash 替换指南.md","permalink":"/汽车电子/芯驰 E3 国产 Flash 替换指南/","created":"2025-03-31T14:42:01.357+08:00","updated":"2025-06-06T19:24:45.289+08:00"}
 ---
 
 #Innolight
@@ -81,8 +81,8 @@ define region IRAM = mem:[from 0x404000 to 0x5fffff];
 - exe（flashloader）：这是一个 Flash 烧录程序，负责将数据写入 Flash
 - macro：定义了 Flash 操作的宏定义，擦除、写入、校验等
 - page：表示 Flash 以 512 字节为单位进行操作
-- block：表示 Flash 以 0x40000(256 KB)为单位分块
-- flash_base：表明 sfs.flash 存储在 Flash 起始地址
+- block：表示 Flash 以 0x40000 (256 KB)为单位分块
+- flash_base：表明 sfs.flash 存储在 Flash 的 0x10000000 位置
 - aggregate：表明多个 Flash 设备可以聚合操作
 
 系统上电后，ROM 代码会读取 SFS 结构，以便初始化 Flash 并找到 Boot Package。
@@ -103,7 +103,7 @@ define region IRAM = mem:[from 0x404000 to 0x5fffff];
 这个文件 sfs.flash 结构类似但有以下不同：
 
 - block：表明主程序存储区域包含 9 个 Flash 块
-- flash_base：表明 sfs.flash 存放在外部 Flash 的 0x100c1000 位置
+- flash_base：表明 sf.flash 存放在外部 Flash 的 0x100c1000 位置
 - page：表明 Flash 以 512 字节为单位进行操作
 
 # 实际操作步骤
