@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/Obsidian 的 Callout 使用场景.md","permalink":"/工具教程/Obsidian 的 Callout 使用场景/","created":"2025-02-14T14:03:51.156+08:00","updated":"2025-02-14T14:34:16.265+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/Obsidian 的 Callout 使用场景.md","permalink":"/工具教程/Obsidian 的 Callout 使用场景/","created":"2025-02-14T14:03:51.156+08:00","updated":"2025-06-10T10:35:01.013+08:00"}
 ---
 
 #Innolight
@@ -120,8 +120,8 @@ Obsidian 共提供了 13 种 Callout：
 
 ## 内容简洁
 
-- 控制长度：Callout 的文字应尽量简短，突出核心信息。如果内容较多，可以嵌入链接或折叠
-- 分块展示：讲常温拆分成多个 Callout，每个块强调不同的方面
+- 控制长度：Callout 的文字应尽量简短，突出核心信息
+- 分块展示：讲长文拆分成多个 Callout，每个块强调不同的方面
 ## 保持一致性
 
 - 统一格式：团队协作时，统一约定各类型的使用场景。例如，note 用于背景知识，tip 用于最佳实践等
