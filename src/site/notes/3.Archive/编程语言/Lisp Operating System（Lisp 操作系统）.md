@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/Lisp Operating System（Lisp 操作系统）.md","permalink":"/编程语言/Lisp Operating System（Lisp 操作系统）/","created":"2025-04-24T10:57:26.764+08:00","updated":"2025-04-24T14:40:53.589+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/Lisp Operating System（Lisp 操作系统）.md","permalink":"/编程语言/Lisp Operating System（Lisp 操作系统）/","created":"2025-04-24T10:57:26.764+08:00","updated":"2025-06-11T10:51:23.491+08:00"}
 ---
 
 #Innolight #Lisp 
@@ -246,7 +246,3 @@ When this step is accomplished, it is possible to write or adapt applications su
 The final step is to replace the temporary Unix kernel with native device drivers for the new system and to turn the system into a full multi-user operating system.
 
 最后一步是用新系统的本地设备驱动程序替换临时的 Unix 内核，并将系统转变为一个完整的多用户操作系统。
-
----
-
-robert.strandh@gmail.com
