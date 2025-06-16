@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/DTC 故障码分类说明.md","permalink":"/汽车电子/DTC 故障码分类说明/","created":"2020-04-24T15:55:54.000+08:00","updated":"2025-04-02T15:28:32.233+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/DTC 故障码分类说明.md","permalink":"/汽车电子/DTC 故障码分类说明/","created":"2020-04-24T15:55:54.000+08:00","updated":"2025-04-02T15:28:32.000+08:00"}
 ---
 
 #BDStar #AUTOSAR #UDS 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/从零开始 AUTOSAR 软件架构.md","permalink":"/汽车电子/从零开始 AUTOSAR 软件架构/","created":"2025-06-04T14:56:22.720+08:00","updated":"2025-06-05T16:16:53.096+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/从零开始 AUTOSAR 软件架构.md","permalink":"/汽车电子/从零开始 AUTOSAR 软件架构/","created":"2025-06-04T14:56:22.000+08:00","updated":"2025-06-05T16:16:53.000+08:00"}
 ---
 
 #Innolight

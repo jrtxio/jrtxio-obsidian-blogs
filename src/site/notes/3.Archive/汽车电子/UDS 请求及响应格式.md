@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/UDS 请求及响应格式.md","permalink":"/汽车电子/UDS 请求及响应格式/","created":"2020-04-24T15:55:54.000+08:00","updated":"2025-04-02T15:26:27.553+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/UDS 请求及响应格式.md","permalink":"/汽车电子/UDS 请求及响应格式/","created":"2020-04-24T15:55:54.000+08:00","updated":"2025-04-02T15:26:27.000+08:00"}
 ---
 
 #BDStar #AutoSAR #UDS 

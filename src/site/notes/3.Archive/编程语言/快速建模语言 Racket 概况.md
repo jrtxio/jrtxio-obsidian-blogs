@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/快速建模语言 Racket 概况.md","permalink":"/编程语言/快速建模语言 Racket 概况/","created":"2024-01-16T16:21:33.000+08:00","updated":"2025-05-15T14:32:27.839+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/快速建模语言 Racket 概况.md","permalink":"/编程语言/快速建模语言 Racket 概况/","created":"2024-01-16T16:21:33.000+08:00","updated":"2025-05-15T14:32:27.000+08:00"}
 ---
 
 #Technomous #PLT  #Lisp #Racket
