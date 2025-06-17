@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"软件工程/Digital Garden 如何设置 Google Adsense.md","permalink":"/软件工程/Digital Garden 如何设置 Google Adsense/","created":"2025-06-17T09:42:23.001+08:00","updated":"2025-06-17T10:57:30.621+08:00"}
+{"dg-publish":true,"dg-path":"软件工程/Digital Garden 如何设置 Google Adsense.md","permalink":"/软件工程/Digital Garden 如何设置 Google Adsense/","created":"2025-06-17T09:42:23.001+08:00","updated":"2025-06-17T13:43:46.716+08:00"}
 ---
 
 #Innolight
@@ -8,11 +8,10 @@
 
 Digital Garden 的博客是先将 Markdown 文件和 JavaScript 脚本同时构建在一个 github 仓库中，然后通过 vercel 等平台部署的时候会执行其中的 JavaScript 脚本将 Markdown 文件转化为 html 文件。所以我们无法在 github 仓库中操作博客中所有的 html 文件，如果想要快速的在每个生成的 html 页面上添加 Google Adsense 的认证脚本，可以通过修改 layout 下的 index.njk 和 note.njk 模板文件，让生成 html 文件时能够自动添加 Google Adsense 认证脚本。修改方式非常简单，分别在两个模板文件的 header 标签里添加相应的认证方式的内容即可。Google Adsense 支持三种验证方式，如下图所示：
 
+![Pasted image 20250617095535.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250617095535.png)
+
 > [!NOTE]
 > njk 文件是 Nunjucks 模板引擎的文件扩展名，通常用于开发动态生成的 HTML 文件或其他基于模板的文本内容。Nunjucks 是一个基于 JavaScript 的模板引擎，类似于 Jinja2（用于 Python）或 Twig（用于 PHP）。它常用于构建动态网站或预渲染内容。
-
-
-![Pasted image 20250617095535.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250617095535.png)
 
 我选择的是元标记的方式，分别在 index.njk 和 note.njk 里添加了如下的内容。
 
