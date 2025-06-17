@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/如何在 DrRacket 中高效地编辑.md","permalink":"/工具教程/如何在 DrRacket 中高效地编辑/","created":"2025-03-27T15:26:42.000+08:00","updated":"2025-05-15T14:35:18.000+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/如何在 DrRacket 中高效地编辑.md","permalink":"/工具教程/如何在 DrRacket 中高效地编辑/","created":"2025-03-27T15:26:42.100+08:00","updated":"2025-05-15T14:35:18.311+08:00"}
 ---
 
 #Innolight #Racket 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/CAN 控制器概述.md","permalink":"/汽车电子/CAN 控制器概述/","created":"2020-01-17T17:26:33.000+08:00","updated":"2025-04-02T14:30:16.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/CAN 控制器概述.md","permalink":"/汽车电子/CAN 控制器概述/","created":"2020-01-17T17:26:33.000+08:00","updated":"2025-04-02T14:30:16.557+08:00"}
 ---
 
 #BDStar #AUTOSAR 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/CANoe 学习方案设计.md","permalink":"/汽车电子/CANoe 学习方案设计/","created":"2020-03-07T17:16:50.000+08:00","updated":"2025-04-02T15:29:28.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/CANoe 学习方案设计.md","permalink":"/汽车电子/CANoe 学习方案设计/","created":"2020-03-07T17:16:50.000+08:00","updated":"2025-04-02T15:29:28.089+08:00"}
 ---
 
 #BDStar #CANoe 

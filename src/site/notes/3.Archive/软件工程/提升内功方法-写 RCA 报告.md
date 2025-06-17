@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"软件工程/提升内功方法-写 RCA 报告.md","permalink":"/软件工程/提升内功方法-写 RCA 报告/","created":"2025-06-16T14:14:56.000+08:00","updated":"2025-06-16T14:16:29.000+08:00"}
+{"dg-publish":true,"dg-path":"软件工程/提升内功方法-写 RCA 报告.md","permalink":"/软件工程/提升内功方法-写 RCA 报告/","created":"2025-06-16T14:14:56.285+08:00","updated":"2025-06-16T14:16:29.984+08:00"}
 ---
 
 #Innolight

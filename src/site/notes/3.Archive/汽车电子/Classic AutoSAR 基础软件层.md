@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/Classic AutoSAR 基础软件层.md","permalink":"/汽车电子/Classic AutoSAR 基础软件层/","created":"2022-08-06T15:40:00.000+08:00","updated":"2025-04-02T15:04:58.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/Classic AutoSAR 基础软件层.md","permalink":"/汽车电子/Classic AutoSAR 基础软件层/","created":"2022-08-06T15:40:00.000+08:00","updated":"2025-04-02T15:04:58.280+08:00"}
 ---
 
 #Ofilm #AutoSAR
