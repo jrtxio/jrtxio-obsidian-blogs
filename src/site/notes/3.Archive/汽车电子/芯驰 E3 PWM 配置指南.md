@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/芯驰 E3 PWM 配置指南.md","permalink":"/汽车电子/芯驰 E3 PWM 配置指南/","created":"2025-05-27T17:21:33.836+08:00","updated":"2025-06-19T10:39:41.488+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/芯驰 E3 PWM 配置指南.md","permalink":"/汽车电子/芯驰 E3 PWM 配置指南/","created":"2025-05-27T17:21:33.000+08:00","updated":"2025-06-19T10:39:41.000+08:00"}
 ---
 
 #Innolight

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/（如何（用Python）写一个（Lisp）解释器（下））.md","permalink":"/编程语言/（如何（用Python）写一个（Lisp）解释器（下））/","created":"2024-01-04T13:05:42.000+08:00","updated":"2025-02-25T10:50:21.074+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/（如何（用Python）写一个（Lisp）解释器（下））.md","permalink":"/编程语言/（如何（用Python）写一个（Lisp）解释器（下））/","created":"2024-01-04T13:05:42.000+08:00","updated":"2025-02-25T10:50:21.000+08:00"}
 ---
 
 #Technomous #PLT #Lisp 

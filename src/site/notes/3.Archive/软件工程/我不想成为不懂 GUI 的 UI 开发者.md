@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"软件工程/我不想成为不懂 GUI 的 UI 开发者.md","permalink":"/软件工程/我不想成为不懂 GUI 的 UI 开发者/","created":"2025-05-23T15:07:47.279+08:00","updated":"2025-05-23T15:10:21.886+08:00"}
+{"dg-publish":true,"dg-path":"软件工程/我不想成为不懂 GUI 的 UI 开发者.md","permalink":"/软件工程/我不想成为不懂 GUI 的 UI 开发者/","created":"2025-05-23T15:07:47.000+08:00","updated":"2025-05-23T15:10:21.000+08:00"}
 ---
 
 #Innolight

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/Classic AutoSAR 掌握程度分析.md","permalink":"/汽车电子/Classic AutoSAR 掌握程度分析/","created":"2021-12-29T22:55:24.000+08:00","updated":"2025-04-11T16:13:31.716+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/Classic AutoSAR 掌握程度分析.md","permalink":"/汽车电子/Classic AutoSAR 掌握程度分析/","created":"2021-12-29T22:55:24.000+08:00","updated":"2025-04-11T16:13:31.000+08:00"}
 ---
 
 #Ofilm #AutoSAR
