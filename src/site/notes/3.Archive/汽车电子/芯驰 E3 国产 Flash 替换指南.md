@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/芯驰 E3 国产 Flash 替换指南.md","permalink":"/汽车电子/芯驰 E3 国产 Flash 替换指南/","created":"2025-03-31T14:42:01.357+08:00","updated":"2025-06-06T19:24:45.289+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/芯驰 E3 国产 Flash 替换指南.md","permalink":"/汽车电子/芯驰 E3 国产 Flash 替换指南/","created":"2025-03-31T14:42:01.357+08:00","updated":"2025-06-19T10:53:40.283+08:00"}
 ---
 
 #Innolight
@@ -112,7 +112,7 @@ define region IRAM = mem:[from 0x404000 to 0x5fffff];
 
 ```
 --manual_dynamic_initialization
---image_input $PROJ_DIR$\..\sfs\sfs_is25-1-1-4.img,SFS_BIN,SFS_BIN,8
+--image_input $PROJ_DIR$\..\sfs\sfs_mt35-1-1-1.img,SFS_BIN,SFS_BIN,8
 --keep SFS_BIN
 ```
 
@@ -121,38 +121,3 @@ define region IRAM = mem:[from 0x404000 to 0x5fffff];
 ```
 $PROJ_DIR$\Config\ddf\3420\flashloader\iram\norflash\iar_flashboardcfg_sf_iram.board
 ```
-
-# 调试问题记录
-
-## 问题描述
-
-MCU 的 Flash 型号从 HyperFlash 切换到 SPI Flash 后，无法正常下载和启动。
-
-
-> [!ATTENTION]
-> Flash 的芯片型号从 S26HS512TGABHM000Y 切换到 GD25X512MEBAR，前者是 HyperFlash，后者是 SPI Flash。
-
-## 问题分析
-
-1. 通过测量 flash 的数据线情况判断是否真正开始下载
-2. 如果数据能够正常下载到 flash 中，但是无法正常启动，可大致推测 sfs 镜像不符合启动需求
-
-## 验证记录
-
-1. 用官方提供的 flashloader 镜像，烧录时 flash 的 clk 异常，电压仅 1.8v 左右，不是方波。
-
-![Pasted image 20250528164701.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250528164701.png)
-
-2. 测量 GPIO_B0 的状态，可以判断程序启动时停在了 BootROM 阶段。
-
-![Pasted image 20250528155007.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250528155007.png)
-
-3. 读取芯片的 eFUSE 内容如下：Flash 类型为 SPI NOR
-
-![Pasted image 20250529094034.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250529094034.png)
-
-![[fuse.bin]]
-
-4. 下载时 FlashLoader 的打印日志如下：
-
-![[flashloader_log.txt]]
