@@ -1,8 +1,11 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/Racket 语言入门与实践.md","permalink":"/编程语言/Racket 语言入门与实践/","created":"2024-02-05T10:50:34.000+08:00","updated":"2025-05-15T14:32:37.000+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/Racket 语言入门与实践.md","permalink":"/编程语言/Racket 语言入门与实践/","created":"2024-02-05T10:50:34.000+08:00","updated":"2025-06-19T20:31:51.000+08:00"}
 ---
 
 #Technomous #Lisp #Racket 
+
+> [!NOTE]
+> 这篇文章是「[Racket 入门教程](https://www.bilibili.com/video/BV1Gt421n7hQ/?spm_id_from=333.1387.0.0&vd_source=a6cca0388938ffd55231a400bd7589df)」视频的教案，结合视频一起食用更佳。
 
 # 语言优势概览
 
