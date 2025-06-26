@@ -1,0 +1,53 @@
+---
+{"dg-publish":true,"dg-path":"软件工程/Languages and Machines（语言与机器）.md","permalink":"/软件工程/Languages and Machines（语言与机器）/","created":"2024-05-16T20:26:31.000+08:00","updated":"2025-04-24T14:56:46.177+08:00"}
+---
+
+#Technomous #PLT 
+
+Models of computation may be divided into two categories, the λ-calculus, and all the others. Well, maybe Post’s production systems and Herbrand-Goedel equations belong in the former category, but certainly all the well-known, and widely accepted, models such as Turing machines or RAM’s, sit quite apart from the λ-calculus. Guy Blelloch has characterized the division as between languages and machines. The machine-based models are all based on the idea of a finite control augmented by unbounded memory. It’s up to the programmer to manage the memory to implement anything more structured than a bit, and there is no notion, other than via an interpreter, for changing the program during execution; the machine models are all decidedly non-von Neumann because they lack the idea of a stored program. The sole language-based model, by contrast, does not separate program from data, and offers a foundation on which realistic languages may be built, directly and without encoding. This would seem like a decisive advantage for the λ-calculus: whereas the machine models live in the early chapters of our textbooks, they are of essentially no practical importance, the λ-calculus is directly useful for programming and for mechanization of logical systems. And yet it is the machine models that dominate, especially in the world of algorithms and complexity, and the λ-calculus remains an esoteric oddity studied only by a relative minority of Computer Scientists.  How can that be?
+
+计算模型可以分为两类，λ-演算和其他所有模型。好吧，也许 Post 的产生系统和 Herbrand-Goedel 方程可以归入前者，但所有众所周知且被广泛接受的模型，如图灵机或随机访问存储器（RAM），显然与 λ-演算不同。Guy Blelloch 将这种划分描述为语言和机器之间的区别。基于机器的模型都基于有限控制加上无界存储器的概念。程序员需要管理存储器以实现比位更复杂的数据结构，并且除了通过解释器外，没有其他方式可以在执行过程中更改程序；机器模型完全是非冯·诺依曼的，因为它们缺乏存储程序的概念。相比之下，基于语言的模型不区分程序和数据，并提供了一个可以直接构建实际语言的基础，而无需编码。这似乎为 λ-演算提供了决定性的优势：机器模型仅存在于我们的教科书的早期章节中，它们几乎没有实际意义，而 λ-演算可以直接用于编程和逻辑系统的机械化。然而，正是机器模型占据了主导地位，尤其是在算法和复杂性领域，λ-演算仍然是一个被少数计算机科学家研究的深奥的奇特事物。这怎么可能呢？
+
+When confronted with this question, my typical colleague (at least on the theory side) dismisses the question as totally uninteresting because “all models of computation are polynomial-time equivalent”, so who cares? Well, if your work is all done modulo a polynomial factor in complexity, and you only care about computations over natural numbers (or other finitary objects), then I guess it doesn’t matter. You tell some story once and for all of how the objects of interest are represented on some model, and leave it at that; the details just don’t matter.
+
+当面对这个问题时，我的典型同事（至少在理论方面）认为这个问题毫无意义，因为“所有计算模型在多项式时间内是等价的”，谁在乎呢？好吧，如果你的工作在复杂性上只考虑多项式因子，并且你只关心自然数（或其他有限对象）的计算，那么我想这并不重要。你只需要一次性地讲述一个关于如何在某个模型上表示感兴趣的对象的故事，然后就到此为止；细节并不重要。
+
+But obviously the models do matter, as evidenced by the inescapable fact that the very same colleague would never under any circumstance consider anything other than a classical machine model as the underpinning for his work! Surely, if they are all equivalent, then it can’t matter, so we can all switch to the λ-calculus, right? Well, true though that may be, I can assure you that your argument is going nowhere. Apparently some models are more equivalent than others after all!  Why would that be?
+
+但显然，模型确实很重要，正如无可避免的事实所证明的那样，同一个同事在任何情况下都不会考虑除了经典机器模型之外的任何东西作为他工作的基础！当然，如果它们都是等价的，那么它就不应该重要，我们都可以转向 λ-演算，对吧？好吧，尽管这是事实，但我可以肯定地告诉你，你的论点毫无说服力。显然，一些模型比其他模型更“等价”！为什么会这样呢？
+
+One reason is that a lot of work is not up to a polynomial factor (one might even suspect, most of it isn’t.)  So for those purposes the model may matter. On the other hand, no one actually uses the “official” models in their work. No one writes Turing machine code to describe an algorithm, nor even RAM code (Knuth notwithstanding). Rather, they write what is charmingly called pidgin Algol, or pidgin C, or similar imperative programming notation. That is, they use a programming language, not a machine! As well they should.  But then why the emphasis on machine models?  And what does that pidgin they’re writing mean?
+
+原因之一是许多工作并不是以多项式因子为标准（甚至可以怀疑，大多数都不是）。因此，对于这些目的，模型可能很重要。另一方面，没有人真正使用“官方”模型进行工作。没有人用图灵机代码来描述算法，甚至没有人用 RAM 代码（尽管 Knuth 是个例外）。相反，他们写的是所谓的“混合语”Algol、混合语 C 或类似的命令式编程符号。也就是说，他们使用的是编程语言，而不是机器！他们确实应该这样做。但既然如此，为什么还要强调机器模型呢？他们所写的那种“混合语”又是什么意思呢？
+
+The answer is that the language is defined by a translation (that is, a compiler) that specifies that such-and-such pidgin Algol stands for such-and-such RAM code or Turing machine code. The description is informal, to be sure, but precise enough that you get the idea. Crucially, you reason not about the code you wrote, but the code the compiler writes, because officially the target code is the “real” code, the pidgin being a convenience. For this to work, you have to hold the compiler in your head: it must be clear what is meant by everything you actually write by imagining its translation onto, say, a RAM. This is not too bad, provided that the pidgin is simple, so simple that you can compile it in your head. This works ok, but is increasingly problematic, because it limits the range of algorithms we can conveniently express and analyze by restricting the language in which we express them.
+
+答案是，这种语言是通过一种翻译（即编译器）来定义的，它规定了某种混合语 Algol 对应于某种 RAM 代码或图灵机代码。这种描述当然不是正式的，但足够精确，让你明白它的意思。关键在于，你不是在思考你所写的代码，而是编译器生成的代码，因为从官方角度看，目标代码才是“真正的”代码，混合语只是一个方便的工具。为了让这种方法奏效，你需要在脑海中想象一个编译器：你必须清楚你所写的一切实际上意味着什么，想象它被翻译成 RAM 代码。如果这种混合语足够简单，简单到你可以在脑海中编译它，那么这种方法还不错。这种方法还可以，但越来越成问题，因为它通过限制我们用来表达算法的语言，限制了我们可以方便地表达和分析的算法范围。
+
+So why the insistence on such an awkward story?  One reason is, evidently, tradition. If it was good enough for my advisor, it’s good enough for me. Or, if you want to get published, you’d better write in a style that is familiar to the people making the decisions.
+
+那么，为什么还要坚持这种笨拙的方法呢？一个原因是传统。如果它对我导师来说足够好，那么对我来说也足够好。或者，如果你想发表文章，你最好用那些做决定的人熟悉的方式写作。
+
+A more substantial reason, though, is that machine models are the basis for establishing the cost of a computation. A “step” of computation is defined to be a machine step, and we compare algorithms by estimating the number of steps that they take to solve the same problem (up to a multiplicative factor, in most cases). As long as we can “hand compile” from pidgin Algol into machine code, we can assign a cost to programs written in a higher-than-assembly level language, and we can make rational comparisons between algorithms. This methodology has served us well, but it is beginning to break down (parallelism is one reason, but there are many others; I’ll leave discussion of this for another occasion).
+
+然而，一个更根本的原因是，机器模型是确定计算成本的基础。计算的“一步”被定义为机器的一步，我们通过估算它们解决同一问题所需的步数（在大多数情况下，是一个乘法因子）来比较算法。只要我们能够将混合语 Algol “手工编译”成机器代码，我们就可以为用比汇编语言更高级的语言编写的程序分配成本，并且我们可以合理地比较算法。这种方法论已经为我们服务得很好，但它开始瓦解（并行主义是一个原因，但还有许多其他原因；我将把对这个问题的讨论留到另一个场合）。
+
+There is an alternative, which is to provide a cost semantics for the language we write, and conduct our analyses on this basis directly, without appeal to a compiler or reference to an underlying machine. In short we adopt a linguistic model of computation, rather than a machine model, and life gets better! There is a wider range of options for expressing algorithms, and we simplify the story of how algorithms are to be analyzed.
+
+有一种替代方法，即为我们的语言提供成本语义，并直接基于此进行分析，而不依赖于编译器或参考底层机器。简而言之，我们采用语言计算模型，而不是机器模型，生活会变得更好！表达算法的选项范围更广，我们简化了如何分析算法的故事。
+
+To do this requires that we give a cost semantics for the language we’re actually using. And this is where the λ-calculus comes into play, for it is the paradigmatic example of how to specify a language-based model of computation. Briefly, the crucial notion in the λ-calculus is the concept of a reduction, written M→M’, expressing one step of computation of program M resulting in program M’. Execution is defined directly on the programs we write, and the model provides a well-defined notion of computation step that we can count to obtain the time complexity of the program. Decades of experience shows that this approach scales to realistic languages.
+
+要做到这一点，我们需要为实际使用的语言提供成本语义。这就是 λ-演算发挥作用的地方，它是如何指定基于语言的计算模型的典型例子。简而言之，λ-演算中的关键概念是约简，写为 M→M'，表示程序 M 的一步计算结果为程序 M'。执行直接定义在我们编写的程序上，该模型提供了一个明确的计算步骤概念，我们可以计数以获得程序的时间复杂度。数十年的经验表明，这种方法可以扩展到实际语言。
+
+What’s not to like?  Personally, I have no idea. I have been mystified by the suspicion with which the λ-calculus seems to be regarded in algorithmic circles. Just about any machine model is regarded as a perfectly good foundation, yet the behavior of the field itself shows that machine models are of limited utility for the work that is actually done!
+
+有什么不喜欢的？我个人没有头绪。我对于 λ-演算在算法领域似乎受到的怀疑感到困惑。几乎任何机器模型都被视为一个完美的基础，然而该领域本身的行为表明，机器模型对于实际完成的工作的用处是有限的。
+
+The only reason I can think of, apart from powerful social effects, is that there is lingering, yet totally unfounded, doubt about whether the concept of cost that arises from the λ-calculus is suitable for algorithm analysis. (One researcher recently told me “you can hide an elephant inside a β-reduction!”, yet he could not explain to me why I’m wrong.) One way to justify this claim is to define, once and for all, a compiler from λ-calculus to RAM code that makes clear that the abstract steps of the λ-calculus can be implemented in constant time on a RAM (in the sense of not varying with the size of the input, only in the size of the static program). Blelloch and Greiner have carried out exactly this analysis in their seminal work in the early 90’s; see Guy’s [web page](http://www.cs.cmu.edu/~guyb/) for details.
+
+除了强大的社会效应外，我唯一能想到的原因是，对于从 λ-演算中产生的成本概念是否适合算法分析，存在挥之不去的、完全没有根据的怀疑。（一位研究员最近告诉我“你可以在 β 约简中藏一头大象！”，但他无法向我解释为什么我错了。）证明这个说法的一种方法是，一劳永逸地定义一个从 λ-演算到 RAM 代码的编译器，这将清楚地表明 λ-演算的抽象步骤可以在 RAM 上以恒定时间实现（在不随输入大小变化，只随静态程序大小变化的意义上）。lelloch 和 Greiner 在他们 90 年代初的开创性工作中进行了正是这样的分析；详情请见 Guy 的[网页](http://www.cs.cmu.edu/~guyb/)
+
+In a later post I will take these ideas a bit further, and show (by explaining Blelloch’s work) that the λ-calculus serves not only as a good model for sequential algorithms, but also for parallel algorithms! And that we can readily extend the model to languages with important abstractions such as higher-order functions or exceptions without compromising their utility for expressing and analyzing algorithms.
+
+在以后的帖子中，我将把这些想法再进一步，并展示（通过解释 Blelloch 的工作）λ-演算不仅是一个顺序算法的好模型，也是一个并行算法的好模型！并且我们可以轻松地将这个模型扩展到具有重要抽象（如高阶函数或异常）的语言，而不影响它们在表达和分析算法方面的效用。
