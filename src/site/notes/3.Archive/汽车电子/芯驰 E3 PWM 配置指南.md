@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/芯驰 E3 PWM 配置指南.md","permalink":"/汽车电子/芯驰 E3 PWM 配置指南/","created":"2025-05-27T17:21:33.836+08:00","updated":"2025-06-19T10:39:41.488+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/芯驰 E3 PWM 配置指南.md","permalink":"/汽车电子/芯驰 E3 PWM 配置指南/","created":"2025-05-27T17:21:33.836+08:00","updated":"2025-06-27T14:40:24.370+08:00"}
 ---
 
 #Innolight
 
-本文主要是为了讲述 PWM 配置的大致流程，详细教程可参考[AUTOSAR MCAL for SemiDrive E3 功能模块使用介绍：PWM&ICU]([AUTOSAR MCAL for SemiDrive E3 功能模块使用介绍：PWM&ICU - 大大通(简体站)](https://www.wpgdadatong.com.cn/blog/detail/71676))文章。
+本文主要是为了讲述 PWM 配置的大致流程，详细教程可参考[AUTOSAR MCAL for SemiDrive E3 功能模块使用介绍：PWM&ICU - 大大通(简体站)](https://www.wpgdadatong.com.cn/blog/detail/71676)文章。
 
 # 使能 EPWM 和 XTRG 模块时钟
 
