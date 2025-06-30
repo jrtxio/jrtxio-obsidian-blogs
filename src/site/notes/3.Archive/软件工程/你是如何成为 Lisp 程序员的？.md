@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"软件工程/你是如何成为 Lisp 程序员的？.md","permalink":"/软件工程/你是如何成为 Lisp 程序员的？/","created":"2023-12-28T09:20:39.000+08:00","updated":"2025-04-02T14:49:47.667+08:00"}
+{"dg-publish":true,"dg-path":"软件工程/你是如何成为 Lisp 程序员的？.md","permalink":"/软件工程/你是如何成为 Lisp 程序员的？/","created":"2023-12-28T09:20:39.000+08:00","updated":"2025-04-02T14:49:47.000+08:00"}
 ---
 
 #Technomous #PLT #Lisp 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/DoIP 协议交互字节流示例/","created":"2023-03-29T17:35:47.000+08:00","updated":"2025-04-02T15:28:39.517+08:00"}
+{"dg-publish":true,"permalink":"/2.Process/DoIP 协议交互字节流示例/","created":"2023-03-29T17:35:47.000+08:00","updated":"2025-04-02T15:28:39.000+08:00"}
 ---
 
 #Technomous #DoIP 
