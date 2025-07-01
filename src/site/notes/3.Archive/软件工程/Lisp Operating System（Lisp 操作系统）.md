@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"软件工程/Lisp Operating System（Lisp 操作系统）.md","permalink":"/软件工程/Lisp Operating System（Lisp 操作系统）/","created":"2025-04-24T10:57:26.000+08:00","updated":"2025-06-11T10:51:23.000+08:00"}
+{"dg-publish":true,"dg-path":"软件工程/Lisp Operating System（Lisp 操作系统）.md","permalink":"/软件工程/Lisp Operating System（Lisp 操作系统）/","created":"2025-04-24T10:57:26.764+08:00","updated":"2025-06-11T10:51:23.491+08:00"}
 ---
 
 #Innolight #Lisp 

@@ -1,8 +1,12 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/为什么用 Digital Garden 写博客如此优雅？.md","permalink":"/工具教程/为什么用 Digital Garden 写博客如此优雅？/","created":"2025-06-17T11:12:20.000+08:00","updated":"2025-06-26T10:08:54.000+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/为什么用 Digital Garden 写博客如此优雅？.md","permalink":"/工具教程/为什么用 Digital Garden 写博客如此优雅？/","created":"2025-06-17T11:12:20.799+08:00","updated":"2025-07-01T09:46:32.370+08:00"}
 ---
 
 #Innolight
+
+![Pasted image 20250601095011.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250601095011.png)
+
+![[Digital Garden.excalidraw]]
 
 自从用 Digital Garden 写博客之后，我的创作效率大大提高。我再也不用关心博客的配置和部署问题，只需要专注创作即可。这才是我一直以来追求的完美搭建方案。而且由于无需任何服务器续费，所以理论上 Github 能存在多久，我的博客就能保留多久。
 
