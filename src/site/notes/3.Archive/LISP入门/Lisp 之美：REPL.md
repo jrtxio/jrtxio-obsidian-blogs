@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"LISP入门/Lisp 之美：REPL.md","permalink":"/LISP入门/Lisp 之美：REPL/","created":"2023-03-14T16:59:32.000+08:00","updated":"2025-06-19T20:48:19.000+08:00"}
+{"dg-publish":true,"dg-path":"LISP入门/Lisp 之美：REPL.md","permalink":"/LISP入门/Lisp 之美：REPL/","created":"2023-03-14T16:59:32.000+08:00","updated":"2025-07-01T13:53:21.230+08:00"}
 ---
 
-#Technomous #PLT #Lisp #Debug
+#Technomous #Lisp
 
 Lisp 的 REPL 提供了高效的交互式调试体验。开发者可以直接在 REPL 中输入表达式，观察即时的输出结果，无需等待编译。更重要的是，Lisp 支持在运行时动态修改代码：当某个函数出现问题时，可以直接重定义函数，运行程序立即反映出修改效果，而无需重新启动。这种能力极大地提高了调试效率和灵活性。
 

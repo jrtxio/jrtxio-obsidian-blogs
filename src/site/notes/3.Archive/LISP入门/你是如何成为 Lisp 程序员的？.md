@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"LISP入门/你是如何成为 Lisp 程序员的？.md","permalink":"/LISP入门/你是如何成为 Lisp 程序员的？/","created":"2023-12-28T09:20:39.000+08:00","updated":"2025-04-02T14:49:47.667+08:00"}
+{"dg-publish":true,"dg-path":"LISP入门/你是如何成为 Lisp 程序员的？.md","permalink":"/LISP入门/你是如何成为 Lisp 程序员的？/","created":"2023-12-28T09:20:39.000+08:00","updated":"2025-07-01T13:57:32.415+08:00"}
 ---
 
-#Technomous #PLT #Lisp 
+#Technomous #Lisp 
 
 我成为 Lisp 程序员的道路曲折而漫长。我曾于 2007 年 10 月 3 日在自己的日记中总结了自己的学习经历，现抄录于此。
 
