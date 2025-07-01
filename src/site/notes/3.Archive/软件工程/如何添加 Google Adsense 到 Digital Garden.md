@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"软件工程/如何添加 Google Adsense 到 Digital Garden.md","permalink":"/软件工程/如何添加 Google Adsense 到 Digital Garden/","created":"2025-06-17T09:42:23.001+08:00","updated":"2025-06-27T11:34:26.287+08:00"}
+{"dg-publish":true,"dg-path":"软件工程/如何添加 Google Adsense 到 Digital Garden.md","permalink":"/软件工程/如何添加 Google Adsense 到 Digital Garden/","created":"2025-06-17T09:42:23.001+08:00","updated":"2025-07-01T10:24:25.518+08:00"}
 ---
 
 #Innolight
@@ -21,7 +21,6 @@ Digital Garden 的博客是先将 Markdown 文件和 JavaScript 脚本同时构�
 ![Pasted image 20250617104954.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250617104954.png)
 
 如果添加完成之后，Google Adsense 验证失败了该怎么办？此时就需要通过浏览器来对网页进行一定的调试，确认所有页面都正确添加了相应的内容。如下图红框中选中的内容所示，我的页面已经添加了认证内容。
-
 
 > [!WARNING]
 > 一定要保证网站的所有 html 页面都已经添加了认证脚本，我刚开始主页没有添加，导致了认证失败。
