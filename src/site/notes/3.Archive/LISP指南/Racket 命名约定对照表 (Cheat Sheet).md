@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"LISP指南/Racket 命名约定对照表 (Cheat Sheet).md","permalink":"/LISP指南/Racket 命名约定对照表 (Cheat Sheet)/","created":"2025-07-09T14:42:19.672+08:00","updated":"2025-07-09T14:48:06.873+08:00"}
+{"dg-publish":true,"dg-path":"LISP指南/Racket 命名约定对照表 (Cheat Sheet).md","permalink":"/LISP指南/Racket 命名约定对照表 (Cheat Sheet)/","created":"2025-07-09T14:42:19.000+08:00","updated":"2025-07-09T14:48:06.000+08:00"}
 ---
 
 #Innolight

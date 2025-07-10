@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"LISP指南/Lisp 操作系统.md","permalink":"/LISP指南/Lisp 操作系统/","created":"2025-04-24T10:57:26.764+08:00","updated":"2025-07-01T10:54:49.772+08:00"}
+{"dg-publish":true,"dg-path":"LISP指南/Lisp 操作系统.md","permalink":"/LISP指南/Lisp 操作系统/","created":"2025-04-24T10:57:26.000+08:00","updated":"2025-07-01T10:54:49.000+08:00"}
 ---
 
 #Innolight #Lisp 

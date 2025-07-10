@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/谈 Classic AutoSAR 的加密服务.md","permalink":"/汽车电子/谈 Classic AutoSAR 的加密服务/","created":"2025-07-08T10:13:43.460+08:00","updated":"2025-07-08T10:19:23.718+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/谈 Classic AutoSAR 的加密服务.md","permalink":"/汽车电子/谈 Classic AutoSAR 的加密服务/","created":"2025-07-08T10:13:43.000+08:00","updated":"2025-07-08T10:19:23.000+08:00"}
 ---
 
 #Innolight #AutoSAR 

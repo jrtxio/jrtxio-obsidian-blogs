@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/谈 Adaptive AutoSAR 运行管理.md","permalink":"/汽车电子/谈 Adaptive AutoSAR 运行管理/","created":"2023-03-07T17:43:40.000+08:00","updated":"2024-11-19T13:46:23.280+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/谈 Adaptive AutoSAR 运行管理.md","permalink":"/汽车电子/谈 Adaptive AutoSAR 运行管理/","created":"2023-03-07T17:43:40.000+08:00","updated":"2024-11-19T13:46:23.000+08:00"}
 ---
 
 #Technomous #AutoSAR

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/谈 Classic AutoSAR 的网关功能.md","permalink":"/汽车电子/谈 Classic AutoSAR 的网关功能/","created":"2025-07-08T10:21:05.133+08:00","updated":"2025-07-08T10:29:23.719+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/谈 Classic AutoSAR 的网关功能.md","permalink":"/汽车电子/谈 Classic AutoSAR 的网关功能/","created":"2025-07-08T10:21:05.000+08:00","updated":"2025-07-08T10:29:23.000+08:00"}
 ---
 
 #Innolight #AutoSAR 
