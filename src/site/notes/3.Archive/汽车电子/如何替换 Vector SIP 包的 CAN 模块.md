@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/如何替换 Vector SIP 包的 CAN 模块.md","permalink":"/汽车电子/如何替换 Vector SIP 包的 CAN 模块/","created":"2024-07-11T16:11:06.000+08:00","updated":"2024-11-18T11:05:33.000+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/如何替换 Vector SIP 包的 CAN 模块.md","permalink":"/汽车电子/如何替换 Vector SIP 包的 CAN 模块/","created":"2024-07-11T16:11:06.000+08:00","updated":"2024-11-18T11:05:33.441+08:00"}
 ---
 
 #CyberUnit #AutoSAR

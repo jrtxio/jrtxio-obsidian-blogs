@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/为什么用 Digital Garden 写博客如此优雅？.md","permalink":"/工具教程/为什么用 Digital Garden 写博客如此优雅？/","created":"2025-06-17T11:12:20.000+08:00","updated":"2025-07-01T09:46:32.000+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/为什么用 Digital Garden 写博客如此优雅？.md","permalink":"/工具教程/为什么用 Digital Garden 写博客如此优雅？/","created":"2025-06-17T11:12:20.799+08:00","updated":"2025-07-01T09:46:32.370+08:00"}
 ---
 
 #Innolight
