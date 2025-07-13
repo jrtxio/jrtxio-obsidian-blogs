@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"汽车电子/AUTOSAR 入门教程之基础篇一.md","permalink":"/汽车电子/AUTOSAR 入门教程之基础篇一/","created":"2025-07-12T23:07:25.222+08:00","updated":"2025-07-13T14:04:52.080+08:00"}
+{"dg-publish":true,"dg-path":"汽车电子/AUTOSAR 入门教程之基础篇一.md","permalink":"/汽车电子/AUTOSAR 入门教程之基础篇一/","created":"2025-07-12T23:07:25.222+08:00","updated":"2025-07-13T14:06:52.047+08:00"}
 ---
 
 #Innolight #AutoSAR 
@@ -8,7 +8,7 @@ AUTOSAR（AUTomotive Open System Architecture）是一个开源的分层软件�
 
 ![Pasted image 20250712230833.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250712230833.png)
 
-AUTOSAR 的分层架构可以分为基础软件（BSW）、运行时环境（RTE）和应用/软件组件层。
+AUTOSAR 的分层架构可以分为基础软件（BSW）、运行时环境（RTE）和应用/软件组件层（SWC）。
 
 基础软件层可以进一步细分为微控制器抽象层（MCAL）、ECU 抽象层、服务层和复杂设备驱动（CDD）层。
 
