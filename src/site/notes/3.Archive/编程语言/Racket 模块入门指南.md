@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/Racket 模块入门指南.md","permalink":"/编程语言/Racket 模块入门指南/","created":"2025-05-15T10:34:48.231+08:00","updated":"2025-07-01T13:51:42.688+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/Racket 模块入门指南.md","permalink":"/编程语言/Racket 模块入门指南/","created":"2025-05-15T10:34:48.231+08:00","updated":"2025-08-14T14:32:48.223+08:00"}
 ---
 
 #Innolight #Lisp #Racket 
 
-Racket 的模块系统是其语言设计的核心之一，允许开发者以模块化的方式组织代码，使代码更易于理解、复用和维护。本指南旨在帮助新手了解如何定义、导入和使用 Racket 模块，逐步掌握模块化编程的基础知识。
+Racket 的模块系统是其语言设计的核心之一，允许开发者以模块化的方式组织代码，使代码更易于理解、复用和维护。本指南将帮助新手了解如何定义、导入和使用 Racket 模块，逐步掌握模块化编程的基础知识。
 
 # 1. 什么是 Racket 模块？
 
@@ -12,11 +12,11 @@ Racket 的模块系统是其语言设计的核心之一，允许开发者以模�
 
 模块的核心功能包括：
 
-- **隔离命名空间**：避免不同模块之间的命名冲突。
-- **代码复用**：通过导入模块，可以在不同程序中重用相同的代码。
-- **清晰的依赖关系**：模块显式地声明其依赖项。
+- **隔离命名空间**：避免不同模块之间的命名冲突
+- **代码复用**：通过导入模块，可以在不同程序中重用相同的代码
+- **清晰的依赖关系**：模块显式地声明其依赖项
 
-Racket 模块以 `#lang` 声明开头，也可以使用 `module` 或 `module+` 定义模块。
+Racket 模块通常以 `#lang` 声明开头，也可以在文件内部使用 `module` 或 `module+` 定义子模块。
 
 # 2. 模块的基本结构
 
@@ -24,18 +24,21 @@ Racket 模块以 `#lang` 声明开头，也可以使用 `module` 或 `module+` �
 
 ```racket
 #lang racket ; 声明语言类型
-
 (provide function1 function2) ; 导出符号
 
-;; 模块的实现部分
+;; 模块主体代码 - 在 require 时会执行
+(displayln "模块正在加载...")
+
 (define (function1 x)
   (* x x))
 
 (define (function2 x y)
   (+ x y))
+
+(displayln "模块加载完成")
 ```
 
-上面的代码定义了一个模块，提供了两个函数 `function1` 和 `function2`，它们可以被其他模块或程序导入使用。
+模块主体中的代码（如 `define`、`displayln` 等）会在模块被 `require` 时自动执行，但 `module+` 块不会。
 
 # 3. 如何导入模块
 
@@ -45,16 +48,15 @@ Racket 模块以 `#lang` 声明开头，也可以使用 `module` 或 `module+` �
 
 ```racket
 #lang racket
+(require "math-utils.rkt") ; 导入模块，会执行模块主体代码
 
-(require "math-utils.rkt") ; 导入模块
-
-(displayln (function1 3)) ; 输出 9
+(displayln (function1 3))   ; 输出 9
 (displayln (function2 3 4)) ; 输出 7
 ```
 
 ## （2）控制导入内容
 
-可以使用 `only-in` 或 `prefix-in` 精确控制导入的符号：
+可以使用 `only-in`、`except-in` 或 `prefix-in` 精确控制导入的符号：
 
 ```racket
 (require (only-in "math-utils.rkt" function1)) ; 仅导入 function1
@@ -62,6 +64,8 @@ Racket 模块以 `#lang` 声明开头，也可以使用 `module` 或 `module+` �
 
 (require (prefix-in mu: "math-utils.rkt")) ; 添加前缀
 (displayln (mu:function2 2 3)) ; 输出 5
+
+(require (except-in "math-utils.rkt" function1)) ; 排除 function1
 ```
 
 ## （3）从 Racket 库导入
@@ -73,13 +77,14 @@ Racket 自带大量标准库模块，可以直接使用：
 (displayln (member 3 '(1 2 3 4))) ; 输出 '(3 4)
 ```
 
-# 4. 嵌套模块
+# 4. 子模块
 
-Racket 支持在同一文件中定义多个模块，方便组织代码。
+Racket 支持在同一文件中定义多个子模块，方便组织代码。
 
 ```racket
 #lang racket
 
+;; 独立的子模块，拥有自己的命名空间
 (module math-utils racket
   (provide square sum)
   (define (square x) (* x x))
@@ -89,89 +94,82 @@ Racket 支持在同一文件中定义多个模块，方便组织代码。
   (provide greet)
   (define (greet name) (string-append "Hello, " name "!")))
 
-(require 'math-utils) ; 导入嵌套模块
+;; 导入子模块
+(require 'math-utils)   ; 引号表示当前文件中的子模块
 (require 'string-utils)
 
-(displayln (square 4)) ; 输出 16
-(displayln (greet "Alice")) ; 输出 "Hello, Alice!"
+(displayln (square 4))        ; 输出 16
+(displayln (greet "Alice"))   ; 输出 "Hello, Alice!"
 ```
 
-在这个例子中，`math-utils` 和 `string-utils` 是同一文件中的两个独立模块，通过 `require '模块名` 进行导入。
+子模块可以从外部文件导入：
 
-# 5. 模块的测试
+```racket
+;; 假设上面的代码保存为 app.rkt，在另一个文件中可以这样导入：
+(require (submod "app.rkt" math-utils))
+(displayln (square 5))
+```
 
-在 Racket 中，测试代码通常放置在 `module+` 块中。
+# 5. module+ 系统
 
-- `module+` 是主模块的一部分，它的定义和上下文与主模块共享，但测试代码仅在文件被直接运行（如使用 `raco test`）时执行，不会在模块被导入时触发。
-- 与之相比，`module` 定义的是一个独立的子模块，拥有自己的命名空间和作用域，需要显式 `require` 才能使用。
+`module+` 允许在同一文件中定义与主模块共享命名空间的扩展模块：
 
-以下是一个示例：
+- **`module+ main`** - 直接运行文件时执行
+- **`module+ test`** - 使用 `raco test` 时执行
+- **`module+ 自定义名称`** - 需要显式 require 才执行
+- 模块被 `require` 时，所有 `module+` 块都不会执行
+
+## 示例
 
 ```racket
 #lang racket
+(provide add subtract)
 
-(provide add)
+(define (add a b) (+ a b))
+(define (subtract a b) (- a b))
 
-;; 主模块定义
-(define (add a b)
-  (+ a b))
+(module+ main
+  (displayln "程序开始运行")
+  (displayln (add 10 20)))
 
-;; 使用 module+ 嵌入测试代码
 (module+ test
   (require rackunit)
-  (check-equal? (add 2 3) 5)
-  (check-equal? (add 1 1) 2))
+  (check-equal? (add 2 3) 5))
 
-;; 使用 module 定义一个独立的子模块
-(module math-utils racket
-  (provide subtract)
-  (define (subtract a b)
-    (- a b)))
+(module+ demo
+  (displayln "演示功能"))
 ```
 
-在此代码中：
-
-- `module+ test` 的内容只在直接运行文件或通过 `raco test` 测试时执行：
-
-```bash
-raco test main.rkt
-```
-
-- `module math-utils` 定义了一个独立模块，必须显式导入：
+自定义模块需要显式调用：
 
 ```racket
-(require (submod "main.rkt" math-utils))
-(displayln (subtract 5 3)) ; 输出 2
+(require (submod "calculator.rkt" demo))
 ```
 
-## module 与 module+ 命名空间结构对比
+# 6. 最佳实践建议
 
-`module+` 嵌入测试代码，是主模块的一部分：
+## 小型项目
 
-```
-[main-module]
-    ├── add (主功能)
-    └── test (测试代码，运行时可选)
-```
+- 一个模块对应一个文件，结构清晰
+- 使用 `module+ main` 分离库功能和程序入口
+- 使用 `module+ test` 嵌入测试代码
 
-`module` 定义了独立的子模块，命名空间隔离：
+## 中大型项目
 
-```
-[main-module]
-    ├── add
-    └── math-utils (独立子模块)
-        └── subtract
-```
+- 将模块组织成文件夹结构
+- 使用子模块划分功能单元
+- 避免在模块主体中放置有副作用的代码
 
-这种设计使 `module+` 更适合用于测试，而 `module` 更适合组织独立的功能单元。
+## 导入导出控制
 
-# 6. 总结与建议
+- 通过 `provide` 精确控制导出内容
+- 使用 `only-in`、`prefix-in` 等控制导入范围
+- 保持模块接口简洁明确
 
-Racket 模块系统灵活且功能强大，以下是一些使用建议：
+## 测试和调试
 
-- **小型项目**：一个模块对应一个文件，清晰明了。
-- **中大型项目**：将模块组织成文件夹结构，使用嵌套模块划分功能。
-- **重视测试**：利用 `module+` 嵌入测试代码，确保模块行为正确。
-- **精确导出与导入**：通过 `provide` 和 `require` 控制符号暴露，提升代码安全性和可读性。
+- 利用 `module+ test` 嵌入单元测试
+- 使用 `module+ debug` 等自定义模块进行调试
+- 使用 `raco test` 运行所有测试
 
-通过充分利用 `module` 和 `module+` 的特点，可以更高效地编写清晰且易维护的代码。
+通过合理使用 Racket 的模块系统，可以编写出结构清晰、易于维护和测试的代码。记住关键原则：主模块代码在 require 时执行，而 `module+` 块需要特定条件或显式调用才会执行。

@@ -1,13 +1,12 @@
 ---
-{"dg-publish":true,"dg-path":"软件工程/基于 Racket 的 To-Do List 工具 RReminder.md","permalink":"/软件工程/基于 Racket 的 To-Do List 工具 RReminder/","created":"2025-04-03T16:32:09.000+08:00","updated":"2025-08-08T15:27:34.541+08:00"}
+{"dg-publish":true,"dg-path":"软件工程/基于 Racket 的 To-Do List 工具 RReminder.md","permalink":"/软件工程/基于 Racket 的 To-Do List 工具 RReminder/","created":"2025-04-03T16:32:09.000+08:00","updated":"2025-08-14T11:09:05.068+08:00"}
 ---
 
 #Innolight #Racket 
 
-![Pasted image 20250402161632.png|450](/img/user/0.Asset/resource/Pasted%20image%2020250402161632.png)
+![Pasted image 20250814110841.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250814110841.png)
 
 ![[RReminder.excalidraw]]
-
 # 需求背景
 
 目前市面上的 To-Do List 工具的数据都是保存在云端的，违背了我对数据安全的一些准则。大多工具都是及其复杂，而我只是想要一个最简单的代办任务功能，作为一个极简主义者，完全不能忍受，所以打算基于 Racket 开发一个 To-Do List 工具。经过对多个工具的调研，决定参考 macOS 的 Reminder 的交互逻辑来实现。
@@ -73,4 +72,4 @@
 - [x] 任务管理（添加、删除、标记完成）
 - [x] 任务分类管理（工作/生活等）
 - [x] 任务持久化（存储到本地）
-- [ ] 优化界面布局和用户体验：拖拽排，快捷键支持、任务搜索
+- [ ] 优化界面布局和用户体验：拖拽排列，快捷键支持、任务搜索
