@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"软件工程/前端小白入门 Electron 系列（一）：如何搭建开发环境.md","permalink":"/软件工程/前端小白入门 Electron 系列（一）：如何搭建开发环境/","created":"2025-08-27T14:29:08.283+08:00","updated":"2025-08-27T14:38:43.487+08:00"}
+{"dg-publish":true,"dg-path":"软件工程/前端小白入门 Electron 系列（一）：如何搭建开发环境.md","permalink":"/软件工程/前端小白入门 Electron 系列（一）：如何搭建开发环境/","created":"2025-08-27T14:29:08.283+08:00","updated":"2025-08-27T14:39:44.687+08:00"}
 ---
 
 #Innolight
@@ -25,12 +25,6 @@ Node.js 是 JavaScript 的运行环境，让 JavaScript 可以在浏览器之外
 - 这样 JavaScript 就能访问本地资源，执行系统级任务
 
 **为什么 Electron 需要 Node.js？** Electron 的核心就是把 Chromium 浏览器和 Node.js 打包在一起，这样你的应用既能显示网页界面，又能访问操作系统功能（读写文件、发送通知等）。
-
-**是否存在重复？** 你可能会疑惑：Chromium 和 Node.js 都包含 V8 引擎，这样不是重复了吗？实际上 Electron 做了优化：
-
-- Electron 使用同一个 V8 引擎实例
-- 但创建了不同的执行上下文：主进程（Node.js 环境）和渲染进程（浏览器环境）
-- 这样既避免了重复，又实现了功能隔离
 
 ## npm 是什么？
 
