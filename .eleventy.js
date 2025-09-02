@@ -522,7 +522,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy("src/site/ads.txt");
-  eleventyConfig.addPassthroughCopy("src/site/baidu_verify_codeva-ot8GlwVlYE.html");
+  eleventyConfig.addPassthroughCopy("src/site/baidu_verify_codeva-DTBvg2CXkR.html");
   eleventyConfig.addPassthroughCopy("src/site/img");
   eleventyConfig.addPassthroughCopy("src/site/scripts");
   eleventyConfig.addPassthroughCopy("src/site/styles/_theme.*.css");
