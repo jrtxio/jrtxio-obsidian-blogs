@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/如何开启 Ubuntu RDP 远程桌面.md","permalink":"/工具教程/如何开启 Ubuntu RDP 远程桌面/","created":"2023-12-05T09:35:25.000+08:00","updated":"2024-02-28T13:24:42.000+08:00"}
+{"dg-publish":true,"dg-path":"tools/如何开启 Ubuntu RDP 远程桌面.md","permalink":"/tools/如何开启 Ubuntu RDP 远程桌面/","created":"2023-12-05T09:35:25.000+08:00","updated":"2024-02-28T13:24:42.000+08:00"}
 ---
 
 #Technomous #Linux 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"工具教程/UNRAID 部署 DDNS 之 DNSPod.md","permalink":"/工具教程/UNRAID 部署 DDNS 之 DNSPod/","created":"2023-09-08T16:58:58.000+08:00","updated":"2024-02-28T13:21:07.000+08:00"}
+{"dg-publish":true,"dg-path":"tools/UNRAID 部署 DDNS 之 DNSPod.md","permalink":"/tools/UNRAID 部署 DDNS 之 DNSPod/","created":"2023-09-08T16:58:58.000+08:00","updated":"2024-02-28T13:21:07.000+08:00"}
 ---
 
 #BDStar

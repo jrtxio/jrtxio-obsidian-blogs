@@ -1,0 +1,10 @@
+---
+{"dg-publish":true,"dg-path":"automotive/CANoe 学习方案设计.md","permalink":"/automotive/CANoe 学习方案设计/","created":"2020-03-07T17:16:50.000+08:00","updated":"2025-07-11T10:29:55.793+08:00"}
+---
+
+#BDStar #CANoe 
+
+1.  自己尝试新建一个 DBC 数据库
+2.  然后利用 IG 模块监测设计的数据库是否按预期执行
+3.  模拟方向盘正弦变化，观察倒车影像功能
+4.  利用 CANoe 过滤掉不需要的报文来配合 Keil 的仿真调试

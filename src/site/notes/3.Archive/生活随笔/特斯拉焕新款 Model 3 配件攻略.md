@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"生活随笔/特斯拉焕新款 Model 3 配件攻略.md","permalink":"/生活随笔/特斯拉焕新款 Model 3 配件攻略/","created":"2024-12-09T17:17:48.000+08:00","updated":"2025-01-12T17:08:59.000+08:00"}
+{"dg-publish":true,"dg-path":"life/特斯拉焕新款 Model 3 配件攻略.md","permalink":"/life/特斯拉焕新款 Model 3 配件攻略/","created":"2024-12-09T17:17:48.000+08:00","updated":"2025-01-12T17:08:59.000+08:00"}
 ---
 
 #Innolight

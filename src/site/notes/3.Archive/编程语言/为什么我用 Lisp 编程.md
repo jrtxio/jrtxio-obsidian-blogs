@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"编程语言/为什么我用 Lisp 编程.md","permalink":"/编程语言/为什么我用 Lisp 编程/","created":"2025-04-29T13:49:32.745+08:00","updated":"2025-07-07T18:56:09.182+08:00"}
+{"dg-publish":true,"dg-path":"languages/为什么我用 Lisp 编程.md","permalink":"/languages/为什么我用 Lisp 编程/","created":"2025-04-29T13:49:32.745+08:00","updated":"2025-07-07T18:56:09.182+08:00"}
 ---
 
 #Innolight #Lisp 
