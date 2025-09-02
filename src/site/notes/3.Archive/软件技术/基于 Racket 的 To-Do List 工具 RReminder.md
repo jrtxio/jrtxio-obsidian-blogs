@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"software/基于 Racket 的 To-Do List 工具 RReminder.md","permalink":"/software/基于 Racket 的 To-Do List 工具 RReminder/","created":"2025-04-03T16:32:09.000+08:00","updated":"2025-08-14T11:09:05.068+08:00"}
+{"dg-publish":true,"dg-path":"软件技术/基于 Racket 的 To-Do List 工具 RReminder.md","permalink":"/软件技术/基于 Racket 的 To-Do List 工具 RReminder/","created":"2025-04-03T16:32:09.000+08:00","updated":"2025-08-14T11:09:05.068+08:00"}
 ---
 
 #Innolight #Racket 

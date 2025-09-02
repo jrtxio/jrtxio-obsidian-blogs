@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"software/如何理解 UML 类图.md","permalink":"/software/如何理解 UML 类图/","created":"2023-12-07T14:58:17.000+08:00","updated":"2024-02-28T13:25:02.000+08:00"}
+{"dg-publish":true,"dg-path":"软件技术/如何理解 UML 类图.md","permalink":"/软件技术/如何理解 UML 类图/","created":"2023-12-07T14:58:17.000+08:00","updated":"2024-02-28T13:25:02.000+08:00"}
 ---
 
 #Technomous 

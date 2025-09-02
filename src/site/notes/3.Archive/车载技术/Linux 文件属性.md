@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/Linux 文件属性.md","permalink":"/automotive/Linux 文件属性/","created":"2024-02-19T13:23:09.000+08:00","updated":"2024-12-27T16:08:22.345+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/Linux 文件属性.md","permalink":"/车载技术/Linux 文件属性/","created":"2024-02-19T13:23:09.000+08:00","updated":"2024-12-27T16:08:22.345+08:00"}
 ---
 
 #Technomous #Linux 

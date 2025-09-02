@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"tools/谈谈那些我常用的 NAS 服务.md","permalink":"/tools/谈谈那些我常用的 NAS 服务/","created":"2023-09-08T16:17:04.000+08:00","updated":"2025-05-16T21:52:16.934+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/谈谈那些我常用的 NAS 服务.md","permalink":"/工具教程/谈谈那些我常用的 NAS 服务/","created":"2023-09-08T16:17:04.000+08:00","updated":"2025-05-16T21:52:16.934+08:00"}
 ---
 
 #BDStar

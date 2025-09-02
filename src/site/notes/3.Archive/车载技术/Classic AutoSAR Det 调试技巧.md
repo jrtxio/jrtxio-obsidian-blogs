@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/Classic AutoSAR Det 调试技巧.md","permalink":"/automotive/Classic AutoSAR Det 调试技巧/","created":"2024-08-12T19:00:40.000+08:00","updated":"2025-02-14T13:55:56.423+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/Classic AutoSAR Det 调试技巧.md","permalink":"/车载技术/Classic AutoSAR Det 调试技巧/","created":"2024-08-12T19:00:40.000+08:00","updated":"2025-02-14T13:55:56.423+08:00"}
 ---
 
 #CyberUnit #AutoSAR

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/AUTOSAR 入门教程之 Crypto Stack.md","permalink":"/automotive/AUTOSAR 入门教程之 Crypto Stack/","created":"2025-07-08T10:13:43.460+08:00","updated":"2025-07-08T10:19:23.718+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/AUTOSAR 入门教程之 Crypto Stack.md","permalink":"/车载技术/AUTOSAR 入门教程之 Crypto Stack/","created":"2025-07-08T10:13:43.460+08:00","updated":"2025-07-08T10:19:23.718+08:00"}
 ---
 
 #Innolight #AutoSAR 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"software/如何给博客添加 Google Adsense.md","permalink":"/software/如何给博客添加 Google Adsense/","created":"2025-09-01T14:29:33.138+08:00","updated":"2025-09-01T17:10:03.168+08:00"}
+{"dg-publish":true,"dg-path":"软件技术/如何给博客添加 Google Adsense.md","permalink":"/软件技术/如何给博客添加 Google Adsense/","created":"2025-09-01T14:29:33.138+08:00","updated":"2025-09-01T17:10:03.168+08:00"}
 ---
 
 #Innolight

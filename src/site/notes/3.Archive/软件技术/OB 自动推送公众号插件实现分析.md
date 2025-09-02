@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"software/OB 自动推送公众号插件实现分析.md","permalink":"/software/OB 自动推送公众号插件实现分析/","created":"2025-03-06T09:17:16.875+08:00","updated":"2025-04-02T14:40:18.390+08:00"}
+{"dg-publish":true,"dg-path":"软件技术/OB 自动推送公众号插件实现分析.md","permalink":"/软件技术/OB 自动推送公众号插件实现分析/","created":"2025-03-06T09:17:16.875+08:00","updated":"2025-04-02T14:40:18.390+08:00"}
 ---
 
 #Innolight

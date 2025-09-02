@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"languages/Scheme 元编程.md","permalink":"/languages/Scheme 元编程/","created":"2025-06-05T11:22:54.325+08:00","updated":"2025-06-05T16:20:25.006+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/Scheme 元编程.md","permalink":"/编程语言/Scheme 元编程/","created":"2025-06-05T11:22:54.325+08:00","updated":"2025-06-05T16:20:25.006+08:00"}
 ---
 
 #Innolight #Lisp 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/EB Classic AUTOSAR 使用指南.md","permalink":"/automotive/EB Classic AUTOSAR 使用指南/","created":"2024-08-07T16:37:54.000+08:00","updated":"2024-09-08T16:33:31.000+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/EB Classic AUTOSAR 使用指南.md","permalink":"/车载技术/EB Classic AUTOSAR 使用指南/","created":"2024-08-07T16:37:54.000+08:00","updated":"2024-09-08T16:33:31.000+08:00"}
 ---
 
 #CyberUnit #AUTOSAR 

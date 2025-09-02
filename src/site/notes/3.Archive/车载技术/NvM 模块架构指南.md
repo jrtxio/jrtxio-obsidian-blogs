@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/NvM 模块架构指南.md","permalink":"/automotive/NvM 模块架构指南/","created":"2024-02-29T10:33:35.000+08:00","updated":"2025-04-02T15:27:04.772+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/NvM 模块架构指南.md","permalink":"/车载技术/NvM 模块架构指南/","created":"2024-02-29T10:33:35.000+08:00","updated":"2025-04-02T15:27:04.772+08:00"}
 ---
 
 #Technomous #AUTOSAR 

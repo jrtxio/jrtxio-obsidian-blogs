@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/MCU 为什么要采用外部闪存？.md","permalink":"/automotive/MCU 为什么要采用外部闪存？/","created":"2025-06-10T10:05:23.000+08:00","updated":"2025-06-28T22:03:40.000+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/MCU 为什么要采用外部闪存？.md","permalink":"/车载技术/MCU 为什么要采用外部闪存？/","created":"2025-06-10T10:05:23.000+08:00","updated":"2025-06-28T22:03:40.000+08:00"}
 ---
 
 #Innolight

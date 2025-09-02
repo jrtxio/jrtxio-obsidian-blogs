@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/深入解读 SOMEIP 协议.md","permalink":"/automotive/深入解读 SOMEIP 协议/","created":"2023-06-19T10:20:30.000+08:00","updated":"2024-02-28T13:31:26.000+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/深入解读 SOMEIP 协议.md","permalink":"/车载技术/深入解读 SOMEIP 协议/","created":"2023-06-19T10:20:30.000+08:00","updated":"2024-02-28T13:31:26.000+08:00"}
 ---
 
 #Technomous #SOMEIP

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/搭建 RTSP 视屏推拉流.md","permalink":"/automotive/搭建 RTSP 视屏推拉流/","created":"2023-11-06T10:34:28.000+08:00","updated":"2024-02-28T13:22:28.000+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/搭建 RTSP 视屏推拉流.md","permalink":"/车载技术/搭建 RTSP 视屏推拉流/","created":"2023-11-06T10:34:28.000+08:00","updated":"2024-02-28T13:22:28.000+08:00"}
 ---
 
 #Technomous

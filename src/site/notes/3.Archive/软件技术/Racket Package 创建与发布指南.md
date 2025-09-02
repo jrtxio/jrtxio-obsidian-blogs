@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"software/Racket Package 创建与发布指南.md","permalink":"/software/Racket Package 创建与发布指南/","created":"2025-08-22T08:31:50.942+08:00","updated":"2025-08-22T09:21:12.716+08:00"}
+{"dg-publish":true,"dg-path":"软件技术/Racket Package 创建与发布指南.md","permalink":"/软件技术/Racket Package 创建与发布指南/","created":"2025-08-22T08:31:50.942+08:00","updated":"2025-08-22T09:21:12.716+08:00"}
 ---
 
 #Innolight

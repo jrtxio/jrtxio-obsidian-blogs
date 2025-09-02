@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/聊聊 Classic AUTOSAR BSW 是如何分层的？.md","permalink":"/automotive/聊聊 Classic AUTOSAR BSW 是如何分层的？/","created":"2022-08-06T15:40:00.000+08:00","updated":"2025-04-02T15:04:58.280+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/聊聊 Classic AUTOSAR BSW 是如何分层的？.md","permalink":"/车载技术/聊聊 Classic AUTOSAR BSW 是如何分层的？/","created":"2022-08-06T15:40:00.000+08:00","updated":"2025-04-02T15:04:58.280+08:00"}
 ---
 
 #Ofilm #AutoSAR

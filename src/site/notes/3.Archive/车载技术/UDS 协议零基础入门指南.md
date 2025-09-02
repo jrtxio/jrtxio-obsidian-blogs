@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/UDS 协议零基础入门指南.md","permalink":"/automotive/UDS 协议零基础入门指南/","created":"2019-11-28T17:08:38.000+08:00","updated":"2025-03-07T14:04:26.389+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/UDS 协议零基础入门指南.md","permalink":"/车载技术/UDS 协议零基础入门指南/","created":"2019-11-28T17:08:38.000+08:00","updated":"2025-03-07T14:04:26.389+08:00"}
 ---
 
 #BDStar #AutoSAR #UDS 

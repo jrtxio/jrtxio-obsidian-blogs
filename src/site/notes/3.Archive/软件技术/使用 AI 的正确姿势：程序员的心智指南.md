@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"software/使用 AI 的正确姿势：程序员的心智指南.md","permalink":"/software/使用 AI 的正确姿势：程序员的心智指南/","created":"2025-07-14T15:22:09.198+08:00","updated":"2025-07-14T15:33:22.236+08:00"}
+{"dg-publish":true,"dg-path":"软件技术/使用 AI 的正确姿势：程序员的心智指南.md","permalink":"/软件技术/使用 AI 的正确姿势：程序员的心智指南/","created":"2025-07-14T15:22:09.198+08:00","updated":"2025-07-14T15:33:22.236+08:00"}
 ---
 
 #Innolight

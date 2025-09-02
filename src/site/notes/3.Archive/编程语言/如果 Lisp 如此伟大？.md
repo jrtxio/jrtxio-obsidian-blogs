@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"languages/如果 Lisp 如此伟大？.md","permalink":"/languages/如果 Lisp 如此伟大？/","created":"2025-03-05T10:42:56.715+08:00","updated":"2025-03-05T10:46:09.036+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/如果 Lisp 如此伟大？.md","permalink":"/编程语言/如果 Lisp 如此伟大？/","created":"2025-03-05T10:42:56.715+08:00","updated":"2025-03-05T10:46:09.036+08:00"}
 ---
 
 #Innolight #Lisp

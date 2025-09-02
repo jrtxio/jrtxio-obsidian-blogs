@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"software/原型设计和 UI 设计是什么？.md","permalink":"/software/原型设计和 UI 设计是什么？/","created":"2025-04-01T16:30:28.162+08:00","updated":"2025-04-01T17:04:28.483+08:00"}
+{"dg-publish":true,"dg-path":"软件技术/原型设计和 UI 设计是什么？.md","permalink":"/软件技术/原型设计和 UI 设计是什么？/","created":"2025-04-01T16:30:28.162+08:00","updated":"2025-04-01T17:04:28.483+08:00"}
 ---
 
 #Innolight

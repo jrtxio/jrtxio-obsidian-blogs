@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"software/在 Digital Garden 博客中添加 Google AdSense.md","permalink":"/software/在 Digital Garden 博客中添加 Google AdSense/","created":"2025-06-17T09:42:23.001+08:00","updated":"2025-09-02T09:22:13.521+08:00"}
+{"dg-publish":true,"dg-path":"软件技术/在 Digital Garden 博客中添加 Google AdSense.md","permalink":"/软件技术/在 Digital Garden 博客中添加 Google AdSense/","created":"2025-06-17T09:42:23.001+08:00","updated":"2025-09-02T09:22:13.521+08:00"}
 ---
 
 #Innolight

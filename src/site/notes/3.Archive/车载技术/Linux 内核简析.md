@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/Linux 内核简析.md","permalink":"/automotive/Linux 内核简析/","created":"2023-02-07T09:26:41.000+08:00","updated":"2024-02-28T13:13:44.000+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/Linux 内核简析.md","permalink":"/车载技术/Linux 内核简析/","created":"2023-02-07T09:26:41.000+08:00","updated":"2024-02-28T13:13:44.000+08:00"}
 ---
 
 #Technomous #Linux

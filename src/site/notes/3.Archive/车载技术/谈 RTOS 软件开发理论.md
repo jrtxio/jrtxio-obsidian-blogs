@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/谈 RTOS 软件开发理论.md","permalink":"/automotive/谈 RTOS 软件开发理论/","created":"2023-11-30T09:55:54.000+08:00","updated":"2024-11-19T11:23:23.598+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/谈 RTOS 软件开发理论.md","permalink":"/车载技术/谈 RTOS 软件开发理论/","created":"2023-11-30T09:55:54.000+08:00","updated":"2024-11-19T11:23:23.598+08:00"}
 ---
 
 #Technomous #RTOS 

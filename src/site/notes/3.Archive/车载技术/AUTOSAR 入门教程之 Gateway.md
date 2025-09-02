@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/AUTOSAR 入门教程之 Gateway.md","permalink":"/automotive/AUTOSAR 入门教程之 Gateway/","created":"2025-07-08T10:21:05.133+08:00","updated":"2025-07-08T10:29:23.719+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/AUTOSAR 入门教程之 Gateway.md","permalink":"/车载技术/AUTOSAR 入门教程之 Gateway/","created":"2025-07-08T10:21:05.133+08:00","updated":"2025-07-08T10:29:23.719+08:00"}
 ---
 
 #Innolight #AutoSAR 

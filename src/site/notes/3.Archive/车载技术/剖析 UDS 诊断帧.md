@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/剖析 UDS 诊断帧.md","permalink":"/automotive/剖析 UDS 诊断帧/","created":"2020-10-30T13:51:54.000+08:00","updated":"2025-05-21T15:55:07.697+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/剖析 UDS 诊断帧.md","permalink":"/车载技术/剖析 UDS 诊断帧/","created":"2020-10-30T13:51:54.000+08:00","updated":"2025-05-21T15:55:07.697+08:00"}
 ---
 
 #Technomous #AutoSAR #UDS 

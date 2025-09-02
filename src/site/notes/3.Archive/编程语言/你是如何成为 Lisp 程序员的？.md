@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"languages/你是如何成为 Lisp 程序员的？.md","permalink":"/languages/你是如何成为 Lisp 程序员的？/","created":"2023-12-28T09:20:39.000+08:00","updated":"2025-07-01T13:57:32.415+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/你是如何成为 Lisp 程序员的？.md","permalink":"/编程语言/你是如何成为 Lisp 程序员的？/","created":"2023-12-28T09:20:39.000+08:00","updated":"2025-07-01T13:57:32.415+08:00"}
 ---
 
 #Technomous #Lisp 

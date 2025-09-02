@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/讲讲 Linux 动态库显式加载函数.md","permalink":"/automotive/讲讲 Linux 动态库显式加载函数/","created":"2023-02-16T19:13:12.000+08:00","updated":"2024-11-15T13:54:03.000+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/讲讲 Linux 动态库显式加载函数.md","permalink":"/车载技术/讲讲 Linux 动态库显式加载函数/","created":"2023-02-16T19:13:12.000+08:00","updated":"2024-11-15T13:54:03.000+08:00"}
 ---
 
 #Technomous 

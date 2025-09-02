@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/vsomeip 从入门到精通.md","permalink":"/automotive/vsomeip 从入门到精通/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-02-29T10:33:09.000+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/vsomeip 从入门到精通.md","permalink":"/车载技术/vsomeip 从入门到精通/","created":"2023-08-28T16:22:57.000+08:00","updated":"2024-02-29T10:33:09.000+08:00"}
 ---
 
 #Technomous #SOMEIP

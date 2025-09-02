@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"languages/Scheme 语言足够用于产品开发.md","permalink":"/languages/Scheme 语言足够用于产品开发/","created":"2025-06-04T18:38:26.256+08:00","updated":"2025-06-05T15:52:52.951+08:00"}
+{"dg-publish":true,"dg-path":"编程语言/Scheme 语言足够用于产品开发.md","permalink":"/编程语言/Scheme 语言足够用于产品开发/","created":"2025-06-04T18:38:26.256+08:00","updated":"2025-06-05T15:52:52.951+08:00"}
 ---
 
 #Innolight #Lisp 

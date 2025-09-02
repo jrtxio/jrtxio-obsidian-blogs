@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/芯驰 E3 国产 Flash 替换指南.md","permalink":"/automotive/芯驰 E3 国产 Flash 替换指南/","created":"2025-03-31T14:42:01.357+08:00","updated":"2025-06-19T10:53:40.283+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/芯驰 E3 国产 Flash 替换指南.md","permalink":"/车载技术/芯驰 E3 国产 Flash 替换指南/","created":"2025-03-31T14:42:01.357+08:00","updated":"2025-06-19T10:53:40.283+08:00"}
 ---
 
 #Innolight

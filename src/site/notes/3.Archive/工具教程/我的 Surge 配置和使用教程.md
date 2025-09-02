@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"tools/我的 Surge 配置和使用教程.md","permalink":"/tools/我的 Surge 配置和使用教程/","created":"2024-01-03T10:40:48.000+08:00","updated":"2025-03-07T13:57:12.660+08:00"}
+{"dg-publish":true,"dg-path":"工具教程/我的 Surge 配置和使用教程.md","permalink":"/工具教程/我的 Surge 配置和使用教程/","created":"2024-01-03T10:40:48.000+08:00","updated":"2025-03-07T13:57:12.660+08:00"}
 ---
 
 #Technomous 

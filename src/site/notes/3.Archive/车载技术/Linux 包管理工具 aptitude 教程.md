@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"automotive/Linux 包管理工具 aptitude 教程.md","permalink":"/automotive/Linux 包管理工具 aptitude 教程/","created":"2023-12-21T10:55:36.000+08:00","updated":"2024-01-16T15:47:25.000+08:00"}
+{"dg-publish":true,"dg-path":"车载技术/Linux 包管理工具 aptitude 教程.md","permalink":"/车载技术/Linux 包管理工具 aptitude 教程/","created":"2023-12-21T10:55:36.000+08:00","updated":"2024-01-16T15:47:25.000+08:00"}
 ---
 
 #Technomous #Linux 
