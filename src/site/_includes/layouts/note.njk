@@ -31,6 +31,17 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endif %}
 
     <main class="content cm-s-obsidian {{contentClasses}}">
+
+      <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-3215512126020129"
+          data-ad-slot="7014497615"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+      
       <header>
         {% if settings.dgShowInlineTitle === true %}
           <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
@@ -65,16 +76,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
         {% include imp %}
       {% endfor %}
       </header>
-
-      <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-3215512126020129"
-          data-ad-slot="7014497615"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
 
       {% for imp in dynamics.common.beforeContent %}
         {% include imp %}
