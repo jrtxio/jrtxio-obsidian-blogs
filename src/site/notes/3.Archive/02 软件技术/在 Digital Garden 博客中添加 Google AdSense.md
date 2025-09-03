@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 软件技术/在 Digital Garden 博客中添加 Google AdSense.md","permalink":"/02 软件技术/在 Digital Garden 博客中添加 Google AdSense/","created":"2025-06-17T09:42:23.001+08:00","updated":"2025-09-02T14:28:51.062+08:00"}
+{"dg-publish":true,"dg-path":"02 软件技术/在 Digital Garden 博客中添加 Google AdSense.md","permalink":"/02 软件技术/在 Digital Garden 博客中添加 Google AdSense/","created":"2025-06-17T09:42:23.001+08:00","updated":"2025-09-03T10:10:16.244+08:00"}
 ---
 
 #Innolight
@@ -15,9 +15,6 @@
 博客生成是通过 Javascript 将 Markdwon 转换为 HTML，为了能够修改所有页面的 HTML 文件，我们需要在转换之前进行添加操作。所幸我们可以很容易通过修改 layout 下的 index.njk 和 note.njk 模板完成所有 HTML 文件的修改，这两个文件分别是的主页和笔记的模板。只需要在两个文件的 header 标签里添加相应的内容：
 
 ![Pasted image 20250617095644.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250617095644.png)
-
-> [!NOTE]
-> njk 文件是 Nunjucks 模板引擎的文件扩展名，通常用于开发动态生成的 HTML 文件或其他基于模板的文本内容。Nunjucks 是一个基于 JavaScript 的模板引擎，类似于 Jinja2（用于 Python）或 Twig（用于 PHP）。它常用于构建动态网站或预渲染内容。
 
 如果添加完成之后，Google Adsense 验证失败了该怎么办？此时就需要通过浏览器来对网页进行一定的调试，确认所有页面都正确添加了相应的内容。如下图红框中选中的内容所示，我的页面已经添加了认证内容。
 
