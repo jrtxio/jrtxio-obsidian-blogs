@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/芯驰 E3 国产 Flash 替换指南.md","permalink":"/01 车载技术/芯驰 E3 国产 Flash 替换指南/","created":"2025-03-31T14:42:01.357+08:00","updated":"2025-06-19T10:53:40.283+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/芯驰 E3 国产 Flash 替换指南.md","permalink":"/01 车载技术/芯驰 E3 国产 Flash 替换指南/","created":"2025-03-31T14:42:01.357+08:00","updated":"2025-09-05T09:41:58.234+08:00"}
 ---
 
 #Innolight
@@ -8,7 +8,7 @@
 
 目前芯驰官方支持的 Flash 类型如下：
 
-![Pasted image 20250321092646.png.jpg|650](/img/user/0.Asset/resource/Pasted%20image%2020250321092646.png.jpg)
+![Pasted image 20250321092646.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250321092646.png)
 # 启动与存储
 
 MCU 的在启动时分为内置 Flash 和外置 Flash。一般内置 Flash 的初始化都固定在 MCU 的 BootROM 部分，用户无需关心。外置 Flash 则需要用户考虑完整的初始化过程。芯驰 E3 则是属于外置 Flash 的类型。
