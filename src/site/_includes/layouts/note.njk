@@ -22,7 +22,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     
     {% if settings.dgShowFileTree !== true %}
       {%include "components/navbar.njk"%}
-    {%else%}
+    {% else %}
       {%include "components/filetree.njk"%}
     {% endif %}
 
@@ -31,21 +31,21 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endif %}
 
     <main class="content cm-s-obsidian {{contentClasses}}">
-
       <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-3215512126020129"
-          data-ad-slot="7014497615"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
+        style="display:block"
+        data-ad-client="ca-pub-3215512126020129"
+        data-ad-slot="7014497615"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
       <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
+        (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
       
       <header>
         {% if settings.dgShowInlineTitle === true %}
           <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
         {% endif %}
+        
         <div class="header-meta">
           {% if settings.dgShowTags === true and tags %}
             <div class="header-tags">
@@ -58,23 +58,25 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
               {% endfor %}
             </div>
           {% endif %}
+          
           {%- if meta.timestampSettings.showCreated or meta.timestampSettings.showUpdated -%}
-          <div class="timestamps">
-            {%- if meta.timestampSettings.showCreated and created -%}
-            <div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="{{created}}"></span></div>
-            {%- endif -%}
-            {%- if meta.timestampSettings.showUpdated and updated -%}
-            <div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="{{updated}}"></span></div>
-            {%- endif -%}
-          </div>
+            <div class="timestamps">
+              {%- if meta.timestampSettings.showCreated and created -%}
+                <div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="{{created}}"></span></div>
+              {%- endif -%}
+              {%- if meta.timestampSettings.showUpdated and updated -%}
+                <div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="{{updated}}"></span></div>
+              {%- endif -%}
+            </div>
           {%- endif -%}
         </div>
-      {% for imp in dynamics.common.header %}
-        {% include imp %}
-      {% endfor %}
-      {% for imp in dynamics.notes.header %}
-        {% include imp %}
-      {% endfor %}
+        
+        {% for imp in dynamics.common.header %}
+          {% include imp %}
+        {% endfor %}
+        {% for imp in dynamics.notes.header %}
+          {% include imp %}
+        {% endfor %}
       </header>
 
       {% for imp in dynamics.common.beforeContent %}
@@ -83,16 +85,17 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% for imp in dynamics.notes.beforeContent %}
         {% include imp %}
       {% endfor %}
+      
       {{ content | hideDataview | taggify | link | safe}}
 
       <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-3215512126020129"
-          data-ad-slot="7014497615"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
+        style="display:block"
+        data-ad-client="ca-pub-3215512126020129"
+        data-ad-slot="7014497615"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
       <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
+        (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
 
       {% for imp in dynamics.common.afterContent %}
@@ -103,21 +106,29 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% endfor %}
     </main>
 
-    {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
+    {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true %}
       {%include "components/sidebar.njk"%}
     {% endif %}
 
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
     {% endif %}
+    
     {% include "components/references.njk" %}
     {% include "components/timestamps.njk" %}
+    
     {% for imp in dynamics.common.footer %}
       {% include imp %}
     {% endfor %}
     {% for imp in dynamics.notes.footer %}
       {% include imp %}
     {% endfor %}
+    
     {%include "components/lucideIcons.njk"%}
+
+    <script type="module">
+      import { injectSpeedInsights } from 'https://cdn.skypack.dev/@vercel/speed-insights';
+      injectSpeedInsights();
+    </script>
   </body>
 </html>
