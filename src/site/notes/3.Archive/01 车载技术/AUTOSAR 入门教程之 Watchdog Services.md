@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程之 Watchdog Services.md","permalink":"/01 车载技术/AUTOSAR 入门教程之 Watchdog Services/","created":"2025-08-05T10:18:09.626+08:00","updated":"2025-08-05T11:14:07.478+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程之 Watchdog Services.md","permalink":"/01 车载技术/AUTOSAR 入门教程之 Watchdog Services/","created":"2025-08-05T10:18:09.626+08:00","updated":"2025-09-09T19:00:24.268+08:00"}
 ---
 
 #Innolight
@@ -9,8 +9,6 @@ Watchdog Services 是 AUTOSAR 分层架构中的一组模块，其中如 Watchdo
 它可以避免在应用或基础软件中没有连续发生故障的情况下，系统被复位。
 
 ![Pasted image 20250805102147.png](/img/user/0.Asset/resource/Pasted%20image%2020250805102147.png)
-
----
 
 在应用程序或基础软件中被监控的实体称为被监督实体（Supervised Entity）。这些被监督实体可以是任意函数，或一个 runnable（指令集合，类似于函数，可以作为一个独立单元执行）。
 
@@ -41,8 +39,6 @@ Watchdog Services 是 AUTOSAR 分层架构中的一组模块，其中如 Watchdo
 在某些被监督实体中，执行流程必须被监控，以确保程序无误执行。逻辑监控用于监控程序中的执行流程。
 
 示例：在被监督实体中，有两个条件路径 A 和 B，其中一个路径是正确的。检查点被放置在被监督实体中。通过监控这些检查点的执行情况来监控程序的执行流程。
-
----
 
 WdgM 和被监督实体的状态可以通过全局监督状态（Global Supervision Status）和本地监督状态（Local Supervision Status）来监控。
 
