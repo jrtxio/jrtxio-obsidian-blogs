@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/谈谈 SOMEIP 和 DDS 的差异在哪里？.md","permalink":"/01 车载技术/谈谈 SOMEIP 和 DDS 的差异在哪里？/","created":"2022-07-18T23:08:07.000+08:00","updated":"2025-07-01T11:13:55.641+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/谈谈 SOMEIP 和 DDS 的差异在哪里？.md","permalink":"/01 车载技术/谈谈 SOMEIP 和 DDS 的差异在哪里？/","created":"2022-07-18T23:08:07.000+08:00","updated":"2025-07-01T11:13:55.000+08:00"}
 ---
 
 #Ofilm #SOMEIP 
