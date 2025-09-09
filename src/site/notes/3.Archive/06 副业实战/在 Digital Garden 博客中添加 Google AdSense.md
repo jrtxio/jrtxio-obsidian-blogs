@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"06 副业实战/在 Digital Garden 博客中添加 Google AdSense.md","permalink":"/06 副业实战/在 Digital Garden 博客中添加 Google AdSense/","created":"2025-06-17T09:42:23.001+08:00","updated":"2025-09-03T10:10:16.244+08:00"}
+{"dg-publish":true,"dg-path":"06 副业实战/在 Digital Garden 博客中添加 Google AdSense.md","permalink":"/06 副业实战/在 Digital Garden 博客中添加 Google AdSense/","created":"2025-06-17T09:42:23.001+08:00","updated":"2025-09-09T09:46:46.452+08:00"}
 ---
 
 #Innolight
@@ -38,6 +38,7 @@
 1. 在 site 目录下添加 ads.txt 文件
 2. 设置 .eleventy.js，设置将 ads.txt 原样拷贝到输出目录
 
-这样在打包的时候就能自动出现在网站根目录。成功后如下图所示：
+![Pasted image 20250909094641.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250909094641.png)
 
-![Pasted image 20250901144817.png](/img/user/0.Asset/resource/Pasted%20image%2020250901144817.png)
+这样在打包的时候就能自动出现在网站根目录。
+
