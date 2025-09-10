@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程之基础篇二.md","permalink":"/01 车载技术/AUTOSAR 入门教程之基础篇二/","created":"2025-07-12T23:32:59.000+08:00","updated":"2025-07-13T14:38:47.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程之基础篇二.md","permalink":"/01 车载技术/AUTOSAR 入门教程之基础篇二/","created":"2025-07-12T23:32:59.407+08:00","updated":"2025-07-13T14:38:47.189+08:00"}
 ---
 
 #Innolight #AutoSAR 

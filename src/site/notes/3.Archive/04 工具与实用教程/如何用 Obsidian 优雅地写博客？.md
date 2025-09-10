@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/如何用 Obsidian 优雅地写博客？.md","permalink":"/04 工具与实用教程/如何用 Obsidian 优雅地写博客？/","created":"2025-06-17T11:12:20.000+08:00","updated":"2025-07-01T09:46:32.000+08:00"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/如何用 Obsidian 优雅地写博客？.md","permalink":"/04 工具与实用教程/如何用 Obsidian 优雅地写博客？/","created":"2025-06-17T11:12:20.799+08:00","updated":"2025-07-01T09:46:32.370+08:00"}
 ---
 
 #Innolight
