@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程之 Watchdog Services.md","permalink":"/01 车载技术/AUTOSAR 入门教程之 Watchdog Services/","created":"2025-08-05T10:18:09.626+08:00","updated":"2025-09-09T19:00:24.268+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程之 Watchdog Services.md","permalink":"/01 车载技术/AUTOSAR 入门教程之 Watchdog Services/","created":"2025-08-05T10:18:09.000+08:00","updated":"2025-09-09T19:00:24.000+08:00"}
 ---
 
 #Innolight

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket 模块入门指南.md","permalink":"/03 编程语言与理论/Racket 模块入门指南/","created":"2025-05-15T10:34:48.231+08:00","updated":"2025-08-14T14:32:48.223+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket 模块入门指南.md","permalink":"/03 编程语言与理论/Racket 模块入门指南/","created":"2025-05-15T10:34:48.000+08:00","updated":"2025-08-14T14:32:48.000+08:00"}
 ---
 
 #Innolight #Lisp #Racket 

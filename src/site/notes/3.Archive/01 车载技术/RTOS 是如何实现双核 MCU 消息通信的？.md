@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/RTOS 是如何实现双核 MCU 消息通信的？.md","permalink":"/01 车载技术/RTOS 是如何实现双核 MCU 消息通信的？/","created":"2025-07-08T14:35:00.512+08:00","updated":"2025-07-08T15:06:25.213+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/RTOS 是如何实现双核 MCU 消息通信的？.md","permalink":"/01 车载技术/RTOS 是如何实现双核 MCU 消息通信的？/","created":"2025-07-08T14:35:00.000+08:00","updated":"2025-07-08T15:06:25.000+08:00"}
 ---
 
 #Innolight
