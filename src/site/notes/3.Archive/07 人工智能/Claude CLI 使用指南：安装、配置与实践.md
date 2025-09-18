@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 人工智能/Claude CLI 使用指南：安装、配置与实践.md","permalink":"/07 人工智能/Claude CLI 使用指南：安装、配置与实践/","created":"2025-09-11T10:10:55.000+08:00","updated":"2025-09-17T20:40:18.702+08:00"}
+{"dg-publish":true,"dg-path":"07 人工智能/Claude CLI 使用指南：安装、配置与实践.md","permalink":"/07 人工智能/Claude CLI 使用指南：安装、配置与实践/","created":"2025-09-11T10:10:55.000+08:00","updated":"2025-09-17T20:40:18.000+08:00"}
 ---
 
 #Innolight

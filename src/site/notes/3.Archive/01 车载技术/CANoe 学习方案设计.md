@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/CANoe 学习方案设计.md","permalink":"/01 车载技术/CANoe 学习方案设计/","created":"2020-03-07T17:16:50.000+08:00","updated":"2025-07-11T10:29:55.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/CANoe 学习方案设计.md","permalink":"/01 车载技术/CANoe 学习方案设计/","created":"2020-03-07T17:16:50.000+08:00","updated":"2025-07-11T10:29:55.793+08:00"}
 ---
 
 #BDStar #CANoe 

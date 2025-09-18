@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 人工智能/iFlow CLI 实践指南：配置、命令与项目开发流程.md","permalink":"/07 人工智能/iFlow CLI 实践指南：配置、命令与项目开发流程/","created":"2025-09-11T13:50:03.000+08:00","updated":"2025-09-11T13:52:06.000+08:00"}
+{"dg-publish":true,"dg-path":"07 人工智能/iFlow CLI 实践指南：配置、命令与项目开发流程.md","permalink":"/07 人工智能/iFlow CLI 实践指南：配置、命令与项目开发流程/","created":"2025-09-11T13:50:03.494+08:00","updated":"2025-09-11T13:52:06.888+08:00"}
 ---
 
 #Innolight

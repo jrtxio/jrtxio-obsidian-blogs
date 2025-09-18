@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 软件开发/如何设置 Racket 开源项目 ActivityLog2 的环境.md","permalink":"/02 软件开发/如何设置 Racket 开源项目 ActivityLog2 的环境/","created":"2025-07-14T18:52:09.000+08:00","updated":"2025-07-14T19:11:59.000+08:00"}
+{"dg-publish":true,"dg-path":"02 软件开发/如何设置 Racket 开源项目 ActivityLog2 的环境.md","permalink":"/02 软件开发/如何设置 Racket 开源项目 ActivityLog2 的环境/","created":"2025-07-14T18:52:09.298+08:00","updated":"2025-07-14T19:11:59.931+08:00"}
 ---
 
 #Innolight
