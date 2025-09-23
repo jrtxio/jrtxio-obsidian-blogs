@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 软件开发/基于 Racket 的 To-Do List 工具 RReminder.md","permalink":"/02 软件开发/基于 Racket 的 To-Do List 工具 RReminder/","created":"2025-04-03T16:32:09.000+08:00","updated":"2025-09-23T14:51:29.366+08:00"}
+{"dg-publish":true,"dg-path":"02 软件开发/基于 Racket 的 To-Do List 工具 RReminder.md","permalink":"/02 软件开发/基于 Racket 的 To-Do List 工具 RReminder/","created":"2025-04-03T16:32:09.000+08:00","updated":"2025-09-23T14:57:20.900+08:00"}
 ---
 
 #Innolight #Racket 
@@ -211,7 +211,7 @@ backend/
 └── utils.rkt        # 通用工具函数
 ```
 
-# 开发计划和里程碑
+# 开发计划
 
 ## 阶段一：基础设施搭建（2-3天）
 
