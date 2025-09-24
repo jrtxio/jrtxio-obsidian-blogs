@@ -371,7 +371,7 @@ module.exports = function (eleventyConfig) {
                 .substring(1)
                 .toLowerCase()}`;
             const fold = isCollapsable
-              ? `<div class="callout-fold"><i data-lucide="chevron-down"></i></div>`
+              ? `<div class="callout-fold"><i icon-name="chevron-down"></i></div>`
               : ``;
 
             calloutType = callout;
@@ -521,9 +521,6 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  eleventyConfig.addPassthroughCopy("src/site/robots.txt");
-  eleventyConfig.addPassthroughCopy("src/site/ads.txt");
-  eleventyConfig.addPassthroughCopy("src/site/baidu_verify_codeva-DTBvg2CXkR.html");
   eleventyConfig.addPassthroughCopy("src/site/img");
   eleventyConfig.addPassthroughCopy("src/site/scripts");
   eleventyConfig.addPassthroughCopy("src/site/styles/_theme.*.css");
