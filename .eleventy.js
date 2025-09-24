@@ -371,7 +371,7 @@ module.exports = function (eleventyConfig) {
                 .substring(1)
                 .toLowerCase()}`;
             const fold = isCollapsable
-              ? `<div class="callout-fold"><i data-lucide="chevron-down"></i></div>`
+              ? `<div class="callout-fold"><i icon-name="chevron-down"></i></div>`
               : ``;
 
             calloutType = callout;

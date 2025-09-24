@@ -60,32 +60,29 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
           {% endif %}
           
           {%- if meta.timestampSettings.showCreated or meta.timestampSettings.showUpdated -%}
-            <div class="timestamps">
-              {%- if meta.timestampSettings.showCreated and created -%}
-                <div><i data-lucide="calendar-plus"></i> <span class="human-date" data-date="{{created}}"></span></div>
-              {%- endif -%}
-              {%- if meta.timestampSettings.showUpdated and updated -%}
-                <div><i data-lucide="calendar-clock"></i> <span class="human-date" data-date="{{updated}}"></span></div>
-              {%- endif -%}
-            </div>
+          <div class="timestamps">
+            {%- if meta.timestampSettings.showCreated and created -%}
+            <div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="{{created}}"></span></div>
+            {%- endif -%}
+            {%- if meta.timestampSettings.showUpdated and updated -%}
+            <div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="{{updated}}"></span></div>
+            {%- endif -%}
+          </div>
           {%- endif -%}
         </div>
-        
-        {% for imp in dynamics.common.header %}
-          {% include imp %}
-        {% endfor %}
-        {% for imp in dynamics.notes.header %}
-          {% include imp %}
-        {% endfor %}
+      {% for imp in dynamics.common.header %}
+        {% include imp %}
+      {% endfor %}
+      {% for imp in dynamics.notes.header %}
+        {% include imp %}
+      {% endfor %}
       </header>
-
       {% for imp in dynamics.common.beforeContent %}
         {% include imp %}
       {% endfor %}
       {% for imp in dynamics.notes.beforeContent %}
         {% include imp %}
       {% endfor %}
-      
       {{ content | hideDataview | taggify | link | safe}}
 
       <ins class="adsbygoogle"
@@ -106,24 +103,21 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% endfor %}
     </main>
 
-    {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true %}
+    {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
       {%include "components/sidebar.njk"%}
     {% endif %}
 
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
     {% endif %}
-    
     {% include "components/references.njk" %}
     {% include "components/timestamps.njk" %}
-    
     {% for imp in dynamics.common.footer %}
       {% include imp %}
     {% endfor %}
     {% for imp in dynamics.notes.footer %}
       {% include imp %}
     {% endfor %}
-    
     {%include "components/lucideIcons.njk"%}
   </body>
 </html>
