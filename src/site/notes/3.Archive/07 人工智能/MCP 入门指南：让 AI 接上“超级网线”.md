@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 人工智能/MCP 入门指南：让 AI 接上“超级网线”.md","permalink":"/07 人工智能/MCP 入门指南：让 AI 接上“超级网线”/","created":"2025-09-24T14:52:59.705+08:00","updated":"2025-09-24T15:01:56.911+08:00"}
+{"dg-publish":true,"dg-path":"07 人工智能/MCP 入门指南：让 AI 接上“超级网线”.md","permalink":"/07 人工智能/MCP 入门指南：让 AI 接上“超级网线”/","created":"2025-09-24T14:52:59.705+08:00","updated":"2025-09-24T15:03:29.949+08:00"}
 ---
 
 #Innolight
@@ -32,6 +32,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 	- **截图**：
 		![Pasted image 20250924145531.png](/img/user/0.Asset/resource/Pasted%20image%2020250924145531.png)
 	- **Tips**：程序员必备，试试连 GitHub MCP。
+- 其他 MCP 客户端资源
+	- [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
 # MCP 服务器
 
