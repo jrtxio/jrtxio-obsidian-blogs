@@ -39,7 +39,7 @@
                                           {%- for backlink in graph.nodes[graph.homeAlias].backLinks -%}
                                                 {%- if graph.nodes[backlink].url != graph.homeAlias -%}
                                                 <div class="backlink-card">
-                                                      {%- if not meta.noteIconsSettings.backlinks -%}<i  data-lucide="link"></i> {%- endif -%}<a href="{{graph.nodes[backlink].url}}" data-note-icon="{{graph.nodes[backlink].noteIcon}}" class="backlink">{{graph.nodes[backlink].title}}</a>
+                                                      {%- if not meta.noteIconsSettings.backlinks -%}<i  icon-name="link"></i> {%- endif -%}<a href="{{graph.nodes[backlink].url}}" data-note-icon="{{graph.nodes[backlink].noteIcon}}" class="backlink">{{graph.nodes[backlink].title}}</a>
                                                 </div>
                                                 {%- endif -%}
                                           {%- endfor -%}
@@ -52,7 +52,7 @@
                                           {%- for backlink in graph.nodes[page.url].backLinks -%}
                                                 {%- if graph.nodes[backlink].url != page.url -%}
                                                 <div class="backlink-card">
-                                                      {%- if not meta.noteIconsSettings.backlinks -%}<i  data-lucide="link"></i> {%- endif -%}<a href="{{graph.nodes[backlink].url}}" data-note-icon="{{graph.nodes[backlink].noteIcon}}" class="backlink">{{graph.nodes[backlink].title}}</a>
+                                                      {%- if not meta.noteIconsSettings.backlinks -%}<i  icon-name="link"></i> {%- endif -%}<a href="{{graph.nodes[backlink].url}}" data-note-icon="{{graph.nodes[backlink].noteIcon}}" class="backlink">{{graph.nodes[backlink].title}}</a>
                                                 </div>
                                                 {%- endif -%}
                                           {%- endfor -%}
@@ -64,17 +64,6 @@
                   {% for imp in dynamics.sidebar.bottom %}
                         {% include imp %}
                   {% endfor %}
-
-                  <ins class="adsbygoogle"
-                        style="display:block"
-                        data-ad-client="ca-pub-3215512126020129"
-                        data-ad-slot="8202907467"
-                        data-ad-format="auto"
-                        data-full-width-responsive="true"></ins>
-                  <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                  </script>
-                  
             </div>
       </div>
 </aside>
