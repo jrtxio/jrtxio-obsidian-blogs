@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 人工智能/MCP 入门指南：让 AI 接上“超级网线”.md","permalink":"/07 人工智能/MCP 入门指南：让 AI 接上“超级网线”/","created":"2025-09-24T14:52:59.705+08:00","updated":"2025-09-24T15:03:29.949+08:00"}
+{"dg-publish":true,"dg-path":"07 人工智能/MCP 入门指南：让 AI 接上“超级网线”.md","permalink":"/07 人工智能/MCP 入门指南：让 AI 接上“超级网线”/","created":"2025-09-24T14:52:59.705+08:00","updated":"2025-09-25T09:36:27.904+08:00"}
 ---
 
 #Innolight
@@ -43,6 +43,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 - [web目录](https://glama.ai/mcp/servers)。
 - [MCP.ing](https://mcp.ing/) 一个资源丰富的 MCP Server库
 ![Pasted image 20250924145754.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250924145754.png)
+- [MCP Servers](https://mcpmarket.cn/)
 
 # MCP Server 开发
 
