@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket：一门用于创造新语言的语言.md","permalink":"/03 编程语言与理论/Racket：一门用于创造新语言的语言/","created":"2025-10-14T10:49:27.090+08:00","updated":"2025-10-14T10:56:21.933+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket：一门用于创造新语言的语言.md","permalink":"/03 编程语言与理论/Racket：一门用于创造新语言的语言/","created":"2025-10-14T10:49:27.090+08:00","updated":"2025-10-24T09:48:12.382+08:00"}
 ---
 
 #Innolight
@@ -141,3 +141,5 @@ fib(30)
 Racket 是许多事物的集合：一门语言、一个语言家族、一套强大的工具集。所有这一切都由深入详尽的文档支持，引导你在各种项目中前行。这使得它成为为小众社区构建领域特定语言（DSL）的理想工具。
 
 你可以用它创建类似 Prolog 的语言，或类似 Java 的语言，甚至能在同一代码库中混合使用它们。因此，它也是学习编程、深化对计算机科学理解、并进行实验的绝佳选择。
+
+备注：翻译自 [Racket a Language for Creating New Languages - Strumenta](https://tomassetti.me/racket-a-language-for-creating-new-languages/)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Lisp 操作系统.md","permalink":"/03 编程语言与理论/Lisp 操作系统/","created":"2025-04-24T10:57:26.764+08:00","updated":"2025-07-01T10:54:49.772+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Lisp 操作系统.md","permalink":"/03 编程语言与理论/Lisp 操作系统/","created":"2025-04-24T10:57:26.764+08:00","updated":"2025-10-24T09:48:23.648+08:00"}
 ---
 
 #Innolight #Lisp 
@@ -138,4 +138,4 @@ Lisp 操作系统最重要的方面不是所有代码都用 Lisp 编写，而是
 
 最后一步是用新系统的本地设备驱动程序替换临时的 Unix 内核，并将系统转变为一个完整的多用户操作系统。
 
-备注：翻译自[Lisp Operating System](http://metamodular.com/Common-Lisp/lispos.html)
+备注：翻译自 [Lisp Operating System](http://metamodular.com/Common-Lisp/lispos.html)
