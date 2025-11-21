@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/部署 Racket Web 应用.md","permalink":"/03 编程语言与理论/部署 Racket Web 应用/","created":"2025-11-21T09:37:07.505+08:00","updated":"2025-11-21T09:47:28.083+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/部署 Racket Web 应用.md","permalink":"/03 编程语言与理论/部署 Racket Web 应用/","created":"2025-11-21T09:37:07.505+08:00","updated":"2025-11-21T10:00:04.025+08:00"}
 ---
 
 #Innolight
@@ -234,3 +234,5 @@ dist/
 ```
 
 如果你想知道更多关于这一切是如何运作的，我提供的关于 [raco exe](https://docs.racket-lang.org/raco/exe.html)、[raco distribute](https://docs.racket-lang.org/raco/exe-dist.html) 和 [define-runtime-path](https://docs.racket-lang.org/reference/Filesystem.html#%28form._%28%28lib._racket%2Fruntime-path..rkt%29._define-runtime-path%29%29) 的链接应该能帮到你！
+
+备注：翻译自 [Deploying Racket Web Apps — defn.io](https://defn.io/2020/06/28/racket-deployment/)
