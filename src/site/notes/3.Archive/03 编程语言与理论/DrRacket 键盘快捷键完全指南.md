@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/DrRacket 键盘快捷键完全指南.md","permalink":"/03 编程语言与理论/DrRacket 键盘快捷键完全指南/","created":"2025-11-24T11:29:29.833+08:00","updated":"2025-11-25T10:09:24.999+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/DrRacket 键盘快捷键完全指南.md","permalink":"/03 编程语言与理论/DrRacket 键盘快捷键完全指南/","created":"2025-11-24T11:29:29.833+08:00","updated":"2025-11-25T15:11:57.554+08:00"}
 ---
 
-#Innolight
+#Innolight #Lisp #Racket 
 
 DrRacket 不仅是一个初学者友好的 Racket 开发环境，还内置了一套强大而灵活的快捷键系统。无论你是刚接触函数式编程的新手，还是希望提升编辑效率的老手，掌握 DrRacket 的快捷键都能让你事半功倍。
 

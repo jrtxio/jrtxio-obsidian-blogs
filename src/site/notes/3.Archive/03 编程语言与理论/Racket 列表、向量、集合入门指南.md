@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket 列表、向量、集合入门指南.md","permalink":"/03 编程语言与理论/Racket 列表、向量、集合入门指南/","created":"2025-08-26T11:04:11.874+08:00","updated":"2025-08-26T12:10:05.662+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket 列表、向量、集合入门指南.md","permalink":"/03 编程语言与理论/Racket 列表、向量、集合入门指南/","created":"2025-08-26T11:04:11.874+08:00","updated":"2025-11-25T15:11:40.857+08:00"}
 ---
 
-#Innolight
+#Innolight #Lisp #Racket 
 
 在 Racket 中，列表、向量和集合是三种核心的数据结构，各有特色和适用场景。本文将带你快速掌握它们的使用方法。
 

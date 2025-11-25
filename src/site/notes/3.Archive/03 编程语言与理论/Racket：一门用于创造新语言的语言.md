@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket：一门用于创造新语言的语言.md","permalink":"/03 编程语言与理论/Racket：一门用于创造新语言的语言/","created":"2025-10-14T10:49:27.090+08:00","updated":"2025-10-24T09:48:12.382+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket：一门用于创造新语言的语言.md","permalink":"/03 编程语言与理论/Racket：一门用于创造新语言的语言/","created":"2025-10-14T10:49:27.090+08:00","updated":"2025-11-25T15:10:54.639+08:00"}
 ---
 
-#Innolight
+#Innolight #Lisp #Racket 
 
 在本文中，我们将探讨 **Racket**——一门专为快速创建全新编程语言而生的编程语言。终于，有一个叫“Racket”的语言，值得你投入时间。
 
