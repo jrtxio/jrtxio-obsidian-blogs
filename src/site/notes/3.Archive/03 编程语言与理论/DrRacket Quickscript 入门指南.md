@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/DrRacket Quickscript 入门指南.md","permalink":"/03 编程语言与理论/DrRacket Quickscript 入门指南/","created":"2025-11-25T14:50:13.894+08:00","updated":"2025-11-26T14:30:26.372+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/DrRacket Quickscript 入门指南.md","permalink":"/03 编程语言与理论/DrRacket Quickscript 入门指南/","created":"2025-11-25T14:50:13.894+08:00","updated":"2025-11-26T14:30:50.301+08:00"}
 ---
 
 #Innolight #Lisp #Racket 
@@ -107,7 +107,6 @@ raco pkg install quickscript-extra
     ;; 脚本逻辑
     "result string"))
 ```
-
 
 > [!NOTE]
 > 属性的参数是字面量，不是表达式，因此不能被引号包裹。这是因为 Quickscript 会读取脚本文件两次：第一次只提取必要的信息来构建菜单项（轻量快速），第二次才真正加载和执行脚本模块。

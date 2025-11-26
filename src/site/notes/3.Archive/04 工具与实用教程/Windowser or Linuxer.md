@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/Windowser or Linuxer.md","permalink":"/04 工具与实用教程/Windowser or Linuxer/","created":"2025-09-26T15:37:04.903+08:00","updated":"2025-11-25T15:40:13.370+08:00"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/Windowser or Linuxer.md","permalink":"/04 工具与实用教程/Windowser or Linuxer/","created":"2025-09-26T15:37:04.903+08:00","updated":"2025-11-26T14:47:19.798+08:00"}
 ---
 
-#Innolight
+#Innolight #Linux 
 
 今天正式装回 Windows 系统了，距离第一次实体机装 Linux 的具体天数已经忘了，不过粗略算了一下应该有八九个月左右。身边的朋友都追问为什么又回到 Windows。首先这里我想解释一下，装回 Windows 并不是因为 Linux 不容易使用，相反，Linux 在我心目中的地位已经无可替代，它处理事情的方式已经深深地影响了我。我放弃实体机安装 Linux 是因为驱动问题（这也是 Linux 长期以来饱受诟病的问题）。官网的驱动半死不活，而开源驱动还有很长的一段路要走。
 
