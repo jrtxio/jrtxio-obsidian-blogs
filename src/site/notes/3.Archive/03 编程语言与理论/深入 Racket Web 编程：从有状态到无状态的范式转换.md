@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/深入 Racket Web 编程：从有状态到无状态的范式转换.md","permalink":"/03 编程语言与理论/深入 Racket Web 编程：从有状态到无状态的范式转换/","created":"2025-09-22T09:43:42.209+08:00","updated":"2025-09-22T14:13:50.426+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/深入 Racket Web 编程：从有状态到无状态的范式转换.md","permalink":"/03 编程语言与理论/深入 Racket Web 编程：从有状态到无状态的范式转换/","created":"2025-09-22T09:43:42.209+08:00","updated":"2025-11-25T15:43:54.892+08:00"}
 ---
 
-#Innolight
+#Innolight #Lisp #Racket 
 
 # 摘要
 

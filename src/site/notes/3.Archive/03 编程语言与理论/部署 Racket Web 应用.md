@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/部署 Racket Web 应用.md","permalink":"/03 编程语言与理论/部署 Racket Web 应用/","created":"2025-11-21T09:37:07.505+08:00","updated":"2025-11-21T10:00:04.025+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/部署 Racket Web 应用.md","permalink":"/03 编程语言与理论/部署 Racket Web 应用/","created":"2025-11-21T09:37:07.505+08:00","updated":"2025-11-25T15:44:30.809+08:00"}
 ---
 
-#Innolight
+#Innolight #Lisp #Racket 
 
 最近有人在 Racket Slack 上询问如何部署 Racket Web 应用。最常见的答案有
 

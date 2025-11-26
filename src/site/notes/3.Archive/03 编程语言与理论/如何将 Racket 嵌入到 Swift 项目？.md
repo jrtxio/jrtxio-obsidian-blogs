@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/如何将 Racket 嵌入到 Swift 项目？.md","permalink":"/03 编程语言与理论/如何将 Racket 嵌入到 Swift 项目？/","created":"2025-07-16T10:58:13.000+08:00","updated":"2025-09-22T16:37:39.686+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/如何将 Racket 嵌入到 Swift 项目？.md","permalink":"/03 编程语言与理论/如何将 Racket 嵌入到 Swift 项目？/","created":"2025-07-16T10:58:13.000+08:00","updated":"2025-11-25T15:43:06.898+08:00"}
 ---
 
-#Innolight
+#Innolight #Lisp #Racket 
 
 本文结合 Noise 和 Remember 两个真实项目，介绍如何在 macOS/iOS 的 Swift 应用中嵌入 Racket CS 运行时，实现基于序列化 RPC 的跨语言调用架构，助你快速搭建灵活且高效的内嵌脚本环境。
 

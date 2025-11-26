@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/如何设置 Racket 开源项目 ActivityLog2 的环境.md","permalink":"/03 编程语言与理论/如何设置 Racket 开源项目 ActivityLog2 的环境/","created":"2025-07-14T18:52:09.298+08:00","updated":"2025-07-14T19:11:59.931+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/如何设置 Racket 开源项目 ActivityLog2 的环境.md","permalink":"/03 编程语言与理论/如何设置 Racket 开源项目 ActivityLog2 的环境/","created":"2025-07-14T18:52:09.298+08:00","updated":"2025-11-25T15:43:24.770+08:00"}
 ---
 
-#Innolight
+#Innolight #Lisp #Racket 
 
 [ActivityLog2](https://github.com/alex-hhh/ActivityLog2) 是一个基于 Racket 的开源原生桌面 GUI 开发工程，本文将详细讲解整个工程环境的搭建。
 
