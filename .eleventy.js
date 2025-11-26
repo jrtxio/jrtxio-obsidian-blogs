@@ -520,7 +520,13 @@ module.exports = function (eleventyConfig) {
       outputPath &&
       outputPath.endsWith(".html")
     ) {
-      return htmlMinifier.minify(content, {
+      // Escape problematic sequences before minification
+      const escaped = content
+        .replace(/<%>/g, '&lt;%&gt;')
+        .replace(/<%/g, '&lt;%')
+        .replace(/%>/g, '%&gt;');
+      
+      const minified = htmlMinifier.minify(escaped, {
         useShortDoctype: true,
         removeComments: true,
         collapseWhitespace: true,
@@ -530,6 +536,8 @@ module.exports = function (eleventyConfig) {
         minifyJS: true,
         keepClosingSlash: true,
       });
+      
+      return minified;
     }
     return content;
   });
