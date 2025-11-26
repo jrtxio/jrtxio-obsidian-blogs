@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket 官方文档阅读指南.md","permalink":"/03 编程语言与理论/Racket 官方文档阅读指南/","created":"2025-11-26T11:15:05.230+08:00","updated":"2025-11-26T11:32:50.062+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket 官方文档阅读指南.md","permalink":"/03 编程语言与理论/Racket 官方文档阅读指南/","created":"2025-11-26T11:15:05.230+08:00","updated":"2025-11-26T11:33:03.547+08:00"}
 ---
 
-#Innolight
+#Innolight #Lisp #Racket 
 
 # 引言：为什么要学会读文档？
 
