@@ -1,8 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/DrRacket Quickscript 入门指南.md","permalink":"/03 编程语言与理论/DrRacket Quickscript 入门指南/","created":"2025-11-25T14:50:13.894+08:00","updated":"2025-11-25T15:40:55.123+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/DrRacket Quickscript 入门指南.md","permalink":"/03 编程语言与理论/DrRacket Quickscript 入门指南/","created":"2025-11-25T14:50:13.894+08:00","updated":"2025-11-26T13:40:38.806+08:00"}
 ---
 
 #Innolight #Lisp #Racket 
+
 # 引言
 
 如果你正在使用 DrRacket，那么你很可能已经发现了菜单栏中的 **Scripts** 菜单。这个看似不起眼的功能，实际上是 DrRacket 内置的强大脚本系统——**Quickscript**。通过 Quickscript，你可以用简短的 Racket 代码来自动化编辑器操作、扩展功能，而且**无需重启 DrRacket**。
