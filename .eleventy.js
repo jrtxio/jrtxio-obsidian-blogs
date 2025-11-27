@@ -23,7 +23,7 @@ function transformImage(src, cls, alt, sizes, widths = ["500", "700", "auto"]) {
     urlPath: "/img/optimized",
   };
 
-  // generate images, while this is async we don't wait
+  // generate images, while this is async we don’t wait
   Image(src, options);
   let metadata = Image.statsSync(src, options);
   return metadata;
@@ -92,16 +92,6 @@ function getAnchorAttributes(filePath, linkTitle) {
 }
 
 const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
-
-function removeCodeBlocks(str) {
-  if (!str) return str;
-  
-  return str
-    .replace(/```[\s\S]*?```/g, '')
-    .replace(/`[^`\n]+`/g, '')
-    .replace(/<pre[\s\S]*?<\/pre>/gi, '')
-    .replace(/<code[\s\S]*?<\/code>/gi, '');
-}
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLiquidOptions({
@@ -300,23 +290,17 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("taggify", function (str) {
-    if (!str) return str;
-    
-    const cleanedStr = removeCodeBlocks(str);
-    
-    return cleanedStr.replace(tagRegex, function (match, precede, tag) {
-      return `${precede}<a class="tag" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</a>`;
-    });
+    return (
+      str &&
+      str.replace(tagRegex, function (match, precede, tag) {
+        return `${precede}<a class="tag" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</a>`;
+      })
+    );
   });
 
   eleventyConfig.addFilter("searchableTags", function (str) {
-    if (!str) return "";
-    
-    const cleanedStr = removeCodeBlocks(str);
-    
     let tags;
-    let match = cleanedStr.match(tagRegex);
-    
+    let match = str && str.match(tagRegex);
     if (match) {
       tags = match
         .map((m) => {
@@ -324,8 +308,11 @@ module.exports = function (eleventyConfig) {
         })
         .join(", ");
     }
-    
-    return tags ? `${tags},` : "";
+    if (tags) {
+      return `${tags},`;
+    } else {
+      return "";
+    }
   });
 
   eleventyConfig.addFilter("hideDataview", function (str) {
@@ -520,23 +507,7 @@ module.exports = function (eleventyConfig) {
       outputPath &&
       outputPath.endsWith(".html")
     ) {
-      // Only escape template-like sequences outside of code blocks
-      const escaped = content.replace(
-        /(<code[\s\S]*?<\/code>)|(<pre[\s\S]*?<\/pre>)|(<%>)/g,
-        (match, code, pre, templateSeq) => {
-          if (code || pre) {
-            // Don't escape inside code or pre tags
-            return match;
-          }
-          if (templateSeq) {
-            // Escape <%> in normal text
-            return '&lt;%&gt;';
-          }
-          return match;
-        }
-      );
-      
-      return htmlMinifier.minify(escaped, {
+      return htmlMinifier.minify(content, {
         useShortDoctype: true,
         removeComments: true,
         collapseWhitespace: true,
