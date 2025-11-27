@@ -520,13 +520,23 @@ module.exports = function (eleventyConfig) {
       outputPath &&
       outputPath.endsWith(".html")
     ) {
-      // Escape problematic sequences before minification
-      const escaped = content
-        .replace(/<%>/g, '&lt;%&gt;')
-        .replace(/<%/g, '&lt;%')
-        .replace(/%>/g, '%&gt;');
+      // Only escape template-like sequences outside of code blocks
+      const escaped = content.replace(
+        /(<code[\s\S]*?<\/code>)|(<pre[\s\S]*?<\/pre>)|(<%>)/g,
+        (match, code, pre, templateSeq) => {
+          if (code || pre) {
+            // Don't escape inside code or pre tags
+            return match;
+          }
+          if (templateSeq) {
+            // Escape <%> in normal text
+            return '&lt;%&gt;';
+          }
+          return match;
+        }
+      );
       
-      const minified = htmlMinifier.minify(escaped, {
+      return htmlMinifier.minify(escaped, {
         useShortDoctype: true,
         removeComments: true,
         collapseWhitespace: true,
@@ -536,8 +546,6 @@ module.exports = function (eleventyConfig) {
         minifyJS: true,
         keepClosingSlash: true,
       });
-      
-      return minified;
     }
     return content;
   });
