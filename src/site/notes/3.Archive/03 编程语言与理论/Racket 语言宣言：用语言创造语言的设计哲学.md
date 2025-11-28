@@ -129,4 +129,4 @@ Racket 的三大设计原则——语言创造、全谱保护、机制内化—�
 
 虽然仍有许多不完善之处，但 Racket 团队将这些视为前进的动力。正如他们所说，将原则变为现实总会产生不完美的产物，而这些不完美正是未来研究的机会。
 
-![[The Racket Manifesto.pdf]]
+<iframe src="/img/user/0.Asset/resource/The%20Racket%20Manifesto.pdf" width="100%" height="900px" title="The Racket Manifesto.pdf" style="border:1px solid #ccc;"></iframe>

@@ -32,7 +32,7 @@ void Det_ReportError(uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 Error
 
 在 AUTOSAR 架构里面，每个模块 ID 都是标准定义的，可以参考 AUTOSAR_TR_BSWModuleList.pdf 文件。根据下表可以知，ModuleId=51 对应模块就是 PDUR。
 
-![[AUTOSAR_TR_BSWModuleList.pdf]]
+<iframe src="/img/user/0.Asset/resource/AUTOSAR_TR_BSWModuleList.pdf" width="100%" height="900px" title="AUTOSAR_TR_BSWModuleList.pdf" style="border:1px solid #ccc;"></iframe>
 
 ## ErrorId
 

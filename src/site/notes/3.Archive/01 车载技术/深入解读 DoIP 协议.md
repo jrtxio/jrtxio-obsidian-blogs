@@ -168,7 +168,7 @@ Gateway 的功能需要从两个方面去分析：
 2. Locked switch(e.g. via VLAN encapsulation)
 	这种场景下诊断仪是没有权限直接连接到车内的以太网 ECUs，诊断仪的通信需要通过中央网关模拟诊断仪进行中间转发。此时的转发也可以根据实际需求对相应的流程进行精简，不同的策略转发效率也各不相同。
 
-![[Fast_Vehicle_Diagnostics_with_DoIP.pdf]]
+<iframe src="/img/user/0.Asset/resource/Fast_Vehicle_Diagnostics_with_DoIP.pdf" width="100%" height="900px" title="Fast_Vehicle_Diagnostics_with_DoIP.pdf" style="border:1px solid #ccc;"></iframe>
 
 
 

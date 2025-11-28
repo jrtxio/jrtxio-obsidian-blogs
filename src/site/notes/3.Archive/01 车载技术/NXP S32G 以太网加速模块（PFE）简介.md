@@ -73,4 +73,4 @@ PFE_MAC0 和 PFE_MAC1 间的流量将自动通过 HSE 加解密后由 PFE 转发
 
 NXP 官方参考文档：
 
-![[TP-TD-AUT236.pdf]]
+<iframe src="/img/user/0.Asset/resource/TP-TD-AUT236.pdf" width="100%" height="900px" title="TP-TD-AUT236.pdf" style="border:1px solid #ccc;"></iframe>
