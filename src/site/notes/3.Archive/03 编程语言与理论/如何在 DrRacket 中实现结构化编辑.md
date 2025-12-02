@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/如何在 DrRacket 中实现结构化编辑.md","permalink":"/03 编程语言与理论/如何在 DrRacket 中实现结构化编辑/","created":"2025-03-27T15:26:42.100+08:00","updated":"2025-11-25T15:43:01.035+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/如何在 DrRacket 中实现结构化编辑.md","permalink":"/03 编程语言与理论/如何在 DrRacket 中实现结构化编辑/","created":"2025-03-27T15:26:42.100+08:00","updated":"2025-12-02T16:04:52.734+08:00"}
 ---
 
 #Innolight #Lisp #Racket 
@@ -48,7 +48,7 @@ Slurpage & barfage
 下面介绍一下各个快捷键的使用场景
 
 > [!NOTE]
-> 如果不了解快捷键的含义，可以参考这篇文章 [[3.Archive/03 编程语言与理论/DrRacket 键盘快捷键完全指南\|DrRacket 键盘快捷键完全指南]]
+> 如果不了解快捷键的含义，可以参考这篇文章 [[3.Archive/03 编程语言与理论/DrRacket 快捷键完全指南\|DrRacket 快捷键完全指南]]
 
 ## 移动（Movement）
 
