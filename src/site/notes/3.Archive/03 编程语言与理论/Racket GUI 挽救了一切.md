@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket GUI 挽救了一切.md","permalink":"/03 编程语言与理论/Racket GUI 挽救了一切/","created":"2025-12-02T14:56:47.244+08:00","updated":"2025-12-02T15:39:32.608+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket GUI 挽救了一切.md","permalink":"/03 编程语言与理论/Racket GUI 挽救了一切/","created":"2025-12-02T14:56:47.244+08:00","updated":"2025-12-02T15:42:19.842+08:00"}
 ---
 
 #Innolight
@@ -168,4 +168,4 @@ window
 
 有了这些，就完成了一个基本但功能完整的图标查看器 (icon viewer) —— 列出文件、过滤、点击查看 SVG。大约只用了 50 行代码。
 
-你可以在这里找到[最终版本](https://defn.io/code/icon-viewer.rkt)的代码
+你可以在这里找到[最终版本](https://defn.io/code/icon-viewer.rkt)的代码。
