@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器.md","permalink":"/03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器/","created":"2025-12-02T14:56:47.244+08:00","updated":"2025-12-03T17:31:56.067+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器.md","permalink":"/03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器/","created":"2025-12-02T14:56:47.244+08:00","updated":"2025-12-03T18:14:04.362+08:00"}
 ---
 
 #Innolight #Lisp #Racket 
@@ -140,7 +140,7 @@ window
                      (send list-box append filename)))]))
 ```
 
-这个 callback 的作用是：获取当前 search-box 的值 (text)，清空 list-box，然后把所有文件名中 **包含** text 的那些添加回来。这样就实现了过滤。
+这个 callback 的作用是：获取当前 search-box 的值 (text)，清空 list-box，然后把所有文件名中包含 text 的那些添加回来。这样就实现了过滤。
 
 最后，我们加入 SVG 显示功能。当用户点击 (选择) list-box 中某个项目 (filename) 时，我们读取对应的 SVG 文件并把它画到 canvas 上。为此，需要用到 `rsvg` 库。文章中提到：
 
