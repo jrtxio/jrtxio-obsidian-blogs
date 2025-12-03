@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器.md","permalink":"/03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器/","created":"2025-12-02T14:56:47.244+08:00","updated":"2025-12-02T19:00:26.957+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器.md","permalink":"/03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器/","created":"2025-12-02T14:56:47.244+08:00","updated":"2025-12-03T17:31:56.067+08:00"}
 ---
 
 #Innolight #Lisp #Racket 
@@ -92,7 +92,7 @@ window
 
 - `search-box` 会用来输入搜索过滤 (filter) 字符串，
 - `list-box` 会列出符合过滤条件 (filtering) 的文件名，
-- `canvas` 用来绘制 (render) 被选中的文件 (例如 SVG 图标)。 ([Defn](https://defn.io/2019/06/17/racket-gui-saves/ "racket/gui saves the day — defn.io"))
+- `canvas` 用来绘制 (render) 被选中的文件 (例如 SVG 图标)。
 
 运行上述代码的话，你就能得到与文章开头所展示 UI “几乎相同”的界面 (layout + 空控件，但还没加交互行为)。
 
