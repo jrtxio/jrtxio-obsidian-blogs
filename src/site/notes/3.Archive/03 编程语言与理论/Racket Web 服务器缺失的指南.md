@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket Web 服务器缺失的指南.md","permalink":"/03 编程语言与理论/Racket Web 服务器缺失的指南/","created":"2025-12-03T15:57:46.345+08:00","updated":"2025-12-03T17:17:15.858+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket Web 服务器缺失的指南.md","permalink":"/03 编程语言与理论/Racket Web 服务器缺失的指南/","created":"2025-12-03T15:57:46.345+08:00","updated":"2025-12-04T10:59:28.468+08:00"}
 ---
 
-#Innolight
+#Innolight #Lisp #Racket 
 
 Racket 自带的 [web-server](https://docs.racket-lang.org/web-server/index.html?q=web-server) 包很不错，但其中一些部分对初学者来说可能过于底层，容易造成困惑。在这篇文章里，我将通过提供一些定义和示例来澄清初学者可能会感到困惑的一些问题。
 

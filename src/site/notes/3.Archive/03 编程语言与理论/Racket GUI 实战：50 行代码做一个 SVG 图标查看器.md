@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器.md","permalink":"/03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器/","created":"2025-12-02T14:56:47.244+08:00","updated":"2025-12-03T18:14:04.362+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器.md","permalink":"/03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器/","created":"2025-12-02T14:56:47.244+08:00","updated":"2025-12-04T10:51:03.877+08:00"}
 ---
 
 #Innolight #Lisp #Racket 
 
-昨天，我买了一个图标包 — 里面有 3000 多个 (!) SVG 文件 — 然后当我试图在 macOS 上搜索这个未解压的文件夹时，系统彻底崩溃了。
+昨天，我买了一个图标包 — 里面有 3000 多个 SVG 文件 — 然后当我试图在 macOS 上搜索这个未解压的文件夹时，系统彻底崩溃了。
 
 ![Pasted image 20251202145801.png|650](/img/user/0.Asset/resource/Pasted%20image%2020251202145801.png)
 
@@ -32,7 +32,7 @@ Racket 的 GUI 工具包采用的是一种 “retained-mode” 风格的 API，�
 
 上面这段代码实例化了一个新的 frame 对象 —— 它的标题 (label) 是 “Hello World!” —— 然后告诉它自己显示出来。就这么简单！
 
-## `racket/class` 快速入门
+## racket/class 快速入门
 
 这个 GUI 库是基于 Racket 的类系统 (class system) 构建的。在这个上下文里，你只需知道：
 
@@ -142,7 +142,7 @@ window
 
 这个 callback 的作用是：获取当前 search-box 的值 (text)，清空 list-box，然后把所有文件名中包含 text 的那些添加回来。这样就实现了过滤。
 
-最后，我们加入 SVG 显示功能。当用户点击 (选择) list-box 中某个项目 (filename) 时，我们读取对应的 SVG 文件并把它画到 canvas 上。为此，需要用到 `rsvg` 库。文章中提到：
+最后，我们加入 SVG 显示功能。当用户点击 (选择) list-box 中某个项目 (filename) 时，我们读取对应的 SVG 文件并把它画到 canvas 上。为此，需要用到 `rsvg` 库：
 
 - 首先要安装 `rsvg`，因为它依赖 `librsvg`。在 macOS 上，可以用 `brew install librsvg`。
 - 然后 require 它，并给 `list-box` 添加 callback，当 item 被选中 (selection) 时读取文件、加载 SVG、清除画布再画图。类似这样的代码：
@@ -168,4 +168,4 @@ window
 
 有了这些，就完成了一个基本但功能完整的图标查看器 (icon viewer) —— 列出文件、过滤、点击查看 SVG。大约只用了 50 行代码。
 
-你可以在这里找到[最终版本](https://defn.io/code/icon-viewer.rkt)的代码。
+你可以在这里找到[最终版本](https://github.com/jrtxio/racket-showcase/blob/main/app-showcase/icon-viewer/icon-viewer.rkt)的代码。
