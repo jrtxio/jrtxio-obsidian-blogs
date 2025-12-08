@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket 词法闭包入门指南.md","permalink":"/03 编程语言与理论/Racket 词法闭包入门指南/","created":"2023-02-16T19:22:32.000+08:00","updated":"2025-12-04T15:08:50.276+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket 词法闭包入门指南.md","permalink":"/03 编程语言与理论/Racket 词法闭包入门指南/","created":"2023-02-16T19:22:32.000+08:00","updated":"2025-12-05T09:52:32.739+08:00"}
 ---
 
 #Technomous #Lisp #Racket 
@@ -8,7 +8,7 @@
 
 # 什么是词法闭包？
 
-在计算机科学中，**闭包（Closure）**，又称**词法闭包（Lexical Closure）**或**函数闭包（Function Closure）**，指的是：
+在计算机科学中，**闭包（Closure）**，又称词法闭包（Lexical Closure）或函数闭包（Function Closure），指的是：
 
 > **一个引用了外部自由变量的函数，并且这些被引用的变量会与函数共存，即使函数已经离开了它原本的创建环境。**
 
@@ -32,7 +32,7 @@
 
 # 闭包是如何扩展变量作用域的？
 
-关键机制在于 **匿名函数捕获外部变量**。
+关键机制在于**匿名函数捕获外部变量**。
 
 来看一个简单示例（Racket 风格伪码）：
 
@@ -108,10 +108,10 @@
 
 下面我们展示如何用闭包做一个**极简却实用**的“类系统”——用来说明思想而不是替代语言自带的类/对象系统。这个迷你系统包含：
 
-- 对象由 构造器（constructor）创建，返回一个**消息分发函数**（dispatch function）
+- 对象由构造器（constructor）创建，返回一个**消息分发函数**（dispatch function）
 - 使用 `send` 辅助函数来发送消息（方法名用符号）
 - 支持**私有字段**（闭包变量）和**封装**（外界无法直接访问字段）
-- 通过 **委托（delegation）** 实现简单的继承/扩展（把未处理的方法转发给“父对象”）
+- 通过**委托（delegation）** 实现简单的继承/扩展（把未处理的方法转发给“父对象”）
 
 > 所有示例均为纯 Racket，可直接在 DrRacket 或 `racket` REPL 中运行。
 
@@ -157,7 +157,7 @@
 
 说明：`count` 是私有的，外界只能通过 `'inc`、`'get`、`'reset` 操作它。
 
-## 例 2：带私有字段和方法的 `Person` 类
+## 例 2：带私有字段和方法的 Person 类
 
 ```racket
 (define (make-person name age)
@@ -194,7 +194,7 @@
 
 ## 例 3：通过委托实现“继承”或扩展（Student 基于 Person）
 
-我们用**委托（delegation）** 的方式扩展对象行为：构建一个 `Student`，它内部创建了一个 `Person` 对象用于处理共同的方法；`Student` 自己处理学生相关的方法，未处理的消息则委托给 `Person`。
+我们用委托（delegation）的方式扩展对象行为：构建一个 `Student`，它内部创建了一个 `Person` 对象用于处理共同的方法；`Student` 自己处理学生相关的方法，未处理的消息则委托给 `Person`。
 
 ```racket
 (define (make-student name age school)

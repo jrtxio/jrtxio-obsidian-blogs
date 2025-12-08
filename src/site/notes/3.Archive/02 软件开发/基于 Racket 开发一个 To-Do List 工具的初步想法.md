@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 软件开发/基于 Racket 开发一个 To-Do List 工具的初步想法.md","permalink":"/02 软件开发/基于 Racket 开发一个 To-Do List 工具的初步想法/","created":"2025-04-03T16:32:09.000+08:00","updated":"2025-11-28T15:17:39.932+08:00"}
+{"dg-publish":true,"dg-path":"02 软件开发/基于 Racket 开发一个 To-Do List 工具的初步想法.md","permalink":"/02 软件开发/基于 Racket 开发一个 To-Do List 工具的初步想法/","created":"2025-04-03T16:32:09.000+08:00","updated":"2025-12-06T20:21:54.000+08:00"}
 ---
 
 #Innolight #Racket 
@@ -10,6 +10,8 @@
 # 需求背景
 
 目前市面上的 To-Do List 工具的数据都是保存在云端的，违背了我对数据安全的一些准则。大多工具都是极其复杂，而我只是想要一个最简单的代办任务功能，作为一个极简主义者，完全不能忍受，所以打算基于 Racket 开发一个 To-Do List 工具。经过对多个工具的调研，决定参考 macOS 的 Reminder 的页面和交互逻辑来实现，数据由用户自由选择保存位置，用户可以自由选择第三方同步工具来同步数据，这样不同平台的 RReminder 打开同一个数据都能呈现相同的内容，实现一致的跨平台使用效果。
+
+![Pasted image 20251206202148.png|650](/img/user/0.Asset/resource/Pasted%20image%2020251206202148.png)
 
 # 技术选型
 
