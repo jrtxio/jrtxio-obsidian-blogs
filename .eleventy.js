@@ -501,29 +501,31 @@ module.exports = function (eleventyConfig) {
     return str && parsed.innerHTML;
   });
 
-  eleventyConfig.addTransform("htmlMinifier", (content, outputPath) => {
+  eleventyConfig.addTransform("htmlMinifier", async (content, outputPath) => {
     if (
       (process.env.NODE_ENV === "production" || process.env.ELEVENTY_ENV === "prod") &&
       outputPath &&
       outputPath.endsWith(".html")
     ) {
-      return htmlMinifier.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true,
-        conservativeCollapse: true,
-        preserveLineBreaks: true,
-        minifyCSS: true,
-        minifyJS: true,
-        keepClosingSlash: true,
-      });
+      try {
+        return await htmlMinifier.minify(content, {
+          useShortDoctype: true,
+          removeComments: true,
+          collapseWhitespace: true,
+          conservativeCollapse: true,
+          preserveLineBreaks: true,
+          minifyCSS: true,
+          minifyJS: true,
+          keepClosingSlash: true,
+        });
+      } catch {
+        // If the html minifying fails for some reason due to some malformed text, just return the content as is.
+        return content;
+      }
     }
     return content;
   });
 
-  eleventyConfig.addPassthroughCopy("src/site/robots.txt");
-  eleventyConfig.addPassthroughCopy("src/site/ads.txt");
-  eleventyConfig.addPassthroughCopy("src/site/baidu_verify_codeva-DTBvg2CXkR.html");
   eleventyConfig.addPassthroughCopy("src/site/img");
   eleventyConfig.addPassthroughCopy("src/site/scripts");
   eleventyConfig.addPassthroughCopy("src/site/styles/_theme.*.css");
