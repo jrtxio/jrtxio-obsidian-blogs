@@ -4,7 +4,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}">
   <head>
-    <meta name="google-adsense-account" content="ca-pub-3215512126020129">
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
     {% for imp in dynamics.common.head %}
@@ -13,15 +12,13 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% for imp in dynamics.notes.head %}
       {% include imp %}
     {% endfor %}
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3215512126020129"
-      crossorigin="anonymous"></script>
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {% if settings.dgShowFileTree !== true %}no-filetree{% endif %} {% if settings.dgHomeLink === true and settings.dgShowFileTree !== true %}has-navbar{% endif %} {{meta.bodyClasses}}">
     {%include "components/notegrowthhistory.njk"%}
     
     {% if settings.dgShowFileTree !== true %}
       {%include "components/navbar.njk"%}
-    {% else %}
+    {%else%}
       {%include "components/filetree.njk"%}
     {% endif %}
 
@@ -30,21 +27,10 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endif %}
 
     <main class="content cm-s-obsidian {{contentClasses}}">
-      <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-3215512126020129"
-        data-ad-slot="7014497615"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-      
       <header>
         {% if settings.dgShowInlineTitle === true %}
           <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
         {% endif %}
-        
         <div class="header-meta">
           {% if settings.dgShowTags === true and tags %}
             <div class="header-tags">
@@ -57,7 +43,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
               {% endfor %}
             </div>
           {% endif %}
-          
           {%- if meta.timestampSettings.showCreated or meta.timestampSettings.showUpdated -%}
           <div class="timestamps">
             {%- if meta.timestampSettings.showCreated and created -%}
@@ -83,17 +68,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
         {% include imp %}
       {% endfor %}
       {{ content | hideDataview | taggify | link | safe}}
-
-      <ins class="adsbygoogle"
-        style="display:block; text-align:center;"
-        data-ad-layout="in-article"
-        data-ad-format="fluid"
-        data-ad-client="ca-pub-3215512126020129"
-        data-ad-slot="6028154350"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
       {% endfor %}
