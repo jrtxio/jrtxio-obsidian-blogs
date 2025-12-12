@@ -526,12 +526,10 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  eleventyConfig.addPassthroughCopy("src/site/robots.txt");
-  eleventyConfig.addPassthroughCopy("src/site/ads.txt");
-  eleventyConfig.addPassthroughCopy("src/site/baidu_verify_codeva-DTBvg2CXkR.html");
   eleventyConfig.addPassthroughCopy("src/site/img");
   eleventyConfig.addPassthroughCopy("src/site/scripts");
   eleventyConfig.addPassthroughCopy("src/site/styles/_theme.*.css");
+  eleventyConfig.addPassthroughCopy({ "src/site/logo.*": "/" });
   eleventyConfig.addPlugin(faviconsPlugin, { outputDir: "dist" });
   eleventyConfig.addPlugin(tocPlugin, {
     ul: true,
