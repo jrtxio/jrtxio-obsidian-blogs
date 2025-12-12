@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/Rime 输入法入门教程.md","permalink":"/04 工具与实用教程/Rime 输入法入门教程/","created":"2025-12-10T10:40:00.966+08:00","updated":"2025-12-12T09:03:08.102+08:00"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/Rime 输入法入门教程.md","permalink":"/04 工具与实用教程/Rime 输入法入门教程/","created":"2025-12-10T10:40:00.966+08:00","updated":"2025-12-12T15:22:32.426+08:00"}
 ---
 
 #Innolight
@@ -148,7 +148,7 @@ patch:
     - macOS：在 Finder 中按 `Cmd+Shift+G`，输入 `~/Library/Rime`
     - Linux：直接在终端用 `cd` 命令进入配置目录
 4. **输入方案切换**
-    - 使用快捷键 `Ctrl+~`（Windows/Linux）或 `Ctrl+``（macOS）或` F4` 可以快速切换输入方案。
+    - 使用快捷键 `Ctrl+~`（Windows/Linux）或 Ctrl+\`（macOS）或 `F4` 可以快速切换输入方案。
 
 # 八、总结
 
