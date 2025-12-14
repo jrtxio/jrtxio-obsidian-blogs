@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/DrRacket 结构化编辑指南.md","permalink":"/03 编程语言与理论/DrRacket 结构化编辑指南/","created":"2025-03-27T15:26:42.100+08:00","updated":"2025-12-09T16:52:57.603+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/DrRacket 结构化编辑指南.md","permalink":"/03 编程语言与理论/DrRacket 结构化编辑指南/","created":"2025-03-27T15:26:42.000+08:00","updated":"2025-12-09T16:52:57.000+08:00"}
 ---
 
 #Innolight #Lisp #Racket 

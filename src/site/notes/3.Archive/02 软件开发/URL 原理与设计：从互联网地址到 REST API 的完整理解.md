@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 软件开发/URL 原理与设计：从互联网地址到 REST API 的完整理解.md","permalink":"/02 软件开发/URL 原理与设计：从互联网地址到 REST API 的完整理解/","created":"2025-09-19T11:10:14.197+08:00","updated":"2025-09-19T11:12:20.917+08:00"}
+{"dg-publish":true,"dg-path":"02 软件开发/URL 原理与设计：从互联网地址到 REST API 的完整理解.md","permalink":"/02 软件开发/URL 原理与设计：从互联网地址到 REST API 的完整理解/","created":"2025-09-19T11:10:14.000+08:00","updated":"2025-09-19T11:12:20.000+08:00"}
 ---
 
 #Innolight

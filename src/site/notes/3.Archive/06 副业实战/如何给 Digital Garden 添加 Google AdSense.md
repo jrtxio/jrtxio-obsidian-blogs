@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"06 副业实战/如何给 Digital Garden 添加 Google AdSense.md","permalink":"/06 副业实战/如何给 Digital Garden 添加 Google AdSense/","created":"2025-06-17T09:42:23.001+08:00","updated":"2025-09-09T09:46:46.452+08:00"}
+{"dg-publish":true,"dg-path":"06 副业实战/如何给 Digital Garden 添加 Google AdSense.md","permalink":"/06 副业实战/如何给 Digital Garden 添加 Google AdSense/","created":"2025-06-17T09:42:23.000+08:00","updated":"2025-09-09T09:46:46.000+08:00"}
 ---
 
 #Innolight

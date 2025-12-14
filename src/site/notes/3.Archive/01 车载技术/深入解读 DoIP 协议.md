@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/深入解读 DoIP 协议.md","permalink":"/01 车载技术/深入解读 DoIP 协议/","created":"2023-08-29T15:40:16.000+08:00","updated":"2025-03-21T13:55:37.080+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/深入解读 DoIP 协议.md","permalink":"/01 车载技术/深入解读 DoIP 协议/","created":"2023-08-29T15:40:16.000+08:00","updated":"2025-03-21T13:55:37.000+08:00"}
 ---
 
 #Technomous #DoIP

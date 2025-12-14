@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/配置你的专属 Deepin.md","permalink":"/04 工具与实用教程/配置你的专属 Deepin/","created":"2025-09-26T15:02:32.803+08:00","updated":"2025-11-26T14:47:25.527+08:00"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/配置你的专属 Deepin.md","permalink":"/04 工具与实用教程/配置你的专属 Deepin/","created":"2025-09-26T15:02:32.000+08:00","updated":"2025-11-26T14:47:25.000+08:00"}
 ---
 
 #Innolight #Linux 

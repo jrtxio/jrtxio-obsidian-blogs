@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 人工智能/如何免费体验 Claude Code：国内用户完整指南.md","permalink":"/07 人工智能/如何免费体验 Claude Code：国内用户完整指南/","created":"2025-09-22T18:49:55.463+08:00","updated":"2025-09-22T18:51:34.894+08:00"}
+{"dg-publish":true,"dg-path":"07 人工智能/如何免费体验 Claude Code：国内用户完整指南.md","permalink":"/07 人工智能/如何免费体验 Claude Code：国内用户完整指南/","created":"2025-09-22T18:49:55.000+08:00","updated":"2025-09-22T18:51:34.000+08:00"}
 ---
 
 #Innolight

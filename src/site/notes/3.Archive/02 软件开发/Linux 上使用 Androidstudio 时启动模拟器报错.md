@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 软件开发/Linux 上使用 Androidstudio 时启动模拟器报错.md","permalink":"/02 软件开发/Linux 上使用 Androidstudio 时启动模拟器报错/","created":"2025-09-26T16:04:33.465+08:00","updated":"2025-09-26T16:06:48.922+08:00"}
+{"dg-publish":true,"dg-path":"02 软件开发/Linux 上使用 Androidstudio 时启动模拟器报错.md","permalink":"/02 软件开发/Linux 上使用 Androidstudio 时启动模拟器报错/","created":"2025-09-26T16:04:33.000+08:00","updated":"2025-09-26T16:06:48.000+08:00"}
 ---
 
 #Innolight

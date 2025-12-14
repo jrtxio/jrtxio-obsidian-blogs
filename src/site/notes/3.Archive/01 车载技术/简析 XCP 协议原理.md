@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/简析 XCP 协议原理.md","permalink":"/01 车载技术/简析 XCP 协议原理/","created":"2022-08-08T23:11:58.000+08:00","updated":"2024-11-18T11:05:17.592+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/简析 XCP 协议原理.md","permalink":"/01 车载技术/简析 XCP 协议原理/","created":"2022-08-08T23:11:58.000+08:00","updated":"2024-11-18T11:05:17.000+08:00"}
 ---
 
 #Ofilm #AutoSAR
