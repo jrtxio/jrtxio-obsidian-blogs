@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/CAN 帧 ID 详解：优先级、仲裁与 DBC 协议.md","permalink":"/01 车载技术/CAN 帧 ID 详解：优先级、仲裁与 DBC 协议/","created":"2019-09-27T09:22:51.000+08:00","updated":"2025-10-14T14:19:57.255+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/CAN 帧 ID 详解：优先级、仲裁与 DBC 协议.md","permalink":"/01 车载技术/CAN 帧 ID 详解：优先级、仲裁与 DBC 协议/","created":"2019-09-27T09:22:51.000+08:00","updated":"2025-10-14T14:19:57.000+08:00"}
 ---
 
 #BDStar #AutoSAR 

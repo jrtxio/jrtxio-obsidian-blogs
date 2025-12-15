@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/Rime 输入法入门教程.md","permalink":"/04 工具与实用教程/Rime 输入法入门教程/","created":"2025-12-10T10:40:00.966+08:00","updated":"2025-12-12T15:22:32.426+08:00"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/Rime 输入法入门教程.md","permalink":"/04 工具与实用教程/Rime 输入法入门教程/","created":"2025-12-10T10:40:00.000+08:00","updated":"2025-12-12T15:22:32.000+08:00"}
 ---
 
 #Innolight

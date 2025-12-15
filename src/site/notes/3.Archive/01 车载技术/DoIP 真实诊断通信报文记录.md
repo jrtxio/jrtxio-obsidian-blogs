@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/DoIP 真实诊断通信报文记录.md","permalink":"/01 车载技术/DoIP 真实诊断通信报文记录/","created":"2023-03-29T17:35:47.000+08:00","updated":"2025-10-14T11:31:30.240+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/DoIP 真实诊断通信报文记录.md","permalink":"/01 车载技术/DoIP 真实诊断通信报文记录/","created":"2023-03-29T17:35:47.000+08:00","updated":"2025-10-14T11:31:30.000+08:00"}
 ---
 
 #Technomous #DoIP 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 人工智能/如何提升 AI 开发效率：Claude Code 使用准则.md","permalink":"/07 人工智能/如何提升 AI 开发效率：Claude Code 使用准则/","created":"2025-09-18T10:55:41.211+08:00","updated":"2025-09-18T15:56:01.001+08:00"}
+{"dg-publish":true,"dg-path":"07 人工智能/如何提升 AI 开发效率：Claude Code 使用准则.md","permalink":"/07 人工智能/如何提升 AI 开发效率：Claude Code 使用准则/","created":"2025-09-18T10:55:41.000+08:00","updated":"2025-09-18T15:56:01.000+08:00"}
 ---
 
 #Innolight

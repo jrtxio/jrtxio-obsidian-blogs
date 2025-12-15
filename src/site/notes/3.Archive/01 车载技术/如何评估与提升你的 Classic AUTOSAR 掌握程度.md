@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/如何评估与提升你的 Classic AUTOSAR 掌握程度.md","permalink":"/01 车载技术/如何评估与提升你的 Classic AUTOSAR 掌握程度/","created":"2021-12-29T22:55:24.000+08:00","updated":"2025-10-16T18:45:25.602+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/如何评估与提升你的 Classic AUTOSAR 掌握程度.md","permalink":"/01 车载技术/如何评估与提升你的 Classic AUTOSAR 掌握程度/","created":"2021-12-29T22:55:24.000+08:00","updated":"2025-10-16T18:45:25.000+08:00"}
 ---
 
 #Ofilm #AutoSAR

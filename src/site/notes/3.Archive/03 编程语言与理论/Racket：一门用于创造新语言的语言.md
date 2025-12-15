@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket：一门用于创造新语言的语言.md","permalink":"/03 编程语言与理论/Racket：一门用于创造新语言的语言/","created":"2025-10-14T10:49:27.000+08:00","updated":"2025-12-14T16:57:28.000+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket：一门用于创造新语言的语言.md","permalink":"/03 编程语言与理论/Racket：一门用于创造新语言的语言/","created":"2025-10-14T10:49:27.000+08:00","updated":"2025-12-10T14:19:38.000+08:00"}
 ---
 
 #Innolight #Lisp #Racket 
@@ -24,7 +24,7 @@ Racket 的创造者们相信：**编程的本质在于用合适的语言解决�
 
 Racket 拥有一整套编程语言家族，这些语言可以安全地相互连接。它既包含保护机制，允许安全使用底层（比如类似 C 的）语言特性，也支持更高层次的语言抽象。
 
-它还自带一个集成开发环境：**DrRacket**，这个 IDE 被设计为语言开发流程中不可或缺的一部分，具备资源管理功能，有助于高效设计新语言。当然，它也支持其他主流 IDE，如 VS Code 或 Emacs。
+它还自带一个集成开发环境：**Dr. Racket**，这个 IDE 被设计为语言开发流程中不可或缺的一部分，具备资源管理功能，有助于高效设计新语言。当然，它也支持其他主流 IDE，如 VS Code 或 Emacs。
 
 总而言之，Racket 是一套完整、协调的工具集合，为编程语言的设计提供一体化体验。请注意，它**不是**一个“语言工作台”（language workbench）：它不会帮你自动生成编辑器或配套工具。相反，它是围绕语言创建与执行而构建的一整套独立工具的生态系统。
 
@@ -100,36 +100,9 @@ fib(30)
 
 这一切都很棒——只要你完全处于 Racket 的生态系统之内。一旦你跳出这个生态，就可能遇到问题。
 
-举个例子，先看好的一面。下面是在 DrRacket 中运行的一个示例程序：
+举个例子，先看好的一面。下面是在 Dr. Racket 中运行的一个示例程序：
 
 [A Racket Example Program](https://vimeo.com/611800633?fl=pl&fe=sh)
-
-```
-#lang slideshow
-
-(define (four p)
-  (define two-p (hc-append p p))
-  (vc-append two-p two-p))
-
-(define (checker p1 p2)
-  (let ([p12 (hc-append p1 p2)]
-        [p21 (hc-append p2 p1)])
-    (vc-append p12 p21)))
-
-(define (checkerboard p)
-  (let* ([rp (colorize p "black")]
-         [bp (colorize p "blue")]
-         [c (checker rp bp)]
-         [c4 (four c)])
-    (four c4)))
-
-(define (square n)
-  ; A semi-colon starts a line comment.
-  ; The expression below is the function body.
-  (filled-rectangle n n))
-
-(checkerboard (square 10))
-```
 
 这个 IDE 看起来不算特别专业，但非常适合学习。它提供交互式帮助，让你轻松理解代码运行过程和每个函数的作用。你拥有一个简单易用的 IDE 和内置解释器。还能要求更多吗？
 
@@ -139,7 +112,7 @@ fib(30)
 
 ![Pasted image 20251014105458.png|650](/img/user/0.Asset/resource/Pasted%20image%2020251014105458.png)
 
-这看起来就没那么好了。你根本看不到任何图像。在 DrRacket 中完美运行的程序，在其他环境中却完全失效。
+这看起来就没那么好了。你根本看不到任何图像。在 Dr. Racket 中完美运行的程序，在其他环境中却完全失效。
 
 这是集成生态系统中常见的问题：当你使用非专为该生态设计的工具时，某些功能可能会“断裂”。当然，不依赖图形化展示的普通程序在其他环境中运行良好。这只是一个小小的缺陷，但对于习惯现代编程语言的开发者来说，同一段代码在不同环境中表现不同，可能会令人感到不适。
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 人工智能/Gemini CLI 使用指南：安装、配置与实践.md","permalink":"/07 人工智能/Gemini CLI 使用指南：安装、配置与实践/","created":"2025-09-17T19:39:01.000+08:00","updated":"2025-09-23T13:45:39.018+08:00"}
+{"dg-publish":true,"dg-path":"07 人工智能/Gemini CLI 使用指南：安装、配置与实践.md","permalink":"/07 人工智能/Gemini CLI 使用指南：安装、配置与实践/","created":"2025-09-17T19:39:01.000+08:00","updated":"2025-09-23T13:45:39.000+08:00"}
 ---
 
 #Innolight

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/NXP S32G 以太网加速模块（PFE）简介.md","permalink":"/01 车载技术/NXP S32G 以太网加速模块（PFE）简介/","created":"2024-06-26T10:30:51.000+08:00","updated":"2025-04-02T14:31:08.614+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/NXP S32G 以太网加速模块（PFE）简介.md","permalink":"/01 车载技术/NXP S32G 以太网加速模块（PFE）简介/","created":"2024-06-26T10:30:51.000+08:00","updated":"2025-04-02T14:31:08.000+08:00"}
 ---
 
 

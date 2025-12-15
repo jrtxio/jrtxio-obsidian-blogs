@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 人工智能/打破 AI 数据孤岛！Anthropic 开源革命性模型上下文协议 MCP.md","permalink":"/07 人工智能/打破 AI 数据孤岛！Anthropic 开源革命性模型上下文协议 MCP/","created":"2025-09-24T15:13:18.153+08:00","updated":"2025-09-24T15:22:28.565+08:00"}
+{"dg-publish":true,"dg-path":"07 人工智能/打破 AI 数据孤岛！Anthropic 开源革命性模型上下文协议 MCP.md","permalink":"/07 人工智能/打破 AI 数据孤岛！Anthropic 开源革命性模型上下文协议 MCP/","created":"2025-09-24T15:13:18.000+08:00","updated":"2025-09-24T15:22:28.000+08:00"}
 ---
 
 #Innolight
