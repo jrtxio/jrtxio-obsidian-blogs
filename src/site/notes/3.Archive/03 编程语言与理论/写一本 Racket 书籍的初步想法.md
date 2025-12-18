@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/写一本 Racket 书籍的初步想法.md","permalink":"/03 编程语言与理论/写一本 Racket 书籍的初步想法/","created":"2025-07-14T17:12:12.875+08:00","updated":"2025-12-18T15:26:43.697+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/写一本 Racket 书籍的初步想法.md","permalink":"/03 编程语言与理论/写一本 Racket 书籍的初步想法/","created":"2025-07-14T17:12:12.875+08:00","updated":"2025-12-18T15:28:04.412+08:00"}
 ---
 
 #Innolight #Lisp #Racket 
