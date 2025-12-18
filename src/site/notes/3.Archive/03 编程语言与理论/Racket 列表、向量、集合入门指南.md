@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket 列表、向量、集合入门指南.md","permalink":"/03 编程语言与理论/Racket 列表、向量、集合入门指南/","created":"2025-08-26T11:04:11.000+08:00","updated":"2025-11-25T15:11:40.000+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket 列表、向量、集合入门指南.md","permalink":"/03 编程语言与理论/Racket 列表、向量、集合入门指南/","created":"2025-08-26T11:04:11.874+08:00","updated":"2025-11-25T15:11:40.857+08:00"}
 ---
 
 #Innolight #Lisp #Racket 

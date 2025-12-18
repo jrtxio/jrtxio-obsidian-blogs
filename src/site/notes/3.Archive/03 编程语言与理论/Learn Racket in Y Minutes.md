@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Learn Racket in Y Minutes.md","permalink":"/03 编程语言与理论/Learn Racket in Y Minutes/","created":"2025-09-17T09:39:39.000+08:00","updated":"2025-11-26T15:22:46.000+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Learn Racket in Y Minutes.md","permalink":"/03 编程语言与理论/Learn Racket in Y Minutes/","created":"2025-09-17T09:39:39.502+08:00","updated":"2025-11-26T15:22:46.276+08:00"}
 ---
 
 #Innolight #Lisp #Racket 

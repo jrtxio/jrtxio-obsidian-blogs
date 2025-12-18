@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/汽车软件开发的基石：AUTOSAR 深度报告.md","permalink":"/01 车载技术/汽车软件开发的基石：AUTOSAR 深度报告/","created":"2025-09-22T13:34:08.000+08:00","updated":"2025-12-02T16:23:02.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/汽车软件开发的基石：AUTOSAR 深度报告.md","permalink":"/01 车载技术/汽车软件开发的基石：AUTOSAR 深度报告/","created":"2025-09-22T13:34:08.841+08:00","updated":"2025-12-02T16:23:02.331+08:00"}
 ---
 
 #Innolight #AutoSAR 

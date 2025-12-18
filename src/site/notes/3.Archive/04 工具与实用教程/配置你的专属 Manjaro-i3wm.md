@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/配置你的专属 Manjaro-i3wm.md","permalink":"/04 工具与实用教程/配置你的专属 Manjaro-i3wm/","created":"2025-09-26T14:43:08.000+08:00","updated":"2025-11-26T14:47:32.000+08:00"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/配置你的专属 Manjaro-i3wm.md","permalink":"/04 工具与实用教程/配置你的专属 Manjaro-i3wm/","created":"2025-09-26T14:43:08.673+08:00","updated":"2025-11-26T14:47:32.688+08:00"}
 ---
 
 #Innolight #Linux 

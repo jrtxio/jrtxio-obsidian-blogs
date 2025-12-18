@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/UDS 入门指南.md","permalink":"/01 车载技术/UDS 入门指南/","created":"2023-03-09T16:41:30.000+08:00","updated":"2025-05-15T18:43:43.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/UDS 入门指南.md","permalink":"/01 车载技术/UDS 入门指南/","created":"2023-03-09T16:41:30.000+08:00","updated":"2025-05-15T18:43:43.963+08:00"}
 ---
 
 #Technomous #AutoSAR #UDS

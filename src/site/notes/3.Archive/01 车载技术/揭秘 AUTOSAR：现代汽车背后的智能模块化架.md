@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/揭秘 AUTOSAR：现代汽车背后的智能模块化架.md","permalink":"/01 车载技术/揭秘 AUTOSAR：现代汽车背后的智能模块化架/","created":"2025-04-11T15:52:12.000+08:00","updated":"2025-10-14T11:21:08.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/揭秘 AUTOSAR：现代汽车背后的智能模块化架.md","permalink":"/01 车载技术/揭秘 AUTOSAR：现代汽车背后的智能模块化架/","created":"2025-04-11T15:52:12.000+08:00","updated":"2025-10-14T11:21:08.836+08:00"}
 ---
 
 #Innolight #AutoSAR 
