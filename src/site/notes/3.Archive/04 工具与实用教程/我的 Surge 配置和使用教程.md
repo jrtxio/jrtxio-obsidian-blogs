@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/我的 Surge 配置和使用教程.md","permalink":"/04 工具与实用教程/我的 Surge 配置和使用教程/","created":"2024-01-03T10:40:48.000+08:00","updated":"2025-12-19T09:44:53.455+08:00"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/我的 Surge 配置和使用教程.md","permalink":"/04 工具与实用教程/我的 Surge 配置和使用教程/","created":"2024-01-03T10:40:48.000+08:00","updated":"2025-12-19T09:54:52.011+08:00"}
 ---
 
 #Technomous 
@@ -107,7 +107,7 @@ Proxy = select, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, �
 Auto = fallback, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
 OpenAI = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
 Claude = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
-Gemini = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
+Google = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
 Netflix = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
 Telegram = select, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇬🇧 Great Britain, 🇨🇦 Canada, 🇰🇷 Korea, 🇹🇷 Turkey, 🇮🇳 India, 🇳🇱 Netherlands, 🇫🇷 France, 🇩🇪 Germany
 🇭🇰 Hong Kong = select, 🇭🇰 Hong Kong丨01, 🇭🇰 Hong Kong丨02, 🇭🇰 Hong Kong丨03, 🇭🇰 Hong Kong丨04, 🇭🇰 Hong Kong丨05, 🇭🇰 Hong Kong丨06, 🇭🇰 Hong Kong丨07, 🇭🇰 Hong Kong丨08, 🇭🇰 Hong Kong丨09, 🇭🇰 Hong Kong丨10
