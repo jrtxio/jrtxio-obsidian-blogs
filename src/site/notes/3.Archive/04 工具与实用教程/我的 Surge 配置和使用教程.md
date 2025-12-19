@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/我的 Surge 配置和使用教程.md","permalink":"/04 工具与实用教程/我的 Surge 配置和使用教程/","created":"2024-01-03T10:40:48.000+08:00","updated":"2025-03-07T13:57:12.660+08:00"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/我的 Surge 配置和使用教程.md","permalink":"/04 工具与实用教程/我的 Surge 配置和使用教程/","created":"2024-01-03T10:40:48.000+08:00","updated":"2025-12-19T09:44:53.455+08:00"}
 ---
 
 #Technomous 
@@ -130,7 +130,7 @@ RULE-SET,SYSTEM,DIRECT
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/unblock.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/openai.list,OpenAI
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/claude.list,Claude
-RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/gemini.list,Gemini
+RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/google.list,Google
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/netflix.list,Netflix
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/telegram.list,Telegram
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/blocked.list,Proxy
@@ -167,7 +167,7 @@ hostname-disabled = *.openai.com, *.google.com
 - unblocked.list：这个规则集用来保存一定不能被代理的域名，算是一种强制性的保障。
 - openai.list：这个规则集是所有 openai 相关的域名，可以方便的选择不同的区域。
 - claude.list：这个规则集是所有 claude 相关的域名，可以方便的选择不同的区域。
-- gemini.list：这个规则集是所有 gemini 相关的域名，可以方便的选择不同的区域。
+- google.list：这个规则集是所有 google 相关的域名，可以方便的选择不同的区域。
 - netflix：这个规则集是所有 netflix 相关的域名，可以方便的选择不同的区域。
 - telegram：这个规则集是所有 telegram 相关的域名，可以方便的选择不同的区域。
 - blocked.list：这个规则集用来保存我常用的需要代理的域名。
@@ -180,7 +180,7 @@ RULE-SET,SYSTEM,DIRECT
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/unblock.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/openai.list,OpenAI
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/claude.list,Claude
-RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/gemini.list,Gemini
+RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/google.list,Goole
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/netflix.list,Netflix
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/telegram.list,Telegram
 RULE-SET,https://raw.githubusercontent.com/jrtx0/surge-list/master/ruleset/blocked.list,Proxy
