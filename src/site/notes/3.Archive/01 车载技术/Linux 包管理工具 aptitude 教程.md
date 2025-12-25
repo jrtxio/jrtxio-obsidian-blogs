@@ -1,18 +1,18 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/Linux 包管理工具 aptitude 教程.md","permalink":"/01 车载技术/Linux 包管理工具 aptitude 教程/","created":"2023-12-21T10:55:36.000+08:00","updated":"2024-01-16T15:47:25.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/Linux 包管理工具 aptitude 教程.md","permalink":"/01 车载技术/Linux 包管理工具 aptitude 教程/"}
 ---
 
 #Technomous #Linux 
 
 aptitude 是 Debian Linux 系统中软件包管理工具。aptitude 命令与 apt-get 命令一样，都是 Debian Linux 及其衍生系统中功能极其强大的包管理工具。与 apt-get 不同的是，aptitude 在处理依赖问题上更佳一些。举例来说，aptitude 在删除一个包时，会同时删除本身所依赖的包。这样，系统中不会残留无用的包，整个系统更为干净。它通过图形界面和命令行两种方式管理软件包。
 
-# 语法
+## 语法
 
 ```shell
 aptitude (选项)(参数)
 ```
 
-# 选项
+## 选项
 
 ```shell
 -h：显示帮助信息；
@@ -23,11 +23,11 @@ aptitude (选项)(参数)
 -u：启动时下载新的软件包列表。
 ```
 
-# 参数
+## 参数
 
 参数是用户管理软件包的操作命令。
 
-# 实例
+## 实例
 
 以下是一些常用 aptitude 命令，可供参考：
 

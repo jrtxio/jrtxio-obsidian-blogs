@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器.md","permalink":"/03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器/","created":"2025-12-02T14:56:47.244+08:00","updated":"2025-12-04T10:51:03.877+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器.md","permalink":"/03 编程语言与理论/Racket GUI 实战：50 行代码做一个 SVG 图标查看器/"}
 ---
 
 #Innolight #Lisp #Racket 

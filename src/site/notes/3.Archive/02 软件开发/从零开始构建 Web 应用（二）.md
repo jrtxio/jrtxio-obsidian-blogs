@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 软件开发/从零开始构建 Web 应用（二）.md","permalink":"/02 软件开发/从零开始构建 Web 应用（二）/","created":"2025-10-21T14:02:46.652+08:00","updated":"2025-12-02T16:26:35.831+08:00"}
+{"dg-publish":true,"dg-path":"02 软件开发/从零开始构建 Web 应用（二）.md","permalink":"/02 软件开发/从零开始构建 Web 应用（二）/"}
 ---
 
 #Innolight
@@ -8,7 +8,7 @@
 
 在这一部分，我们将涵盖对 `Request` 数据结构的改进，添加 `Response` 和 `Server` 抽象，并使服务器能够处理并发请求。
 
-# 请求
+## 请求
 
 我们上次编写的 `Request` 类能够存储请求 `method` 、其 `path` 和其 `headers` 。让我们首先通过使其能够为单个头部存储多个值来改进它。为此，我们将定义一个名为 `Headers` 的类，它充当不区分大小写的头部名称到头部值列表的映射。
 
@@ -333,7 +333,7 @@ def iter_lines(sock: socket.socket, bufsize: int = 16_384) -> typing.Generator[b
                 break
 ```
 
-## 100 Continue
+### 100 Continue
 
 如果你使用 cURL 向服务器发送超过 1KiB 的数据，你可能会注意到它在读取所有数据前会挂起大约一秒钟。这是因为 cURL 使用 `100 Continue` 状态码来确定何时以及是否应该将大型请求体发送给服务器。
 
@@ -376,7 +376,7 @@ def iter_lines(sock: socket.socket, bufsize: int = 16_384) -> typing.Generator[b
 
 现在使用 cURL 向服务器发送超过 1KiB 的数据。它应该比之前快得多。
 
-# 响应
+## 响应
 
 到目前为止，我们返回的所有响应都是"手写"的。是时候我们写一个 `Response` 抽象来让这方面的事情稍微容易管理一些。
 
@@ -810,7 +810,7 @@ Percentage of the requests served within a certain time (ms)
 
 每秒 3k 请求。考虑到这是一个用纯 Python 实现的线程式 Web 服务器，这已经很不错了！
 
-# 收尾
+## 收尾
 
 哇！一篇帖子里要涵盖这么多内容，真是够多的。我以为你撑不下去，没想到你居然做到了！这就是第二部分的内容。在第三部分，我们将介绍请求处理器和中间件。如果你想查看完整的源代码并跟上进度，可以在这里找到。
 

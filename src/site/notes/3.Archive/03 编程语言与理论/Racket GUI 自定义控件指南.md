@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket GUI 自定义控件指南.md","permalink":"/03 编程语言与理论/Racket GUI 自定义控件指南/","created":"2025-12-05T16:40:44.000+08:00","updated":"2025-12-09T14:23:28.637+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket GUI 自定义控件指南.md","permalink":"/03 编程语言与理论/Racket GUI 自定义控件指南/"}
 ---
 
 #Innolight #Lisp #Racket 

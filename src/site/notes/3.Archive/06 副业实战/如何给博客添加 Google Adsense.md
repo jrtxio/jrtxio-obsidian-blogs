@@ -1,19 +1,19 @@
 ---
-{"dg-publish":true,"dg-path":"06 副业实战/如何给博客添加 Google Adsense.md","permalink":"/06 副业实战/如何给博客添加 Google Adsense/","created":"2025-09-01T14:29:33.138+08:00","updated":"2025-09-01T17:10:03.168+08:00"}
+{"dg-publish":true,"dg-path":"06 副业实战/如何给博客添加 Google Adsense.md","permalink":"/06 副业实战/如何给博客添加 Google Adsense/"}
 ---
 
 #Innolight
 
 添加 Google AdSense 并展示广告，分为四个主要步骤：申请账号、验证网站、创建广告单元、配置 ads.txt。
 
-# 1. 申请 Google AdSense 账号
+## 1. 申请 Google AdSense 账号
 
 1. 登录 [Google AdSense](https://www.google.com/adsense/)
 2. 点击**开始使用**并填写网站信息
 3. 等待 Google 审核网站内容与设置
 4. 审核通过后可访问 AdSense 后台
 
-# 2. 验证网站所有权
+## 2. 验证网站所有权
 
 Google 需要确认你对博客拥有控制权。
 
@@ -29,7 +29,7 @@ Google 需要确认你对博客拥有控制权。
 
 ![Pasted image 20250901145159.png](/img/user/0.Asset/resource/Pasted%20image%2020250901145159.png)
 
-# 3. 创建广告单元并嵌入博客
+## 3. 创建广告单元并嵌入博客
 
 **步骤：**
 1. 在 AdSense 后台点击**广告 → 广告单元 → 新增广告单元**
@@ -49,7 +49,7 @@ Google 需要确认你对博客拥有控制权。
 ```
 4. 将广告代码嵌入博客页面或模板中适当位置（文章页、侧边栏或页脚）
 
-# 4. 配置 ads.txt
+## 4. 配置 ads.txt
 
 ads.txt 防止广告欺诈。有人可能冒充你的网站去卖广告位，骗取广告费。
 
@@ -74,7 +74,7 @@ google.com, pub-你的发布商ID, DIRECT, f08c47fec0942fa0
 
 ![Pasted image 20250901144817.png](/img/user/0.Asset/resource/Pasted%20image%2020250901144817.png)
 
-# 5. 检查广告展示
+## 5. 检查广告展示
 
 1. 确认博客已成功部署
 2. 打开博客文章页，刷新页面查看广告是否显示
@@ -83,7 +83,7 @@ google.com, pub-你的发布商ID, DIRECT, f08c47fec0942fa0
     - 检查广告代码位置
     - 清理浏览器缓存或尝试隐身模式
 
-# 常见问题
+## 常见问题
 
 **申请被拒？**  
 大概率是内容太少。Google 要看到你确实在认真做网站，不是随便搭个空壳骗广告费。至少写 20 篇像样的文章再申请。
@@ -91,7 +91,7 @@ google.com, pub-你的发布商ID, DIRECT, f08c47fec0942fa0
 **广告不显示？**  
 代码放错位置了。广告代码必须放在 `<body>` 里，不是 `<head>`。另外新广告单元生效需要几小时。
 
-# 小结
+## 小结
 
 整个流程：申请 AdSense 账号 → 验证网站所有权 → 创建广告单元并嵌入博客 → 配置 ads.txt → 检查广告展示。
 

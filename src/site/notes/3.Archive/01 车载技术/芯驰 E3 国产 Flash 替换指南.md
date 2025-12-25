@@ -1,19 +1,19 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/芯驰 E3 国产 Flash 替换指南.md","permalink":"/01 车载技术/芯驰 E3 国产 Flash 替换指南/","created":"2025-03-31T14:42:01.357+08:00","updated":"2025-09-05T09:41:58.234+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/芯驰 E3 国产 Flash 替换指南.md","permalink":"/01 车载技术/芯驰 E3 国产 Flash 替换指南/"}
 ---
 
 #Innolight
 
-# 支持的型号
+## 支持的型号
 
 目前芯驰官方支持的 Flash 类型如下：
 
 ![Pasted image 20250321092646.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250321092646.png)
-# 启动与存储
+## 启动与存储
 
 MCU 的在启动时分为内置 Flash 和外置 Flash。一般内置 Flash 的初始化都固定在 MCU 的 BootROM 部分，用户无需关心。外置 Flash 则需要用户考虑完整的初始化过程。芯驰 E3 则是属于外置 Flash 的类型。
 
-# 如何替换配置
+## 如何替换配置
 
 首先需要考虑与 Flash 配置相关的 SFS 文件本身，芯驰 E3 的 Flash 配置主要是在 SFS 镜像中进行配置的，具体参数可以参考 [[3.Archive/01 车载技术/芯驰 E3 启动及升级机制详解\|芯驰 E3 启动及升级机制详解]] 的 SFS 部分。关于 SFS 如何选择可以参考 Flash 类型对应的 SFS 文件表：
 
@@ -106,7 +106,7 @@ define region IRAM = mem:[from 0x404000 to 0x5fffff];
 - flash_base：表明 sf.flash 存放在外部 Flash 的 0x100c1000 位置
 - page：表明 Flash 以 512 字节为单位进行操作
 
-# 实际操作步骤
+## 实际操作步骤
 
 1. 在 IAR 的 Options->Linker->Extra Options 中的 sfs.img 替换成对应类型的镜像
 

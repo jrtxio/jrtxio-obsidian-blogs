@@ -1,14 +1,14 @@
 ---
-{"dg-publish":true,"dg-path":"07 人工智能/Claude Code 使用指南：安装、配置与实践.md","permalink":"/07 人工智能/Claude Code 使用指南：安装、配置与实践/","created":"2025-09-11T10:10:55.000+08:00","updated":"2025-09-23T13:38:50.198+08:00"}
+{"dg-publish":true,"dg-path":"07 人工智能/Claude Code 使用指南：安装、配置与实践.md","permalink":"/07 人工智能/Claude Code 使用指南：安装、配置与实践/"}
 ---
 
 #Innolight
 
-# 前言
+## 前言
 
 Claude Code 是 Anthropic 推出的命令行工具，可以在终端中直接与 Claude 模型交互，执行代码分析、生成、重构等任务。支持上下文管理和会话持久化，方便工程化开发。
 
-# 安装
+## 安装
 
 确保 Node.js ≥ 18 和 npm 已安装，然后运行：
 
@@ -22,7 +22,7 @@ npm install -g @anthropic-ai/claude-code
 claude --version
 ```
 
-# 登录与配置
+## 登录与配置
 
 Claude Code 支持多种登录方式：
 
@@ -72,9 +72,9 @@ claude config set default_model claude-3-5-sonnet
 claude config set api_key your_api_key
 ```
 
-# 常用命令
+## 常用命令
 
-## 基础命令
+### 基础命令
 
 ```bash
 claude                           # 启动交互式会话（REPL）
@@ -86,7 +86,7 @@ claude update                    # 更新到最新版本
 claude mcp                       # 配置 Model Context Protocol 服务器
 ```
 
-## 命令行标志
+### 命令行标志
 
 ```bash
 --add-dir <path>                 # 添加工作目录
@@ -101,9 +101,9 @@ claude mcp                       # 配置 Model Context Protocol 服务器
 --resume <session-id>            # 恢复指定会话
 ```
 
-# 工作流示例
+## 工作流示例
 
-## 1. 项目初始化与探索
+### 1. 项目初始化与探索
 
 ```bash
 # 启动 Claude Code 并探索项目
@@ -113,7 +113,7 @@ claude "explain this project structure"
 claude --add-dir ../shared-lib --add-dir ../config
 ```
 
-## 2. 代码分析与理解
+### 2. 代码分析与理解
 
 ```bash
 # 分析特定文件
@@ -123,7 +123,7 @@ claude "explain how the authentication works in src/auth.js"
 claude "walk me through the data flow in this codebase"
 ```
 
-## 3. 代码生成与开发
+### 3. 代码生成与开发
 
 ```bash
 # 生成新功能
@@ -136,7 +136,7 @@ claude "create unit tests for the UserService class"
 claude "generate API documentation for all endpoints in this project"
 ```
 
-## 4. 代码重构与优化
+### 4. 代码重构与优化
 
 ```bash
 # 重构代码
@@ -149,7 +149,7 @@ claude "optimize this SQL query and add proper indexing suggestions"
 claude "remove unused imports and clean up the codebase"
 ```
 
-## 5. 调试与问题解决
+### 5. 调试与问题解决
 
 ```bash
 # 分析错误日志
@@ -162,7 +162,7 @@ claude "why is this function returning undefined?"
 claude "review this code for security vulnerabilities"
 ```
 
-## 6. Git 工作流集成
+### 6. Git 工作流集成
 
 ```bash
 # 检查代码变更
@@ -175,7 +175,7 @@ claude "generate a commit message for these changes"
 claude "checkout a new branch and implement user authentication"
 ```
 
-## 7. 会话管理
+### 7. 会话管理
 
 ```bash
 # 继续之前的工作
@@ -185,7 +185,7 @@ claude -c "continue working on the user service refactoring"
 claude -r "session-abc123" "finalize the API documentation"
 ```
 
-## 8. 自动化脚本示例
+### 8. 自动化脚本示例
 
 ```bash
 # 一次性查询模式，适合脚本
@@ -198,7 +198,7 @@ claude -p --output-format json "analyze code quality metrics"
 git log --oneline -10 | claude -p "summarize recent changes"
 ```
 
-## 9. 权限和工具管理
+### 9. 权限和工具管理
 
 ```bash
 # 允许特定工具无需确认
@@ -211,7 +211,7 @@ claude --disallowedTools "Bash(rm*)" "Bash(sudo*)"
 claude --permission-mode plan "refactor the entire auth system"
 ```
 
-## 10. 高级工作流
+### 10. 高级工作流
 
 ```bash
 # 多目录项目开发
@@ -225,9 +225,9 @@ claude -c "continue implementing the payment integration we discussed"
 claude --verbose --max-turns 5 "debug the memory leak in the worker process"
 ```
 
-# 实际开发场景示例
+## 实际开发场景示例
 
-## 场景 1：新功能开发
+### 场景 1：新功能开发
 
 ```bash
 # 1. 分析需求
@@ -243,7 +243,7 @@ claude "create comprehensive tests for the email service"
 claude "update the README with email service configuration instructions"
 ```
 
-## 场景 2：Bug 修复
+### 场景 2：Bug 修复
 
 ```bash
 # 1. 分析问题
@@ -259,7 +259,7 @@ claude "fix the session timeout issue in the auth middleware"
 claude "create a test case to prevent this auth bug from recurring"
 ```
 
-## 场景 3：代码审查
+### 场景 3：代码审查
 
 ```bash
 # 1. 审查变更
@@ -272,7 +272,7 @@ claude "analyze the performance impact of these database changes"
 claude "check these API endpoints for security vulnerabilities"
 ```
 
-# 最佳实践
+## 最佳实践
 
 1. **明确指定工作目录**：使用 `--add-dir` 确保 Claude 能访问所有相关文件
 2. **合理使用权限控制**：通过 `--allowedTools` 和 `--disallowedTools` 控制工具使用
@@ -280,6 +280,6 @@ claude "check these API endpoints for security vulnerabilities"
 4. **自动化重复任务**：使用 `-p` 模式和管道操作处理批量任务
 5. **合理配置输出格式**：根据使用场景选择合适的 `--output-format`
 
-# 总结
+## 总结
 
 Claude Code 提供了丰富的命令行选项和灵活的工作流支持，从简单的代码查询到复杂的项目开发，都能通过自然语言命令高效完成。掌握这些工作流模式，可以显著提升开发效率和代码质量。

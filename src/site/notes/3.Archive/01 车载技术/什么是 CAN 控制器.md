@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/什么是 CAN 控制器.md","permalink":"/01 车载技术/什么是 CAN 控制器/","created":"2020-01-17T17:26:33.000+08:00","updated":"2025-06-19T10:21:36.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/什么是 CAN 控制器.md","permalink":"/01 车载技术/什么是 CAN 控制器/"}
 ---
 
 #BDStar #AUTOSAR 

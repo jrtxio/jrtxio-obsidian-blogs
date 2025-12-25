@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 软件开发/URL 原理与设计：从互联网地址到 REST API 的完整理解.md","permalink":"/02 软件开发/URL 原理与设计：从互联网地址到 REST API 的完整理解/","created":"2025-09-19T11:10:14.197+08:00","updated":"2025-09-19T11:12:20.917+08:00"}
+{"dg-publish":true,"dg-path":"02 软件开发/URL 原理与设计：从互联网地址到 REST API 的完整理解.md","permalink":"/02 软件开发/URL 原理与设计：从互联网地址到 REST API 的完整理解/"}
 ---
 
 #Innolight
@@ -8,7 +8,7 @@
 
 理解 URL 的本质，不仅能帮助我们浏览网页，更是学习 REST API 等网络技术的基础：URL 是资源定位的核心，而 REST API 则在此基础上定义对资源的操作方式。
 
-# 1️ URL 的本质
+## 1️ URL 的本质
 
 URL 的核心作用是 **精确定位互联网资源**。互联网的资源分布在全球无数服务器上，如果没有统一的地址体系，浏览器将无从访问网页、图片或视频。URL 提供了一个标准化、全世界通用的方式，使电脑能够精确找到所需资源。
 
@@ -20,7 +20,7 @@ URL 的核心作用是 **精确定位互联网资源**。互联网的资源分�
 
 **核心理解**：URL 本身不是内容，它是从全局到局部定位资源的坐标系统，每一部分都有明确作用。
 
-# 2️ URL 的组成
+## 2️ URL 的组成
 
 一个完整的 URL 示例：
 
@@ -37,7 +37,7 @@ https://www.example.com:443/path/to/page.html?query=abc#section1
 |查询参数（Query）`?query=abc`|附加请求信息|门卫的备注说明|
 |锚点（Fragment）`#section1`|页面内部定位|房间里的具体桌子|
 
-# 3️ URL 与网站的关系
+## 3️ URL 与网站的关系
 
 网站本质上是一个 **资源集合**：页面、图片、视频、文档、接口数据等。URL 是这些资源的**全局索引**，让用户和程序都能访问到网站中的每个内容。
 
@@ -57,7 +57,7 @@ https://www.example.com:443/path/to/page.html?query=abc#section1
 
 > 简单理解：URL 是网站资源的目录和坐标，使互联网内容可访问、可管理、可搜索。
 
-# 4️ URL 的工作逻辑
+## 4️ URL 的工作逻辑
 
 当浏览器访问 URL 时，完整流程如下：
 
@@ -69,7 +69,7 @@ https://www.example.com:443/path/to/page.html?query=abc#section1
 
 **理解核心**：URL 不只是地址，它封装了访问资源的完整信息。这一理解正是 REST API 设计的前提。
 
-# 5️ URL 设计逻辑与技巧
+## 5️ URL 设计逻辑与技巧
 
 设计 URL 时需要遵循原则，以保证网站可维护、可扩展、可读且安全：
 
@@ -82,7 +82,7 @@ https://www.example.com:443/path/to/page.html?query=abc#section1
 
 掌握这些设计逻辑，可以理解 URL 为什么设计成这样，以及它如何支持复杂互联网系统和 REST API。
 
-# 6️ 从 URL 到 REST API
+## 6️ 从 URL 到 REST API
 
 REST（Representational State Transfer）是一种设计理念，它把互联网资源抽象出来，通过 URL 定位资源，再通过 HTTP 方法操作资源。
 
@@ -104,7 +104,7 @@ REST（Representational State Transfer）是一种设计理念，它把互联网
 
 通过 URL 定位资源，再用 HTTP 方法操作资源，这就是 REST API 的核心思想。URL 的层级设计和查询参数直接影响 REST API 的清晰度和可扩展性。
 
-# 7️ 总结
+## 7️ 总结
 
 1. **URL 是互联网资源的唯一定位符**，每一部分都有明确作用：协议、主机、端口、路径、查询参数、锚点
 2. **URL 与网站**：它是网站资源的索引和导航系统，使内容可访问、可管理、可搜索

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/UNRAID 如何部署 DNSPod.md","permalink":"/04 工具与实用教程/UNRAID 如何部署 DNSPod/","created":"2023-09-08T16:58:58.000+08:00","updated":"2024-02-28T13:21:07.000+08:00"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/UNRAID 如何部署 DNSPod.md","permalink":"/04 工具与实用教程/UNRAID 如何部署 DNSPod/"}
 ---
 
 #BDStar
@@ -11,19 +11,19 @@
 
 废话不多说，让我们进入正题。
 
-# 新建容器
+## 新建容器
 
 ![Pasted image 20230908170026.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230908170026.png)
 
 进入 Unraid 的 Docker 页面，点击 Add Container，新建一个容器。
 
-# 参数设置
+## 参数设置
 
 如果你不知道如何新建参数，建议先学习一下B站司波图的 [Docker速通教程](https://www.bilibili.com/video/BV1eE411i7qy/?spm_id_from=333.788.videocard.1)。
 
 ![Pasted image 20230908170147.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230908170147.png)
 
-# 仓库信息
+## 仓库信息
 
 1. Name
 这个参数随便写，我这里填 dnspod。
@@ -34,7 +34,7 @@
 4. Fixed IP address (optional)
 这里填写想要被分配的 IP，也就是图中填写的 192.168.96.120。
 
-# 运行参数
+## 运行参数
 
 从 dnspod-ddns 介绍中，可以获取到该 docker 的启动命令：
 
@@ -67,6 +67,6 @@ docer run --name=ddns --restart=always -d \
 
 当你新建完以上五个参数之后，点击 Apply 按钮，就会开始下载 [dnspod-ddns](https://hub.docker.com/r/scofieldpeng/dnspod-ddns) 了。下载完成后，点击 Done 按钮，页面会跳转到 Unraid 的 Docker 主页面。至此，整个安装过程已结束。
 
-# 问题排查
+## 问题排查
 
 如果域名已经解析成功，可以从容器的 log 看到相应的提示信息。如果容器一直停止运行，那么很有可能是参数设置有问题或者填写的值不正确。

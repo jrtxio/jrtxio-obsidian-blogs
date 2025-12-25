@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket：一门用于创造新语言的语言.md","permalink":"/03 编程语言与理论/Racket：一门用于创造新语言的语言/","created":"2025-10-14T10:49:27.000+08:00","updated":"2025-12-14T16:57:28.000+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Racket：一门用于创造新语言的语言.md","permalink":"/03 编程语言与理论/Racket：一门用于创造新语言的语言/"}
 ---
 
 #Innolight #Lisp #Racket 

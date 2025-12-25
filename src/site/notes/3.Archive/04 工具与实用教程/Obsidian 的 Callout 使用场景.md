@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/Obsidian 的 Callout 使用场景.md","permalink":"/04 工具与实用教程/Obsidian 的 Callout 使用场景/","created":"2025-02-14T14:03:51.156+08:00","updated":"2025-06-10T10:35:01.013+08:00"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/Obsidian 的 Callout 使用场景.md","permalink":"/04 工具与实用教程/Obsidian 的 Callout 使用场景/"}
 ---
 
 #Innolight
 
-# 语法介绍
+## 语法介绍
 
 Obsidian 的 Callout 语法结构如下：
 
@@ -106,23 +106,23 @@ Obsidian 共提供了 13 种 Callout：
 > [!ABSTRACT] Abstract
 > 简述或概括长篇内容，常用于总结某段的要点。
 
-# 使用原则
+## 使用原则
 
-## 明确目的
+### 明确目的
 
 - 引导重点：根据信息的重要性选择合适的类型，例如提示用户注意事项时，优先使用 caution 或 warning
 - 区分语气：友善建议使用 tip，而非强烈语气的 warning
 
-## 视觉层次清晰
+### 视觉层次清晰
 
 - 限制数量：同一页面中避免使用过多 Callout，控制在 1-3 种类型以内，以免视觉过载
 - 配色一致：不同主题下 Callout 的配色可能不同，选择合适的颜色以保持一致性
 
-## 内容简洁
+### 内容简洁
 
 - 控制长度：Callout 的文字应尽量简短，突出核心信息
 - 分块展示：讲长文拆分成多个 Callout，每个块强调不同的方面
-## 保持一致性
+### 保持一致性
 
 - 统一格式：团队协作时，统一约定各类型的使用场景。例如，note 用于背景知识，tip 用于最佳实践等
 - 风格约定：例如所有 caution 都在段落开始使用，所有 info 在段落结束总结

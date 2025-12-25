@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/NOR Flash 接口选型：SPI Flash vs HyperFlash.md","permalink":"/01 车载技术/NOR Flash 接口选型：SPI Flash vs HyperFlash/","created":"2025-05-29T17:17:17.000+08:00","updated":"2025-12-14T17:13:05.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/NOR Flash 接口选型：SPI Flash vs HyperFlash.md","permalink":"/01 车载技术/NOR Flash 接口选型：SPI Flash vs HyperFlash/"}
 ---
 
 #Innolight
@@ -8,7 +8,7 @@
 
 在众多 NOR Flash 接口方案中，**SPI Flash** 与 **HyperFlash** 是最具代表性的两条技术路线。前者以低成本和成熟生态占据主流，后者则以低延迟和确定性访问服务于高端与高实时性场景。本文将从工程实践的角度，梳理二者的技术特征与适用边界，帮助你在具体项目中做出更理性的选择。
 
-# 一、NOR Flash 接口的基本形态
+## 一、NOR Flash 接口的基本形态
 
 从接口形态和系统集成角度看，常见的 NOR Flash 方案大致可以分为三类：
 
@@ -23,11 +23,11 @@
 
 > **在可接受的硬件复杂度下，尽可能提升 Flash 的“可用性能”。**
 
-# 二、SPI Flash：从“慢但便宜”到“足够快”
+## 二、SPI Flash：从“慢但便宜”到“足够快”
 
 SPI Flash 的成功，并不在于某一次技术突破，而在于**持续、渐进式的演化**。
 
-## 1. 标准 SPI（Single I/O）
+### 1. 标准 SPI（Single I/O）
 
 最初的 SPI Flash 使用单数据线传输，接口简单、控制器成本极低，但带宽有限，通常只适合：
 
@@ -35,7 +35,7 @@ SPI Flash 的成功，并不在于某一次技术突破，而在于**持续、�
 - 少量配置数据
 - 对性能不敏感的场景
 
-## 2. Quad SPI（QSPI）
+### 2. Quad SPI（QSPI）
 
 QSPI 将数据线扩展至 4 条，在相同频率下直接获得 4 倍吞吐能力。配合 100 MHz 以上的时钟，已经可以支持：
 
@@ -45,7 +45,7 @@ QSPI 将数据线扩展至 4 条，在相同频率下直接获得 4 倍吞吐能
 
 因此，QSPI 成为很长一段时间内**中高端 MCU 的“默认答案”**。
 
-## 3. xSPI（Octal SPI）
+### 3. xSPI（Octal SPI）
 
 xSPI 并不只是“再加 4 根线”，而是一次体系化升级：
 
@@ -59,7 +59,7 @@ xSPI 并不只是“再加 4 根线”，而是一次体系化升级：
 尽管物理层复杂度有所提升，但 xSPI 仍然继承了 SPI 系列的核心优势：  
 **控制器通用、生态成熟、成本可控。**
 
-# 三、HyperFlash：为“确定性”而生的接口
+## 三、HyperFlash：为“确定性”而生的接口
 
 如果说 xSPI 追求的是“在通用接口上的性能极限”，那么 **HyperFlash 的目标则非常明确：低延迟、可预测的访问行为**。
 
@@ -82,7 +82,7 @@ HyperFlash 运行在 HyperBus™ 之上，其设计思路更接近“外部并�
 
 因此，HyperFlash 常见于汽车仪表、ADAS、工业 HMI 等领域。
 
-# 四、SPI Flash 与 HyperFlash 的工程对比
+## 四、SPI Flash 与 HyperFlash 的工程对比
 
 |维度|SPI Flash（含 xSPI）|HyperFlash|
 |---|---|---|
@@ -101,7 +101,7 @@ HyperFlash 运行在 HyperBus™ 之上，其设计思路更接近“外部并�
 - xSPI 在“带宽指标”上已经不输 HyperFlash
 - HyperFlash 的优势并不体现在带宽，而体现在 **时序确定性**
 
-# 五、如何在项目中做选择？
+## 五、如何在项目中做选择？
 
 在真实项目中，接口选型几乎从来不是“参数最大化”的问题，而是**约束条件下的最优解**。
 
@@ -114,7 +114,7 @@ HyperFlash 运行在 HyperBus™ 之上，其设计思路更接近“外部并�
 |成本敏感产品|✅|❌|BOM 与设计成本|
 |高速启动需求|✅（xSPI）|✅|二者均可|
 
-# 六、结语：不要只看“带宽”
+## 六、结语：不要只看“带宽”
 
 SPI Flash 与 HyperFlash 并不存在绝对的优劣，它们代表的是**两种不同的工程哲学**：
 

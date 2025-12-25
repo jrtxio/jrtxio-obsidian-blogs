@@ -1,33 +1,33 @@
 ---
-{"dg-publish":true,"dg-path":"07 人工智能/Gemini CLI 使用指南：安装、配置与实践.md","permalink":"/07 人工智能/Gemini CLI 使用指南：安装、配置与实践/","created":"2025-09-17T19:39:01.000+08:00","updated":"2025-09-23T13:45:39.018+08:00"}
+{"dg-publish":true,"dg-path":"07 人工智能/Gemini CLI 使用指南：安装、配置与实践.md","permalink":"/07 人工智能/Gemini CLI 使用指南：安装、配置与实践/"}
 ---
 
 #Innolight
 
-# 前言
+## 前言
 
 Gemini CLI 是 Google 推出的开源 AI 代理命令行工具，可在终端中直接访问 Gemini 模型。它使用推理-行动（ReAct）循环，结合内置工具和 MCP 服务器来完成复杂任务，如修复 Bug、创建新功能和改进测试覆盖率。虽然在编程方面表现出色，但也是一个多用途的本地工具，可用于内容生成、问题解决、深度研究和任务管理。
 
-# 安装
+## 安装
 
-## 系统要求
+### 系统要求
 
 - Node.js ≥ 18
 - npm 或其他包管理器
 
-## 安装方法
+### 安装方法
 
-### 方法 1：NPM 安装（推荐）
+#### 方法 1：NPM 安装（推荐）
 
 ```bash
 npm install -g @google/gemini-cli
 ```
 
-### 方法 2：通过 Google Cloud Shell
+#### 方法 2：通过 Google Cloud Shell
 
 Gemini CLI 在 Cloud Shell 中无需额外设置即可使用。
 
-### 方法 3：系统包管理器安装
+#### 方法 3：系统包管理器安装
 
 ```bash
 # macOS (Homebrew)
@@ -46,11 +46,11 @@ sudo apt install gemini-cli
 gemini --version
 ```
 
-# 认证与配置
+## 认证与配置
 
-## 认证方式
+### 认证方式
 
-### 1. Google 账号认证（推荐）
+#### 1. Google 账号认证（推荐）
 
 ```bash
 gemini
@@ -58,7 +58,7 @@ gemini
 
 首次运行会提示进行认证，使用个人 Google 账号登录。免费层级：每分钟 60 次请求，每天 1,000 次请求。
 
-### 2. API Key 方式
+#### 2. API Key 方式
 
 在 [Google AI Studio](https://aistudio.google.com/) 获取 API Key：
 
@@ -70,7 +70,7 @@ export GEMINI_API_KEY="your_api_key"
 gemini config set api_key your_api_key
 ```
 
-### 3. 环境变量配置
+#### 3. 环境变量配置
 
 macOS / Linux：
 
@@ -85,7 +85,7 @@ Windows (PowerShell)：
 setx GEMINI_API_KEY "your_api_key"
 ```
 
-## 配置管理
+### 配置管理
 
 配置文件位置：
 
@@ -109,9 +109,9 @@ gemini config set api_key your_api_key
 gemini config set output_format json
 ```
 
-# 核心功能与命令
+## 核心功能与命令
 
-## 基础命令
+### 基础命令
 
 ```bash
 gemini                    # 启动交互式会话
@@ -120,7 +120,7 @@ gemini --help            # 显示帮助信息
 gemini --version         # 显示版本信息
 ```
 
-## 交互模式内置命令
+### 交互模式内置命令
 
 在交互模式中，可以使用以下命令：
 
@@ -134,7 +134,7 @@ gemini --version         # 显示版本信息
 /exit 或 /quit           # 退出会话
 ```
 
-## 内置工具
+### 内置工具
 
 Gemini CLI 包含多种内置工具：Google Search 接地、文件操作、shell 命令、网页抓取。
 
@@ -143,9 +143,9 @@ Gemini CLI 包含多种内置工具：Google Search 接地、文件操作、shel
 - **网络工具**：网页搜索、内容抓取
 - **代码工具**：Git 操作、代码分析
 
-# 工作流示例
+## 工作流示例
 
-## 1. 项目初始化与探索
+### 1. 项目初始化与探索
 
 ```bash
 # 在项目目录中启动 Gemini CLI
@@ -159,7 +159,7 @@ gemini
 > "Explain what this main.py file does and its key functions"
 ```
 
-## 2. 代码开发工作流
+### 2. 代码开发工作流
 
 ```bash
 # 创建新功能
@@ -175,7 +175,7 @@ gemini
 > "Generate comprehensive unit tests for the UserService class"
 ```
 
-## 3. 调试与问题解决
+### 3. 调试与问题解决
 
 ```bash
 # 分析错误日志
@@ -188,7 +188,7 @@ gemini
 > "Check for outdated dependencies and security vulnerabilities"
 ```
 
-## 4. 文档生成
+### 4. 文档生成
 
 ```bash
 # 生成项目文档
@@ -201,7 +201,7 @@ gemini
 > "Add detailed comments and docstrings to this Python module"
 ```
 
-## 5. Git 工作流集成
+### 5. Git 工作流集成
 
 ```bash
 # 提交前检查
@@ -214,7 +214,7 @@ gemini
 > "Prepare this branch for a pull request with proper documentation"
 ```
 
-## 6. 自定义命令
+### 6. 自定义命令
 
 创建自定义命令文件：
 
@@ -242,7 +242,7 @@ Please review the current git diff for:
 """
 ```
 
-## 7. IDE 集成工作流
+### 7. IDE 集成工作流
 
 ```bash
 # 设置 IDE 集成
@@ -255,7 +255,7 @@ Please review the current git diff for:
 > "Make changes to this function and show me the diff in my editor"
 ```
 
-## 8. MCP 服务器集成
+### 8. MCP 服务器集成
 
 ```bash
 # 查看可用 MCP 服务器
@@ -268,9 +268,9 @@ Please review the current git diff for:
 > "Using the GitHub MCP server, create a new issue for this bug"
 ```
 
-# 实际开发场景示例
+## 实际开发场景示例
 
-## 场景 1：全栈应用开发
+### 场景 1：全栈应用开发
 
 ```bash
 # 1. 项目规划
@@ -289,7 +289,7 @@ Please review the current git diff for:
 > "Generate comprehensive tests for both frontend and backend"
 ```
 
-## 场景 2：现有项目维护
+### 场景 2：现有项目维护
 
 ```bash
 # 1. 代码审计
@@ -305,7 +305,7 @@ Please review the current git diff for:
 > "Update all documentation to reflect the recent changes and new features"
 ```
 
-## 场景 3：Bug 修复工作流
+### 场景 3：Bug 修复工作流
 
 ```bash
 # 1. 问题诊断
@@ -321,7 +321,7 @@ Please review the current git diff for:
 > "Create tests to ensure this bug doesn't happen again"
 ```
 
-## 场景 4：DevOps 自动化
+### 场景 4：DevOps 自动化
 
 ```bash
 # 1. CI/CD 设置
@@ -337,9 +337,9 @@ Please review the current git diff for:
 > "Create deployment scripts for staging and production environments"
 ```
 
-# 高级功能
+## 高级功能
 
-## 沙盒环境
+### 沙盒环境
 
 创建自定义沙盒环境：
 
@@ -361,7 +361,7 @@ RUN pip install pandas numpy
 COPY ./requirements.txt /app/requirements.txt
 ```
 
-## Yolo 模式
+### Yolo 模式
 
 Yolo 模式允许 Gemini CLI 直接执行操作而无需用户确认：
 
@@ -369,7 +369,7 @@ Yolo 模式允许 Gemini CLI 直接执行操作而无需用户确认：
 gemini --yolo "Fix all linting errors in this project"
 ```
 
-## 批处理模式
+### 批处理模式
 
 ```bash
 # 处理多个文件
@@ -379,33 +379,33 @@ gemini --batch "Add TypeScript types to all JavaScript files in src/"
 gemini --script automation.txt
 ```
 
-# 最佳实践
+## 最佳实践
 
-## 1. 项目组织
+### 1. 项目组织
 
 - 在项目根目录使用 `.gemini/` 文件夹存储配置
 - 创建项目特定的自定义命令
 - 使用 `.gemini/context.md` 文件提供项目上下文
 
-## 2. 安全考虑
+### 2. 安全考虑
 
 - 谨慎使用 Yolo 模式，特别是在生产环境
 - 定期审查 Gemini CLI 执行的操作
 - 使用沙盒环境进行实验性操作
 
-## 3. 效率优化
+### 3. 效率优化
 
 - 利用内置工具而非手动操作
 - 创建常用操作的自定义命令
 - 使用记忆功能保持上下文连续性
 
-## 4. 协作工作流
+### 4. 协作工作流
 
 - 分享自定义命令配置
 - 建立团队编码标准和审查流程
 - 使用 MCP 服务器集成外部工具
 
-# 配额和限制
+## 配额和限制
 
 根据不同的 Gemini Code Assist 订阅级别，您将获得不同的使用配额：
 
@@ -415,11 +415,11 @@ gemini --script automation.txt
 
 配额在 Gemini CLI 和 Gemini Code Assist 代理模式之间共享。
 
-# 故障排除
+## 故障排除
 
-## 常见问题
+### 常见问题
 
-### 认证问题
+#### 认证问题
 
 ```bash
 # 重新认证
@@ -429,7 +429,7 @@ gemini auth login
 echo $GEMINI_API_KEY
 ```
 
-### 工具权限问题
+#### 工具权限问题
 
 ```bash
 # 检查工具状态
@@ -439,7 +439,7 @@ echo $GEMINI_API_KEY
 gemini config reset permissions
 ```
 
-### 性能问题
+#### 性能问题
 
 ```bash
 # 查看使用统计
@@ -449,7 +449,7 @@ gemini config reset permissions
 gemini cache clear
 ```
 
-# 总结
+## 总结
 
 Google Gemini CLI 是一个强大的开源 AI 代理工具，它将 Gemini 的能力直接带入您的终端。通过丰富的内置工具、MCP 服务器支持和灵活的配置选项，它能够显著提升开发效率。无论是个人开发者还是企业团队，都能从其智能的代码生成、调试和项目管理功能中受益。
 

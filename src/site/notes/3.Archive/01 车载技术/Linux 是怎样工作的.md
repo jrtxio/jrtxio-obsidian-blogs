@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/Linux 是怎样工作的.md","permalink":"/01 车载技术/Linux 是怎样工作的/","created":"2023-05-18T22:48:55.000+08:00","updated":"2025-04-02T15:27:56.136+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/Linux 是怎样工作的.md","permalink":"/01 车载技术/Linux 是怎样工作的/"}
 ---
 
 #Technomous #Linux 
 
-# 计算机系统的概要
+## 计算机系统的概要
 
 在计算机运行时，在硬件设备上会重复执行以下步骤。
 

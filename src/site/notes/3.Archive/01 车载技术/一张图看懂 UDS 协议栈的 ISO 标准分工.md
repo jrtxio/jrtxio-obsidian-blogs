@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/一张图看懂 UDS 协议栈的 ISO 标准分工.md","permalink":"/01 车载技术/一张图看懂 UDS 协议栈的 ISO 标准分工/","created":"2019-11-07T09:20:24.000+08:00","updated":"2025-10-14T11:16:25.568+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/一张图看懂 UDS 协议栈的 ISO 标准分工.md","permalink":"/01 车载技术/一张图看懂 UDS 协议栈的 ISO 标准分工/"}
 ---
 
 #BDStar #AUTOSAR #UDS 

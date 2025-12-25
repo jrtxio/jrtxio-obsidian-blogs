@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/深入解读 SOMEIP 协议.md","permalink":"/01 车载技术/深入解读 SOMEIP 协议/","created":"2023-06-19T10:20:30.000+08:00","updated":"2024-02-28T13:31:26.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/深入解读 SOMEIP 协议.md","permalink":"/01 车载技术/深入解读 SOMEIP 协议/"}
 ---
 
 #Technomous #SOMEIP
@@ -24,7 +24,7 @@ SOME/IP 支持的中间件功能：
 - 发布/订阅（Pub/Sub）：从传统的汽车的 CAN 通信中我们可以发现，很多的信号是需要持续同步的。这种情况下如果全部基于 RPC 机制去请求，是非常浪费带宽资源的。通过发布/订阅的方式，可以省去每次请求的过程。
 - UDP 消息分段：TCP 协议本身便支持消息分段的机制，但是传输的延时较大，所以当传输的数据长度超过 1400 字节的同时还希望传输延时较小，这就得考虑在 UDP 协议的基础上加上一些分段的机制了。这个分段机制也会提供一些可靠性机制，以保证消息的可靠性和完整性。其实在 IP 层，如果报文的大小超过了 MTU 的限制，本身也会分包，但是如果利用这种分包的机制，每次丢包都需要上层重传全部的报文，所以最好的方法是在上层设计自己的消息分段机制，这也是 TCP 重新设计消息分段机制的原因。
 
-# 服务化中间件
+## 服务化中间件
 
 
 ![Pasted image 20231120175043.png|450](/img/user/0.Asset/resource/Pasted%20image%2020231120175043.png)
@@ -35,7 +35,7 @@ SOME/IP 是一种面向服务（SOA）的中间件实现方案。面向服务是
 
 面向服务的架构是众多软件架构中的一种。因面向服务架构风格具有基于标准、松散耦合、共享服务和粗粒度等优势，表现出易于集成现有系统、具有标准化的架构、提高开发效率、降低开发维护复杂度等特征，更符合智能网联化时代车载系统对软件架构的要求，所以被汽车行业引入和采用。
 
-# 协议交互流程
+## 协议交互流程
 
 ![Pasted image 20230831160926.png|500](/img/user/0.Asset/resource/Pasted%20image%2020230831160926.png)
 
@@ -52,7 +52,7 @@ SOME/IP 协议可以使用 TCP/UDP 作为传输层协议。从上图的交互过
 
 SOME/IP 通信阶段可以基于延时要求选择使用 TCP 协议或者 UDP 协议。需要注意的是一个 UDP 包的大小不能超过（1400 字节）。使用 UDP 协议传输小型报文的时候，为了提高效率会将多个报文会放在一个 UDP 包里。使用 UDP 协议传输大型报文的时候，就需要使用 UDP 协议的 SOME/IP-TP 协议。
 
-# 协议服务接口
+## 协议服务接口
 
 
 SOA 理念中服务之间是通过接口的方式进行交互的，SOME/IP 作为一种 SOA 中间件，也有自己的服务接口，分别是 Method、Event、Field 三种类型。三种接口类型在协议交互过程中的应用如下图所示。
@@ -65,13 +65,13 @@ SOA 理念中服务之间是通过接口的方式进行交互的，SOME/IP 作�
 	![Pasted image 20230628142154.png|450](/img/user/0.Asset/resource/Pasted%20image%2020230628142154.png)
 
 
-# 协议报文格式
+## 协议报文格式
 
 ![Pasted image 20230628144134.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230628144134.png)
 
 如上图所示，SOME/IP 消息包含两个部分：Header 和 Payload。
 
-## SOME/IP Header
+### SOME/IP Header
 
 ![Pasted image 20230901132646.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230901132646.png)
 
@@ -120,7 +120,7 @@ Header 的长度为 16 字节，Payload 的长度是可变的。Header 部分由
 	
 	![Pasted image 20230831155601.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230831155601.png)
 值得注意的是 SOME/IP 的报文头中，并没有定义额外的标志符（Instance ID）来区分各个实例，所以传输层的**端口号**会用来区分实例。因此不同的实例不可以在相同的端口上提供。
-## SOME/IP Payload
+### SOME/IP Payload
 
 Payload 就是上层业务需要传输的有效数据。很多时候还需要做一些功能安全的通信，需要用到 E2E 保护，那么 E2E 的格式头也是在 Payload 里面，如下图所示。
 
@@ -135,12 +135,12 @@ Payload 就是上层业务需要传输的有效数据。很多时候还需要做
 
 	![Pasted image 20230628101043.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230628101043.png)
 
-## SOME/IP-SD
+### SOME/IP-SD
 
 ![Pasted image 20230831162258.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230831162258.png)
 
 SOME/IP-SD 报文也是一种 SOME/IP 报文，是在 SOME/IP 报文的基础上进行了扩展，增加了 Entry、Option 等字段，Entries 用于同步服务实例的状态和发布/订阅的管理，Options 用于传输 Entries 的附加信息。
-### SOME/IP-SD Header
+#### SOME/IP-SD Header
 
 - Message ID
 	**Message ID 必须是 0xFFFF8100**。之前我们分析过 Message ID 由 Service ID + Bit Flag + Method/Event ID 组成，SOME/IP-SD 报文的 Service ID 规定为 0xFFFF。而 SOME/IP-SD 报文是 Event 类型的通知报文，所以 Bit Flag 为 1，而 SOME/IP-SD 报文的 Event ID 也被限定必须是 0x0100。与 Bit Flag 结合在一起就是 0x8100 。
@@ -157,7 +157,7 @@ SOME/IP-SD 报文也是一种 SOME/IP 报文，是在 SOME/IP 报文的基础上
 - Return Code
 	默认没有错误码，统一限定为 0x00 。
 
-### SOME/IP-SD Payload
+#### SOME/IP-SD Payload
 
 - Flags
 	这里 SD 格式头指的是 Flags + Reserved 部分。Flags 按 Bit 有划分出两个 Flag，分别为 Reboot Flag 和 Unicast Flag。
@@ -203,7 +203,7 @@ SOME/IP-SD 报文也是一种 SOME/IP 报文，是在 SOME/IP 报文的基础上
 	从上面的例子可以看到，每一个 Entry 设计了两组 Index 和 Num 来索引 Option，为啥要两组呢？按道理一组不是也可以吗？当然，如果没有功能 Option 的话，一组也是可以的。设计成两组的目的是：将公共 Option 和独立 Option 分开索引。假如 Option m 是一个公共的 Option 同时还被别的 Entry 也索引了，而 Entry 1 需要用到 Option1，2 和 m 三个 Option，用一组 
 	Index + Num 就无法完成，因而设计了两组。
 
-#### SOME/IP-SD Entry
+##### SOME/IP-SD Entry
 
 Entry 的类型包含下表 7 种类型。
 

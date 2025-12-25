@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/CANoe 推荐的工程结构.md","permalink":"/01 车载技术/CANoe 推荐的工程结构/","created":"2021-11-09T22:53:41.000+08:00","updated":"2025-06-30T21:25:31.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/CANoe 推荐的工程结构.md","permalink":"/01 车载技术/CANoe 推荐的工程结构/"}
 ---
 
 #Ofilm #CANoe 

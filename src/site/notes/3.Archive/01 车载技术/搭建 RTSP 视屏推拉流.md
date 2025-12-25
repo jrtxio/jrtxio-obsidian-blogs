@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/搭建 RTSP 视屏推拉流.md","permalink":"/01 车载技术/搭建 RTSP 视屏推拉流/","created":"2023-11-06T10:34:28.000+08:00","updated":"2024-02-28T13:22:28.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/搭建 RTSP 视屏推拉流.md","permalink":"/01 车载技术/搭建 RTSP 视屏推拉流/"}
 ---
 
 #Technomous
 
-# 协议交互
+## 协议交互
 
 - RTSP Pusher
 
@@ -16,14 +16,14 @@
 
 
 RTSP 协议交互过程中涉及三者，RTSP Pusher、RTSP Server、RTSP Client。RTSP Pusher 将视屏推送到 RTSP Server，RTSP Client 从 RTSP Server 拉取视频流。以下搭建的推拉流过程过程三者均包含。值得注意的是，这个三者并不一定需要同时出现，比如 RTSP Pusher。因为 RTSP Server 的视屏流的来源并不是仅来自于 RTSP Pusher，也可能直接来自于音视频设备等，所以在实际的应用过程中需要灵活选择。
-# 环境搭建
+## 环境搭建
 
 我们利用 mediamtx 充当 RTSP Server，ffmpeg 包含三个组件，ffmpeg、ffplay 和 ffprobe。其中 ffmpeg 可以充当 RTSP Pusher，ffplay 可以充当 RTSP Client。
 
 - [mediamtx](https://github.com/bluenviron/mediamtx)
 - [ffmpeg](https://github.com/FFmpeg/FFmpeg)
 
-# 推流拉流
+## 推流拉流
 
 首先启动 rtsp 服务器 mediamtx，然后使用 ffmpeg 向 mediamtx 进行推流，使用 ffmpeg 的组件 ffplay 从 mediamtx 拉流播放视屏。
 
@@ -55,11 +55,11 @@ ffplay -rtsp_transport tcp -i rtsp://localhost:8554/stream
 `-rtsp_transport tcp`：这个选项制定了 RTSP 流的传输方式，使用 TCP。RTSP 支持多种传输方式，包括 UDP 和 TCP。使用 TCP 可以更可靠的处理数据传输，但可能会增加一些延迟。
 `-i rtsp://locaohost:8554/stream`：这是 RTSP 流的 URL，其中 `rtsp://locaohost:8554/stream` 是流的位置。
 
-# 其他方案
+## 其他方案
 
 我们也可以利用 VLC 来搭建 rtsp 服务器，利用 VLC 或者 ffplay 来播放。
 
-## 串流服务器 VLC
+### 串流服务器 VLC
 
 - 选择串流功能
 
@@ -91,7 +91,7 @@ ffplay -rtsp_transport tcp -i rtsp://localhost:8554/stream
 
 最终生成的串流地址是 `rtsp://[ip]:8554/stream` ，`[ip]` 地址替换成本机的 ip 地址。
 
-## 串流客户端 VLC
+### 串流客户端 VLC
 
 - 添加网络流
 
@@ -103,7 +103,7 @@ ffplay -rtsp_transport tcp -i rtsp://localhost:8554/stream
 
 ![Pasted image 20231106154751.png|650](/img/user/0.Asset/resource/Pasted%20image%2020231106154751.png)
 
-## 串流客户端 ffplay
+### 串流客户端 ffplay
 
 通过执行以下命令实现串流播放：
 
@@ -111,6 +111,6 @@ ffplay -rtsp_transport tcp -i rtsp://localhost:8554/stream
 ffplay -i rtsp://192.168.96.2:5544/stream
 ```
 
-## 车内网 RTP 传输
+### 车内网 RTP 传输
 
 车内网的视频流有一些特殊的要求，并不使用 RTSP 协议，而是直接利用 RTP 对视屏流进行推送。可以参考 [RTPH264Streaming](https://github.com/tinydigger/RTPH264Streaming) 示例搭建基于 RTP 直接传输视频流。 

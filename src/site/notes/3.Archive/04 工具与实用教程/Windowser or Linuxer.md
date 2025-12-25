@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/Windowser or Linuxer.md","permalink":"/04 工具与实用教程/Windowser or Linuxer/","created":"2025-09-26T15:37:04.903+08:00","updated":"2025-11-26T14:47:19.798+08:00"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/Windowser or Linuxer.md","permalink":"/04 工具与实用教程/Windowser or Linuxer/"}
 ---
 
 #Innolight #Linux 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/基于 Github Webhook 实现自动化部署数字花园.md","permalink":"/03 编程语言与理论/基于 Github Webhook 实现自动化部署数字花园/","created":"2025-12-17T09:40:29.776+08:00","updated":"2025-12-19T16:15:44.781+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/基于 Github Webhook 实现自动化部署数字花园.md","permalink":"/03 编程语言与理论/基于 Github Webhook 实现自动化部署数字花园/"}
 ---
 
 #Innolight #Lisp #Racket 

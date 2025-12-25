@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"07 人工智能/如何免费体验 Claude Code：国内用户完整指南.md","permalink":"/07 人工智能/如何免费体验 Claude Code：国内用户完整指南/","created":"2025-09-22T18:49:55.463+08:00","updated":"2025-09-22T18:51:34.894+08:00"}
+{"dg-publish":true,"dg-path":"07 人工智能/如何免费体验 Claude Code：国内用户完整指南.md","permalink":"/07 人工智能/如何免费体验 Claude Code：国内用户完整指南/"}
 ---
 
 #Innolight
 
-# 前言
+## 前言
 
 **Claude Code** 是一款强大的智能编程助手，能进行代码生成、重构、调试和逻辑推理，为开发者提供类结对编程体验。  
 
@@ -14,7 +14,7 @@
 
 本文将介绍 **如何通过 Claude Code Router + 国内免费模型平台**，实现零成本、接近官方的使用体验。
 
-# 为什么需要 Claude Code Router
+## 为什么需要 Claude Code Router
 
 Claude Code Router 并非模型，而是 **模型路由器**。  
 它能将 IDE 内的请求分发到不同模型平台，从而实现：
@@ -25,7 +25,7 @@ Claude Code Router 并非模型，而是 **模型路由器**。
 
 换句话说，Router 是 Claude Code 的“外壳”，里面跑的模型可以灵活替换。
 
-# 国内可用的免费模型平台
+## 国内可用的免费模型平台
 
 目前国内用户可接入的免费模型平台主要有：
 
@@ -37,7 +37,7 @@ Claude Code Router 并非模型，而是 **模型路由器**。
 
 通过这些平台组合，就能在日常编码、长上下文、复杂推理和联网问答等场景下实现完整体验。
 
-# 完整配置示例
+## 完整配置示例
 
 下面是可直接使用的 **Claude Code Router 配置文件**（只需替换 `"api_key": "key"` 为你自己的 API key）：
 
@@ -160,7 +160,7 @@ Claude Code Router 并非模型，而是 **模型路由器**。
 ```
 
 
-# 切换与体验
+## 切换与体验
 
 1. 确保 Claude Code 已经安装完成（可参考 [[3.Archive/07 人工智能/Claude Code 使用指南：安装、配置与实践\|Claude Code 使用指南：安装、配置与实践]]）
 2. 安装 Claude Code Router：
@@ -180,7 +180,7 @@ npm install -g @musistudio/claude-code-router
 
 这样，你就能在国内环境中，**完全免费体验 Claude Code 的功能**。
 
-# 总结与展望
+## 总结与展望
 
 通过 **Claude Code Router + 国内免费模型组合**，国内用户可以：
 

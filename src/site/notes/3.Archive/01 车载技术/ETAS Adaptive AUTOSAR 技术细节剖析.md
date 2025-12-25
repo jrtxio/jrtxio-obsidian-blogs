@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/ETAS Adaptive AUTOSAR 技术细节剖析.md","permalink":"/01 车载技术/ETAS Adaptive AUTOSAR 技术细节剖析/","created":"2023-04-03T14:46:42.000+08:00","updated":"2025-12-04T11:03:48.815+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/ETAS Adaptive AUTOSAR 技术细节剖析.md","permalink":"/01 车载技术/ETAS Adaptive AUTOSAR 技术细节剖析/"}
 ---
 
 #Technomous #SILK 
@@ -8,7 +8,7 @@
 
 RTA-VRTE 平台几乎是以闭源的方式进行分发，所以无法从平台本身获得太多的技术实现细节，但是其中部分的技术实现方案有一定借鉴意义。
 
-# 信号转服务方案-S2S
+## 信号转服务方案-S2S
 
 ![Pasted image 20230403162857.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230403162857.png)
 
@@ -16,7 +16,7 @@ RTA-VRTE 平台几乎是以闭源的方式进行分发，所以无法从平台�
 
 RTA VRTE 利用 S2S 模块去实现 SOA 服务化的功能，SOA 会绑定 DDS, SOME/IP 等通信中间件。ETAS AP 的 SOME/IP 模块来源于 BOSCH，成熟度更高。
 
-# 通信中间件-冰羚
+## 通信中间件-冰羚
 
 RTA VRTE 的通信模块使用了冰羚的零拷贝中间件来实现进程间通信（IPC），在工业上有成熟的应用。冰羚系统有以下的优势：
 

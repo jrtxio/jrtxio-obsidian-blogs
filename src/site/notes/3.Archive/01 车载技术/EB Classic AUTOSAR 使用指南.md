@@ -1,14 +1,14 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/EB Classic AUTOSAR 使用指南.md","permalink":"/01 车载技术/EB Classic AUTOSAR 使用指南/","created":"2024-08-07T16:37:54.000+08:00","updated":"2024-09-08T16:33:31.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/EB Classic AUTOSAR 使用指南.md","permalink":"/01 车载技术/EB Classic AUTOSAR 使用指南/"}
 ---
 
 #CyberUnit #AUTOSAR 
 
-# 代码结构
+## 代码结构
 
 EB Classic AutoSAR 安装包集成了 MCAL 和 BSW 模块，其中 MCAL 部分单独放在 EB/tresos/plugins/McalExt_xx 目录下，BSW 各个模块分别放在 EB/tresos/plugins 目录下。
 
-# 工程构建
+## 工程构建
 
 工程的构建思路可以参考 EB 安装路径下的 demos 或者 templates 目录下的示例工程，工程的 util 目录下放置了官方构建好的编译脚本，通过 launch_cfg 来指定编译工具链和编译器的路径。以下为参考内容：
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/一文看懂 Linux 与 Windows 的文件系统差别.md","permalink":"/01 车载技术/一文看懂 Linux 与 Windows 的文件系统差别/","created":"2023-05-13T22:25:55.000+08:00","updated":"2025-12-02T16:19:11.781+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/一文看懂 Linux 与 Windows 的文件系统差别.md","permalink":"/01 车载技术/一文看懂 Linux 与 Windows 的文件系统差别/"}
 ---
 
 #Technomous #Linux 
@@ -8,7 +8,7 @@
 
 ![Pasted image 20250307142704.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250307142704.png)
 
-# Windows：以盘符为中心的世界
+## Windows：以盘符为中心的世界
 
 在 Windows 系统中，每个分区都会分配一个盘符（如 C:、D:、E:）。  
 盘符下可以创建目录和文件，因此一个文件的绝对路径总是以盘符开头，例如：
@@ -22,7 +22,7 @@ D:\Projects\demo.txt
 - 你可以直接从路径看出文件位于哪个磁盘分区
 - 不同分区被隔离为不同的“根目录”
 
-# Linux：统一的目录树，没有盘符
+## Linux：统一的目录树，没有盘符
 
 Linux 则采用一种完全不同的理念：**整个系统只有一个真正的“根” —— 斜杠 `/`。**
 
@@ -52,7 +52,7 @@ df -h
 对于普通的 Ubuntu 用户来说，你不再关心哪些分区对应哪些盘符——你只需关心：  
 **“哪个目录存放什么内容”**。
 
-# FHS：Ubuntu 目录结构的基本规范
+## FHS：Ubuntu 目录结构的基本规范
 
 Ubuntu 遵循 FHS（Filesystem Hierarchy Standard，文件系统层次标准）。  
 FHS 是一个关于 Linux/Unix 系统目录如何组织的约定，它规定了：
@@ -75,7 +75,7 @@ FHS 是一个关于 Linux/Unix 系统目录如何组织的约定，它规定了�
 - `/dev`：设备文件
 - `/mnt`、`/media`：挂载外接磁盘的位置
 
-# 总结
+## 总结
 
 - **Windows** 使用盘符组织文件系统，每个分区独立存在
 - **Linux** 使用统一的目录树，以 `/` 为唯一根

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/MAC 层解决了什么问题？.md","permalink":"/01 车载技术/MAC 层解决了什么问题？/","created":"2023-02-10T23:10:27.000+08:00","updated":"2025-06-30T21:47:04.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/MAC 层解决了什么问题？.md","permalink":"/01 车载技术/MAC 层解决了什么问题？/"}
 ---
 
 #Ofilm #ETH

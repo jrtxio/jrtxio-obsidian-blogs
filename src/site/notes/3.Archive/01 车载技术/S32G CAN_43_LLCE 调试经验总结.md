@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/S32G CAN_43_LLCE 调试经验总结.md","permalink":"/01 车载技术/S32G CAN_43_LLCE 调试经验总结/","created":"2024-09-02T14:33:57.000+08:00","updated":"2024-09-02T14:51:35.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/S32G CAN_43_LLCE 调试经验总结.md","permalink":"/01 车载技术/S32G CAN_43_LLCE 调试经验总结/"}
 ---
 
 #CyberUnit

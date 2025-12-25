@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Lisp 之美：REPL.md","permalink":"/03 编程语言与理论/Lisp 之美：REPL/","created":"2023-03-14T16:59:32.000+08:00","updated":"2025-07-01T13:53:21.230+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Lisp 之美：REPL.md","permalink":"/03 编程语言与理论/Lisp 之美：REPL/"}
 ---
 
 #Technomous #Lisp

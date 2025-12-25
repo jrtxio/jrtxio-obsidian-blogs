@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/我的 Surge 配置和使用教程.md","permalink":"/04 工具与实用教程/我的 Surge 配置和使用教程/","created":"2024-01-03T10:40:48.000+08:00","updated":"2025-12-19T09:54:52.011+08:00"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/我的 Surge 配置和使用教程.md","permalink":"/04 工具与实用教程/我的 Surge 配置和使用教程/"}
 ---
 
 #Technomous 
@@ -160,7 +160,7 @@ h2 = true
 hostname = *.google.com, *.openai.com
 hostname-disabled = *.openai.com, *.google.com
 ```
-# 设计思路
+## 设计思路
 
 我们无法穷举黑名单列表，同时我们也无法穷举白名单列表，而且这两个列表处于动态的不稳定状态。我的 Surge 配置文件规则匹配是基于黑名单模式，默认情况下所有未匹配的域名都直接放行。这样可以减少在使用未知软件时的问题，比如各种银行客户端，支付宝等应用。所有的黑名单由我自己来定制化的维护。一些需要特定区域代理的软件使用单独的 list，比如 openai.list。目前维护的 list 如下：
 
@@ -172,7 +172,7 @@ hostname-disabled = *.openai.com, *.google.com
 - telegram：这个规则集是所有 telegram 相关的域名，可以方便的选择不同的区域。
 - blocked.list：这个规则集用来保存我常用的需要代理的域名。
 
-# 配置规则
+## 配置规则
 
 ```
 PROCESS-NAME,Resilio Sync,DIRECT
@@ -189,7 +189,7 @@ GEOIP,CN,DIRECT
 FINAL,DIRECT,dns-failed
 ```
 
-## Process Rule
+### Process Rule
 
 ```
 PROCESS-NAME,/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync,DIRECT
@@ -199,7 +199,7 @@ PROCESS-NAME,/Applications/Resilio Sync.app/Contents/MacOS/Resilio Sync,DIRECT
 
 > 你也可以把该进程名的所在目录写清楚。至于如何找到这个名称，对于 macOS 软件包，一般在 .app/Contents/MacOS 位置下。
 
-## Ruleset
+### Ruleset
 
 从 Surge macOS 3.0 版本、Surge iOS 3.4 版本之后，可以通过 URL 或者文件导入一个规则集，这个规则集里可以包含很多条规则。而 Surge 本身提供两个内置的规则集 - SYSTEM 和 LAN，里面包含了已经写好的预置规则。
 
@@ -225,7 +225,7 @@ RULE-SET,LAN,DIRECT
 
 这个规则集包括了 'local' 后缀和私有 IP 地址。注意：这个规则集会触发 DNS 查询。
 
-## IP-based Rule
+### IP-based Rule
 
 ```
 GEOIP,CN,DIRECT
@@ -233,7 +233,7 @@ GEOIP,CN,DIRECT
 
 如果 GeoIP 测试结果与指定的国家代码匹配，则规则匹配。
 
-## Final Rule
+### Final Rule
 
 ```
 FINAL,DIRECT,dns-failed

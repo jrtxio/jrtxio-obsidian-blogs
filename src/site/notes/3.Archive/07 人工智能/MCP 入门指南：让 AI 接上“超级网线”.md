@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"07 人工智能/MCP 入门指南：让 AI 接上“超级网线”.md","permalink":"/07 人工智能/MCP 入门指南：让 AI 接上“超级网线”/","created":"2025-09-24T14:52:59.705+08:00","updated":"2025-09-25T09:36:27.904+08:00"}
+{"dg-publish":true,"dg-path":"07 人工智能/MCP 入门指南：让 AI 接上“超级网线”.md","permalink":"/07 人工智能/MCP 入门指南：让 AI 接上“超级网线”/"}
 ---
 
 #Innolight
 
-# MCP 是什么？
+## MCP 是什么？
 
 MCP 全称 **模型上下文协议（Model Context Protocol）**，由 Anthropic 在 2024 年 11 月推出，是个开源通信标准。简单说，它给 AI 装了个“超级网线”，让 AI 能跟外部工具、数据、系统无缝对接。
 
@@ -13,7 +13,7 @@ MCP 全称 **模型上下文协议（Model Context Protocol）**，由 Anthropi
 
 ![Pasted image 20250924145320.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250924145320.png)
 
-# MCP 能干什么？
+## MCP 能干什么？
 
 MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
@@ -35,7 +35,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 - 其他 MCP 客户端资源
 	- [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
-# MCP 服务器
+## MCP 服务器
 
 - [MCP.so](https://mcp.so/) 收录了近 8000 MCP Servers
 ![Pasted image 20250924145743.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250924145743.png)
@@ -45,9 +45,9 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 ![Pasted image 20250924145754.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250924145754.png)
 - [MCP Servers](https://mcpmarket.cn/)
 
-# MCP Server 开发
+## MCP Server 开发
 
-## 1. 使用 LLM 构建 MCP 服务器
+### 1. 使用 LLM 构建 MCP 服务器
 
 我们可以用像 Claude 这样的大语言模型（LLM）来加速 MCP 开发！
 
@@ -81,6 +81,6 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 - 包含用于常见数据分析任务的提示（Prompts）
 ```
 
-## 2. 更多MCP编程资源
+### 2. 更多MCP编程资源
 
 - [Model Context Protocol(MCP) 编程极速入门](http://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide)

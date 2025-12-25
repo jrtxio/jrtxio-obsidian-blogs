@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 编程语言与理论/Lisp 操作系统.md","permalink":"/03 编程语言与理论/Lisp 操作系统/","created":"2025-04-24T10:57:26.764+08:00","updated":"2025-11-21T10:03:53.885+08:00"}
+{"dg-publish":true,"dg-path":"03 编程语言与理论/Lisp 操作系统.md","permalink":"/03 编程语言与理论/Lisp 操作系统/"}
 ---
 
 #Innolight #Lisp 

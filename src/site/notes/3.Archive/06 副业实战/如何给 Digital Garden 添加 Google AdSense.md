@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"dg-path":"06 副业实战/如何给 Digital Garden 添加 Google AdSense.md","permalink":"/06 副业实战/如何给 Digital Garden 添加 Google AdSense/","created":"2025-06-17T09:42:23.001+08:00","updated":"2025-09-09T09:46:46.452+08:00"}
+{"dg-publish":true,"dg-path":"06 副业实战/如何给 Digital Garden 添加 Google AdSense.md","permalink":"/06 副业实战/如何给 Digital Garden 添加 Google AdSense/"}
 ---
 
 #Innolight
 
 参考[[3.Archive/06 副业实战/如何给博客添加 Google Adsense\|如何给博客添加 Google Adsense]]文章了解添加的整个流程，以下文章不再讲解这部分内容。仅专注于 Digital Garden 博客中添加的具体操作。
 
-# 验证网站所有权
+## 验证网站所有权
 
 在 AdSense 中，所有权验证是第一步。Google 需要确认你拥有该域名，否则就可能出现冒用流量的情况。验证的方式有三种，我采用的是元标记方式进行验证。
 
@@ -23,13 +23,13 @@
 > [!WARNING]
 > 一定要保证网站的所有 HTML 页面都已经添加了认证脚本，我刚开始主页没有添加，导致了认证失败。
 
-# 创建广告单元并嵌入博客
+## 创建广告单元并嵌入博客
 
 生成广告的方式有很多种，目前我只选择了自动展示广告。添加方式类似于验证网站所有权，将以下的代码放置在 note.njk 的 head 标记之间即可。
 
 ![Pasted image 20250902092035.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250902092035.png)
 
-# 配置 ads.txt
+## 配置 ads.txt
 
 ![Pasted image 20250902091653.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250902091653.png)
 

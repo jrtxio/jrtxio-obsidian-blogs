@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程之 MemStack（一）.md","permalink":"/01 车载技术/AUTOSAR 入门教程之 MemStack（一）/","created":"2025-09-09T18:40:04.803+08:00","updated":"2025-09-22T16:37:27.238+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程之 MemStack（一）.md","permalink":"/01 车载技术/AUTOSAR 入门教程之 MemStack（一）/"}
 ---
 
 #Innolight
@@ -8,14 +8,14 @@
 
 ![Pasted image 20250909184349.png|350](/img/user/0.Asset/resource/Pasted%20image%2020250909184349.png)
 
-# NvM 模块服务
+## NvM 模块服务
 
 NvM 模块为应用或基础软件提供基本的同步和异步读/写/比对服务：
 
 * **同步服务**：阻塞式调用，程序会轮询服务完成状态，只有在服务完成后才返回。
 * **异步服务**：非阻塞式调用，服务请求被放入队列，完成后通过回调函数通知上层，回调函数在块配置阶段设置。
 
-# NvM Blocks 类型与组成
+## NvM Blocks 类型与组成
 
 NvM blocks 可以根据必需或可选的内存对象（NV block、RAM block、ROM block 和 Administrative block）进行配置。根据不同的存储需求，NvM blocks 主要分为三类：Native Blocks、Redundant Blocks 和 Dataset Blocks。
 
@@ -32,11 +32,11 @@ NvM blocks 可以根据必需或可选的内存对象（NV block、RAM block、R
 | Redundant Blocks | 2            | 1             | 1（可选）         | 1                        |
 | Dataset Blocks   | 1–255        | 1             | 1–n（可选，配置可变）  | 1                        |
 
-# 应用发起请求的基本流程
+## 应用发起请求的基本流程
 
 NvM 支持单块和多块操作，具体流程如下：
 
-## 单块请求
+### 单块请求
 
 单块请求针对单个 NvM block 的读或写操作，是系统运行中最常用的服务，典型函数包括 `NvM_ReadBlock` 和 `NvM_WriteBlock`。
 
@@ -46,7 +46,7 @@ NvM 支持单块和多块操作，具体流程如下：
 2. MemIf 根据设备标识，将请求转发到 Fee 或 Ea。
 3. Fee 再将请求转发给 Fls 驱动，而 Ea 则转发给 Eep 驱动以完成操作。
 
-## 多块请求
+### 多块请求
 
 多块请求一次性对多个 NvM blocks 进行读写操作，用于系统启动或关闭时的数据恢复和保存。典型函数包括 `NvM_ReadAll` 和 `NvM_WriteAll`。
 

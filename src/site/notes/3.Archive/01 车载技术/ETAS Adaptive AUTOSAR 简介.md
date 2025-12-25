@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/ETAS Adaptive AUTOSAR 简介.md","permalink":"/01 车载技术/ETAS Adaptive AUTOSAR 简介/","created":"2023-04-06T10:17:11.000+08:00","updated":"2024-02-28T13:14:19.000+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/ETAS Adaptive AUTOSAR 简介.md","permalink":"/01 车载技术/ETAS Adaptive AUTOSAR 简介/"}
 ---
 
 #Technomous #SILK 
 
-# 为什么需要 Adaptive AUTOSAR
+## 为什么需要 Adaptive AUTOSAR
 
 ![Pasted image 20230406102729.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230406102729.png)
 
@@ -15,7 +15,7 @@ Adaptive AUTOSAR 的出现是为了解决 Classic AUTOSAR 和信息娱乐系统�
 * High resources: Micro-processor、Dynamic OS
 * SW Update：Planned Dynamics
 
-# Classic AUTOSAR vs Adaptive AUTOSAR
+## Classic AUTOSAR vs Adaptive AUTOSAR
 
 |              | CP                                                | AP                                                                               |
 | ------------ | ------------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -37,7 +37,7 @@ Adaptive AUTOSAR 的出现是为了解决 Classic AUTOSAR 和信息娱乐系统�
 | 配置         | 编译前配置，编入二进制文件                        | 运行时从 Manifests 文件动态载入配置                                              |
 |              | Configuration compiled in                         | Configuration loaded from manifests                                              |
 
-# Adaptive AUTOSAR 包含哪些模块
+## Adaptive AUTOSAR 包含哪些模块
 
 ![Pasted image 20230406111919.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230406111919.png)
 
@@ -55,13 +55,13 @@ AP(AUTOSAR Adaptive Platform)是 ARA（AUTOSAR Runtime for Adaptive Applications
 	* State Management(ara::sm)
 	* Network Management(ara::nm)
 
-# ETAS-AP 的安装和使用
+## ETAS-AP 的安装和使用
 
-## RTA VRTE 安装
+### RTA VRTE 安装
 
 RTA VRTE 通过虚拟机的方式进行分发，提供 Virtualbox 镜像。也可以通过 WSL 的方式自行安装。目前仅包含试用版开发环境。
 
-## RTA VRTE 使用
+### RTA VRTE 使用
 
 ![Pasted image 20230406131326.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230406131326.png)
 
@@ -69,7 +69,7 @@ RTA VRTE 的开发配置通过 VRTE Adaptive Studio 进行，编译和部署都�
 
 ![Pasted image 20230406110121.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230406110121.png)
 
-## 上机演示
+### 上机演示
 
 使用以下命令即可编译和部署：
 

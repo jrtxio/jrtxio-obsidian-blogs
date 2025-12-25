@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/IAR 烧写芯驰 E3 该如何配置.md","permalink":"/01 车载技术/IAR 烧写芯驰 E3 该如何配置/","created":"2025-02-08T13:46:37.618+08:00","updated":"2025-02-08T14:24:01.250+08:00"}
+{"dg-publish":true,"dg-path":"01 车载技术/IAR 烧写芯驰 E3 该如何配置.md","permalink":"/01 车载技术/IAR 烧写芯驰 E3 该如何配置/"}
 ---
 
 #Innolight
 
-# 链接文件
+## 链接文件
 
 通过链接文件可以指定程序的代码和数据在内存空间的位置。
 
@@ -105,19 +105,19 @@ place at address mem:__ICFEDIT_region_SFS_start__  { section SFS_BIN };
 export symbol intvec_start__;
 ```
 
-# 自定义命令
+## 自定义命令
 
 通过 Build Actions 可以设置编译时的自定义命令，这里设置了编译后对镜像的签名动作。
 
 ![Pasted image 20250208135127.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250208135127.png)
 
-# 镜像下载
+## 镜像下载
 
 通过 Flash loader(s) 可以设置固件下载的地址，工程的 Debug 模式下，程序默认直接下载到 IRAM 执行。工程的 Release 模式下，程序根据 Flash loader(s) 指定的地址，将程序下载到 Flash 在 MCU 中对应的地址空间下，这样程序会烧录到 Flash 上。
 
 ![Pasted image 20250208135552.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250208135552.png)
 
-# 烧录总结
+## 烧录总结
 
 这几个选项包括了程序从编译到烧录的相关地址的设置。首先编译器根据链接文件将代码和数据链接到 0x404000 到 0x7FFFFF 的 IRAM 空间（虚拟地址空间），即程序的逻辑运行地址（VMA，Virtual Memory Address）。然后烧录时，根据 Flash loader(s) 的 Relocate 设置，IAR 将虚拟地址范围 0x404000-0x7FFFFF 中的数据映射到 Flash 的地址空间 0x100C1000 位置，即程序的加载地址（LMA，Load Memory Address）。
 

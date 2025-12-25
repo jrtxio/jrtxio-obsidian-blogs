@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/配置你的专属 Manjaro-i3wm.md","permalink":"/04 工具与实用教程/配置你的专属 Manjaro-i3wm/","created":"2025-09-26T14:43:08.673+08:00","updated":"2025-11-26T14:47:32.688+08:00"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/配置你的专属 Manjaro-i3wm.md","permalink":"/04 工具与实用教程/配置你的专属 Manjaro-i3wm/"}
 ---
 
 #Innolight #Linux 
@@ -10,7 +10,7 @@
 
 ![Pasted image 20250926144440.png](/img/user/0.Asset/resource/Pasted%20image%2020250926144440.png)
 
-# 一、搜狗输入法
+## 一、搜狗输入法
 
 - 安装搜狗输入法
 
@@ -27,7 +27,7 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 ```
 
-# 二、URxvt的配置
+## 二、URxvt的配置
 
 ```
 !!$HOME/.Xresources
@@ -82,7 +82,7 @@ URxvt.font:xft:Droid\ Sans\ Mono\ For\ Powerline:regular:size=10,xft:WenQuanYi M
 
 ![Pasted image 20250926144644.png](/img/user/0.Asset/resource/Pasted%20image%2020250926144644.png)
 
-# 三、让软件自动归类到 Workspace 下
+## 三、让软件自动归类到 Workspace 下
 
 所谓自动归类，拿 Terminal 举例，不管你在哪一个工作区按下了打开终端的快捷键，Terminal 都会在你指定的工作区内打开。这样做的好处是，你可以把多个终端集中到一个 workspace 里面。那么这功能到底如何实现呢？
 
@@ -156,13 +156,13 @@ assign [class="jetbrains-studio"] $ws3
 # exec_always fluxgui
 ```
 
-# 四、科学上网
+## 四、科学上网
 
 关于科学上网可以参考我的另一篇博客[[配置你的专属Deepin\|配置你的专属Deepin]]。在 i3wm 里面科学上网稍微有些不同的是，全局上网很麻烦，所以我一般都是在 Chrome 或者 Firefox 上面安装一个插件——Foxproxy，像下面那样配置一下就可以科学上网了，然后配合 shadowsocksr，就可以实现科学上网了。
 
 ![Pasted image 20250926144915.png](/img/user/0.Asset/resource/Pasted%20image%2020250926144915.png)
 
-# 五、配置Rofi
+## 五、配置Rofi
 
 安装完 Rofi 之后可能需要一下简单的配置，下面是我的配置。
 
@@ -185,23 +185,23 @@ rofi.color-urgent: #393939, #f3843d, #393939, #268bd2, #ffc39c
 
 ![Pasted image 20250926144959.png](/img/user/0.Asset/resource/Pasted%20image%2020250926144959.png)
 
-# 六、即时聊天工具—wechat
+## 六、即时聊天工具—wechat
 
 Github 上 [electronic-wechat](https://github.com/geeeeeeeeek/electronic-wechat)开源项目(据说比腾讯官方开发的要好^-^)
 
 ![Pasted image 20250926145024.png](/img/user/0.Asset/resource/Pasted%20image%2020250926145024.png)
 
-# 七、虚拟机
+## 七、虚拟机
 
 如果你想要在 i3wm 上安装虚拟机的话，建议 kvm-qemu。因为 Virtualbox 和 VMware Workstation 在上面使用貌似都会有一些问题（这是血的教训）。用 virt-manager 来控制 qemu 模拟器。个人感觉 kvm-qemu 貌似更加流畅。下面是虚拟机的增强工具 spice-guest-tools。
 [spice-guest-tools](https://pan.baidu.com/s/1qYHieLm)
 
 ![Pasted image 20250926145121.png](/img/user/0.Asset/resource/Pasted%20image%2020250926145121.png)
 
-# 八、Androidstudio、Intellij IDEA Ultimate Editon、Pycharm、Genymotion
+## 八、Androidstudio、Intellij IDEA Ultimate Editon、Pycharm、Genymotion
 
 这些软件都可以一条指令安装，不过我在使用 Intellij IDEA Ultimate Edition 时发现输入中文会乱码，解决的办法就是把 [YaHei Consolas Hybrid](https://pan.baidu.com/s/1hrO9HKK) 设置为 Intellij IDEA Ultimate Edition 的默认字体。Genymotion 的安装需要一些其他相关的包，所以建议去找篇安装教程，如果你已经解决了科学上网问题，可以到 Youtube 上找安装教程。
 
-# 九、总结
+## 九、总结
 
 本篇文章只是浅尝辄止的讲解了一下配置过程，如果有什么错误，欢迎指正。使用 i3wm 的时候大部分时间都是靠快捷键。一个不熟悉的人拿到我的电脑连关机都没办法，更别谈操作了，但是常用的指令学会了之后，操作起来也没什么难度。再次重申，如果你一点都不爱折腾的话，不建议尝试。
