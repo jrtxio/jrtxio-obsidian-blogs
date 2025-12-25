@@ -12,7 +12,7 @@
 
 ![Pasted image 20251202145821.png|650](/img/user/0.Asset/resource/Pasted%20image%2020251202145821.png)
 
-# 开始探索
+## 开始探索
 
 Racket 的 GUI 工具包采用的是一种 “retained-mode” 风格的 API，用于构建用户界面。这意味着你通过实例化对象来表示应该画到屏幕上的内容，由系统负责实际绘制。当你希望对用户的交互作出自定义响应时，就给这些对象注册回调函数 (callbacks)，以便在某些事件发生时触发行为。
 
@@ -32,7 +32,7 @@ Racket 的 GUI 工具包采用的是一种 “retained-mode” 风格的 API，�
 
 上面这段代码实例化了一个新的 frame 对象 —— 它的标题 (label) 是 “Hello World!” —— 然后告诉它自己显示出来。就这么简单！
 
-## racket/class 快速入门
+### racket/class 快速入门
 
 这个 GUI 库是基于 Racket 的类系统 (class system) 构建的。在这个上下文里，你只需知道：
 
@@ -41,7 +41,7 @@ Racket 的 GUI 工具包采用的是一种 “retained-mode” 风格的 API，�
 - 用 `new` 宏 (macro) 来实例化一个类 (即创建一个对象)，后面跟零个或多个字段 (field) 值，
 - 用 `send` 宏发送消息 (message) 给对象 (也就是调用方法)。
 
-## 布局 (layout)
+### 布局 (layout)
 
 有了上面的基础，我们可以继续构建界面 (UI)：
 
@@ -96,7 +96,7 @@ window
 
 运行上述代码的话，你就能得到与文章开头所展示 UI “几乎相同”的界面 (layout + 空控件，但还没加交互行为)。
 
-# 添加行为 (behavior)
+## 添加行为 (behavior)
 
 尽管界面与截图类似，但上述代码还没有实现最终产品 (final product) 的行为。所以接下来我们要加功能 —— 比如文件列出 (listing)、过滤 (filtering) 以及点击后显示 SVG 图标 (rendering SVG)。
 
