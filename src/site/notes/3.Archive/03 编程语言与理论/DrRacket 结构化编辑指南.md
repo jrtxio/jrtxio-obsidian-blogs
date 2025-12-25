@@ -4,7 +4,7 @@
 
 #Innolight #Lisp #Racket 
 
-# 结构化编辑
+## 结构化编辑
 
 通过在 DrRacket 中安装 [drracket-paredit](https://github.com/yjqww6/drracket-paredit) 插件，可以帮助我们在操作 S 表达式（S-expression ）时保持代码的结构性，从而避免在手动调整括号时引入问题。插件主要包含的功能如下：
 
@@ -17,9 +17,9 @@
 > [!WARNING] 
 > 在使用快捷键之前，必须先进入 **Edit → Preferences → Editing**，取消勾选「Enable keybindings in menus (overrides Emacs keybinds)」，否则所有 paredit 快捷键都不会生效。修改后需要重启 DrRacket。
 
-# 快捷键介绍
+## 快捷键介绍
 
-[drracket-paredit 包含的快捷键如下：
+drracket-paredit 包含的快捷键如下：
 
 Movement:
 
@@ -50,7 +50,7 @@ Slurpage & barfage
 > [!NOTE]
 > 如果不了解快捷键的含义，可以参考这篇文章 [[3.Archive/03 编程语言与理论/DrRacket 快捷键完全指南\|DrRacket 快捷键完全指南]]
 
-## 移动（Movement）
+### 移动（Movement）
 
 这些快捷键让你能够快速地在代码中以 S 表达式为单位导航，而不是逐字符或逐词移动。
 
@@ -104,7 +104,7 @@ Slurpage & barfage
 (define |square x)
 ```
 
-## 深度变化（Depth-Changing）
+### 深度变化（Depth-Changing）
 
 这些快捷键用于修改表达式的结构（如合并、提取或包装）。
 
@@ -168,7 +168,7 @@ Slurpage & barfage
 (+ (let ([x 3]) (* 2 x)) 1)
 ```
 
-## 吞吐与吐出（Slurpage & Barfage）
+### 吞吐与吐出（Slurpage & Barfage）
 
 这些快捷键是操作括号范围的神器，可以让括号快速"吞"或"吐"邻近的表达式。
 
@@ -216,7 +216,7 @@ Slurpage & barfage
 ; bar 被吐出括号外，左括号向右移动
 ```
 
-# 总结
+## 总结
 
 - 移动快捷键：快速定位到需要操作的 S 表达式。
 - 深度操作快捷键：修改 S 表达式的嵌套结构。
