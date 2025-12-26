@@ -6,11 +6,11 @@
 
 > 基于 Racket + Nginx 实现，替代 Vercel
 
-# 系统概述
+## 系统概述
 
 本教程提供**三种部署方案**，从简单到复杂，从测试到生产，根据你的需求选择。
 
-## 方案对比
+### 方案对比
 
 |方案|复杂度|HTTPS|安全性|适用场景|
 |---|---|---|---|---|
@@ -18,7 +18,7 @@
 |**方案二：Nginx 代理**|⭐⭐ 中等|✅|✅ 高|单服务器生产|
 |**方案三：分离部署**|⭐⭐⭐ 复杂|✅|✅ 最高|多服务器生产|
 
-## 方案一：直接 HTTP 部署（最简单）
+### 方案一：直接 HTTP 部署（最简单）
 
 所有服务运行在一台服务器上，Racket 直接对外提供 HTTP 服务。
 
@@ -48,7 +48,7 @@ Nginx (80/443 或其他端口)
 - ❌ GitHub Webhook 必须禁用 SSL 验证
 - ❌ 安全性较低
 
-## 方案二：Nginx 反向代理（单服务器生产）
+### 方案二：Nginx 反向代理（单服务器生产）
 
 所有服务运行在一台服务器上，但使用 Nginx 提供 HTTPS。
 
@@ -80,7 +80,7 @@ Nginx (80/443)
 - ⚠️ 需要 SSL 证书
 - ⚠️ 构建可能影响网站访问
 
-## 方案三：分离式部署（多服务器生产）
+### 方案三：分离式部署（多服务器生产）
 
 构建服务器和 Web 服务器分离，构建完成后自动同步。
 
@@ -116,35 +116,35 @@ Nginx (80/443)
 - ⚠️ 需要配置 SSH 密钥
 - ⚠️ 配置相对复杂
 
-# 一、环境准备
+## 一、环境准备
 
-## 1.1 服务器要求
+### 1.1 服务器要求
 
-### 所有方案通用要求
+#### 所有方案通用要求
 
 - **操作系统**: Ubuntu 20.04+ / Debian 11+
 - **存储**: 10GB+
 
-### 方案一（直接 HTTP）
+#### 方案一（直接 HTTP）
 
 - **服务器数量**: 1 台
 - **内存**: 2GB+
 - **端口**: 80/443（博客）, 8080（Webhook）
 
-### 方案二（Nginx 代理）
+#### 方案二（Nginx 代理）
 
 - **服务器数量**: 1 台
 - **内存**: 2GB+
 - **端口**: 80/443（博客）, 8443（Webhook HTTPS）
 
-### 方案三（分离部署）
+#### 方案三（分离部署）
 
 - **构建服务器**: 2GB+，端口 8080 或 8443
 - **Web 服务器**: 512MB+，端口 80/443
 
-## 1.2 安装基础软件
+### 1.2 安装基础软件
 
-### 构建服务器（或方案一、二的单服务器）
+#### 构建服务器（或方案一、二的单服务器）
 
 ```bash
 # 更新系统
@@ -175,7 +175,7 @@ sudo apt install -y rsync
 sudo apt install -y nginx
 ```
 
-### Web 服务器（仅方案三需要）
+#### Web 服务器（仅方案三需要）
 
 ```bash
 # 更新系统
@@ -186,9 +186,9 @@ sudo apt upgrade -y
 sudo apt install -y nginx rsync
 ```
 
-# 二、部署 Racket Webhook 服务
+## 二、部署 Racket Webhook 服务
 
-## 2.1 克隆项目
+### 2.1 克隆项目
 
 ```bash
 # 创建目录
@@ -199,7 +199,7 @@ cd ~/racket-deployer
 git clone https://github.com/yourusername/racket-deployer.git .
 ```
 
-## 2.2 克隆博客仓库
+### 2.2 克隆博客仓库
 
 ```bash
 # 创建目录
@@ -220,9 +220,9 @@ npm run build
 ls -la /var/www/blog/dist
 ```
 
-## 2.3 配置 Webhook
+### 2.3 配置 Webhook
 
-### 生成 GitHub Secret
+#### 生成 GitHub Secret
 
 ```bash
 # 生成强密钥
@@ -230,7 +230,7 @@ openssl rand -hex 32
 # 复制输出的密钥
 ```
 
-### 方案一：直接 HTTP 配置
+#### 方案一：直接 HTTP 配置
 
 ```bash
 cd ~/racket-deployer
@@ -255,7 +255,7 @@ nano config.json
 
 - `"listen-ip": "0.0.0.0"` - 监听所有网络接口，直接对外提供服务
 
-### 方案二：Nginx 代理配置
+#### 方案二：Nginx 代理配置
 
 ```bash
 cd ~/racket-deployer
@@ -280,7 +280,7 @@ nano config.json
 
 - `"listen-ip": "127.0.0.1"` - 只监听本地，需要通过 Nginx 访问
 
-### 方案三：分离部署配置
+#### 方案三：分离部署配置
 
 ```bash
 cd ~/racket-deployer
@@ -314,9 +314,9 @@ nano config.json
 - `"deploy.enabled": true` - 启用远程部署
 - 配置远程服务器信息
 
-## 2.4 配置 SSH 密钥（仅方案三）
+### 2.4 配置 SSH 密钥（仅方案三）
 
-### 在构建服务器上生成密钥
+#### 在构建服务器上生成密钥
 
 ```bash
 # 生成 SSH 密钥
@@ -326,7 +326,7 @@ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N ""
 cat ~/.ssh/id_rsa.pub
 ```
 
-### 在 Web 服务器上添加公钥
+#### 在 Web 服务器上添加公钥
 
 ```bash
 # SSH 登录到 Web 服务器
@@ -342,21 +342,21 @@ chmod 600 ~/.ssh/authorized_keys
 exit
 ```
 
-### 测试 SSH 连接
+#### 测试 SSH 连接
 
 ```bash
 # 在构建服务器上测试
 ssh -i ~/.ssh/id_rsa root@你的Web服务器IP "echo 'SSH connection successful'"
 ```
 
-## 2.5 测试运行
+### 2.5 测试运行
 
 ```bash
 cd ~/racket-deployer
 racket main.rkt
 ```
 
-### 方案一输出示例：
+#### 方案一输出示例：
 
 ```
 ✓ Config loaded from config.json
@@ -376,7 +376,7 @@ Server accessible from: http://YOUR_SERVER_IP:8080
 ⚠ SSL verification must be DISABLED (not secure)
 ```
 
-### 方案二输出示例：
+#### 方案二输出示例：
 
 ```
 ✓ Config loaded from config.json
@@ -394,7 +394,7 @@ Server accessible from: http://localhost:8080 (local only)
 Use Nginx as reverse proxy for public HTTPS access
 ```
 
-### 方案三输出示例：
+#### 方案三输出示例：
 
 ```
 ✓ Config loaded from config.json
@@ -412,7 +412,7 @@ Starting HTTP server on 0.0.0.0:8080...
 Server accessible from: http://YOUR_SERVER_IP:8080
 ```
 
-### 测试服务
+#### 测试服务
 
 另开终端测试：
 
@@ -432,17 +432,17 @@ curl http://localhost:8080/health
 # 返回：Status: idle
 ```
 
-# 三、配置 Nginx
+## 三、配置 Nginx
 
-## 3.1 方案一：直接 HTTP（跳过此步骤）
+### 3.1 方案一：直接 HTTP（跳过此步骤）
 
 方案一不需要配置 Webhook 的 Nginx，只需要配置博客站点的 Nginx（见 3.4）。
 
-## 3.2 方案二：Nginx 反向代理（单服务器）
+### 3.2 方案二：Nginx 反向代理（单服务器）
 
-### 配置 Webhook 代理
+#### 配置 Webhook 代理
 
-#### 如果可以使用 443 端口（已备案）
+##### 如果可以使用 443 端口（已备案）
 
 ```bash
 sudo nano /etc/nginx/sites-available/webhook
@@ -488,7 +488,7 @@ server {
 }
 ```
 
-#### 如果不能使用 443 端口（未备案）
+##### 如果不能使用 443 端口（未备案）
 
 使用非标准端口 8443：
 
@@ -537,7 +537,7 @@ server {
 sudo ufw allow 8443/tcp
 ```
 
-### 申请 SSL 证书
+#### 申请 SSL 证书
 
 ```bash
 # 安装 certbot
@@ -547,7 +547,7 @@ sudo apt install -y certbot python3-certbot-nginx
 sudo certbot certonly --nginx -d webhook.你的域名.com
 ```
 
-### 启用配置
+#### 启用配置
 
 ```bash
 sudo ln -s /etc/nginx/sites-available/webhook /etc/nginx/sites-enabled/
@@ -555,17 +555,17 @@ sudo nginx -t
 sudo systemctl reload nginx
 ```
 
-## 3.3 方案三：分离部署 Nginx
+### 3.3 方案三：分离部署 Nginx
 
 构建服务器只需要配置 Webhook 代理（可选，也可以不用 Nginx 直接暴露），Web 服务器只需要配置博客站点。
 
-### 构建服务器（可选）
+#### 构建服务器（可选）
 
 如果希望 Webhook 使用 HTTPS，参考方案二的 Nginx 配置。
 
 如果不使用 Nginx，跳过此步骤，直接使用 `listen-ip: "0.0.0.0"`。
 
-### Web 服务器
+#### Web 服务器
 
 只需要配置博客站点（见 3.4）。
 
@@ -577,15 +577,15 @@ sudo mkdir -p /var/www/blog/dist
 sudo chown -R www-data:www-data /var/www/blog
 ```
 
-## 3.4 配置博客站点 Nginx（所有方案）
+### 3.4 配置博客站点 Nginx（所有方案）
 
-### 方案一、二：在单服务器上配置
+#### 方案一、二：在单服务器上配置
 
 ```bash
 sudo nano /etc/nginx/sites-available/blog
 ```
 
-### 方案三：在 Web 服务器上配置
+#### 方案三：在 Web 服务器上配置
 
 ```bash
 # 登录 Web 服务器
@@ -594,9 +594,9 @@ ssh root@你的Web服务器IP
 sudo nano /etc/nginx/sites-available/blog
 ```
 
-### 配置内容
+#### 配置内容
 
-#### 有 443 端口的配置：
+##### 有 443 端口的配置：
 
 ```nginx
 # HTTP 重定向
@@ -648,7 +648,7 @@ server {
 }
 ```
 
-#### 没有 443 端口的配置：
+##### 没有 443 端口的配置：
 
 ```nginx
 # HTTP 博客站点（80 端口）
@@ -682,7 +682,7 @@ server {
 }
 ```
 
-### 启用配置
+#### 启用配置
 
 ```bash
 sudo ln -s /etc/nginx/sites-available/blog /etc/nginx/sites-enabled/
@@ -691,20 +691,20 @@ sudo systemctl reload nginx
 sudo systemctl enable nginx
 ```
 
-### 申请博客 SSL 证书（如果使用 HTTPS）
+#### 申请博客 SSL 证书（如果使用 HTTPS）
 
 ```bash
 sudo certbot certonly --nginx -d 你的域名.com -d www.你的域名.com
 ```
 
-# 四、配置 GitHub Webhook
+## 四、配置 GitHub Webhook
 
-## 4.1 设置 Webhook
+### 4.1 设置 Webhook
 
 1. 进入仓库 **Settings** → **Webhooks** → **Add webhook**
 2. 根据你的方案配置：
 
-### 方案一：直接 HTTP
+#### 方案一：直接 HTTP
 
 - **Payload URL**: `http://你的服务器IP:8080/`
 - **Content type**: `application/json`
@@ -714,7 +714,7 @@ sudo certbot certonly --nginx -d 你的域名.com -d www.你的域名.com
 
 **注意**：必须禁用 SSL 验证！
 
-### 方案二：Nginx 代理（443 端口）
+#### 方案二：Nginx 代理（443 端口）
 
 - **Payload URL**: `https://webhook.你的域名.com/`
 - **Content type**: `application/json`
@@ -722,7 +722,7 @@ sudo certbot certonly --nginx -d 你的域名.com -d www.你的域名.com
 - **SSL verification**: ✅ **Enable SSL verification**
 - **Events**: Just the `push` event
 
-### 方案二：Nginx 代理（8443 端口）
+#### 方案二：Nginx 代理（8443 端口）
 
 - **Payload URL**: `https://webhook.你的域名.com:8443/`
 - **Content type**: `application/json`
@@ -730,7 +730,7 @@ sudo certbot certonly --nginx -d 你的域名.com -d www.你的域名.com
 - **SSL verification**: ✅ **Enable SSL verification**
 - **Events**: Just the `push` event
 
-### 方案三：分离部署
+#### 方案三：分离部署
 
 根据构建服务器是否使用 Nginx：
 
@@ -739,9 +739,9 @@ sudo certbot certonly --nginx -d 你的域名.com -d www.你的域名.com
 
 3. **Add webhook**
 
-## 4.2 测试
+### 4.2 测试
 
-### 方案一、二测试
+#### 方案一、二测试
 
 ```bash
 # 查看 Racket 日志
@@ -758,7 +758,7 @@ sudo journalctl -u blog-deploy -f
 curl https://你的域名.com  # 或 http://你的域名.com
 ```
 
-### 方案三测试
+#### 方案三测试
 
 ```bash
 # 构建服务器 - 查看 Racket 日志
@@ -776,9 +776,9 @@ sudo journalctl -u blog-deploy -f
 ssh root@Web服务器IP "ls -lt /var/www/blog/dist/ | head"
 ```
 
-# 五、配置 systemd 服务
+## 五、配置 systemd 服务
 
-## 5.1 创建服务文件
+### 5.1 创建服务文件
 
 ```bash
 sudo nano /etc/systemd/system/blog-deploy.service
@@ -807,7 +807,7 @@ StandardError=append:/var/log/blog-deploy-error.log
 WantedBy=multi-user.target
 ```
 
-## 5.2 启动服务
+### 5.2 启动服务
 
 ```bash
 sudo systemctl daemon-reload
@@ -816,7 +816,7 @@ sudo systemctl start blog-deploy
 sudo systemctl status blog-deploy
 ```
 
-## 5.3 查看日志
+### 5.3 查看日志
 
 ```bash
 # 实时日志
@@ -829,9 +829,9 @@ sudo journalctl -u blog-deploy -n 50
 sudo tail -f /var/log/blog-deploy.log
 ```
 
-# 六、完整工作流程
+## 六、完整工作流程
 
-## 6.1 日常使用（所有方案）
+### 6.1 日常使用（所有方案）
 
 1. **Obsidian 编辑** → 添加 `dg-publish: true`
 2. **Digital Garden 推送** → GitHub
@@ -840,9 +840,9 @@ sudo tail -f /var/log/blog-deploy.log
 5. **（方案三）自动同步** → rsync 到 Web 服务器
 6. **访问博客** → 查看更新
 
-## 6.2 故障排查
+### 6.2 故障排查
 
-### Webhook 未触发
+#### Webhook 未触发
 
 ```bash
 # 检查服务状态
@@ -861,7 +861,7 @@ curl http://你的服务器IP:8080/
 curl https://webhook.你的域名.com:8443/
 ```
 
-### 构建失败
+#### 构建失败
 
 ```bash
 # 手动构建测试
@@ -877,7 +877,7 @@ node --version
 npm --version
 ```
 
-### 网站未更新
+#### 网站未更新
 
 ```bash
 # 检查 dist 目录
@@ -891,7 +891,7 @@ git pull
 # 按 Ctrl+Shift+R 强制刷新
 ```
 
-### 远程部署失败（仅方案三）
+#### 远程部署失败（仅方案三）
 
 ```bash
 # 测试 SSH 连接
@@ -910,11 +910,11 @@ ls -la ~/.ssh/id_rsa
 chmod 600 ~/.ssh/id_rsa
 ```
 
-# 七、方案对比总结
+## 七、方案对比总结
 
-## 架构对比
+### 架构对比
 
-### 方案一：直接 HTTP
+#### 方案一：直接 HTTP
 
 ```
 ┌────────────────────────────────────────┐
@@ -935,7 +935,7 @@ chmod 600 ~/.ssh/id_rsa
 - 可扩展性: ⭐⭐
 - 推荐场景: 测试、内网
 
-### 方案二：Nginx 代理
+#### 方案二：Nginx 代理
 
 ```
 ┌────────────────────────────────────────┐
@@ -958,7 +958,7 @@ chmod 600 ~/.ssh/id_rsa
 - 可扩展性: ⭐⭐⭐
 - 推荐场景: 单服务器生产
 
-### 方案三：分离部署
+#### 方案三：分离部署
 
 ```
 ┌─────────────────────────┐      ┌─────────────────────────┐
@@ -981,7 +981,7 @@ chmod 600 ~/.ssh/id_rsa
 - 可扩展性: ⭐⭐⭐⭐⭐
 - 推荐场景: 多服务器生产
 
-## 配置对比表
+### 配置对比表
 
 |配置项|方案一|方案二|方案三|
 |---|---|---|---|
@@ -994,9 +994,9 @@ chmod 600 ~/.ssh/id_rsa
 |GitHub SSL 验证|❌ 禁用|✅ 启用|根据配置|
 |服务器数量|1|1|2+|
 
-# 八、常用命令
+## 八、常用命令
 
-## Webhook 服务
+### Webhook 服务
 
 ```bash
 sudo systemctl start blog-deploy      # 启动
@@ -1006,7 +1006,7 @@ sudo systemctl status blog-deploy     # 状态
 sudo journalctl -u blog-deploy -f     # 实时日志
 ```
 
-## Nginx
+### Nginx
 
 ```bash
 sudo nginx -t                         # 测试配置
@@ -1015,7 +1015,7 @@ sudo systemctl restart nginx          # 重启
 sudo systemctl status nginx           # 状态
 ```
 
-## 手动构建
+### 手动构建
 
 ```bash
 cd /var/www/blog
@@ -1024,7 +1024,7 @@ npm install  # 如果需要
 npm run build
 ```
 
-## 手动同步（方案三）
+### 手动同步（方案三）
 
 ```bash
 rsync -avz --delete -e 'ssh -i ~/.ssh/id_rsa' \
@@ -1032,16 +1032,16 @@ rsync -avz --delete -e 'ssh -i ~/.ssh/id_rsa' \
   root@Web服务器IP:/var/www/blog/dist
 ```
 
-## 证书续期
+### 证书续期
 
 ```bash
 # 自动续期（certbot 会自动配置 cron）
 sudo certbot renew --dry-run  # 测试
 ```
 
-# 九、安全建议
+## 九、安全建议
 
-## 所有方案通用
+### 所有方案通用
 
 1. **保护密钥**：
 
@@ -1055,7 +1055,7 @@ openssl rand -hex 32
 
 2. **防火墙配置**：
 
-### 方案一
+#### 方案一
 
 ```bash
 sudo ufw allow 22/tcp   # SSH
@@ -1065,7 +1065,7 @@ sudo ufw allow 8080/tcp # Webhook
 sudo ufw enable
 ```
 
-### 方案二
+#### 方案二
 
 ```bash
 sudo ufw allow 22/tcp   # SSH
@@ -1076,7 +1076,7 @@ sudo ufw enable
 # 不要开放 8080（Racket 只监听本地）
 ```
 
-### 方案三（构建服务器）
+#### 方案三（构建服务器）
 
 ```bash
 sudo ufw allow 22/tcp   # SSH
@@ -1086,7 +1086,7 @@ sudo ufw allow 8443/tcp # Webhook HTTPS（如果用 Nginx）
 sudo ufw enable
 ```
 
-### 方案三（Web 服务器）
+#### 方案三（Web 服务器）
 
 ```bash
 sudo ufw allow 22/tcp   # SSH
@@ -1095,7 +1095,7 @@ sudo ufw allow 443/tcp  # HTTPS
 sudo ufw enable
 ```
 
-## 方案三额外安全
+### 方案三额外安全
 
 3. **SSH 密钥安全**：
 
@@ -1111,11 +1111,11 @@ chmod 600 ~/.ssh/authorized_keys
 
 - 方案二配置中已经设置为 `127.0.0.1`，不会暴露到公网
 
-# 十、方案选择指南
+## 十、方案选择指南
 
-## 如何选择合适的方案？
+### 如何选择合适的方案？
 
-### 选择方案一（直接 HTTP）的情况：
+#### 选择方案一（直接 HTTP）的情况：
 
 - ✅ 只是测试或学习
 - ✅ 内网环境使用
@@ -1123,7 +1123,7 @@ chmod 600 ~/.ssh/authorized_keys
 - ✅ 不在意安全性
 - ✅ 没有域名或 SSL 证书
 
-### 选择方案二（Nginx 代理）的情况：
+#### 选择方案二（Nginx 代理）的情况：
 
 - ✅ 生产环境使用
 - ✅ 只有一台服务器
@@ -1131,7 +1131,7 @@ chmod 600 ~/.ssh/authorized_keys
 - ✅ 有域名和 SSL 证书
 - ✅ 流量不大
 
-### 选择方案三（分离部署）的情况：
+#### 选择方案三（分离部署）的情况：
 
 - ✅ 生产环境使用
 - ✅ 有多台服务器
@@ -1140,7 +1140,7 @@ chmod 600 ~/.ssh/authorized_keys
 - ✅ 需要扩展性
 - ✅ 流量较大
 
-## 推荐路径
+### 推荐路径
 
 **新手学习**：
 
@@ -1151,7 +1151,7 @@ chmod 600 ~/.ssh/authorized_keys
 - 单服务器：选择方案二
 - 多服务器：选择方案三
 
-# 结语
+## 结语
 
 本教程提供了从简单到复杂的三种部署方案：
 
