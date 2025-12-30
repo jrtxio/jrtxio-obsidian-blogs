@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（2）基础篇二.md","permalink":"/01 车载技术/AUTOSAR 入门教程（2）基础篇二/"}
 ---
 
-#Innolight #AutoSAR 
+#Innolight #AUTOSAR
 
 🚀 **AUTOSAR** 作为汽车电子系统开发的行业标准，其**基础软件（BSW）**的模块化设计是提升 ECU 开发效率的关键。本文将深入解析 BSW 的分层架构和配置机制，帮助开发者理解如何通过标准化接口实现软硬件解耦。💡
 

@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/简析 XCP 协议原理.md","permalink":"/01 车载技术/简析 XCP 协议原理/"}
 ---
 
-#Ofilm #AutoSAR
+#Ofilm #AUTOSAR
 
 ## 功能简介
 

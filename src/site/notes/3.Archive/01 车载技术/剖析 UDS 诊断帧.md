@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/剖析 UDS 诊断帧.md","permalink":"/01 车载技术/剖析 UDS 诊断帧/"}
 ---
 
-#Technomous #AutoSAR #UDS 
+#Technomous #AUTOSAR #UDS 
 
 UDS 诊断服务通常是通过 CAN 总线实现。对于 CAN 诊断帧有两种不同的分类方式，按照寻址方式可以分为物理寻址、功能寻址，按照帧类别可以分为单帧、首帧、流控帧、连续帧。
 

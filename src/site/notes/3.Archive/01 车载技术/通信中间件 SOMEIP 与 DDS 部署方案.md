@@ -10,7 +10,7 @@
 
 ![Pasted image 20240130224135.png|650](/img/user/0.Asset/resource/Pasted%20image%2020240130224135.png)
 
-SH 端 SOME/IP 方案是基于 Classic AutoSAR 本身的模块实现。PH 端可以基于开源的 vsomeip 协议栈进行部署。
+SH 端 SOME/IP 方案是基于 Classic AUTOSAR 本身的模块实现。PH 端可以基于开源的 vsomeip 协议栈进行部署。
 
 ## DDS
 

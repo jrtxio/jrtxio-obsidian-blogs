@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/揭秘 AUTOSAR：现代汽车背后的智能模块化架.md","permalink":"/01 车载技术/揭秘 AUTOSAR：现代汽车背后的智能模块化架/"}
 ---
 
-#Innolight #AutoSAR 
+#Innolight #AUTOSAR
 
 随着汽车电子电气架构复杂性的持续提升，传统嵌入式开发方法已难以满足车辆日益增长的功能需求。从通信到诊断，从功能安全到 OTA，AUTOSAR（AUTomotive Open System ARchitecture）的每个模块设计都直接对应了车身零部件的核心功能需求。本文将全面探讨这些功能模块及其与汽车需求的关联性。
 

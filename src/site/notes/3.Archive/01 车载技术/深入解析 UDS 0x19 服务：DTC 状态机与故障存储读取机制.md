@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/深入解析 UDS 0x19 服务：DTC 状态机与故障存储读取机制.md","permalink":"/01 车载技术/深入解析 UDS 0x19 服务：DTC 状态机与故障存储读取机制/"}
 ---
 
-#BDStar #AutoSAR #UDS 
+#BDStar #AUTOSAR #UDS 
 
 在汽车电子控制单元（ECU）的诊断系统中，统一诊断服务（UDS，Unified Diagnostic Services）是实现故障诊断的核心协议之一。其中，**0x19 服务（ReadDTCInformation）** 专门用于读取 ECU 中存储的诊断故障码（DTC, Diagnostic Trouble Code）信息，是维修、调试和车辆健康状态评估的关键工具。
 

@@ -6,7 +6,7 @@
 
 ## 代码结构
 
-EB Classic AutoSAR 安装包集成了 MCAL 和 BSW 模块，其中 MCAL 部分单独放在 EB/tresos/plugins/McalExt_xx 目录下，BSW 各个模块分别放在 EB/tresos/plugins 目录下。
+EB Classic AUTOSAR 安装包集成了 MCAL 和 BSW 模块，其中 MCAL 部分单独放在 EB/tresos/plugins/McalExt_xx 目录下，BSW 各个模块分别放在 EB/tresos/plugins 目录下。
 
 ## 工程构建
 
