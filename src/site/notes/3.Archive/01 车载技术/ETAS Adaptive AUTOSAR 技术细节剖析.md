@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/ETAS Adaptive AUTOSAR 技术细节剖析.md","permalink":"/01 车载技术/ETAS Adaptive AUTOSAR 技术细节剖析/"}
 ---
 
-#Technomous #SILK 
+#SILK 
 
 ![Pasted image 20230404153744.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230404153744.png)
 
