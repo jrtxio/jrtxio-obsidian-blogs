@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/深入理解 CAN 总线：从数据帧结构到 ID 分配策略.md","permalink":"/01 车载技术/深入理解 CAN 总线：从数据帧结构到 ID 分配策略/"}
 ---
 
-#BDStar #AUTOSAR
+#AUTOSAR
 
 要理解 CAN（Controller Area Network）总线，首先要理解其**数据帧的组成**，特别是要关注其中的**仲裁段**和**数据段**。CAN 协议通过高效、可靠的帧结构设计，实现了在复杂电磁环境下的实时通信，广泛应用于汽车、工业控制等领域。
 

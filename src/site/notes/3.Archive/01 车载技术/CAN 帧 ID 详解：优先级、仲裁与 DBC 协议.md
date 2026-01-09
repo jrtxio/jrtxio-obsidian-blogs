@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/CAN 帧 ID 详解：优先级、仲裁与 DBC 协议.md","permalink":"/01 车载技术/CAN 帧 ID 详解：优先级、仲裁与 DBC 协议/"}
 ---
 
-#BDStar #AUTOSAR
+#AUTOSAR
 
 在 CAN（Controller Area Network）总线通信中，**帧 ID** 是一个核心概念。它不仅标识了数据的来源或类型，还决定了消息在总线上的传输优先级。理解帧 ID 的作用，是掌握 CAN 通信机制的关键。
 

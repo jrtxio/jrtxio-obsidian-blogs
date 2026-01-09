@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/FBL 与 APP 为何要有各自的中断向量表.md","permalink":"/01 车载技术/FBL 与 APP 为何要有各自的中断向量表/"}
 ---
 
-#Ofilm #FBL 
+#FBL 
 
 在嵌入式开发中，尤其是涉及**固件升级**（如通过 IAP，In-Application Programming）的系统中，我们常常会看到两个独立的程序：**FBL（First Boot Loader）** 和 **APP（Application）**。一个常见的问题是：
 

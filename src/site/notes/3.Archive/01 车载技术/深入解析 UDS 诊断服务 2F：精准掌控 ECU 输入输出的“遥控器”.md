@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/深入解析 UDS 诊断服务 2F：精准掌控 ECU 输入输出的“遥控器”.md","permalink":"/01 车载技术/深入解析 UDS 诊断服务 2F：精准掌控 ECU 输入输出的“遥控器”/"}
 ---
 
-#Ofilm #AUTOSAR #UDS 
+#AUTOSAR #UDS 
 
 在汽车电子控制单元（ECU）的诊断与开发过程中，统一诊断服务（Unified Diagnostic Services，UDS）扮演着至关重要的角色。其中，服务 ID 2F（Input Output Control by Identifier）作为一项功能强大的诊断指令，被誉为工程师手中的“遥控器”，能够直接干预和控制 ECU 的输入输出状态，为系统测试、功能验证和故障排查提供了极大的便利。
 

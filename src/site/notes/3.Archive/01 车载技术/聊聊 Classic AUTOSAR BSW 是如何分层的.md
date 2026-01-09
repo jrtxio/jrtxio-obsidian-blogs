@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/聊聊 Classic AUTOSAR BSW 是如何分层的.md","permalink":"/01 车载技术/聊聊 Classic AUTOSAR BSW 是如何分层的/"}
 ---
 
-#Ofilm #AUTOSAR
+#AUTOSAR
 
 基础软件层（Basic Software Layer，BSW）又可分为四层，即服务层（Services Layer）、ECU 抽象层（ECU Abstraction Layer）、微控制器抽象层（Microcontroller Abstraction Layer，MCAL）和复杂驱动（Complex Drivers）。
 

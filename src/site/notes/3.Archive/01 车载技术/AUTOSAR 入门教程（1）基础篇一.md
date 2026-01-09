@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（1）基础篇一.md","permalink":"/01 车载技术/AUTOSAR 入门教程（1）基础篇一/"}
 ---
 
-#Innolight #AUTOSAR 
+#AUTOSAR 
 
 🚗 **AUTOSAR** 作为汽车电子领域的行业标准，解决了传统 ECU 软件开发中 **代码复用率低** 和 **跨平台移植困难** 的核心痛点。本文将系统解析其分层架构设计，帮助开发者快速建立认知框架。
 

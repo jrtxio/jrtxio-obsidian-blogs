@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/如何理解 AUTOSAR 核心思想.md","permalink":"/01 车载技术/如何理解 AUTOSAR 核心思想/"}
 ---
 
-#CyberUnit #AUTOSAR
+#AUTOSAR
 
 AUTOSAR 架构的核心思想是“统一标准、分散实现、集中配置”。这个核心思想，深刻地阐述了 AUTOSAR 的标准化与协同开发理念。
 

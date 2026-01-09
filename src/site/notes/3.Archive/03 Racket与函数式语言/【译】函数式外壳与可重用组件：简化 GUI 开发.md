@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式语言/【译】函数式外壳与可重用组件：简化 GUI 开发.md","permalink":"/03 Racket与函数式语言/【译】函数式外壳与可重用组件：简化 GUI 开发/"}
 ---
 
-#Innolight #Lisp #Racket 
+#Innolight #Lisp #Racket #GUI
 
 # 摘要
 

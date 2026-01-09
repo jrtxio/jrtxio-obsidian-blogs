@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/Classic AUTOSAR Det 调试技巧.md","permalink":"/01 车载技术/Classic AUTOSAR Det 调试技巧/"}
 ---
 
-#CyberUnit #AUTOSAR
+#AUTOSAR
 
 ## 配置 Det 模块
 

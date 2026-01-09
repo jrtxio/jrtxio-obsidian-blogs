@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/如何替换 Vector SIP 包的 CAN 模块.md","permalink":"/01 车载技术/如何替换 Vector SIP 包的 CAN 模块/"}
 ---
 
-#CyberUnit #AUTOSAR
+#AUTOSAR
 
 ![Pasted image 20240730132932.png|650](/img/user/0.Asset/resource/Pasted%20image%2020240730132932.png)
 
