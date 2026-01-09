@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"04 工具与实用教程/如何开启 Ubuntu RDP 远程桌面.md","permalink":"/04 工具与实用教程/如何开启 Ubuntu RDP 远程桌面/"}
 ---
 
-#Technomous #Linux 
+#Linux 
 
 Ubuntu 22.04 之后可以开启内置的微软的远程桌面 RDP 协议。本教程将详细介绍如何开启 RDP 远程桌面功能以及锁屏后的连接方案。
 

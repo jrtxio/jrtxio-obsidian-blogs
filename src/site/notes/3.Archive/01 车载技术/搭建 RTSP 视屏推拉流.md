@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/搭建 RTSP 视屏推拉流.md","permalink":"/01 车载技术/搭建 RTSP 视屏推拉流/"}
 ---
 
-#Technomous
-
 ## 协议交互
 
 - RTSP Pusher

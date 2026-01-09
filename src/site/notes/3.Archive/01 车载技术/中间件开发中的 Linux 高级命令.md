@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/中间件开发中的 Linux 高级命令.md","permalink":"/01 车载技术/中间件开发中的 Linux 高级命令/"}
 ---
 
-#Technomous #Linux 
+#Linux 
 
 ## 1. 复制挂载在 `/app` 的设备内容
 

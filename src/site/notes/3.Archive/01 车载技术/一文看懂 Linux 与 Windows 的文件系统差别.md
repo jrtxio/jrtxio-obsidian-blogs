@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/一文看懂 Linux 与 Windows 的文件系统差别.md","permalink":"/01 车载技术/一文看懂 Linux 与 Windows 的文件系统差别/"}
 ---
 
-#Technomous #Linux 
+#Linux 
 
 在日常使用中，许多人第一次接触 Linux 时最不习惯的往往不是命令行，而是它完全不同于 Windows 的目录结构。事实上，**Linux 与 Windows 最大的差别之一，就体现在文件系统的组织方式上。**
 

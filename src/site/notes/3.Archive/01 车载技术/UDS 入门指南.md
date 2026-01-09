@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/UDS 入门指南.md","permalink":"/01 车载技术/UDS 入门指南/"}
 ---
 
-#Technomous #AUTOSAR #UDS
+#AUTOSAR #UDS
 
 ## 车辆诊断技术
 
