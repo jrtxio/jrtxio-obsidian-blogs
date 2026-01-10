@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"07 人工智能/Agent Skill、MCP 与 Agent 技术体系全解：能力边界与实际价值剖析.md","permalink":"/07 人工智能/Agent Skill、MCP 与 Agent 技术体系全解：能力边界与实际价值剖析/"}
 ---
 
-#Innolight
-
 💡 工程师在探索 **智能体（Agent）** 领域时，常被 **Agent Skill**、**MCP** 与 **Agent** 等术语困扰，难以快速厘清它们的实际能力边界。本文将通过技术演进视角，用 🛠 实战案例 + 📊 对比表格，助你精准把握产业动态！
 
 ## 🔄 为什么 LLM 必须转向 Agent 形态

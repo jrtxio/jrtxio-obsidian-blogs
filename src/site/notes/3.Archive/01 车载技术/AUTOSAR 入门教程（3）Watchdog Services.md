@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（3）Watchdog Services.md","permalink":"/01 车载技术/AUTOSAR 入门教程（3）Watchdog Services/"}
 ---
 
-#Innolight
-
 🚨 **AUTOSAR 看门狗服务是保障车载系统可靠性的关键机制** 💪，它能有效监控软件执行时序和逻辑正确性，避免因软件故障导致系统异常运行。在功能安全要求严格的汽车电子系统中，看门狗服务是防止系统失效的最后一道防线 🔒。
 
 ## 🧠 1. Watchdog Services 核心概念

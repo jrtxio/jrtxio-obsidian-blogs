@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（8）ComStack CANTP（三）.md","permalink":"/01 车载技术/AUTOSAR 入门教程（8）ComStack CANTP（三）/"}
 ---
 
-#Innolight
-
 🚛 **CAN 传输协议（CANTP）** 是 AUTOSAR 中实现长报文多帧传输的关键模块，尤其在诊断通信（UDS/OBD）中扮演着不可替代的角色！本文将深入解析 CANTP 的分层架构、流控机制和诊断应用场景。
 
 ![Pasted image 20251230110031.png](/img/user/0.Asset/resource/Pasted%20image%2020251230110031.png)

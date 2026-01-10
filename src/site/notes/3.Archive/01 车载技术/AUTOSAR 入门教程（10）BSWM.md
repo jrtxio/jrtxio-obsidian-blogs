@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（10）BSWM.md","permalink":"/01 车载技术/AUTOSAR 入门教程（10）BSWM/"}
 ---
 
-#Innolight
-
 🚀 **BSWM 模块** 是 AUTOSAR 架构中的"模式指挥官"，通过智能仲裁机制协调 ECU 各模块工作状态，解决复杂车载系统中多模块协同的难题！
 
 ## 🧠 核心功能：模式管理的三大支柱

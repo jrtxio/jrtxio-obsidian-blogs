@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（5）MemStack（二）.md","permalink":"/01 车载技术/AUTOSAR 入门教程（5）MemStack（二）/"}
 ---
 
-#Innolight
-
 🚗 本文将讨论 AUTOSAR 中与内存服务（MemStack）相关的 ECU 抽象层和 MCAL 层，重点解析 Flash EEPROM 仿真技术及其在汽车电子中的关键作用。✨
 
 ## 🏗 1. 内存服务架构概述

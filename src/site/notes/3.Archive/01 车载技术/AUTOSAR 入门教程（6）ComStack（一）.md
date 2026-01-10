@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（6）ComStack（一）.md","permalink":"/01 车载技术/AUTOSAR 入门教程（6）ComStack（一）/"}
 ---
 
-#Innolight
-
 🚀 **AUTOSAR 通信栈** 是车载 ECU 之间高效通信的核心框架，但复杂的模块分层和协议转换常常让开发者头疼。本文将带你深入理解 **ComStack** 的架构设计和关键模块，掌握 PDU 路由和信号处理的精髓！  
 
 ![Pasted image 20251230105546.png](/img/user/0.Asset/resource/Pasted%20image%2020251230105546.png)  

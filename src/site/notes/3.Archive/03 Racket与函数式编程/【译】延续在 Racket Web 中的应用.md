@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/【译】延续在 Racket Web 中的应用.md","permalink":"/03 Racket与函数式编程/【译】延续在 Racket Web 中的应用/"}
 ---
 
-#Innolight #Lisp #Racket 
+#Lisp #Racket 
 
 在之前那篇[[3.Archive/03 Racket与函数式编程/【译】Racket Web 服务器缺失的指南\|【译】Racket Web 服务器缺失的指南]]里，我曾说 `dispatch/servlet` 相当于：
 

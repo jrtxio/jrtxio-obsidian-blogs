@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/【译】如果 Lisp 如此伟大.md","permalink":"/03 Racket与函数式编程/【译】如果 Lisp 如此伟大/"}
 ---
 
-#Innolight #Lisp
+#Lisp
 
 如果 Lisp 如此伟大，为什么没有更多的人使用它？我在最近的一次演讲中被一个学生问到这个问题。这已经不是第一次有人这么问了。
 

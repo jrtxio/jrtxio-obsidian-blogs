@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（15）Gateway.md","permalink":"/01 车载技术/AUTOSAR 入门教程（15）Gateway/"}
 ---
 
-#Innolight
-
 在汽车电子架构中，不同总线网络间的数据交换是核心需求。🚗 AUTOSAR **网关(Gateway)** 功能正是解决这一痛点的关键技术，它能实现信号和协议数据在不同总线间的智能路由，确保整车通信系统的高效协同。
 
 ## 🛠 两种网关类型：信号级 vs PDU 级

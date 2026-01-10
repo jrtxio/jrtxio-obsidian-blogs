@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/讲讲 Linux 动态库显式加载函数.md","permalink":"/01 车载技术/讲讲 Linux 动态库显式加载函数/"}
 ---
 
-#Technomous 
-
 通过包含 `<dlfcn.h>` 头文件我们便可使用 Linux 上的动态库操作函数。以下介绍其中常用的函数。
 
 ## dlopen

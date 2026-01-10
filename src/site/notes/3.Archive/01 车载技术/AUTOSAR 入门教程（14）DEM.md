@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（14）DEM.md","permalink":"/01 车载技术/AUTOSAR 入门教程（14）DEM/"}
 ---
 
-#Innolight
-
 🚀 **诊断事件管理器（DEM）** 是 AUTOSAR 架构中的核心模块，负责统一管理和存储车辆电子系统中的各类诊断事件，解决分布式系统中故障信息分散、难以追踪的痛点！
 
 ## 🔍 DEM 核心功能与事件类型

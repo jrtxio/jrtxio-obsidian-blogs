@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（9）CanNm.md","permalink":"/01 车载技术/AUTOSAR 入门教程（9）CanNm/"}
 ---
 
-#Innolight
-
 🚗 **CAN 网络管理** 是汽车电子系统中确保通信可靠性的关键技术！本文将深入解析 AUTOSAR 中的 **CANNM** 模块如何协调 ECU 的唤醒与睡眠，解决车载网络能耗与通信效率的平衡难题。
 
 ## 🌐 网络管理接口：通信系统的智能调度员

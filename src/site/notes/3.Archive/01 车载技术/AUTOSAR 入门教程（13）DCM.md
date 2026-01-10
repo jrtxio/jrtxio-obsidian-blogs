@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（13）DCM.md","permalink":"/01 车载技术/AUTOSAR 入门教程（13）DCM/"}
 ---
 
-#Innolight
-
 🚗 **诊断通信管理器（DCM）** 是 AUTOSAR 架构中的核心模块，负责管理车辆诊断数据流和会话安全。本文将深入解析 DCM 的三大子模块和工作原理，帮助开发者快速掌握诊断系统开发要点！
 
 ## 🔍 DCM 模块概述
