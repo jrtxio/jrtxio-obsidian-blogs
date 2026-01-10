@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/RTOS 任务切换深度解析.md","permalink":"/01 车载技术/RTOS 任务切换深度解析/"}
 ---
 
-#RTOS 
+#rtos 
 
 在嵌入式实时操作系统（RTOS）中，**任务切换（Task Switching）** 是系统调度的核心机制。理解其底层实现原理，尤其是 Cortex-M 架构下的寄存器保存与恢复过程，对于掌握 RTOS 运行机制、优化系统性能、排查上下文切换异常等问题至关重要。
 

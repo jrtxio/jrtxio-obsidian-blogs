@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/EB Classic AUTOSAR 使用指南.md","permalink":"/01 车载技术/EB Classic AUTOSAR 使用指南/"}
 ---
 
-#AUTOSAR 
+#autosar 
 
 ## 代码结构
 

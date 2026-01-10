@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"04 工具与实用教程/Rime 输入法入门教程.md","permalink":"/04 工具与实用教程/Rime 输入法入门教程/"}
 ---
 
-#Innolight
+
 
 Rime（中州韵）是一款开源、可高度自定义的输入法引擎框架，支持 Windows、macOS、Linux，并有第三方移动端实现。它最大的特点是灵活、可扩展，支持拼音、双拼、五笔、注音等多种输入方案和自定义词库。
 

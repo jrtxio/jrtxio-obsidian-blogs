@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/ETAS Adaptive AUTOSAR 简介.md","permalink":"/01 车载技术/ETAS Adaptive AUTOSAR 简介/"}
 ---
 
-#SILK 
+#silk 
 
 ## 为什么需要 Adaptive AUTOSAR
 

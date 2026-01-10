@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/Racke GUI 指南：还在用默认控件？Racket GUI 自定义控件开发指南帮你打造专属界面.md","permalink":"/03 Racket与函数式编程/Racke GUI 指南：还在用默认控件？Racket GUI 自定义控件开发指南帮你打造专属界面/"}
 ---
 
-#Innolight #Lisp #Racket 
+#lisp #racket 
 
 在 Racket 中，`racket/gui` 提供了一套完整的 GUI 框架，包括窗口、按钮、文本框、列表等控件。但是，有时内置控件无法满足你的需求，比如你想实现一个特殊的进度条、图形化的开关按钮或者复杂的自定义绘图控件。这时，就需要掌握如何**自定义控件**。 本文将从基础概念出发，逐步讲解如何在 Racket 中创建自定义控件，并提供一些实用技巧。
 

@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/【转】你是如何成为 Lisp 程序员的.md","permalink":"/03 Racket与函数式编程/【转】你是如何成为 Lisp 程序员的/"}
 ---
 
-#Lisp 
+#lisp 
 
 我成为 Lisp 程序员的道路曲折而漫长。我曾于 2007 年 10 月 3 日在自己的日记中总结了自己的学习经历，现抄录于此。
 

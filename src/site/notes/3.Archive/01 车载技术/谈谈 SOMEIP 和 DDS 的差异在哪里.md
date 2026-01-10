@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/谈谈 SOMEIP 和 DDS 的差异在哪里.md","permalink":"/01 车载技术/谈谈 SOMEIP 和 DDS 的差异在哪里/"}
 ---
 
-#SOMEIP 
+#someip 
 
 SOMEIP 和 DDS 都是自动驾驶上用的最多两类通信中间件。两者的共同点主要有：都是面向服务的通信协议；都采用了"以数据为中心"的发布和订阅模式。
 

@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/Linux 包管理工具 aptitude 教程.md","permalink":"/01 车载技术/Linux 包管理工具 aptitude 教程/"}
 ---
 
-#Linux 
+#linux 
 
 aptitude 是 Debian Linux 系统中软件包管理工具。aptitude 命令与 apt-get 命令一样，都是 Debian Linux 及其衍生系统中功能极其强大的包管理工具。与 apt-get 不同的是，aptitude 在处理依赖问题上更佳一些。举例来说，aptitude 在删除一个包时，会同时删除本身所依赖的包。这样，系统中不会残留无用的包，整个系统更为干净。它通过图形界面和命令行两种方式管理软件包。
 

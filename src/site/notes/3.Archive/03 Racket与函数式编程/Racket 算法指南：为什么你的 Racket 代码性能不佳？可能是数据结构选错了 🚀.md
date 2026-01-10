@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/Racket 算法指南：为什么你的 Racket 代码性能不佳？可能是数据结构选错了 🚀.md","permalink":"/03 Racket与函数式编程/Racket 算法指南：为什么你的 Racket 代码性能不佳？可能是数据结构选错了 🚀/"}
 ---
 
-#Innolight #Lisp #Racket 
+#lisp #racket 
 
 💡 **在 Racket 中，选择合适的数据结构能显著提升代码性能**！列表、向量和集合各有特点，错误的选择可能导致程序变慢 10 倍以上。本文将带你掌握这三种核心数据结构的正确使用场景和优化技巧。✨
 

@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/谈 Adaptive AUTOSAR 运行管理.md","permalink":"/01 车载技术/谈 Adaptive AUTOSAR 运行管理/"}
 ---
 
-#AUTOSAR
+#autosar
 
 ![Pasted image 20241119134232.png|650](/img/user/0.Asset/resource/Pasted%20image%2020241119134232.png)
 ## 什么是执行管理

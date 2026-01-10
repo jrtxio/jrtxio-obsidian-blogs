@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"02 软件开发/URL 原理与设计：从互联网地址到 REST API 的完整理解.md","permalink":"/02 软件开发/URL 原理与设计：从互联网地址到 REST API 的完整理解/"}
 ---
 
-#Innolight
+
 
 在日常生活中，我们通过地址找到家，通过电话号码联系朋友。在互联网世界，同样也需要一种机制来定位资源——这就是 **URL（统一资源定位符，Uniform Resource Locator）**。URL 并不是网页或文件本身，而是一种**标准化地址系统**，告诉电脑“去哪里找到资源”。
 

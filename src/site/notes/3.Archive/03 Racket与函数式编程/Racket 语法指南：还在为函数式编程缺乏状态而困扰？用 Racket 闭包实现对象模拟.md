@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/Racket 语法指南：还在为函数式编程缺乏状态而困扰？用 Racket 闭包实现对象模拟.md","permalink":"/03 Racket与函数式编程/Racket 语法指南：还在为函数式编程缺乏状态而困扰？用 Racket 闭包实现对象模拟/"}
 ---
 
-#Lisp #Racket 
+#lisp #racket 
 
 在学习函数式编程（尤其是 Racket、Scheme、JavaScript 等语言）时，你一定会遇到一个关键概念——**闭包（Closure）**。这篇文章将带你从零理解什么是闭包、为什么它重要，以及它如何让函数拥有类似“对象”的能力。
 

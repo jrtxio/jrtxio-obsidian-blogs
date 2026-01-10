@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/提升网络性能与安全性：VLAN 技术的应用与实践.md","permalink":"/01 车载技术/提升网络性能与安全性：VLAN 技术的应用与实践/"}
 ---
 
-#ETH
+#ethernet
 
 虚拟局域网（VLAN, Virtual Local Area Network）是通过网络设备配置和分段技术，将一个物理局域网（LAN）划分成多个逻辑子网的技术。VLAN 可以有效地隔离广播域，提高网络性能、增强安全性并简化网络管理。
 ## VLAN 的基本概念

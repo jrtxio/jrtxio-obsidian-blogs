@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/DrRacket 入门指南：DrRacket 结构化编辑实战：用 Paredit 插件提升 Lisp 开发效率.md","permalink":"/03 Racket与函数式编程/DrRacket 入门指南：DrRacket 结构化编辑实战：用 Paredit 插件提升 Lisp 开发效率/"}
 ---
 
-#Lisp #Racket 
+#lisp #racket 
 
 ## 结构化编辑
 

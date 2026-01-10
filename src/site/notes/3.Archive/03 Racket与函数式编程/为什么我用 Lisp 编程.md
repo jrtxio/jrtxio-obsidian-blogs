@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/为什么我用 Lisp 编程.md","permalink":"/03 Racket与函数式编程/为什么我用 Lisp 编程/"}
 ---
 
-#Innolight #Lisp 
+ #lisp 
 
 Lisp 从来都不是最受欢迎的编程语言。其他通用语言比它更受欢迎，而且如果丘奇和图灵的理论是正确的，那么它们最终能够完成 Lisp 能够完成的一切。它们拥有比 Lisp 更多的库和更大的用户群体，也更有可能被安装在计算机上。
 

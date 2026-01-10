@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"02 软件开发/前端小白入门 Electron 系列（一）：如何搭建开发环境.md","permalink":"/02 软件开发/前端小白入门 Electron 系列（一）：如何搭建开发环境/"}
 ---
 
-#Innolight #Web
+ #web
 
 ## 什么是 Electron？
 

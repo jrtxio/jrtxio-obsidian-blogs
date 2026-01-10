@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/NvM 模块架构指南.md","permalink":"/01 车载技术/NvM 模块架构指南/"}
 ---
 
-#AUTOSAR 
+#autosar 
 
 NVM 在 AUTOSAR 中的架构层次架构如下所示。
 

@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"07 人工智能/如何免费体验 Claude Code：国内用户完整指南.md","permalink":"/07 人工智能/如何免费体验 Claude Code：国内用户完整指南/"}
 ---
 
-#Innolight
+
 
 ## 前言
 

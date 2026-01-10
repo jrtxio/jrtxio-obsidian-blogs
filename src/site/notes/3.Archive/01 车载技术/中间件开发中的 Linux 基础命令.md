@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/中间件开发中的 Linux 基础命令.md","permalink":"/01 车载技术/中间件开发中的 Linux 基础命令/"}
 ---
 
-#Linux 
+#linux 
 
 本文列举了 Linux 命令的常见用法和选项。
 

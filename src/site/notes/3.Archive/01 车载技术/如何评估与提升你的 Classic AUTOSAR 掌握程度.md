@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/如何评估与提升你的 Classic AUTOSAR 掌握程度.md","permalink":"/01 车载技术/如何评估与提升你的 Classic AUTOSAR 掌握程度/"}
 ---
 
-#AUTOSAR
+#autosar
 
 Classic AUTOSAR（AUTomotive Open System ARchitecture）是为汽车行业提供的标准化软件架构，旨在简化电子控制单元（ECU）的开发与集成，提升开发效率和系统的可扩展性。随着汽车电子化的深入，掌握 Classic AUTOSAR 成为嵌入式开发工程师必备的技能之一。
 

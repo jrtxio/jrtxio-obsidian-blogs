@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/深入解读 SOMEIP 协议.md","permalink":"/01 车载技术/深入解读 SOMEIP 协议/"}
 ---
 
-#SOMEIP
+#someip
 
 ![Pasted image 20230718174405.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230718174405.png)
 

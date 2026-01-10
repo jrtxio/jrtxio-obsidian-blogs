@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/UDS 请求及响应格式.md","permalink":"/01 车载技术/UDS 请求及响应格式/"}
 ---
 
- #AUTOSAR #UDS 
+ #autosar #uds 
 
 请求格式
 

@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/【译】Racket：一门用于创造新语言的语言.md","permalink":"/03 Racket与函数式编程/【译】Racket：一门用于创造新语言的语言/"}
 ---
 
-#Lisp #Racket 
+#lisp #racket 
 
 在本文中，我们将探讨 [Racket](https://racket-lang.org/)——一门专为快速创建全新编程语言而生的编程语言。终于，有一个叫“Racket”的语言，值得你投入时间。
 

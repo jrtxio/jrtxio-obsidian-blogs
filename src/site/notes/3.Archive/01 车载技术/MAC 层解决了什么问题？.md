@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/MAC 层解决了什么问题？.md","permalink":"/01 车载技术/MAC 层解决了什么问题？/"}
 ---
 
-#ETH
+#ethernet
 
 MAC 层的全称是 Medium Access Control，即媒体访问控制。
 

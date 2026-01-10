@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"04 工具与实用教程/如何用 Obsidian 优雅地写博客.md","permalink":"/04 工具与实用教程/如何用 Obsidian 优雅地写博客/"}
 ---
 
-#Innolight
+
 
 ![Pasted image 20250601095011.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250601095011.png)
 

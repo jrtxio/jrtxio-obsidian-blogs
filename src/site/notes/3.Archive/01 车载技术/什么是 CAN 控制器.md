@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/什么是 CAN 控制器.md","permalink":"/01 车载技术/什么是 CAN 控制器/"}
 ---
 
-#AUTOSAR 
+#autosar 
 
 ![Pasted image 20250619101959.png](/img/user/0.Asset/resource/Pasted%20image%2020250619101959.png)
 

@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/vsomeip 从入门到精通.md","permalink":"/01 车载技术/vsomeip 从入门到精通/"}
 ---
 
-#SOMEIP
+#someip
 
 ## 知识体系
 

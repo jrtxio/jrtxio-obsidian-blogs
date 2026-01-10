@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/基于 Github Webhook 实现自动化部署数字花园.md","permalink":"/03 Racket与函数式编程/基于 Github Webhook 实现自动化部署数字花园/"}
 ---
 
-#Innolight #Lisp #Racket 
+ #lisp #racket 
 
 > 基于 Racket + Nginx 实现，替代 Vercel
 

@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/Linux 文件属性.md","permalink":"/01 车载技术/Linux 文件属性/"}
 ---
 
-#Linux 
+#linux 
 
 通过在终端执行 `ls -al` 命令显示当前目录下的所有文件及文件夹的详细信息。文件属性示意图如下图所示：
 

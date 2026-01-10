@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/IAR 烧写芯驰 E3 该如何配置.md","permalink":"/01 车载技术/IAR 烧写芯驰 E3 该如何配置/"}
 ---
 
-#Innolight
-
 ## 链接文件
 
 通过链接文件可以指定程序的代码和数据在内存空间的位置。

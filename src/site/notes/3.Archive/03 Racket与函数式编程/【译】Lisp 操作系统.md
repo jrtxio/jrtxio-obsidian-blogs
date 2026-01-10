@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/【译】Lisp 操作系统.md","permalink":"/03 Racket与函数式编程/【译】Lisp 操作系统/"}
 ---
 
-#Lisp 
+#lisp 
 
 Lisp 操作系统（简称 LispOS）不仅仅是一个碰巧用 Lisp 编写的操作系统（尽管这本身就是一个很好的事情）。LispOS 也是一种操作系统，它以 Lisp 交互式环境为灵感，设计用户与系统之间以及应用程序与系统之间的接口。
 

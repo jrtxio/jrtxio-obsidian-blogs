@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"02 软件开发/Obsidian 自动推送公众号插件实现分析.md","permalink":"/02 软件开发/Obsidian 自动推送公众号插件实现分析/"}
 ---
 
-#Innolight
-
 ## 实现方案分析
 
 1. 实现微信发布公众号文章有两个路径，一个是通过后台登陆，另一个是通过订阅号 API 

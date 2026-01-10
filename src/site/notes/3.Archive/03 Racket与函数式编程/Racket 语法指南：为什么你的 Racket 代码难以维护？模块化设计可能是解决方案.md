@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/Racket 语法指南：为什么你的 Racket 代码难以维护？模块化设计可能是解决方案.md","permalink":"/03 Racket与函数式编程/Racket 语法指南：为什么你的 Racket 代码难以维护？模块化设计可能是解决方案/"}
 ---
 
-#Innolight #Lisp #Racket 
+ #lisp #racket 
 
 Racket 的模块系统是其语言设计的核心之一，允许开发者以模块化的方式组织代码，使代码更易于理解、复用和维护。本指南将帮助新手了解如何定义、导入和使用 Racket 模块，逐步掌握模块化编程的基础知识。
 

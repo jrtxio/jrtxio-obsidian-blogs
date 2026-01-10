@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"04 工具与实用教程/Obsidian 的 Callout 使用场景.md","permalink":"/04 工具与实用教程/Obsidian 的 Callout 使用场景/"}
 ---
 
-#Innolight
-
 ## 语法介绍
 
 Obsidian 的 Callout 语法结构如下：

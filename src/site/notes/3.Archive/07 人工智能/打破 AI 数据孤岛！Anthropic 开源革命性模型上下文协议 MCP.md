@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"07 人工智能/打破 AI 数据孤岛！Anthropic 开源革命性模型上下文协议 MCP.md","permalink":"/07 人工智能/打破 AI 数据孤岛！Anthropic 开源革命性模型上下文协议 MCP/"}
 ---
 
-#Innolight
+
 
 今天，我们开源了[模型上下文协议](https://modelcontextprotocol.io/)（MCP），这是一个连接 AI 助手与数据所在系统的新标准，包括内容存储库、商业工具和开发环境。其目标是帮助前沿模型产生更好、更相关的响应。
 
