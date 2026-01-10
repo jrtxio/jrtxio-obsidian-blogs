@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（17）CorTst.md","permalink":"/01 车载技术/AUTOSAR 入门教程（17）CorTst/"}
 ---
 
-#Innolight
-
 ## 🔍 核心测试模块概述
 
 在 AUTOSAR 架构中，Core Test（核心测试）模块是 MCAL 层的一部分，提供用于验证核心功能的测试能力。该模块主要用于验证：

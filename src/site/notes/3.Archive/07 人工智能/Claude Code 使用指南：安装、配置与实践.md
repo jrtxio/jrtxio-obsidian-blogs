@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"07 人工智能/Claude Code 使用指南：安装、配置与实践.md","permalink":"/07 人工智能/Claude Code 使用指南：安装、配置与实践/"}
 ---
 
-#Innolight
-
 ## 前言
 
 Claude Code 是 Anthropic 推出的命令行工具，可以在终端中直接与 Claude 模型交互，执行代码分析、生成、重构等任务。支持上下文管理和会话持久化，方便工程化开发。

@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"06 副业实战/Digital Obsidian Garden 接入 Google AdSense 广告完整指南.md","permalink":"/06 副业实战/Digital Obsidian Garden 接入 Google AdSense 广告完整指南/"}
 ---
 
-#Innolight
-
 参考[[3.Archive/06 副业实战/Google AdSense 博客广告接入完整指南\|Google AdSense 博客广告接入完整指南]]文章了解添加的整个流程，以下文章不再讲解这部分内容。仅专注于 Digital Obsidian Garden 博客中添加的具体操作。
 
 ## 验证网站所有权

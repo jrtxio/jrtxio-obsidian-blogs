@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"06 副业实战/Google AdSense 博客广告接入完整指南.md","permalink":"/06 副业实战/Google AdSense 博客广告接入完整指南/"}
 ---
 
-#Innolight
-
 添加 Google AdSense 并展示广告，分为四个主要步骤：申请账号、验证网站、创建广告单元、配置 ads.txt。
 
 ## 1. 申请 Google AdSense 账号

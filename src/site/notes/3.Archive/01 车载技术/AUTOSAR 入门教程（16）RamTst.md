@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（16）RamTst.md","permalink":"/01 车载技术/AUTOSAR 入门教程（16）RamTst/"}
 ---
 
-#Innolight
-
 💾 **RAM 测试** 是汽车电子系统中确保内存可靠性的关键环节！本文将深入解析 AUTOSAR 中的 **RamTst 模块**，帮助开发者理解如何通过不同测试策略保障 ECU 运行稳定性。
 
 ## 🧠 RAM 测试基础概念

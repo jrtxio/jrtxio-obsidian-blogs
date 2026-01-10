@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（18）Crypto.md","permalink":"/01 车载技术/AUTOSAR 入门教程（18）Crypto/"}
 ---
 
-#Innolight
-
 🔐 本文将讨论 AUTOSAR 中的加密堆栈(Crypto Stack)，它负责为应用程序提供加密服务。加密堆栈由以下组件构成：
 
 - CSM (加密服务管理器)

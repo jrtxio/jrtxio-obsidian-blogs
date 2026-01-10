@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"04 工具与实用教程/Batocera 技术解析：模拟器、BIOS 与加密机制.md","permalink":"/04 工具与实用教程/Batocera 技术解析：模拟器、BIOS 与加密机制/"}
 ---
 
-#Innolight
-
 Batocera 是一个基于 Linux 的 **游戏模拟发行版（Emulation-focused Linux distro）**。  
 它的目标并不是“提供模拟器”，而是**构建一套统一的仿真运行时环境**，把不同年代、不同架构、不同厂商的游戏主机，通过一致的方式呈现出来。
 
