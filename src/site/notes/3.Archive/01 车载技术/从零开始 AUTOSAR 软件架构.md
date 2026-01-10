@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/从零开始 AUTOSAR 软件架构.md","permalink":"/01 车载技术/从零开始 AUTOSAR 软件架构/"}
 ---
 
- #autosar
+#autosar
 
 在 AUTOSAR 架构中可以分为两个不同分支，分别是 CP 和 AP，CP 表示 Classic Platform 经典平台，AP 代表 Adaptive Platform 自适应平台。从名称上来看，AP 平台更加高大上，CP 听起来老旧。没错，从字面上，AP 更加现代，面向于高性能平台，更符合现代的车联网以及自动驾驶领域使用。而 CP 平台适用于传统的嵌入式系统，特别是对实时性要求高的场景。
 

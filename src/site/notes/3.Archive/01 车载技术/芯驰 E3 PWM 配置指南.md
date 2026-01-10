@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"01 车载技术/芯驰 E3 PWM 配置指南.md","permalink":"/01 车载技术/芯驰 E3 PWM 配置指南/"}
 ---
 
-
-
 本文主要是为了讲述 PWM 配置的大致流程，详细教程可参考[AUTOSAR MCAL for SemiDrive E3 功能模块使用介绍：PWM&ICU - 大大通(简体站)](https://www.wpgdadatong.com.cn/blog/detail/71676)文章。
 
 ## 使能 EPWM 和 XTRG 模块时钟
