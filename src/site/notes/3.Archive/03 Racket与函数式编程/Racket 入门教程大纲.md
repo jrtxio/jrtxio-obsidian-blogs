@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/Racket 入门教程大纲.md","permalink":"/03 Racket与函数式编程/Racket 入门教程大纲/"}
 ---
 
-#lisp #racket 
+#lisp/racket  
 
 > [!NOTE]
 > 这篇文章是「[Racket 入门教程](https://www.bilibili.com/video/BV1Gt421n7hQ/?spm_id_from=333.1387.0.0&vd_source=a6cca0388938ffd55231a400bd7589df)」视频的教案，结合视频一起食用更佳。

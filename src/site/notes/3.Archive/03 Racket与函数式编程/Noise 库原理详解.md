@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/Noise 库原理详解.md","permalink":"/03 Racket与函数式编程/Noise 库原理详解/"}
 ---
 
-#lisp #racket #noise
+#lisp/racket  #gui/noise
 
 本文深入探讨 Noise 库的内部工作原理，分析其架构设计、核心组件实现和技术机制，帮助开发者理解 Swift 与 Racket CS 运行时集成的底层技术。
 

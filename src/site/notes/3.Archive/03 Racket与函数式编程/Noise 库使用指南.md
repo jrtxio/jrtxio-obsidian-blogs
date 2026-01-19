@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/Noise 库使用指南.md","permalink":"/03 Racket与函数式编程/Noise 库使用指南/"}
 ---
 
-#lisp #racket #noise
+#lisp/racket  #gui/noise
 
 本文详细介绍如何在 macOS 和 iOS 项目中集成和使用 Noise 库，帮助开发者快速上手将 Racket 语言的强大功能融入到 Swift 应用中。
 

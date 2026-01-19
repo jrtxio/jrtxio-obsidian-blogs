@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/【译文】如何部署 Racket Web 应用.md","permalink":"/03 Racket与函数式编程/【译文】如何部署 Racket Web 应用/"}
 ---
 
-#lisp #racket #web
+#lisp/racket  #gui/web
 
 最近有人在 Racket Slack 上询问如何部署 Racket Web 应用。最常见的答案有
 

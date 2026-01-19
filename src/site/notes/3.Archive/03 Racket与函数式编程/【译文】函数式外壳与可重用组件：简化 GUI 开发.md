@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/【译文】函数式外壳与可重用组件：简化 GUI 开发.md","permalink":"/03 Racket与函数式编程/【译文】函数式外壳与可重用组件：简化 GUI 开发/"}
 ---
 
-#lisp #racket #gui
+#lisp/racket  #gui
 
 ## 摘要
 

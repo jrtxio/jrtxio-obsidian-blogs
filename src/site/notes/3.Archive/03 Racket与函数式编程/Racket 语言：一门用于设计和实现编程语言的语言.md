@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/Racket 语言：一门用于设计和实现编程语言的语言.md","permalink":"/03 Racket与函数式编程/Racket 语言：一门用于设计和实现编程语言的语言/"}
 ---
 
- #lisp #racket 
+ #lisp/racket  
 
 ## 摘要
 

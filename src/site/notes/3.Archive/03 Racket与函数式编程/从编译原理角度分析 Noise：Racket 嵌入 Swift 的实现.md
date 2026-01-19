@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/从编译原理角度分析 Noise：Racket 嵌入 Swift 的实现.md","permalink":"/03 Racket与函数式编程/从编译原理角度分析 Noise：Racket 嵌入 Swift 的实现/"}
 ---
 
-#lisp #racket #noise 
+#lisp/racket  #gui/noise 
 
 ## 一、引言
 

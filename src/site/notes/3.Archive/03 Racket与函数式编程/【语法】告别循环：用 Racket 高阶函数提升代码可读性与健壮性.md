@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/【语法】告别循环：用 Racket 高阶函数提升代码可读性与健壮性.md","permalink":"/03 Racket与函数式编程/【语法】告别循环：用 Racket 高阶函数提升代码可读性与健壮性/"}
 ---
 
- #lisp #racket 
+ #lisp/racket  
 
 在很多传统语言（如 C、Python、Java）中，我们习惯写：
 

@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/通信中间件 SOMEIP 与 DDS 部署方案.md","permalink":"/01 车载技术/通信中间件 SOMEIP 与 DDS 部署方案/"}
 ---
 
-#someip #dds
+#autosar/someip #autosar/dds
 
 目前自动驾驶通信中间件主要为 SOME/IP 和 DDS。下面我们来简单看一下如何在 MCU 和 SOC 上分别部署这两种通信中间件。
 

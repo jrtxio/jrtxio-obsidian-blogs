@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/【译文】racket gui 拯救了世界.md","permalink":"/03 Racket与函数式编程/【译文】racket gui 拯救了世界/"}
 ---
 
-#lisp #racket #gui
+#lisp/racket  #gui
 
 昨天，我买了一个图标包 — 里面有 3000 多个 SVG 文件 — 然后当我试图在 macOS 上搜索这个未解压的文件夹时，系统彻底崩溃了。
 

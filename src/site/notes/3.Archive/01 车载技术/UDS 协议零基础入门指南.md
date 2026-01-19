@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/UDS 协议零基础入门指南.md","permalink":"/01 车载技术/UDS 协议零基础入门指南/"}
 ---
 
-#autosar #uds 
+#autosar #autosar/uds 
 
 UDS 本质上是一系列服务的集合。UDS 的服务包含 6 大类，共 26 种。每种服务都有自己独立的 ID，即 SID。SID：Service Identifier，诊断服务 ID。
 

@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/NoiseBackend 集成指南：在 Swift 工程中使用 Racket 后端.md","permalink":"/03 Racket与函数式编程/NoiseBackend 集成指南：在 Swift 工程中使用 Racket 后端/"}
 ---
 
-#lisp #racket #noise 
+#lisp/racket  #gui/noise 
 
 ## 项目概述
 

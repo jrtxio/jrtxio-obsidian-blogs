@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"03 Racket与函数式编程/【工具】Racket 包开发实战：手把手教你发布符合官方标准的 Racket 包.md","permalink":"/03 Racket与函数式编程/【工具】Racket 包开发实战：手把手教你发布符合官方标准的 Racket 包/"}
 ---
 
-#lisp #racket 
+#lisp/racket  
 
 发布 Racket 包并不复杂，但第一次发布时，很多人会卡在两个极端：
 

@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/DTC 故障码分类说明.md","permalink":"/01 车载技术/DTC 故障码分类说明/"}
 ---
 
-#autosar #uds 
+#autosar #autosar/uds 
 
 故障码包括四个大类，分别是 PCBU。
 
