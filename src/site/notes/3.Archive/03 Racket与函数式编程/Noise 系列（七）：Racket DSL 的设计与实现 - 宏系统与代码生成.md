@@ -21,16 +21,16 @@ Noise 的 DSL 主要由以下三个表单构成：
 - `define-enum`：定义枚举类型
 - `define-rpc`：定义远程过程
 
-它们都位于 [noise/serde](Racket/noise-serde-lib/serde.rkt) 和 [noise/backend](Racket/noise-serde-lib/backend.rkt) 模块中。
+它们都位于 noise/serde 和 noise/backend 模块中。
 
 ## 1. 宏系统与 DSL 构成
 
 Racket 的宏是 Noise DSL 的实现基础。整个 DSL 被组织成一个 Racket 包 `noise-serde-lib`，包含：
 
-- [serde.rkt](Racket/noise-serde-lib/serde.rkt) —— 公开接口与顶层导出
-- [codegen.rkt](Racket/noise-serde-lib/codegen.rkt) —— Swift 代码生成
-- [backend.rkt](Racket/noise-serde-lib/backend.rkt) —— RPC 服务与 callout 机制
-- [private/](Racket/noise-serde-lib/private/) —— 实现细节
+- serde.rkt —— 公开接口与顶层导出
+- codegen.rkt —— Swift 代码生成
+- backend.rkt —— RPC 服务与 callout 机制
+- private —— 实现细节
 
 这些宏的核心特性：
 
@@ -49,7 +49,7 @@ Racket 的宏是 Noise DSL 的实现基础。整个 DSL 被组织成一个 Racke
   [email : (Optional String)])
 ```
 
-这个宏在 [private/serde.rkt](Racket/noise-serde-lib/private/serde.rkt) 中定义：
+这个宏在 private/serde.rkt 中定义：
 
 ```racket
 (define-syntax (define-record stx)
@@ -74,7 +74,7 @@ Racket 的宏是 Noise DSL 的实现基础。整个 DSL 被组织成一个 Racke
 (struct record-field (id type mutable? accessor))
 ```
 
-参见 [private/serde.rkt:69-70](Racket/noise-serde-lib/private/serde.rkt#L69-L70)
+参见 private/serde.rkt
 
 ### 2.4 序列化支持
 
@@ -88,7 +88,7 @@ Racket 的宏是 Noise DSL 的实现基础。整个 DSL 被组织成一个 Racke
      (read-field (record-field-type f) in))))
 ```
 
-参见 [private/serde.rkt:18-24](Racket/noise-serde-lib/private/serde.rkt#L18-L24)
+参见 private/serde.rkt
 
 ## 3. define-enum：枚举类型定义
 
@@ -116,7 +116,7 @@ Racket 的宏是 Noise DSL 的实现基础。整个 DSL 被组织成一个 Racke
 (struct enum-variant-field (name type accessor))
 ```
 
-参见 [private/serde.rkt:221-223](Racket/noise-serde-lib/private/serde.rkt#L221-L223)
+参见 private/serde.rkt
 
 ### 3.3 序列化格式
 
@@ -125,7 +125,7 @@ Racket 的宏是 Noise DSL 的实现基础。整个 DSL 被组织成一个 Racke
 1. 首先写入变体 ID（变长整数）
 2. 然后依次写入各关联值
 
-参见 [codegen.rkt:37-66](Racket/noise-serde-lib/codegen.rkt#L37-L66) 中的 `write-enum-code` 生成的 `read(from:using:)` 实现。
+参见 codegen.rkt 中的 `write-enum-code` 生成的 `read(from:using:)` 实现。
 
 ## 4. define-rpc：远程过程定义
 
@@ -138,7 +138,7 @@ Racket 的宏是 Noise DSL 的实现基础。整个 DSL 被组织成一个 Racke
 
 ### 4.2 RPC 机制
 
-RPC 在 [backend.rkt](Racket/noise-serde-lib/backend.rkt) 中实现，使用管道进行进程间通信：
+RPC 在 backend.rkt 中实现，使用管道进行进程间通信：
 
 1. **客户端发送请求**：
    - 写入请求 ID（变长整数）
@@ -152,7 +152,7 @@ RPC 在 [backend.rkt](Racket/noise-serde-lib/backend.rkt) 中实现，使用管�
    - 调用处理函数
    - 发送响应
 
-参见 [backend.rkt:23-80](Racket/noise-serde-lib/backend.rkt#L23-L80) 的 `serve` 函数
+参见 backend.rkt 的 `serve` 函数
 
 ### 4.3 响应格式
 
@@ -162,7 +162,7 @@ RPC 在 [backend.rkt](Racket/noise-serde-lib/backend.rkt) 中实现，使用管�
 2. 写入状态字节（0=错误，1=成功）
 3. 写入响应数据或错误信息
 
-参见 [backend.rkt:82-134](Racket/noise-serde-lib/backend.rkt#L82-L134) 的 `write-data` 函数
+参见 backend.rkt 的 `write-data` 函数
 
 ## 5. 类型系统
 
@@ -173,7 +173,7 @@ DSL 提供了丰富的类型系统：
 - **可选类型**：Optional
 - **复合类型**：其他记录或枚举类型
 
-参见 [serde.rkt:15-30](Racket/noise-serde-lib/serde.rkt#L15-L30) 的类型定义
+参见 serde.rkt 的类型定义
 
 ## 6. 代码生成与运行时
 
@@ -186,7 +186,7 @@ DSL 提供了丰富的类型系统：
 3. **记录代码**：为每个记录生成 Swift `struct`，同样实现上述协议
 4. **后端代码**：生成 `Backend` 类，封装与 Racket 后端的交互
 
-参见 [codegen.rkt](Racket/noise-serde-lib/codegen.rkt) 的完整生成流程
+参见 codegen.rkt 的完整生成流程
 
 ### 6.2 生成的代码特点
 
@@ -199,7 +199,7 @@ DSL 提供了丰富的类型系统：
 
 运行时通过以下组件集成：
 
-- **I/O 端口抽象**：[DataInputPort](Sources/NoiseSerde/DataInputPort.swift)、[DataOutputPort](Sources/NoiseSerde/DataOutputPort.swift) 等
+- **I/O 端口抽象**：DataInputPort、DataOutputPort 等
 - **线程安全**：通过 custodian 管理线程生命周期
 - **错误处理**：跨语言错误传播机制
 
@@ -217,11 +217,11 @@ DSL 提供了丰富的类型系统：
 
 ### 7.2 类型转换器
 
-支持自定义字段类型与类型转换器，参见 [自定义字段类型与类型转换器](19-custom-field-types-and-converters)。
+支持自定义字段类型与类型转换器，参见自定义字段类型与类型转换器
 
 ### 7.3 Callout 机制
 
-允许 Swift 代码调用 Racket 函数，通过 FFI 实现。参见 [unsafe/callout.rkt](Racket/noise-serde-lib/unsafe/callout.rkt) 与 [Tests/NoiseTest/Modules/callout.rkt](Tests/NoiseTest/Modules/callout.rkt) 的示例。
+允许 Swift 代码调用 Racket 函数，通过 FFI 实现。参见 unsafe/callout.rkt 与 Tests/NoiseTest/Modules/callout.rkt 的示例。
 
 ## 总结
 

@@ -24,7 +24,7 @@ Noise 将 Racket CS 运行时编译为 XCFramework，主要通过以下步骤：
   - 先编译 `libracketcs-arm64-macos.a` 和 `libracketcs-x86_64-macos.a`
   - 使用 `lipo` 工具合并为 `libracketcs-universal-macos.a`
 
-具体操作见 [Makefile](Makefile#L8-L16)：
+具体操作见 Makefile：
 
 ```makefile
 RacketCS-ios.xcframework: Lib/include/* Lib/libracketcs-arm64-ios.a Lib/libracketcs-arm64-iphonesimulator.a
@@ -51,7 +51,7 @@ RacketCS-macos.xcframework: Lib/include/* Lib/libracketcs-universal-macos.a
 
 #### 3. 集成到 Swift Package
 
-在 [Package.swift](Package.swift#L63-L73) 中通过 `binaryTarget` 引用：
+在 Package.swift 中通过 `binaryTarget` 引用：
 
 ```swift
 .binaryTarget(
@@ -101,7 +101,7 @@ Noise 需要支持：
 
 ### 4. 简化开发流程
 
-开发者运行 `make` 即可构建所有 XCFramework，见 [Makefile](Makefile#L2-L3)：
+开发者运行 `make` 即可构建所有 XCFramework，见 Makefile：
 
 ```makefile
 all: \
