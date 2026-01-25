@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"02 软件开发/从零开始构建 Web 应用（一）.md","permalink":"/02 软件开发/从零开始构建 Web 应用（一）/"}
 ---
 
-#gui/web
+#web
 
 这是系列文章的第一篇，我将介绍如何使用 Python 从零开始构建一个 Web 应用程序（及其 Web 服务器）。在本系列中，我们将仅依赖 Python 标准库，并忽略 WSGI 标准。
 
