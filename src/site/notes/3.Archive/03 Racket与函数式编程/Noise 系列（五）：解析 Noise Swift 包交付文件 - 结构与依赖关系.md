@@ -96,7 +96,7 @@ products: [
 | 在 Swift 和 Racket 之间序列化数据 | `Noise` + `NoiseSerde` | 需要跨语言数据交换 |
 | 完整的 RPC 客户端-服务器架构 | `Noise` + `NoiseSerde` + `NoiseBackend` | 最高层抽象，基于 pipe 的 IPC |
 
-这些产物通过 [Makefile#L2-L4](Makefile#L2-L4) 中的 `make all` 命令统一构建：
+这些产物通过 Makefile 中的 `make all` 命令统一构建：
 
 ```makefile
 all: \
@@ -156,7 +156,7 @@ RacketCS-ios.xcframework/
 
 #### RacketCS-macos.xcframework
 
-根据 [Makefile#L17-L23](Makefile#L17-L23) 和 [Lib/Makefile#L1-L3](Lib/Makefile#L1-L3)：
+根据 Makefile 和 Lib/Makefile：
 
 ```makefile
 Lib/libracketcs-universal-macos.a: libracketcs-arm64-macos.a libracketcs-x86_64-macos.a
@@ -187,7 +187,7 @@ RacketCS-macos.xcframework/
 
 ### 2.3 来源与构建过程
 
-这些 `.a` 静态库文件是从 Racket 源码编译而来的。根据 [README.md#L23-L40](README.md#L23-L40) 的说明：
+这些 `.a` 静态库文件是从 Racket 源码编译而来的。根据 README.md 的说明：
 
 #### 构建要求
 
@@ -240,7 +240,7 @@ libtool -s \
 
 #### 头文件来源
 
-[Lib/include/](Lib/include/) 目录包含的头文件在构建 Racket 时生成，主要包括：
+Lib/include 目录包含的头文件在构建 Racket 时生成，主要包括：
 
 - `chezscheme-*.h` - Chez Scheme C API（根据平台区分）
 - `racket.h` - Racket C API

@@ -116,7 +116,7 @@ RacketCS.xcframework (binary target)
 
 ### 阶段 2：Swift 项目的编译
 
-看 [Package.swift](Package.swift) 的定义：
+看 Package.swift 的定义：
 
 ```swift
 .binaryTarget(
@@ -163,7 +163,7 @@ RacketCS.xcframework (binary target)
    - 读取 `RacketCS.xcframework` 中的头文件
    - 链接静态库中的符号
 
-**关键点**：`import RacketCS` 在 [Racket.swift#L1](Sources/Noise/Racket.swift#L1) 并不是导入一个 Swift 模块，而是告诉 Swift Package Manager 链接对应的 binaryTarget。
+**关键点**：`import RacketCS` 在 Racket.swift 并不是导入一个 Swift 模块，而是告诉 Swift Package Manager 链接对应的 binaryTarget。
 
 ## 三、头文件被谁使用？如何使用？
 
@@ -175,7 +175,7 @@ RacketCS.xcframework (binary target)
 
 ### 头文件的组织
 
-`racket.h` 是主入口（见 [racket.h#L1-L20](Lib/include/racket.h#L1-L20)）：
+`racket.h` 是主入口（见 racket.h）：
 
 ```c
 #if defined(__x86_64__)
@@ -198,7 +198,7 @@ RacketCS.xcframework (binary target)
 
 ### Swift 如何调用 C 函数
 
-Swift 编译器通过头文件了解 C 函数的签名，例如 `racketcs.h` 中的定义（[racketcs.h#L14-L22](Lib/include/racketcs.h#L14-L22)）：
+Swift 编译器通过头文件了解 C 函数的签名，例如 `racketcs.h` 中的定义（racketcs.h）：
 
 ```c
 RACKET_API_EXTERN ptr racket_apply(ptr proc, ptr arg_list);
@@ -216,7 +216,7 @@ Swift 会自动将这些函数映射为 Swift 函数调用，可以直接在 Swi
 
 Boot 文件不是在编译时加载，而是在**运行时**由 Swift 代码加载。
 
-看 [Racket.swift#L30-L44](Sources/Noise/Racket.swift#L30-L44)：
+看 Racket.swift：
 
 ```swift
 public init(execPath: String = "racket") {
@@ -242,7 +242,7 @@ public init(execPath: String = "racket") {
 
 ### Boot 文件路径的获取
 
-在 [NoiseBoot.swift](Sources/NoiseBoot_macOS/NoiseBoot.swift) 中：
+在 NoiseBoot.swift 中：
 
 ```swift
 public struct NoiseBoot {
@@ -301,7 +301,7 @@ public struct NoiseBoot {
 
 ### 值包装和垃圾回收
 
-Swift 通过 `Val` 类型包装 Racket 的指针（见 [Racket.swift](Sources/Noise/Racket.swift)）：
+Swift 通过 `Val` 类型包装 Racket 的指针（见 Racket.swift）：
 
 ```swift
 struct Val {
@@ -514,18 +514,6 @@ Swift ↔ Racket 通信
 3. **Boot 文件由 Swift 代码加载**，在运行时初始化 Racket VM
 4. **头文件被 Swift 编译器使用**，生成调用 C 函数的代码
 5. **noise-serde-lib 是双重角色**：编译时生成 Swift 代码，运行时提供 Racket 序列化逻辑
-
-### 下一步学习
-
-如果你想深入了解某个具体方面，可以继续阅读：
-
-- [架构概览](6-architecture-overview) - 了解整体设计理念
-- [Racket CS 运行时初始化](7-racket-cs-runtime-initialization) - 深入理解启动过程
-- [值包装与垃圾回收](9-value-wrappers-and-garbage-collection) - 理解 Swift 和 Racket 之间的内存管理
-- [Swift 绑定的代码生成](18-code-generation-for-swift-bindings) - 了解 codegen 的工作原理
-- [基于 Pipe 的 IPC 实现](23-pipe-based-ipc-implementation) - 理解 NoiseBackend 的通信机制
-
----
 
 Noise 的设计体现了语言的互操作性之美，通过精心设计的分层架构，让 Swift 和 Racket 能够无缝协作。希望本文能够帮助你更好地理解这个复杂但优雅的系统。
 
