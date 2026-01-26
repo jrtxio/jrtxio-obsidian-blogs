@@ -92,9 +92,9 @@ make -j$(sysctl -n hw.ncpu)
 
 **Boot 文件位置说明**
 
-- iOS 真机: [Sources/NoiseBoot_iOS/boot/arm64-ios/](Sources/NoiseBoot_iOS/boot/arm64-ios/)
-- macOS (ARM64): [Sources/NoiseBoot_macOS/boot/arm64-macos/](Sources/NoiseBoot_macOS/boot/arm64-macos/)
-- macOS (x86_64): [Sources/NoiseBoot_macOS/boot/x86_64-macos/](Sources/NoiseBoot_macOS/boot/x86_64-macos/)
+- iOS 真机: Sources/NoiseBoot_iOS/boot/arm64-ios
+- macOS (ARM64):Sources/NoiseBoot_macOS/boot/arm64-macos
+- macOS (x86_64): Sources/NoiseBoot_macOS/boot/x86_64-macos
 
 ### 1. 安装 Racket
 

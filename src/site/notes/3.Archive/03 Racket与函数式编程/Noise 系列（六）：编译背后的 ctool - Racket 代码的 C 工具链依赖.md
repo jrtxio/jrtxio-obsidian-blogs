@@ -32,7 +32,7 @@ Noise 的核心目标是**嵌入**。嵌入意味着 Racket 不能作为一个�
 
 ### 策略 A：打包模块加载（Noise 的选择）
 
-Noise 选择了一种轻量但精巧的方式。它使用 `raco ctool --mods` 将多个 Racket 模块打包成一个 `.zo` 文件，并将 Boot Files（[petite.boot](Sources/NoiseBoot_iOS/boot)、[scheme.boot](Sources/NoiseBoot_iOS/boot)、[racket.boot](Sources/NoiseBoot_iOS/boot)）作为资源文件打包进 App Bundle。
+Noise 选择了一种轻量但精巧的方式。它使用 `raco ctool --mods` 将多个 Racket 模块打包成一个 `.zo` 文件，并将 Boot Files（petite.boot、scheme.boot、racket.boot）作为资源文件打包进 App Bundle。
 
 1. **编译打包**：使用 `raco ctool --mods` 将多个 `.rkt` 文件编译并打包为一个 `mods.zo` 文件
    ```makefile
@@ -45,10 +45,10 @@ Noise 选择了一种轻量但精巧的方式。它使用 `raco ctool --mods` �
    这条命令会自动解析模块依赖关系，将所有必需的字节码打包到 `mods.zo` 中
 
 2. **引导准备**：使用 `raco ctool`（或手动管理）准备 Boot Files
-   - 这些文件通过 [Bin/copy-libs.sh](Bin/copy-libs.sh#L22-L30) 复制到相应平台的 boot 目录
-   - [README.md](README.md#L41-L48) 提供了详细的操作步骤
+   - 这些文件通过 Bin/copy-libs.sh 复制到相应平台的 boot 目录
+   - README.md 提供了详细的操作步骤
 
-3. **运行时加载**：在运行时，Swift 代码通过 [racket_boot](Sources/Noise/Racket.swift#L36-L48) 初始化 Racket，然后使用 [racket_embedded_load_file](Sources/Noise/Racket.swift#L56-L62) 加载打包的模块
+1. **运行时加载**：在运行时，Swift 代码通过 racket_boot 初始化 Racket，然后使用 racket_embedded_load_file 加载打包的模块
    ```swift
    // 初始化时指定 boot 文件路径
    args.boot1_path = NoiseBoot.petiteURL.path.utf8CString.cstring()
@@ -84,9 +84,9 @@ Noise 之所以选择打包 `.zo` 文件而不是编译成 C 模块，是为了*
 - **编译速度**：`raco ctool --mods` 相比完整的 C 编译链要快得多
 - **动态依赖**：`raco ctool --mods` 会自动处理模块依赖关系，无需手动管理
 
-但这也解释了为什么用户经常遇到 **"Version Mismatch"**。因为 `.zo` 文件是二进制格式，必须和 C 运行时的版本严格对应。正如 [README.md](README.md#L23-L30) 所警告的，共享库和 boot 文件必须与你编译 Racket 代码使用的 Racket 版本相匹配。
+但这也解释了为什么用户经常遇到 **"Version Mismatch"**。因为 `.zo` 文件是二进制格式，必须和 C 运行时的版本严格对应。正如 README.md 所警告的，共享库和 boot 文件必须与你编译 Racket 代码使用的 Racket 版本相匹配。
 
-你看到的关于 `libtool` 合并 `libffi` 的复杂命令（见 [README.md](README.md#L46-L52)），本质上也是为了创建一个包含所有必要 symbols 的静态库，供 Swift 链接。
+你看到的关于 `libtool` 合并 `libffi` 的复杂命令（见 README.md），本质上也是为了创建一个包含所有必要 symbols 的静态库，供 Swift 链接。
 
 ## 总结
 
@@ -96,5 +96,3 @@ Noise 之所以选择打包 `.zo` 文件而不是编译成 C 模块，是为了*
 - 对于架构师，它是实现**静态链接 Racket**、**单文件分发**或者**深度嵌入**的神兵利器
 
 在 Noise 中，`raco ctool --mods` 扮演着模块打包器的核心角色，负责将多个 Racket 模块及其依赖关系打包成一个可部署的 `.zo` 文件。理解 `ctool` 及其背后的 Boot File 机制，能让你在遇到链接错误、版本冲突或者诡异的 Crash 时，拥有一双看透本质的"火眼金睛"。
-
-想要更深入地理解 Noise 的架构，可以继续阅读 [架构概览](6-architecture-overview) 和 [Racket CS 运行时初始化](7-racket-cs-runtime-initialization)。

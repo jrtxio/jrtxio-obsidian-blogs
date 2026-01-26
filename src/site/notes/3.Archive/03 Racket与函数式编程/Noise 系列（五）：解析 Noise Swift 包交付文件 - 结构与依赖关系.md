@@ -105,8 +105,6 @@ all: \
   Tests/NoiseTest/Modules/mods.zo
 ```
 
----
-
 ## 🔧 二、Racket CS 运行时（XCFramework）
 
 ### 2.1 作用
@@ -122,7 +120,7 @@ Racket CS 运行时是 Noise 的核心组件，提供：
 
 #### RacketCS-ios.xcframework
 
-根据 [Makefile#L5-L15](Makefile#L5-L15) 的构建规则：
+根据 Makefile 的构建规则：
 
 ```makefile
 RacketCS-ios.xcframework: Lib/include/* Lib/libracketcs-arm64-ios.a Lib/libracketcs-arm64-iphonesimulator.a
@@ -249,7 +247,7 @@ Lib/include 目录包含的头文件在构建 Racket 时生成，主要包括：
 
 ### 2.4 运行时调用方式
 
-在 [Racket.swift](Sources/Noise/Racket.swift#L1-L50) 中，通过外部函数声明调用 Racket CS 的 C 函数：
+在 Racket.swift 中，通过外部函数声明调用 Racket CS 的 C 函数：
 
 ```swift
 import RacketCS  // 从 XCFramework 导入
@@ -267,8 +265,6 @@ public struct Racket {
 
 这些外部函数的实现就在 `libracketcs-*.a` 静态库中。
 
----
-
 ## 🚀 三、Boot 文件（Racket 运行时引导字节码）
 
 ### 3.1 作用
@@ -283,7 +279,7 @@ Boot 文件是 Racket CS 启动时加载的预编译字节码，它们引导运�
 
 #### iOS 平台
 
-根据 [Package.swift#L40-L44](Package.swift#L40-L44) 和 [Package.swift#L57-L58](Package.swift#L57-L58)：
+根据 Package.swift 和 Package.swift：
 
 ```swift
 .target(
@@ -299,7 +295,7 @@ Boot 文件是 Racket CS 启动时加载的预编译字节码，它们引导运�
 )
 ```
 
-**来源**：[Sources/NoiseBoot_iOS/boot/arm64-ios/](Sources/NoiseBoot_iOS/boot/arm64-ios/)
+**来源**：Sources/NoiseBoot_iOS/boot/arm64-ios
 
 **最终打包到**：`NoiseBoot_iOS.bundle/resources/boot/arm64-ios/`
 
@@ -310,7 +306,7 @@ Boot 文件是 Racket CS 启动时加载的预编译字节码，它们引导运�
 
 #### macOS 平台
 
-根据 [Package.swift#L45-L49](Package.swift#L45-L49)：
+根据 Package.swift：
 
 ```swift
 .target(
@@ -319,7 +315,7 @@ Boot 文件是 Racket CS 启动时加载的预编译字节码，它们引导运�
 ),
 ```
 
-**来源**：[Sources/NoiseBoot_macOS/boot/](Sources/NoiseBoot_macOS/boot/)
+**来源**：Sources/NoiseBoot_macOS/boot
 
 **最终打包到**：`NoiseBoot_macOS.bundle/resources/boot/`
 
@@ -339,7 +335,7 @@ boot/
 
 ### 3.3 来源
 
-这些 boot 文件在构建 Racket 源码时生成。根据 [README.md#L14-L15](README.md#L14-L15)：
+这些 boot 文件在构建 Racket 源码时生成。根据 README.md：
 
 > Git LFS is used to store the binary files in `Lib/` and in `Sources/Noise/boot`
 
@@ -363,7 +359,7 @@ boot/
 
 #### iOS 平台的调用
 
-[NoiseBoot_iOS.swift](Sources/NoiseBoot_iOS/NoiseBoot.swift#L1-L8) 提供固定的 URL：
+NoiseBoot_iOS.swift 提供固定的 URL：
 
 ```swift
 public struct NoiseBoot {
@@ -384,7 +380,7 @@ public struct NoiseBoot {
 
 #### macOS 平台的调用
 
-[NoiseBoot_macOS.swift](Sources/NoiseBoot_macOS/NoiseBoot.swift#L1-L16) 根据当前架构自动选择：
+NoiseBoot_macOS.swift 根据当前架构自动选择：
 
 ```swift
 #if arch(x86_64)
@@ -404,7 +400,7 @@ public struct NoiseBoot {
 
 #### Racket 运行时初始化
 
-在 [Racket.swift#L31-L35](Sources/Noise/Racket.swift#L31-L35) 中，这些 boot 文件被传递给 Racket CS 的启动函数：
+在 Racket.swift 中，这些 boot 文件被传递给 Racket CS 的启动函数：
 
 ```swift
 public init(execPath: String = "racket") {
@@ -418,21 +414,19 @@ public init(execPath: String = "racket") {
 }
 ```
 
----
-
 ## ⚙️ 四、Swift 库产品详解
 
 ### 4.1 Noise 库
 
 **作用**：Racket CS 运行时的核心包装器
 
-**来源**：[Sources/Noise/Racket.swift](Sources/Noise/Racket.swift#L1-L328)
+**来源**：Sources/Noise/Racket.swift
 
 **编译产物**：
 - ✅ `Noise.swiftmodule` - Swift 接口定义
 - ✅ `Noise.framework/Noise`（或 `libNoise.dylib`）- **独立的**编译后二进制
 
-**依赖关系**（见 [Package.swift#L51-L65](Package.swift#L51-L65)）：
+**依赖关系**（见 Package.swift）：
 
 ```swift
 .target(
@@ -462,15 +456,15 @@ public init(execPath: String = "racket") {
 **作用**：提供 Racket 和 Swift 之间的数据序列化与反序列化协议
 
 **来源**：
-- [Sources/NoiseSerde/Serde.swift](Sources/NoiseSerde/Serde.swift#L1-L356) - 定义 `Readable` 和 `Writable` 协议
-- [Sources/NoiseSerde/Port.swift](Sources/NoiseSerde/Port.swift#L1-L1) - I/O 端口抽象
-- [Sources/NoiseSerde/DataInputPort.swift](Sources/NoiseSerde/DataInputPort.swift#L1-L1) 等 - 具体端口实现
+- Sources/NoiseSerde/Serde.swift - 定义 `Readable` 和 `Writable` 协议
+- Sources/NoiseSerde/Port.swift - I/O 端口抽象
+- Sources/NoiseSerde/DataInputPort.swift 等 - 具体端口实现
 
 **编译产物**：
 - ✅ `NoiseSerde.swiftmodule`
 - ✅ `NoiseSerde.framework/NoiseSerde`（或 `libNoiseSerde.dylib`）- **独立的**编译后二进制
 
-**依赖关系**（见 [Package.swift#L74-L75](Package.swift#L74-L75)）：
+**依赖关系**（见 Package.swift）：
 
 ```swift
 .target(
@@ -504,15 +498,15 @@ extension Float32: Readable, Writable { ... }
 **作用**：基于 NoiseSerde 构建的客户端-服务器通信框架
 
 **来源**：
-- [Sources/NoiseBackend/Backend.swift](Sources/NoiseBackend/Backend.swift#L1-L171) - 服务器实现
-- [Sources/NoiseBackend/Callout.swift](Sources/NoiseBackend/Callout.swift#L1-L31) - 跨语言回调机制
-- [Sources/NoiseBackend/Future.swift](Sources/NoiseBackend/Future.swift#L1-L1) - 异步 API 支持
+- Sources/NoiseBackend/Backend.swift - 服务器实现
+- Sources/NoiseBackend/Callout.swift - 跨语言回调机制
+- Sources/NoiseBackend/Future.swift - 异步 API 支持
 
 **编译产物**：
 - ✅ `NoiseBackend.swiftmodule`
 - ✅ `NoiseBackend.framework/NoiseBackend`（或 `libNoiseBackend.dylib`）- **独立的**编译后二进制
 
-**依赖关系**（见 [Package.swift#L67-L72](Package.swift#L67-L72)）：
+**依赖关系**（见 Package.swift）：
 
 ```swift
 .target(
@@ -565,8 +559,6 @@ import NoiseSerde
 import NoiseBackend
 ```
 
----
-
 ## 🔄 五、完整构建流程
 
 ```
@@ -617,8 +609,6 @@ import NoiseBackend
       └─ NoiseBackend.framework/libNoiseBackend.dylib
 ```
 
----
-
 ## 📋 六、最终文件清单总结
 
 ### 参与链接的文件（编译时/运行时）
@@ -665,8 +655,6 @@ import NoiseBackend
 | **NoiseSerde** | `NoiseSerde.framework` / `libNoiseSerde.dylib` | 无（独立） |
 | **NoiseBackend** | `NoiseBackend.framework` / `libNoiseBackend.dylib` | Noise, NoiseSerde |
 
----
-
 ## 🔎 七、验证方法
 
 如果你想验证构建后的文件，可以使用以下命令：
@@ -689,8 +677,6 @@ find .build/debug/ -name "*.framework"
 find .build/debug/ -name "*.bundle"
 ls -la .build/debug/NoiseBoot_iOS_*.bundle/resources/boot/
 ```
-
----
 
 ## 📚 八、总结与核心要点
 
@@ -762,16 +748,5 @@ swift build
 - **最小依赖**：只用 Noise，只引入 Racket 运行时
 - **数据交换**：加 NoiseSerde，获得序列化能力
 - **完整方案**：加 NoiseBackend，获得 RPC 框架
-
----
-
-## 🎯 进一步阅读
-
-想深入了解 Noise 的架构和工作原理，可以继续探索：
-
-- [架构概览](6-architecture-overview) - Noise 的整体设计思路
-- [Racket CS 运行时初始化](7-racket-cs-runtime-initialization) - 详细了解运行时启动流程
-- [NoiseSerde 框架](11-readable-and-writable-protocols) - 序列化机制详解
-- [NoiseBackend 架构](20-client-server-communication-pattern) - 客户端-服务器通信模式
 
 这篇文章现在完整涵盖了 Noise Swift 包的最终交付文件、它们的来源、构建过程、依赖关系以及运行时调用方式，特别澄清了 Package 与 Library 的概念区别。

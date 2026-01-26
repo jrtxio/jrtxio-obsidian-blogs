@@ -138,7 +138,7 @@ cd /path/to/Noise
 
 ### 3.2 关于 boot 文件
 
-从 [copy-libs.sh#L29-L34](Bin/copy-libs.sh#L29-L34) 可以看到，脚本对 iPhone Simulator 有特殊处理：
+从 copy-libs.sh 可以看到，脚本对 iPhone Simulator 有特殊处理：
 
 ```bash
 # 对于 iPhoneSimulator，使用 iOS boot 文件
