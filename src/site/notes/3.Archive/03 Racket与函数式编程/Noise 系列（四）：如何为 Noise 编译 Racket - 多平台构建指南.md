@@ -36,7 +36,7 @@ cd /path/to/Noise  # 切换到 Noise 项目根目录
 
 **关键点**：
 - 默认配置会自动生成 `libracketcs.a`、头文件（`chezscheme.h`、`racketcs.h`、`racketcsboot.h`）和 boot 文件（`petite.boot`、`scheme.boot`、`racket.boot`）
-- [copy-libs.sh](Bin/copy-libs.sh#L20-L28) 会自动复制对应架构的文件
+- copy-libs.sh 会自动复制对应架构的文件
 
 ## 2. iOS 真机编译
 
