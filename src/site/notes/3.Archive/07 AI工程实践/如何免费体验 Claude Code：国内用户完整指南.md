@@ -2,6 +2,8 @@
 {"dg-publish":true,"dg-path":"07 AI工程实践/如何免费体验 Claude Code：国内用户完整指南.md","permalink":"/07 AI工程实践/如何免费体验 Claude Code：国内用户完整指南/"}
 ---
 
+#ai
+
 ## 前言
 
 **Claude Code** 是一款强大的智能编程助手，能进行代码生成、重构、调试和逻辑推理，为开发者提供类结对编程体验。  

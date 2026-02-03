@@ -2,6 +2,8 @@
 {"dg-publish":true,"dg-path":"07 AI工程实践/我的常用 MCP 和 Skills 清单.md","permalink":"/07 AI工程实践/我的常用 MCP 和 Skills 清单/"}
 ---
 
+#ai
+
 ## MCP
 
 | 名称                  | 用途说明                                                                                                                   |

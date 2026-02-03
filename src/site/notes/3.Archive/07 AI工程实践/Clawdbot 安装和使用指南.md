@@ -2,6 +2,8 @@
 {"dg-publish":true,"dg-path":"07 AI工程实践/Clawdbot 安装和使用指南.md","permalink":"/07 AI工程实践/Clawdbot 安装和使用指南/"}
 ---
 
+#ai 
+
 ## 🦞 1. 什么是 Clawd.bot / Clawdbot
 
 **Clawdbot** 是一个开源的 **个人 AI 助理框架**，运行在你自己的电脑或服务器上，并能通过你常用的聊天应用（如 WhatsApp、Telegram、Discord、Slack、Signal、iMessage 等）与它对话，让它完成任务、管理日程、执行自动化、访问文件等。它支持与多个大语言模型（如 Claude、OpenAI/GPT、以及本地模型）集成，并支持插件/技能扩展。

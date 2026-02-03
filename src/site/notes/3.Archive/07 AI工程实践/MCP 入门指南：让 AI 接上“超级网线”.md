@@ -2,6 +2,8 @@
 {"dg-publish":true,"dg-path":"07 AI工程实践/MCP 入门指南：让 AI 接上“超级网线”.md","permalink":"/07 AI工程实践/MCP 入门指南：让 AI 接上“超级网线”/"}
 ---
 
+#ai
+
 ## MCP 是什么？
 
 MCP 全称 **模型上下文协议（Model Context Protocol）**，由 Anthropic 在 2024 年 11 月推出，是个开源通信标准。简单说，它给 AI 装了个“超级网线”，让 AI 能跟外部工具、数据、系统无缝对接。

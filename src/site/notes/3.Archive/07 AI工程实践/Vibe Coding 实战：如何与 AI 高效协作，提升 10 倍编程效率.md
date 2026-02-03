@@ -2,6 +2,8 @@
 {"dg-publish":true,"dg-path":"07 AI工程实践/Vibe Coding 实战：如何与 AI 高效协作，提升 10 倍编程效率.md","permalink":"/07 AI工程实践/Vibe Coding 实战：如何与 AI 高效协作，提升 10 倍编程效率/"}
 ---
 
+#ai
+
 ## 规划流程
 
 - **制定全面计划**：首先与人工智能合作，在 markdown 文件中编写详细的实施计划
