@@ -48,7 +48,7 @@ Slurpage & barfage
 下面介绍一下各个快捷键的使用场景
 
 > [!NOTE]
-> 如果不了解快捷键的含义，可以参考[官方文档](https://docs.racket-lang.org/drracket/Keyboard_Shortcuts.html)
+> 如果不了解快捷键的含义，可以参考 [Keyboard Shortcuts](https://docs.racket-lang.org/drracket/Keyboard_Shortcuts.html)
 
 ### 移动（Movement）
 
