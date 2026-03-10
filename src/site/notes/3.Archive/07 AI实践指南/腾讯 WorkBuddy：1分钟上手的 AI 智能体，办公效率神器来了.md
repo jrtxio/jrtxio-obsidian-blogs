@@ -2,6 +2,8 @@
 {"dg-publish":true,"dg-path":"07 AI实践指南/腾讯 WorkBuddy：1分钟上手的 AI 智能体，办公效率神器来了.md","permalink":"/07 AI实践指南/腾讯 WorkBuddy：1分钟上手的 AI 智能体，办公效率神器来了/"}
 ---
 
+#ai 
+
 > 腾讯版"小龙虾"正式上线，不用部署、开箱即用，手机遥控电脑干活
 
 ## 重磅发布
