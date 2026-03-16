@@ -20,7 +20,7 @@
 
 同时，一个内核在另一个内核中具有生成中断的能力，以及两个内核都有访问的内存区域（共享内存）。消息缓冲区以每个内核上运行在应用程序已知的地址置在共享内存中，如下图：
 
-![Pasted image 20250708143813.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250708143813.png)
+![Pasted image 20250708143813.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020250708143813.png)
 
 理想情况下，还将有一个内存保护单元（MPU），以确保只能通过内核的消息缓冲区 API 来访问消息缓冲区，并最好将共享内存标记为不可被其他程序占用。
 
@@ -84,7 +84,7 @@ xMessageBufferReceive()
 
 ![[SingleBuffer.excalidraw]]
 
-![Pasted image 20250708143814.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250708143814.png)
+![Pasted image 20250708143814.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020250708143814.png)
 
 ISR 通过将消息缓冲区的句柄作为参数传递给 xMessageBufferSendCompletedFromISR() 函数来解除对任务的阻塞。
 
@@ -173,7 +173,7 @@ void InterruptServiceRoutine( void )
 
 ![[MultiBuffer.excalidraw]]
 
-![Pasted image 20250708143815.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250708143815.png)
+![Pasted image 20250708143815.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020250708143815.png)
 
 如图，使用控制消息缓冲区时的顺序：
 

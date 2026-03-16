@@ -2,6 +2,8 @@
 {"dg-publish":true,"dg-path":"04 工具与实用教程/我的 Obsidian 设置和使用教程.md","permalink":"/04 工具与实用教程/我的 Obsidian 设置和使用教程/"}
 ---
 
+#original 
+
 这是一篇简单记录我的 Obsidian 设置和使用技巧的教程。
 
 ## 笔记结构

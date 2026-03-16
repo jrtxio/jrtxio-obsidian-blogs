@@ -6,7 +6,7 @@
 
 在日常使用中，许多人第一次接触 Linux 时最不习惯的往往不是命令行，而是它完全不同于 Windows 的目录结构。事实上，**Linux 与 Windows 最大的差别之一，就体现在文件系统的组织方式上。**
 
-![Pasted image 20250307142704.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250307142704.png)
+![Pasted image 20250307142704.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020250307142704.png)
 
 ## Windows：以盘符为中心的世界
 

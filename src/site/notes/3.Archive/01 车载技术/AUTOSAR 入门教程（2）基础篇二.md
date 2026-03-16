@@ -22,7 +22,7 @@ AUTOSAR **基础软件**根据服务类型划分为三大核心堆栈：
   🔹 包括 I/O 驱动程序（DIO/ADC）  
   🔹 I/O 抽象层（Port 模块）
 
-![Pasted image 20250712233413.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250712233413.png)
+![Pasted image 20250712233413.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020250712233413.png)
 
 ## 🤝 模块间的接口规范
 

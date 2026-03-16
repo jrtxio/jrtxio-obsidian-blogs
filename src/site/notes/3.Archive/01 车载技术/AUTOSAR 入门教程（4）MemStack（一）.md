@@ -2,6 +2,8 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（4）MemStack（一）.md","permalink":"/01 车载技术/AUTOSAR 入门教程（4）MemStack（一）/"}
 ---
 
+#autosar 
+
 🚨 **AUTOSAR 的 Memory Stack 是车载 ECU 开发中最关键也最容易出错的模块之一**，它直接关系到车辆数据的可靠存储与快速访问。本文将深入解析 🔍 **NvM 模块** 的核心机制与最佳实践，帮助开发者避开常见的内存管理陷阱。
 
 ## 🏗️ 1. Memory Stack 架构解析
@@ -12,7 +14,7 @@
 - 🔌 **ECU 抽象层**：**MemIf**（内存接口）、**Fee**（Flash EEPROM 仿真）、**Ea**（EEPROM 抽象）
 - 💽 **MCAL 层**：**Fls**（Flash 驱动）、**Eep**（EEPROM 驱动）
 
-![Pasted image 20250909184349.png|350](/img/user/0.Asset/resource/Pasted%20image%2020250909184349.png)
+![Pasted image 20250909184349.png\|350](/img/user/0.Asset/resource/Pasted%20image%2020250909184349.png)
 
 > 💡 关键设计原则：上层模块通过标准接口访问底层驱动，实现硬件无关的内存操作
 

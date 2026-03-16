@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"02 桌面与移动应用开发/Linux 上使用 Androidstudio 时启动模拟器报错.md","permalink":"/02 桌面与移动应用开发/Linux 上使用 Androidstudio 时启动模拟器报错/"}
 ---
 
-#linux 
+#original #linux 
 
 今天在 Deepin 上安装 Androidstudio 之后创建模拟器却一直无法启动，报错的问题大致如下所示
 

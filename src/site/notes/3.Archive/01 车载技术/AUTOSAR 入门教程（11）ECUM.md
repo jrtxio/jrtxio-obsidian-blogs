@@ -2,6 +2,8 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（11）ECUM.md","permalink":"/01 车载技术/AUTOSAR 入门教程（11）ECUM/"}
 ---
 
+#autosar 
+
 在汽车电子系统中，**ECUM（ECU 管理器）** 如同 ECU 的"大脑🧠"，负责协调从启动到关机的全生命周期管理。本文将深入解析这个关键模块，帮助开发者掌握 ECU 状态控制的精髓！
 
 ## 🏗️ ECUM 模块的两种架构变体

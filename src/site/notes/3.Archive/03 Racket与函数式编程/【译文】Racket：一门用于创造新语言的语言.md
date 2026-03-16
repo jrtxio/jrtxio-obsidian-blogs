@@ -137,7 +137,7 @@ fib(30)
 
 现在，看看同样的代码在 Visual Studio Code 中使用 Racket 扩展运行时会发生什么？你能看出区别吗？
 
-![Pasted image 20251014105458.png|650](/img/user/0.Asset/resource/Pasted%20image%2020251014105458.png)
+![Pasted image 20251014105458.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020251014105458.png)
 
 这看起来就没那么好了。你根本看不到任何图像。在 DrRacket 中完美运行的程序，在其他环境中却完全失效。
 

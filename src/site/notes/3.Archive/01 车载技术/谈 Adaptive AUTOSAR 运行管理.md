@@ -2,9 +2,9 @@
 {"dg-publish":true,"dg-path":"01 车载技术/谈 Adaptive AUTOSAR 运行管理.md","permalink":"/01 车载技术/谈 Adaptive AUTOSAR 运行管理/"}
 ---
 
-#autosar
+#original #autosar
 
-![Pasted image 20241119134232.png|650](/img/user/0.Asset/resource/Pasted%20image%2020241119134232.png)
+![Pasted image 20241119134232.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020241119134232.png)
 ## 什么是执行管理
 
 执行管理（EM）是包含在自适应平台中的一个功能集群。负责系统执行管理的各个方面，包括平台初始化/关闭应用程序。执行管理与操作系统一起工作，特别是执行管理负责将操作系统配置为执行应用程序的运行时调度和资源监控。执行管理有点类似于 CP 中的 EcuM 和 BswM，用于管理进程的启动和停止。总的来说，可以归结于以下三点：

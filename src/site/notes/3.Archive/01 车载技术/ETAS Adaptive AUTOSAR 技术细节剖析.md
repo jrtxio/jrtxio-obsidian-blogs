@@ -2,15 +2,15 @@
 {"dg-publish":true,"dg-path":"01 车载技术/ETAS Adaptive AUTOSAR 技术细节剖析.md","permalink":"/01 车载技术/ETAS Adaptive AUTOSAR 技术细节剖析/"}
 ---
 
-#silk 
+#original #silk 
 
-![Pasted image 20230404153744.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230404153744.png)
+![Pasted image 20230404153744.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020230404153744.png)
 
 RTA-VRTE 平台几乎是以闭源的方式进行分发，所以无法从平台本身获得太多的技术实现细节，但是其中部分的技术实现方案有一定借鉴意义。
 
 ## 信号转服务方案-S2S
 
-![Pasted image 20230403162857.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230403162857.png)
+![Pasted image 20230403162857.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020230403162857.png)
 
 在引入 SOA 架构后，基于服务的以太网域控制器，如何与基于信号通信的传统 ECU 相互通信？S2S 模块的出现就是为了实现 Signal 和 Service 的互相转化。
 

@@ -6,11 +6,11 @@
 
 昨天，我买了一个图标包 — 里面有 3000 多个 SVG 文件 — 然后当我试图在 macOS 上搜索这个未解压的文件夹时，系统彻底崩溃了。
 
-![Pasted image 20251202145801.png|650](/img/user/0.Asset/resource/Pasted%20image%2020251202145801.png)
+![Pasted image 20251202145801.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020251202145801.png)
 
 于是，我做了一个每个“真正的 Racketeer”都会做的事情 —— 我以这个为借口，玩弄了一下 Racket 自带的 GUI 库！
 
-![Pasted image 20251202145821.png|650](/img/user/0.Asset/resource/Pasted%20image%2020251202145821.png)
+![Pasted image 20251202145821.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020251202145821.png)
 
 ## 开始探索
 

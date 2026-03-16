@@ -2,9 +2,9 @@
 {"dg-publish":true,"dg-path":"01 车载技术/如何替换 Vector SIP 包的 CAN 模块.md","permalink":"/01 车载技术/如何替换 Vector SIP 包的 CAN 模块/"}
 ---
 
-#autosar
+#original #autosar
 
-![Pasted image 20240730132932.png|650](/img/user/0.Asset/resource/Pasted%20image%2020240730132932.png)
+![Pasted image 20240730132932.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020240730132932.png)
 
 Vector SIP 包中包含了 MCAL 层的 CAN 模块，所以如果是和芯片完全匹配的 SIP 包，就可以直接在 DaVinci Configurator 中完成所有 CAN 相关的配置。
 

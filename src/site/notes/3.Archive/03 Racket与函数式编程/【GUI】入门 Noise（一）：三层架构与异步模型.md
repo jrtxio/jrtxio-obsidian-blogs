@@ -12,7 +12,7 @@
 
 ## 核心架构概览
 
-![Pasted image 20260203183156.png|650](/img/user/0.Asset/resource/Pasted%20image%2020260203183156.png)
+![Pasted image 20260203183156.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020260203183156.png)
 
 Noise 的架构可以概括为三层模型：
 

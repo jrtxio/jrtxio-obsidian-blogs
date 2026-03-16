@@ -14,7 +14,7 @@
 - 标准化接口提升 **代码复用率**（最高可达 70%）
 - 支持 **分布式开发** 模式
 
-![Pasted image 20250712230833.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250712230833.png)
+![Pasted image 20250712230833.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020250712230833.png)
 
 ## 2️⃣ 基础软件层（BSW）解析
 

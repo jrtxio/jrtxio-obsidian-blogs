@@ -8,7 +8,7 @@
 
 ## 1. 核心架构：前端与后端的协奏
 
-![Pasted image 20260122135259.png|650](/img/user/0.Asset/resource/Pasted%20image%2020260122135259.png)
+![Pasted image 20260122135259.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020260122135259.png)
 
 使用 Noise 的工程典型的架构分为两部分：
 

@@ -2,6 +2,8 @@
 {"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（7）ComStack CAN（二）.md","permalink":"/01 车载技术/AUTOSAR 入门教程（7）ComStack CAN（二）/"}
 ---
 
+#autosar
+
 🚗 **CAN 通信** 是汽车电子系统的核心神经，而 AUTOSAR 中的 **ComStack CAN** 架构则是实现高效可靠通信的关键！本文将深入解析 CAN 接口(CanIf)和 CAN 驱动(CanDrv)模块的设计原理与实现细节。
 
 ![Pasted image 20251230110031.png](/img/user/0.Asset/resource/Pasted%20image%2020251230110031.png)

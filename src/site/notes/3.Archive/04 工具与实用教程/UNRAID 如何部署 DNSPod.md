@@ -2,6 +2,8 @@
 {"dg-publish":true,"dg-path":"04 工具与实用教程/UNRAID 如何部署 DNSPod.md","permalink":"/04 工具与实用教程/UNRAID 如何部署 DNSPod/"}
 ---
 
+#original 
+
 当你在家里部署了 Unraid 之后，可能需要在外网访问搭建的一些服务。目前的解决方案无非就是内网穿透和 DDNS 两种。如果你满足了以下两个条件，就可以尝试在 Unraid 的容器下部署 DNSPod 的 DDNS：
 
 - 动态的公网 IP
@@ -11,7 +13,7 @@
 
 ## 新建容器
 
-![Pasted image 20230908170026.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230908170026.png)
+![Pasted image 20230908170026.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020230908170026.png)
 
 进入 Unraid 的 Docker 页面，点击 Add Container，新建一个容器。
 
@@ -19,7 +21,7 @@
 
 如果你不知道如何新建参数，建议先学习一下B站司波图的 [Docker速通教程](https://www.bilibili.com/video/BV1eE411i7qy/?spm_id_from=333.788.videocard.1)。
 
-![Pasted image 20230908170147.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230908170147.png)
+![Pasted image 20230908170147.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020230908170147.png)
 
 ## 仓库信息
 
@@ -61,7 +63,7 @@ docer run --name=ddns --restart=always -d \
 5. DNSPOD_EMAIL
 这个参数填写你的邮箱。
 
-![Pasted image 20230908170734.png|650](/img/user/0.Asset/resource/Pasted%20image%2020230908170734.png)
+![Pasted image 20230908170734.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020230908170734.png)
 
 当你新建完以上五个参数之后，点击 Apply 按钮，就会开始下载 [dnspod-ddns](https://hub.docker.com/r/scofieldpeng/dnspod-ddns) 了。下载完成后，点击 Done 按钮，页面会跳转到 Unraid 的 Docker 主页面。至此，整个安装过程已结束。
 

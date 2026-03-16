@@ -26,7 +26,7 @@ void Det_ReportError(uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 Error
 
 ## 破译错误信息
 
-![Pasted image 20241118112424.png|650](/img/user/0.Asset/resource/Pasted%20image%2020241118112424.png)
+![Pasted image 20241118112424.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020241118112424.png)
 
 ### ModuleId
 
@@ -40,11 +40,11 @@ void Det_ReportError(uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 Error
 
 1. 打开 PUDR 模块的源码，找到 Det_ReportError 函数的所有调用，随便找到一个即可：
 
-![Pasted image 20241118112904.png|650](/img/user/0.Asset/resource/Pasted%20image%2020241118112904.png)
+![Pasted image 20241118112904.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020241118112904.png)
 
 2. 然后顺藤摸瓜，找到定义 PDUR_E_INVALID_REQUEST 的 .h 文件
 
-![Pasted image 20241118113021.png|650](/img/user/0.Asset/resource/Pasted%20image%2020241118113021.png)
+![Pasted image 20241118113021.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020241118113021.png)
 
 3. 我们是顺着 PDUR_E_INVALID_REQUEST 这个值点进来的，但是我们本例中的 ErrorId 是 2，是下面的 PDUR_E_PDU_ID_INVALID，这个宏定义和注释已经足够明确了，如果还不满足的话就在 PDUR 模块下搜索所有 PDUR_E_PDU_ID_INVALID。
 
@@ -56,12 +56,12 @@ void Det_ReportError(uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 Error
 
 用上面同样的方法，找到 InstanceId = 50。
 
-![Pasted image 20241118113420.png|650](/img/user/0.Asset/resource/Pasted%20image%2020241118113420.png)
+![Pasted image 20241118113420.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020241118113420.png)
 
 找到 InstanceId = 50 且 ErrorId 是 2 的出处：
 
-![Pasted image 20241118113751.png|650](/img/user/0.Asset/resource/Pasted%20image%2020241118113751.png)
+![Pasted image 20241118113751.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020241118113751.png)
 
 很明显就是这句话了，这就是产生 DET 的报错信息的代码，结合函数上下文就能对故障分析个大概了。如果还不够，就借助劳特巴赫等调试工具来定位问题：
 
-![Pasted image 20241118114018.png|650](/img/user/0.Asset/resource/Pasted%20image%2020241118114018.png)
+![Pasted image 20241118114018.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020241118114018.png)

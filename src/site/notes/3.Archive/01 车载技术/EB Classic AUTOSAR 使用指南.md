@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/EB Classic AUTOSAR 使用指南.md","permalink":"/01 车载技术/EB Classic AUTOSAR 使用指南/"}
 ---
 
-#autosar 
+#original #autosar 
 
 ## 代码结构
 
@@ -25,11 +25,11 @@ IF [%PLUGINS_BASE%]==[] SET PLUGINS_BASE=%TRESOS_BASE%/plugins
 
 如果你的示例工程所指定的编译器和你本地的编译器是一致的，即可跳过这一步。如果不一致，那么你需要在修改目录下的 mak 文件来重新指定与你编译器匹配的编译标志。
 
-![Pasted image 20240807165446.png|650](/img/user/0.Asset/resource/Pasted%20image%2020240807165446.png)
+![Pasted image 20240807165446.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020240807165446.png)
 
 之后通过运行 launch 文件即可看到如下信息，执行 make 命令即可开始编译。
 
-![Pasted image 20240807165215.png|650](/img/user/0.Asset/resource/Pasted%20image%2020240807165215.png)
+![Pasted image 20240807165215.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020240807165215.png)
 
 稍微总结一下 EB 工程的 makefile 设计思路。总体上来看可以分为四个部分：
 

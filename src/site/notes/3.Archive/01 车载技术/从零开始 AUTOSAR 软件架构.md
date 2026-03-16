@@ -6,8 +6,6 @@
 
 在 AUTOSAR 架构中可以分为两个不同分支，分别是 CP 和 AP，CP 表示 Classic Platform 经典平台，AP 代表 Adaptive Platform 自适应平台。从名称上来看，AP 平台更加高大上，CP 听起来老旧。没错，从字面上，AP 更加现代，面向于高性能平台，更符合现代的车联网以及自动驾驶领域使用。而 CP 平台适用于传统的嵌入式系统，特别是对实时性要求高的场景。
 
-由于笔者多年来一直在做实时应用，所以对 AP 平台是一窍不通；对 CP 平台算是稍微了解一些。本系列的后续工作都将围绕 CP 平台进行展开。
-
 ## 经典平台的 AUTOSAR 架构
 
 AUTOSAR 架构是一种分层的软件架构，宏观上由三层组成：
@@ -16,7 +14,7 @@ AUTOSAR 架构是一种分层的软件架构，宏观上由三层组成：
 - 运行环境层（Runtime Environment）
 - 基础软件（Basic Software）
 
-![Pasted image 20250604145751.png|350](/img/user/0.Asset/resource/Pasted%20image%2020250604145751.png)
+![Pasted image 20250604145751.png\|350](/img/user/0.Asset/resource/Pasted%20image%2020250604145751.png)
 
 在了解每层的划分含义之前，先区分两个特有名词：
 
@@ -57,7 +55,7 @@ BSW 基础软件在 AUTOSAR 架构下分为三个部分：
 - 在应用架构中，越靠近面向用户或者业务逻辑的层级一般为上层；对应的，下层更靠近机器或者设备硬件。
 - 当前的 PDU 属于下层 SDU 的一部分，同时携带了上层需要的 SDU。
 
-![Pasted image 20250604150207.png|550](/img/user/0.Asset/resource/Pasted%20image%2020250604150207.png)
+![Pasted image 20250604150207.png\|550](/img/user/0.Asset/resource/Pasted%20image%2020250604150207.png)
 
 在图中，PCI 是协议控制信息，当然，有时候上下层是直接透传的，这时可以不需要 PCI，PCI 是上层不太关心的数据。
 
@@ -71,7 +69,7 @@ BSW 基础软件在 AUTOSAR 架构下分为三个部分：
 
 关于这三者的解释，直接看图：
 
-![Pasted image 20250604150410.png|450](/img/user/0.Asset/resource/Pasted%20image%2020250604150410.png)
+![Pasted image 20250604150410.png\|450](/img/user/0.Asset/resource/Pasted%20image%2020250604150410.png)
 
 L-PDU 是为数据链层级的 PDU；N-PDU 为网络层级的 PDU；I-PDU 为数据交互层 PDU；上图的下三层是一个经典的三层网络模型结构（学过机组或者 TCP 的会感觉好熟悉）；
 
@@ -81,26 +79,26 @@ L-PDU 是为数据链层级的 PDU；N-PDU 为网络层级的 PDU；I-PDU 为数
 
 如果将上面的网络模型嵌套到 AUTOSAR 软件架构中，就会变成以下：
 
-![Pasted image 20250604150541.png|450](/img/user/0.Asset/resource/Pasted%20image%2020250604150541.png)
+![Pasted image 20250604150541.png\|450](/img/user/0.Asset/resource/Pasted%20image%2020250604150541.png)
 
 ## 从零开始切入点的选择
 
 为了降低 AUTOSAR 理解难度，我们从整个架构中拆解出与 CAN 相关的 BSW，并维持其层次结构，开发设计与 CAN 相关的 SWC；
 
-![Pasted image 20250604150643.png|550](/img/user/0.Asset/resource/Pasted%20image%2020250604150643.png)
+![Pasted image 20250604150643.png\|550](/img/user/0.Asset/resource/Pasted%20image%2020250604150643.png)
 
 进一步降低准入门槛，NM（Network Manager）网络管理与 SM（State Manager）部分也暂时剔除；在开始之前，先要理解 CAN Driver、CAN Interface、PDU Router、以及 CAN TP、和 AUTOSAR COM 组件之间的关系。
 
-![Pasted image 20250604150720.png|450](/img/user/0.Asset/resource/Pasted%20image%2020250604150720.png)
+![Pasted image 20250604150720.png\|450](/img/user/0.Asset/resource/Pasted%20image%2020250604150720.png)
 
 CanIf 作为 CAN 的 ECU 抽象，它是 CAN 驱动与 PDU 路由之间的桥梁，PDU 路由（PduR）的作用是传递分发上下层的 I-PDU，如果考虑总线 ECU 总线数量一，类型单一，在前期可以剔除 PduR 组件。
 
 在系列合集的前面章节，我们优先实现 CanIf 与 Com 组件，并跳过 PduR，直接实现 CanIf 与 Com的直接交互，然后基于 PC 平台仿真和实际的 MCU 硬件实现 Can Driver 并跑通 CAN 通信。
 
-![Pasted image 20250604150827.png|450](/img/user/0.Asset/resource/Pasted%20image%2020250604150827.png)
+![Pasted image 20250604150827.png\|450](/img/user/0.Asset/resource/Pasted%20image%2020250604150827.png)
 
 ## 总结
 
 写本合集的目的，主要是想将自己对嵌入式和 AUTOSAR 的软件架构的理解整理，同时也想启发更多的嵌入式同行向架构师迈进。另外，笔者本身也是 AUTOSAR 废柴一个，并没有通读规范，有写的不到位的欢迎指导，并一起交流学习。学习交流请私信我。最后附一张组件全景图。
 
-![Pasted image 20250604150928.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250604150928.png)
+![Pasted image 20250604150928.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020250604150928.png)

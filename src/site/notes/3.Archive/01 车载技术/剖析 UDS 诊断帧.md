@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"01 车载技术/剖析 UDS 诊断帧.md","permalink":"/01 车载技术/剖析 UDS 诊断帧/"}
 ---
 
-#autosar #autosar/uds 
+#original #autosar #autosar/uds 
 
 UDS 诊断服务通常是通过 CAN 总线实现。对于 CAN 诊断帧有两种不同的分类方式，按照寻址方式可以分为物理寻址、功能寻址，按照帧类别可以分为单帧、首帧、流控帧、连续帧。
 
@@ -35,11 +35,11 @@ UDS 诊断服务通常是通过 CAN 总线实现。对于 CAN 诊断帧有两种
 
 ![[UDS Message PCI.xlsx]]
 
-![Pasted image 20250521155503.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250521155503.png)
+![Pasted image 20250521155503.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020250521155503.png)
 
 以下是对 PCI 段的详细解释。
 
-![Pasted image 20250520113138.png|650](/img/user/0.Asset/resource/Pasted%20image%2020250520113138.png)
+![Pasted image 20250520113138.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020250520113138.png)
 
 ### 单帧
 
@@ -74,7 +74,7 @@ ConsecutiveFrame 就是承载 FirstFrame 无法完全承载的剩余数据了，
 
 ## 报文举例
 
-![Pasted image 20201030114571.png|650](/img/user/0.Asset/resource/Pasted%20image%2020201030114571.png)
+![Pasted image 20201030114571.png\|650](/img/user/0.Asset/resource/Pasted%20image%2020201030114571.png)
 
 上图为实际开发中的 $22 诊断的 F1 87 的读取与响应，可结合上面的首帧、流控帧、连续帧进行对应分析。
 

@@ -16,7 +16,7 @@
 
 延伸问题：算盘是图灵完备的吗？
 
-![Pasted image 20230305170440.png|400](/img/user/0.Asset/resource/Pasted%20image%2020230305170440.png)
+![Pasted image 20230305170440.png\|400](/img/user/0.Asset/resource/Pasted%20image%2020230305170440.png)
 
 算盘同样属于数数系统，只是通过算珠来表示不同的数字，所以算盘 🧮 和苹果 🍎 其实是等价的。都不是通用的计算系统，也就是说不是图灵完备的。
 

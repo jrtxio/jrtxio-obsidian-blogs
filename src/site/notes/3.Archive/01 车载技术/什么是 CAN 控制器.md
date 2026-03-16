@@ -8,7 +8,7 @@
 
 控制器局域网是用于连接控制器的串行总线标准。CAN Controller 是 MCU 的一部分，用于控制 CAN 节点。
 
-![Pasted image 20230306173844.png|250](/img/user/0.Asset/resource/Pasted%20image%2020230306173844.png)
+![Pasted image 20230306173844.png\|250](/img/user/0.Asset/resource/Pasted%20image%2020230306173844.png)
 
 它包含两个主要功能：
 
