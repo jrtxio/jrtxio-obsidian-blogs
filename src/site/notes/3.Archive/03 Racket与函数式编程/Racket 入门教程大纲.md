@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/Racket 入门教程大纲.md","permalink":"/03 Racket与函数式编程/Racket 入门教程大纲/"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/Racket 入门教程大纲.md","permalink":"/03 Racket与函数式编程/Racket 入门教程大纲/","title":"Racket 入门教程大纲"}
 ---
 
 #original #lisp/racket  

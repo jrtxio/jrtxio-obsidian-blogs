@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/配置你的专属 Deepin.md","permalink":"/04 工具与实用教程/配置你的专属 Deepin/"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/配置你的专属 Deepin.md","permalink":"/04 工具与实用教程/配置你的专属 Deepin/","title":"配置你的专属 Deepin"}
 ---
 
 #original #linux 

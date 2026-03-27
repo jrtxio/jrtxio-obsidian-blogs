@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（3）Watchdog Services.md","permalink":"/01 车载技术/AUTOSAR 入门教程（3）Watchdog Services/"}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（3）Watchdog Services.md","permalink":"/01 车载技术/AUTOSAR 入门教程（3）Watchdog Services/","title":"AUTOSAR 入门教程（3）Watchdog Services"}
 ---
 
 #autosar 

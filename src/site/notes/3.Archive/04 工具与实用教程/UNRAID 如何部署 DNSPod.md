@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/UNRAID 如何部署 DNSPod.md","permalink":"/04 工具与实用教程/UNRAID 如何部署 DNSPod/"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/UNRAID 如何部署 DNSPod.md","permalink":"/04 工具与实用教程/UNRAID 如何部署 DNSPod/","title":"UNRAID 如何部署 DNSPod"}
 ---
 
 #original 

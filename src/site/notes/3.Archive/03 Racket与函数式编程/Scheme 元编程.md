@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/Scheme 元编程.md","permalink":"/03 Racket与函数式编程/Scheme 元编程/"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/Scheme 元编程.md","permalink":"/03 Racket与函数式编程/Scheme 元编程/","title":"Scheme 元编程"}
 ---
 
- #lisp/racket 
+#lisp/racket 
 
 # 同相性概述
 

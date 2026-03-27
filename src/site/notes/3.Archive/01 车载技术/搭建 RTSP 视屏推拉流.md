@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/搭建 RTSP 视屏推拉流.md","permalink":"/01 车载技术/搭建 RTSP 视屏推拉流/"}
+{"dg-publish":true,"dg-path":"01 车载技术/搭建 RTSP 视屏推拉流.md","permalink":"/01 车载技术/搭建 RTSP 视屏推拉流/","title":"搭建 RTSP 视屏推拉流"}
 ---
 
 #original

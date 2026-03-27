@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/深入解读 SOMEIP 协议.md","permalink":"/01 车载技术/深入解读 SOMEIP 协议/"}
+{"dg-publish":true,"dg-path":"01 车载技术/深入解读 SOMEIP 协议.md","permalink":"/01 车载技术/深入解读 SOMEIP 协议/","title":"深入解读 SOMEIP 协议"}
 ---
 
 #original #autosar/someip

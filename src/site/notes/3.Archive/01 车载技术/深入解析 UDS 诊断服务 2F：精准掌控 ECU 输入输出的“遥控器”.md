@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/深入解析 UDS 诊断服务 2F：精准掌控 ECU 输入输出的“遥控器”.md","permalink":"/01 车载技术/深入解析 UDS 诊断服务 2F：精准掌控 ECU 输入输出的“遥控器”/"}
+{"dg-publish":true,"dg-path":"01 车载技术/深入解析 UDS 诊断服务 2F：精准掌控 ECU 输入输出的“遥控器”.md","permalink":"/01 车载技术/深入解析 UDS 诊断服务 2F：精准掌控 ECU 输入输出的“遥控器”/","title":"深入解析 UDS 诊断服务 2F：精准掌控 ECU 输入输出的“遥控器”"}
 ---
 
 #autosar #autosar/uds 

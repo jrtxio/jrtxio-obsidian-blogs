@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（17）CorTst.md","permalink":"/01 车载技术/AUTOSAR 入门教程（17）CorTst/"}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（17）CorTst.md","permalink":"/01 车载技术/AUTOSAR 入门教程（17）CorTst/","title":"AUTOSAR 入门教程（17）CorTst"}
 ---
 
 #autosar

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 AI工具与方法/MCP 入门指南：让 AI 接上“超级网线”.md","permalink":"/07 AI工具与方法/MCP 入门指南：让 AI 接上“超级网线”/"}
+{"dg-publish":true,"dg-path":"07 AI工具与方法/MCP 入门指南：让 AI 接上“超级网线”.md","permalink":"/07 AI工具与方法/MCP 入门指南：让 AI 接上“超级网线”/","title":"MCP 入门指南：让 AI 接上“超级网线”"}
 ---
 
 #ai

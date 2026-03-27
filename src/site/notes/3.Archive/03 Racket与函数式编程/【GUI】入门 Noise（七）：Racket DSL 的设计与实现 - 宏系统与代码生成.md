@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（七）：Racket DSL 的设计与实现 - 宏系统与代码生成.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（七）：Racket DSL 的设计与实现 - 宏系统与代码生成/"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（七）：Racket DSL 的设计与实现 - 宏系统与代码生成.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（七）：Racket DSL 的设计与实现 - 宏系统与代码生成/","title":"【GUI】入门 Noise（七）：Racket DSL 的设计与实现 - 宏系统与代码生成"}
 ---
 
 #lisp/racket #gui/noise 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/剖析 UDS 诊断帧.md","permalink":"/01 车载技术/剖析 UDS 诊断帧/"}
+{"dg-publish":true,"dg-path":"01 车载技术/剖析 UDS 诊断帧.md","permalink":"/01 车载技术/剖析 UDS 诊断帧/","title":"剖析 UDS 诊断帧"}
 ---
 
 #original #autosar #autosar/uds 

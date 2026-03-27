@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/汽车软件开发的基石：AUTOSAR 深度报告.md","permalink":"/01 车载技术/汽车软件开发的基石：AUTOSAR 深度报告/"}
+{"dg-publish":true,"dg-path":"01 车载技术/汽车软件开发的基石：AUTOSAR 深度报告.md","permalink":"/01 车载技术/汽车软件开发的基石：AUTOSAR 深度报告/","title":"汽车软件开发的基石：AUTOSAR 深度报告"}
 ---
 
 #autosar

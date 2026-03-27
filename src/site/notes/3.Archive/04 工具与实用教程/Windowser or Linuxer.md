@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/Windowser or Linuxer.md","permalink":"/04 工具与实用教程/Windowser or Linuxer/"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/Windowser or Linuxer.md","permalink":"/04 工具与实用教程/Windowser or Linuxer/","title":"Windowser or Linuxer"}
 ---
 
 #original #linux 

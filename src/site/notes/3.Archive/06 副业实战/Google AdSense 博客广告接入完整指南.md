@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"06 副业实战/Google AdSense 博客广告接入完整指南.md","permalink":"/06 副业实战/Google AdSense 博客广告接入完整指南/"}
+{"dg-publish":true,"dg-path":"06 副业实战/Google AdSense 博客广告接入完整指南.md","permalink":"/06 副业实战/Google AdSense 博客广告接入完整指南/","title":"Google AdSense 博客广告接入完整指南"}
 ---
 
 #original

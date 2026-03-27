@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（1）基础篇一.md","permalink":"/01 车载技术/AUTOSAR 入门教程（1）基础篇一/"}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（1）基础篇一.md","permalink":"/01 车载技术/AUTOSAR 入门教程（1）基础篇一/","title":"AUTOSAR 入门教程（1）基础篇一"}
 ---
 
 #autosar 

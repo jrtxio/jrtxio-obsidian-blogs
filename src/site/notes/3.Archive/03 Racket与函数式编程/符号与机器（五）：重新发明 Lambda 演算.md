@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/符号与机器（五）：重新发明 Lambda 演算.md","permalink":"/03 Racket与函数式编程/符号与机器（五）：重新发明 Lambda 演算/"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/符号与机器（五）：重新发明 Lambda 演算.md","permalink":"/03 Racket与函数式编程/符号与机器（五）：重新发明 Lambda 演算/","title":"符号与机器（五）：重新发明 Lambda 演算"}
 ---
 
+#functional
 > 问题：给出一个系统，能够自动判定 1 + 1 = 2。
 
 今天我们试着通过这个判定问题，来重新发明一遍 Lambda 演算。🚗

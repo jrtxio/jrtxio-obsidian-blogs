@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"06 副业实战/Digital Obsidian Garden 接入 Google AdSense 广告完整指南.md","permalink":"/06 副业实战/Digital Obsidian Garden 接入 Google AdSense 广告完整指南/"}
+{"dg-publish":true,"dg-path":"06 副业实战/Digital Obsidian Garden 接入 Google AdSense 广告完整指南.md","permalink":"/06 副业实战/Digital Obsidian Garden 接入 Google AdSense 广告完整指南/","title":"Digital Obsidian Garden 接入 Google AdSense 广告完整指南"}
 ---
 
 #original

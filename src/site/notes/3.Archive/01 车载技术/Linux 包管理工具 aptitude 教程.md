@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/Linux 包管理工具 aptitude 教程.md","permalink":"/01 车载技术/Linux 包管理工具 aptitude 教程/"}
+{"dg-publish":true,"dg-path":"01 车载技术/Linux 包管理工具 aptitude 教程.md","permalink":"/01 车载技术/Linux 包管理工具 aptitude 教程/","title":"Linux 包管理工具 aptitude 教程"}
 ---
 
 #linux 

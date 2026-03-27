@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/通信中间件 SOMEIP 与 DDS 部署方案.md","permalink":"/01 车载技术/通信中间件 SOMEIP 与 DDS 部署方案/"}
+{"dg-publish":true,"dg-path":"01 车载技术/通信中间件 SOMEIP 与 DDS 部署方案.md","permalink":"/01 车载技术/通信中间件 SOMEIP 与 DDS 部署方案/","title":"通信中间件 SOMEIP 与 DDS 部署方案"}
 ---
 
 #original #autosar/someip #autosar/dds

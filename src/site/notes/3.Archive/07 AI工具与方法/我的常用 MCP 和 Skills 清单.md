@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 AI工具与方法/我的常用 MCP 和 Skills 清单.md","permalink":"/07 AI工具与方法/我的常用 MCP 和 Skills 清单/"}
+{"dg-publish":true,"dg-path":"07 AI工具与方法/我的常用 MCP 和 Skills 清单.md","permalink":"/07 AI工具与方法/我的常用 MCP 和 Skills 清单/","title":"我的常用 MCP 和 Skills 清单"}
 ---
 
 #ai

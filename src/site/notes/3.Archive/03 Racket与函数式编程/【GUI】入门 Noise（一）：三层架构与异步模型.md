@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（一）：三层架构与异步模型.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（一）：三层架构与异步模型/"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（一）：三层架构与异步模型.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（一）：三层架构与异步模型/","title":"【GUI】入门 Noise（一）：三层架构与异步模型"}
 ---
 
 #lisp/racket  #gui/noise 

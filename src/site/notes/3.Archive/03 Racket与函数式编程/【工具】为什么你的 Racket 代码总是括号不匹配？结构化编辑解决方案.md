@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【工具】为什么你的 Racket 代码总是括号不匹配？结构化编辑解决方案.md","permalink":"/03 Racket与函数式编程/【工具】为什么你的 Racket 代码总是括号不匹配？结构化编辑解决方案/"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【工具】为什么你的 Racket 代码总是括号不匹配？结构化编辑解决方案.md","permalink":"/03 Racket与函数式编程/【工具】为什么你的 Racket 代码总是括号不匹配？结构化编辑解决方案/","title":"【工具】为什么你的 Racket 代码总是括号不匹配？结构化编辑解决方案"}
 ---
 
 #lisp/racket  

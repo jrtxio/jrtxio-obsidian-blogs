@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/Rime + 雾凇拼音跨平台配置终极指南.md","permalink":"/04 工具与实用教程/Rime + 雾凇拼音跨平台配置终极指南/"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/Rime + 雾凇拼音跨平台配置终极指南.md","permalink":"/04 工具与实用教程/Rime + 雾凇拼音跨平台配置终极指南/","title":"Rime + 雾凇拼音跨平台配置终极指南"}
 ---
 
 ## 💡 核心概念

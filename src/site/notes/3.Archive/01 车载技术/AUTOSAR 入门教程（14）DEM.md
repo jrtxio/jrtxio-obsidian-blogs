@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（14）DEM.md","permalink":"/01 车载技术/AUTOSAR 入门教程（14）DEM/"}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（14）DEM.md","permalink":"/01 车载技术/AUTOSAR 入门教程（14）DEM/","title":"AUTOSAR 入门教程（14）DEM"}
 ---
 
 #autosar

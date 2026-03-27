@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/Linux 文件属性.md","permalink":"/01 车载技术/Linux 文件属性/"}
+{"dg-publish":true,"dg-path":"01 车载技术/Linux 文件属性.md","permalink":"/01 车载技术/Linux 文件属性/","title":"Linux 文件属性"}
 ---
 
 #linux 

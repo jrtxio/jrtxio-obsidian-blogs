@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/Classic AUTOSAR Det 调试技巧.md","permalink":"/01 车载技术/Classic AUTOSAR Det 调试技巧/"}
+{"dg-publish":true,"dg-path":"01 车载技术/Classic AUTOSAR Det 调试技巧.md","permalink":"/01 车载技术/Classic AUTOSAR Det 调试技巧/","title":"Classic AUTOSAR Det 调试技巧"}
 ---
 
 #autosar

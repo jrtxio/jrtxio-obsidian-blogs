@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（二）：Racket 嵌入 Swift 应用的底层机制.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（二）：Racket 嵌入 Swift 应用的底层机制/"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（二）：Racket 嵌入 Swift 应用的底层机制.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（二）：Racket 嵌入 Swift 应用的底层机制/","title":"【GUI】入门 Noise（二）：Racket 嵌入 Swift 应用的底层机制"}
 ---
 
 #lisp/racket #gui/noise 

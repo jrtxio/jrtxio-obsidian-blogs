@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/UDS 入门指南.md","permalink":"/01 车载技术/UDS 入门指南/"}
+{"dg-publish":true,"dg-path":"01 车载技术/UDS 入门指南.md","permalink":"/01 车载技术/UDS 入门指南/","title":"UDS 入门指南"}
 ---
 
 #original #autosar #autosar/uds

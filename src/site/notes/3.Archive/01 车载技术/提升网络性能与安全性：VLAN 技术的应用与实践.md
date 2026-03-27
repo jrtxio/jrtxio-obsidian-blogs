@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/提升网络性能与安全性：VLAN 技术的应用与实践.md","permalink":"/01 车载技术/提升网络性能与安全性：VLAN 技术的应用与实践/"}
+{"dg-publish":true,"dg-path":"01 车载技术/提升网络性能与安全性：VLAN 技术的应用与实践.md","permalink":"/01 车载技术/提升网络性能与安全性：VLAN 技术的应用与实践/","title":"提升网络性能与安全性：VLAN 技术的应用与实践"}
 ---
 
 #ethernet

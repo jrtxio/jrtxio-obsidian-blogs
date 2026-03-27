@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（五）：解析 Noise Swift 包交付文件 - 结构与依赖关系.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（五）：解析 Noise Swift 包交付文件 - 结构与依赖关系/"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（五）：解析 Noise Swift 包交付文件 - 结构与依赖关系.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（五）：解析 Noise Swift 包交付文件 - 结构与依赖关系/","title":"【GUI】入门 Noise（五）：解析 Noise Swift 包交付文件 - 结构与依赖关系"}
 ---
 
 #lisp/racket #gui/noise 

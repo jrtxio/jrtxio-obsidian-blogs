@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 桌面与移动应用开发/从零开始构建 Web 应用（三）.md","permalink":"/02 桌面与移动应用开发/从零开始构建 Web 应用（三）/"}
+{"dg-publish":true,"dg-path":"02 桌面与移动应用开发/从零开始构建 Web 应用（三）.md","permalink":"/02 桌面与移动应用开发/从零开始构建 Web 应用（三）/","title":"从零开始构建 Web 应用（三）"}
 ---
 
 #web

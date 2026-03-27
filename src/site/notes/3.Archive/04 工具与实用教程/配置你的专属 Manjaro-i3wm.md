@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/配置你的专属 Manjaro-i3wm.md","permalink":"/04 工具与实用教程/配置你的专属 Manjaro-i3wm/"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/配置你的专属 Manjaro-i3wm.md","permalink":"/04 工具与实用教程/配置你的专属 Manjaro-i3wm/","title":"配置你的专属 Manjaro-i3wm"}
 ---
 
 #original #linux 

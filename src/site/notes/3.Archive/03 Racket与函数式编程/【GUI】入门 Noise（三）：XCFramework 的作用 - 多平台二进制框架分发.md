@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（三）：XCFramework 的作用 - 多平台二进制框架分发.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（三）：XCFramework 的作用 - 多平台二进制框架分发/"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（三）：XCFramework 的作用 - 多平台二进制框架分发.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（三）：XCFramework 的作用 - 多平台二进制框架分发/","title":"【GUI】入门 Noise（三）：XCFramework 的作用 - 多平台二进制框架分发"}
 ---
 
 #lisp/racket #gui/noise 

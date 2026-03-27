@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/基于 Github Webhook 实现自动化部署数字花园.md","permalink":"/03 Racket与函数式编程/基于 Github Webhook 实现自动化部署数字花园/"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/基于 Github Webhook 实现自动化部署数字花园.md","permalink":"/03 Racket与函数式编程/基于 Github Webhook 实现自动化部署数字花园/","title":"基于 Github Webhook 实现自动化部署数字花园"}
 ---
 
 #lisp/racket 

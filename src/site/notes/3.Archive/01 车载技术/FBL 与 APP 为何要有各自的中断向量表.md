@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/FBL 与 APP 为何要有各自的中断向量表.md","permalink":"/01 车载技术/FBL 与 APP 为何要有各自的中断向量表/"}
+{"dg-publish":true,"dg-path":"01 车载技术/FBL 与 APP 为何要有各自的中断向量表.md","permalink":"/01 车载技术/FBL 与 APP 为何要有各自的中断向量表/","title":"FBL 与 APP 为何要有各自的中断向量表"}
 ---
 
 #autosar/fbl 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（十一）：迁移：如何在 CSharp 中嵌入 Racket？.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（十一）：迁移：如何在 CSharp 中嵌入 Racket？/"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（十一）：迁移：如何在 CSharp 中嵌入 Racket？.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（十一）：迁移：如何在 CSharp 中嵌入 Racket？/","title":"【GUI】入门 Noise（十一）：迁移：如何在 CSharp 中嵌入 Racket？"}
 ---
 
 #lisp/racket #gui/noise 

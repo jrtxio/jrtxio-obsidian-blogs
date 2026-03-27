@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"07 AI工具与方法/Prompt（提示词）的道和术.md","permalink":"/07 AI工具与方法/Prompt（提示词）的道和术/"}
+{"dg-publish":true,"dg-path":"07 AI工具与方法/Prompt（提示词）的道和术.md","permalink":"/07 AI工具与方法/Prompt（提示词）的道和术/","title":"Prompt（提示词）的道和术"}
 ---
 
-  #ai
+#ai
 
 ![Pasted image 20260317185829.png\|250](/img/user/0.Asset/resource/Pasted%20image%2020260317185829.png)
 

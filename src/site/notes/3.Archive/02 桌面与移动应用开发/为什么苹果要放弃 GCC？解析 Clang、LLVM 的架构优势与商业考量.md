@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 桌面与移动应用开发/为什么苹果要放弃 GCC？解析 Clang、LLVM 的架构优势与商业考量.md","permalink":"/02 桌面与移动应用开发/为什么苹果要放弃 GCC？解析 Clang、LLVM 的架构优势与商业考量/"}
+{"dg-publish":true,"dg-path":"02 桌面与移动应用开发/为什么苹果要放弃 GCC？解析 Clang、LLVM 的架构优势与商业考量.md","permalink":"/02 桌面与移动应用开发/为什么苹果要放弃 GCC？解析 Clang、LLVM 的架构优势与商业考量/","title":"为什么苹果要放弃 GCC？解析 Clang、LLVM 的架构优势与商业考量"}
 ---
 
 现代软件开发离不开高效的编译器工具链，但传统 **GCC** 的架构缺陷导致苹果不得不另辟蹊径，最终催生了 **Clang/LLVM** 这一革命性的编译器组合。本文将揭示这一技术演进背后的关键决策与架构创新。

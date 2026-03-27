@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/ETAS Adaptive AUTOSAR 简介.md","permalink":"/01 车载技术/ETAS Adaptive AUTOSAR 简介/"}
+{"dg-publish":true,"dg-path":"01 车载技术/ETAS Adaptive AUTOSAR 简介.md","permalink":"/01 车载技术/ETAS Adaptive AUTOSAR 简介/","title":"ETAS Adaptive AUTOSAR 简介"}
 ---
 
 #original #silk 

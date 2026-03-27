@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/从零开始 AUTOSAR 软件架构.md","permalink":"/01 车载技术/从零开始 AUTOSAR 软件架构/"}
+{"dg-publish":true,"dg-path":"01 车载技术/从零开始 AUTOSAR 软件架构.md","permalink":"/01 车载技术/从零开始 AUTOSAR 软件架构/","title":"从零开始 AUTOSAR 软件架构"}
 ---
 
 #autosar

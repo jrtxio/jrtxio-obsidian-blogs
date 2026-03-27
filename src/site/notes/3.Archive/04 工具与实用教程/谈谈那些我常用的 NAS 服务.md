@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/谈谈那些我常用的 NAS 服务.md","permalink":"/04 工具与实用教程/谈谈那些我常用的 NAS 服务/"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/谈谈那些我常用的 NAS 服务.md","permalink":"/04 工具与实用教程/谈谈那些我常用的 NAS 服务/","title":"谈谈那些我常用的 NAS 服务"}
 ---
 
 #original

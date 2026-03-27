@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/CANoe 推荐的工程结构.md","permalink":"/01 车载技术/CANoe 推荐的工程结构/"}
+{"dg-publish":true,"dg-path":"01 车载技术/CANoe 推荐的工程结构.md","permalink":"/01 车载技术/CANoe 推荐的工程结构/","title":"CANoe 推荐的工程结构"}
 ---
 
 #original #autosar/canoe 

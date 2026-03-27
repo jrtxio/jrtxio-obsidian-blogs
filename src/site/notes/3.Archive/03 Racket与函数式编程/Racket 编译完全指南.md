@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/Racket 编译完全指南.md","permalink":"/03 Racket与函数式编程/Racket 编译完全指南/"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/Racket 编译完全指南.md","permalink":"/03 Racket与函数式编程/Racket 编译完全指南/","title":"Racket 编译完全指南"}
 ---
 
 #lisp/racket

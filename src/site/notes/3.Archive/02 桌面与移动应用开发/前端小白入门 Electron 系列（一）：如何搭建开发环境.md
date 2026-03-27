@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 桌面与移动应用开发/前端小白入门 Electron 系列（一）：如何搭建开发环境.md","permalink":"/02 桌面与移动应用开发/前端小白入门 Electron 系列（一）：如何搭建开发环境/"}
+{"dg-publish":true,"dg-path":"02 桌面与移动应用开发/前端小白入门 Electron 系列（一）：如何搭建开发环境.md","permalink":"/02 桌面与移动应用开发/前端小白入门 Electron 系列（一）：如何搭建开发环境/","title":"前端小白入门 Electron 系列（一）：如何搭建开发环境"}
 ---
 
 #gui #gui/electron 

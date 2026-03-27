@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/Racket 学习路线图：核心知识与实践指南.md","permalink":"/03 Racket与函数式编程/Racket 学习路线图：核心知识与实践指南/"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/Racket 学习路线图：核心知识与实践指南.md","permalink":"/03 Racket与函数式编程/Racket 学习路线图：核心知识与实践指南/","title":"Racket 学习路线图：核心知识与实践指南"}
 ---
 
 #lisp/racket  

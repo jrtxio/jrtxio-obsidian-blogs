@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/如何评估与提升你的 Classic AUTOSAR 掌握程度.md","permalink":"/01 车载技术/如何评估与提升你的 Classic AUTOSAR 掌握程度/"}
+{"dg-publish":true,"dg-path":"01 车载技术/如何评估与提升你的 Classic AUTOSAR 掌握程度.md","permalink":"/01 车载技术/如何评估与提升你的 Classic AUTOSAR 掌握程度/","title":"如何评估与提升你的 Classic AUTOSAR 掌握程度"}
 ---
 
 #autosar

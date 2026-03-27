@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/我的 Surge 配置和使用教程.md","permalink":"/04 工具与实用教程/我的 Surge 配置和使用教程/"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/我的 Surge 配置和使用教程.md","permalink":"/04 工具与实用教程/我的 Surge 配置和使用教程/","title":"我的 Surge 配置和使用教程"}
 ---
 
 #original 
