@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/MAC 层解决了什么问题？.md","permalink":"/01 车载技术/MAC 层解决了什么问题？/","title":"MAC 层解决了什么问题？"}
+{"dg-publish":true,"dg-path":"01 车载技术/MAC 层解决了什么问题？.md","permalink":"/01 车载技术/MAC 层解决了什么问题？/","title":"MAC 层解决了什么问题？","dg-note-properties":{"title":"MAC 层解决了什么问题？","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #original #ethernet

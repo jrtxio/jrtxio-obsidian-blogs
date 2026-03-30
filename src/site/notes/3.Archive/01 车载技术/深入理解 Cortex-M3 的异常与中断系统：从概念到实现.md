@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/深入理解 Cortex-M3 的异常与中断系统：从概念到实现.md","permalink":"/01 车载技术/深入理解 Cortex-M3 的异常与中断系统：从概念到实现/","title":"深入理解 Cortex-M3 的异常与中断系统：从概念到实现"}
+{"dg-publish":true,"dg-path":"01 车载技术/深入理解 Cortex-M3 的异常与中断系统：从概念到实现.md","permalink":"/01 车载技术/深入理解 Cortex-M3 的异常与中断系统：从概念到实现/","title":"深入理解 Cortex-M3 的异常与中断系统：从概念到实现","dg-note-properties":{"title":"深入理解 Cortex-M3 的异常与中断系统：从概念到实现","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 在嵌入式系统开发中，我们经常听到“中断”和“异常”这两个术语。虽然日常交流中常常混用，但从处理器架构的角度来看，它们有着明确的定义和分工。本文将带你深入理解 **ARM Cortex-M3** 处理器的异常与中断机制，涵盖其分类、优先级、响应流程以及在实际开发中的意义。

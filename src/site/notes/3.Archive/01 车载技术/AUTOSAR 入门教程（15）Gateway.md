@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（15）Gateway.md","permalink":"/01 车载技术/AUTOSAR 入门教程（15）Gateway/","title":"AUTOSAR 入门教程（15）Gateway"}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（15）Gateway.md","permalink":"/01 车载技术/AUTOSAR 入门教程（15）Gateway/","title":"AUTOSAR 入门教程（15）Gateway","dg-note-properties":{"title":"AUTOSAR 入门教程（15）Gateway","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #autosar

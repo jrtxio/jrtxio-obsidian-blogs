@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/什么是 CAN 控制器.md","permalink":"/01 车载技术/什么是 CAN 控制器/","title":"什么是 CAN 控制器"}
+{"dg-publish":true,"dg-path":"01 车载技术/什么是 CAN 控制器.md","permalink":"/01 车载技术/什么是 CAN 控制器/","title":"什么是 CAN 控制器","dg-note-properties":{"title":"什么是 CAN 控制器","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #autosar 

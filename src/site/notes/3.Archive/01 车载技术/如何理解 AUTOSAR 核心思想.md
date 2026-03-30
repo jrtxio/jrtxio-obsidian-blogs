@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/如何理解 AUTOSAR 核心思想.md","permalink":"/01 车载技术/如何理解 AUTOSAR 核心思想/","title":"如何理解 AUTOSAR 核心思想"}
+{"dg-publish":true,"dg-path":"01 车载技术/如何理解 AUTOSAR 核心思想.md","permalink":"/01 车载技术/如何理解 AUTOSAR 核心思想/","title":"如何理解 AUTOSAR 核心思想","dg-note-properties":{"title":"如何理解 AUTOSAR 核心思想","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #original #autosar

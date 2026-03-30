@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/UDS 协议零基础入门指南.md","permalink":"/01 车载技术/UDS 协议零基础入门指南/","title":"UDS 协议零基础入门指南"}
+{"dg-publish":true,"dg-path":"01 车载技术/UDS 协议零基础入门指南.md","permalink":"/01 车载技术/UDS 协议零基础入门指南/","title":"UDS 协议零基础入门指南","dg-note-properties":{"title":"UDS 协议零基础入门指南","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #autosar #autosar/uds 

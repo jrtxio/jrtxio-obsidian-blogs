@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/RTOS 是如何实现双核 MCU 消息通信的.md","permalink":"/01 车载技术/RTOS 是如何实现双核 MCU 消息通信的/","title":"RTOS 是如何实现双核 MCU 消息通信的"}
+{"dg-publish":true,"dg-path":"01 车载技术/RTOS 是如何实现双核 MCU 消息通信的.md","permalink":"/01 车载技术/RTOS 是如何实现双核 MCU 消息通信的/","title":"RTOS 是如何实现双核 MCU 消息通信的","dg-note-properties":{"title":"RTOS 是如何实现双核 MCU 消息通信的","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #rtos

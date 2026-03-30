@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（9）CanNm.md","permalink":"/01 车载技术/AUTOSAR 入门教程（9）CanNm/","title":"AUTOSAR 入门教程（9）CanNm"}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（9）CanNm.md","permalink":"/01 车载技术/AUTOSAR 入门教程（9）CanNm/","title":"AUTOSAR 入门教程（9）CanNm","dg-note-properties":{"title":"AUTOSAR 入门教程（9）CanNm","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #autosar

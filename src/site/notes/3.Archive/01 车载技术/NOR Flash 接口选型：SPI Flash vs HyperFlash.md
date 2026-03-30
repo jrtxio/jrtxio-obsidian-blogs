@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/NOR Flash 接口选型：SPI Flash vs HyperFlash.md","permalink":"/01 车载技术/NOR Flash 接口选型：SPI Flash vs HyperFlash/","title":"NOR Flash 接口选型：SPI Flash vs HyperFlash"}
+{"dg-publish":true,"dg-path":"01 车载技术/NOR Flash 接口选型：SPI Flash vs HyperFlash.md","permalink":"/01 车载技术/NOR Flash 接口选型：SPI Flash vs HyperFlash/","title":"NOR Flash 接口选型：SPI Flash vs HyperFlash","dg-note-properties":{"title":"NOR Flash 接口选型：SPI Flash vs HyperFlash","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 嵌入式系统对存储的要求正在持续抬高：更快的启动时间、更大的代码与资源体量、更严格的实时性约束，以及始终绕不开的成本与功耗限制。在这样的背景下，**Flash 接口本身已不再只是“能不能用”，而是直接影响系统架构与体验的关键因素**。

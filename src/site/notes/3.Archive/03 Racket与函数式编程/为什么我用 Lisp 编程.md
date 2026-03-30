@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/为什么我用 Lisp 编程.md","permalink":"/03 Racket与函数式编程/为什么我用 Lisp 编程/","title":"为什么我用 Lisp 编程"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/为什么我用 Lisp 编程.md","permalink":"/03 Racket与函数式编程/为什么我用 Lisp 编程/","title":"为什么我用 Lisp 编程","dg-note-properties":{"title":"为什么我用 Lisp 编程","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #lisp/racket 

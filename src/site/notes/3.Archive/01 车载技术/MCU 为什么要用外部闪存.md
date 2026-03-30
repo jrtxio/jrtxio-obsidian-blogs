@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/MCU 为什么要用外部闪存.md","permalink":"/01 车载技术/MCU 为什么要用外部闪存/","title":"MCU 为什么要用外部闪存"}
+{"dg-publish":true,"dg-path":"01 车载技术/MCU 为什么要用外部闪存.md","permalink":"/01 车载技术/MCU 为什么要用外部闪存/","title":"MCU 为什么要用外部闪存","dg-note-properties":{"title":"MCU 为什么要用外部闪存","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #original 

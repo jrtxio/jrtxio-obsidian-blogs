@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（九）：使用 Noise 库进行跨语言开发完整指南.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（九）：使用 Noise 库进行跨语言开发完整指南/","title":"【GUI】入门 Noise（九）：使用 Noise 库进行跨语言开发完整指南"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】入门 Noise（九）：使用 Noise 库进行跨语言开发完整指南.md","permalink":"/03 Racket与函数式编程/【GUI】入门 Noise（九）：使用 Noise 库进行跨语言开发完整指南/","title":"【GUI】入门 Noise（九）：使用 Noise 库进行跨语言开发完整指南","dg-note-properties":{"title":"【GUI】入门 Noise（九）：使用 Noise 库进行跨语言开发完整指南","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #lisp/racket #gui/noise  

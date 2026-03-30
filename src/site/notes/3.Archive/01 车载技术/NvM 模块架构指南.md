@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/NvM 模块架构指南.md","permalink":"/01 车载技术/NvM 模块架构指南/","title":"NvM 模块架构指南"}
+{"dg-publish":true,"dg-path":"01 车载技术/NvM 模块架构指南.md","permalink":"/01 车载技术/NvM 模块架构指南/","title":"NvM 模块架构指南","dg-note-properties":{"title":"NvM 模块架构指南","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #original #autosar 

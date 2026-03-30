@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 桌面与移动应用开发/原型设计和 UI 设计是什么？.md","permalink":"/02 桌面与移动应用开发/原型设计和 UI 设计是什么？/","title":"原型设计和 UI 设计是什么？"}
+{"dg-publish":true,"dg-path":"02 桌面与移动应用开发/原型设计和 UI 设计是什么？.md","permalink":"/02 桌面与移动应用开发/原型设计和 UI 设计是什么？/","title":"原型设计和 UI 设计是什么？","dg-note-properties":{"title":"原型设计和 UI 设计是什么？","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #gui

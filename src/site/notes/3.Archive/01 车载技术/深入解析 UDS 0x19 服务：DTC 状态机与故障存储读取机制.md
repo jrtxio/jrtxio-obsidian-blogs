@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/深入解析 UDS 0x19 服务：DTC 状态机与故障存储读取机制.md","permalink":"/01 车载技术/深入解析 UDS 0x19 服务：DTC 状态机与故障存储读取机制/","title":"深入解析 UDS 0x19 服务：DTC 状态机与故障存储读取机制"}
+{"dg-publish":true,"dg-path":"01 车载技术/深入解析 UDS 0x19 服务：DTC 状态机与故障存储读取机制.md","permalink":"/01 车载技术/深入解析 UDS 0x19 服务：DTC 状态机与故障存储读取机制/","title":"深入解析 UDS 0x19 服务：DTC 状态机与故障存储读取机制","dg-note-properties":{"title":"深入解析 UDS 0x19 服务：DTC 状态机与故障存储读取机制","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #autosar #autosar/uds 

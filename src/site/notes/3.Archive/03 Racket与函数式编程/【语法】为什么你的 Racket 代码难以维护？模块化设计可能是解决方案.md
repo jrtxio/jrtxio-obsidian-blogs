@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【语法】为什么你的 Racket 代码难以维护？模块化设计可能是解决方案.md","permalink":"/03 Racket与函数式编程/【语法】为什么你的 Racket 代码难以维护？模块化设计可能是解决方案/","title":"【语法】为什么你的 Racket 代码难以维护？模块化设计可能是解决方案"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【语法】为什么你的 Racket 代码难以维护？模块化设计可能是解决方案.md","permalink":"/03 Racket与函数式编程/【语法】为什么你的 Racket 代码难以维护？模块化设计可能是解决方案/","title":"【语法】为什么你的 Racket 代码难以维护？模块化设计可能是解决方案","dg-note-properties":{"title":"【语法】为什么你的 Racket 代码难以维护？模块化设计可能是解决方案","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #lisp/racket  

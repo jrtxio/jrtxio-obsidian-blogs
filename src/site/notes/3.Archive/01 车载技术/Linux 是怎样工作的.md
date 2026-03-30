@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/Linux 是怎样工作的.md","permalink":"/01 车载技术/Linux 是怎样工作的/","title":"Linux 是怎样工作的"}
+{"dg-publish":true,"dg-path":"01 车载技术/Linux 是怎样工作的.md","permalink":"/01 车载技术/Linux 是怎样工作的/","title":"Linux 是怎样工作的","dg-note-properties":{"title":"Linux 是怎样工作的","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #linux 

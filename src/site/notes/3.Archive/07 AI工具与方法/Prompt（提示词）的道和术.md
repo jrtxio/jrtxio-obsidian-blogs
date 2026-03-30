@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 AI工具与方法/Prompt（提示词）的道和术.md","permalink":"/07 AI工具与方法/Prompt（提示词）的道和术/","title":"Prompt（提示词）的道和术"}
+{"dg-publish":true,"dg-path":"07 AI工具与方法/Prompt（提示词）的道和术.md","permalink":"/07 AI工具与方法/Prompt（提示词）的道和术/","title":"Prompt（提示词）的道和术","dg-note-properties":{"title":"Prompt（提示词）的道和术","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #ai

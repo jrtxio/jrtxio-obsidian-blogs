@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【译文】如何部署 Racket Web 应用.md","permalink":"/03 Racket与函数式编程/【译文】如何部署 Racket Web 应用/","title":"【译文】如何部署 Racket Web 应用"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【译文】如何部署 Racket Web 应用.md","permalink":"/03 Racket与函数式编程/【译文】如何部署 Racket Web 应用/","title":"【译文】如何部署 Racket Web 应用","dg-note-properties":{"title":"【译文】如何部署 Racket Web 应用","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #lisp/racket  #web

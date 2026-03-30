@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【语法】告别循环：用 Racket 高阶函数提升代码可读性与健壮性.md","permalink":"/03 Racket与函数式编程/【语法】告别循环：用 Racket 高阶函数提升代码可读性与健壮性/","title":"【语法】告别循环：用 Racket 高阶函数提升代码可读性与健壮性"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【语法】告别循环：用 Racket 高阶函数提升代码可读性与健壮性.md","permalink":"/03 Racket与函数式编程/【语法】告别循环：用 Racket 高阶函数提升代码可读性与健壮性/","title":"【语法】告别循环：用 Racket 高阶函数提升代码可读性与健壮性","dg-note-properties":{"title":"【语法】告别循环：用 Racket 高阶函数提升代码可读性与健壮性","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #lisp/racket  

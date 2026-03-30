@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"05 生活随笔/特斯拉焕新款 Model 3 配件攻略.md","permalink":"/05 生活随笔/特斯拉焕新款 Model 3 配件攻略/","title":"特斯拉焕新款 Model 3 配件攻略"}
+{"dg-publish":true,"dg-path":"05 生活随笔/特斯拉焕新款 Model 3 配件攻略.md","permalink":"/05 生活随笔/特斯拉焕新款 Model 3 配件攻略/","title":"特斯拉焕新款 Model 3 配件攻略","dg-note-properties":{"title":"特斯拉焕新款 Model 3 配件攻略","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #original

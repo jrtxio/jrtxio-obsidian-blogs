@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】还在用默认控件？Racket GUI 自定义控件开发指南帮你打造专属界面.md","permalink":"/03 Racket与函数式编程/【GUI】还在用默认控件？Racket GUI 自定义控件开发指南帮你打造专属界面/","title":"【GUI】还在用默认控件？Racket GUI 自定义控件开发指南帮你打造专属界面"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【GUI】还在用默认控件？Racket GUI 自定义控件开发指南帮你打造专属界面.md","permalink":"/03 Racket与函数式编程/【GUI】还在用默认控件？Racket GUI 自定义控件开发指南帮你打造专属界面/","title":"【GUI】还在用默认控件？Racket GUI 自定义控件开发指南帮你打造专属界面","dg-note-properties":{"title":"【GUI】还在用默认控件？Racket GUI 自定义控件开发指南帮你打造专属界面","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #lisp/racket   #gui

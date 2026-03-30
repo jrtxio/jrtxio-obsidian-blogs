@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/Obsidian 的 Callout 使用场景.md","permalink":"/04 工具与实用教程/Obsidian 的 Callout 使用场景/","title":"Obsidian 的 Callout 使用场景"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/Obsidian 的 Callout 使用场景.md","permalink":"/04 工具与实用教程/Obsidian 的 Callout 使用场景/","title":"Obsidian 的 Callout 使用场景","dg-note-properties":{"title":"Obsidian 的 Callout 使用场景","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 ## 语法介绍

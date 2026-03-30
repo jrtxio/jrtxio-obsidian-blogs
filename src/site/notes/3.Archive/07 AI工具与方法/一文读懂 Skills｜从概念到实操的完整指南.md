@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 AI工具与方法/一文读懂 Skills｜从概念到实操的完整指南.md","permalink":"/07 AI工具与方法/一文读懂 Skills｜从概念到实操的完整指南/","title":"一文读懂 Skills｜从概念到实操的完整指南"}
+{"dg-publish":true,"dg-path":"07 AI工具与方法/一文读懂 Skills｜从概念到实操的完整指南.md","permalink":"/07 AI工具与方法/一文读懂 Skills｜从概念到实操的完整指南/","title":"一文读懂 Skills｜从概念到实操的完整指南","dg-note-properties":{"title":"一文读懂 Skills｜从概念到实操的完整指南","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #ai 

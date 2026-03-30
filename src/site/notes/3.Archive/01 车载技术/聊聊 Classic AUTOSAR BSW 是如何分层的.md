@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/聊聊 Classic AUTOSAR BSW 是如何分层的.md","permalink":"/01 车载技术/聊聊 Classic AUTOSAR BSW 是如何分层的/","title":"聊聊 Classic AUTOSAR BSW 是如何分层的"}
+{"dg-publish":true,"dg-path":"01 车载技术/聊聊 Classic AUTOSAR BSW 是如何分层的.md","permalink":"/01 车载技术/聊聊 Classic AUTOSAR BSW 是如何分层的/","title":"聊聊 Classic AUTOSAR BSW 是如何分层的","dg-note-properties":{"title":"聊聊 Classic AUTOSAR BSW 是如何分层的","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #autosar

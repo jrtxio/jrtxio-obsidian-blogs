@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/如何替换 Vector SIP 包的 CAN 模块.md","permalink":"/01 车载技术/如何替换 Vector SIP 包的 CAN 模块/","title":"如何替换 Vector SIP 包的 CAN 模块"}
+{"dg-publish":true,"dg-path":"01 车载技术/如何替换 Vector SIP 包的 CAN 模块.md","permalink":"/01 车载技术/如何替换 Vector SIP 包的 CAN 模块/","title":"如何替换 Vector SIP 包的 CAN 模块","dg-note-properties":{"title":"如何替换 Vector SIP 包的 CAN 模块","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #original #autosar

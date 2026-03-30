@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 AI工具与方法/Vibe Coding 实战：如何与 AI 高效协作，提升 10 倍编程效率.md","permalink":"/07 AI工具与方法/Vibe Coding 实战：如何与 AI 高效协作，提升 10 倍编程效率/","title":"Vibe Coding 实战：如何与 AI 高效协作，提升 10 倍编程效率"}
+{"dg-publish":true,"dg-path":"07 AI工具与方法/Vibe Coding 实战：如何与 AI 高效协作，提升 10 倍编程效率.md","permalink":"/07 AI工具与方法/Vibe Coding 实战：如何与 AI 高效协作，提升 10 倍编程效率/","title":"Vibe Coding 实战：如何与 AI 高效协作，提升 10 倍编程效率","dg-note-properties":{"title":"Vibe Coding 实战：如何与 AI 高效协作，提升 10 倍编程效率","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #ai

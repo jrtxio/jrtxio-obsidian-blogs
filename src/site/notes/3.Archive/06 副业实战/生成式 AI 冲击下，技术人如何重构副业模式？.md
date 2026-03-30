@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"06 副业实战/生成式 AI 冲击下，技术人如何重构副业模式？.md","permalink":"/06 副业实战/生成式 AI 冲击下，技术人如何重构副业模式？/","title":"生成式 AI 冲击下，技术人如何重构副业模式？"}
+{"dg-publish":true,"dg-path":"06 副业实战/生成式 AI 冲击下，技术人如何重构副业模式？.md","permalink":"/06 副业实战/生成式 AI 冲击下，技术人如何重构副业模式？/","title":"生成式 AI 冲击下，技术人如何重构副业模式？","dg-note-properties":{"title":"生成式 AI 冲击下，技术人如何重构副业模式？","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #ai

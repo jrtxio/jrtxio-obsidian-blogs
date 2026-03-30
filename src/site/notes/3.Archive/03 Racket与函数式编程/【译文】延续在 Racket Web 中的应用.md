@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【译文】延续在 Racket Web 中的应用.md","permalink":"/03 Racket与函数式编程/【译文】延续在 Racket Web 中的应用/","title":"【译文】延续在 Racket Web 中的应用"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【译文】延续在 Racket Web 中的应用.md","permalink":"/03 Racket与函数式编程/【译文】延续在 Racket Web 中的应用/","title":"【译文】延续在 Racket Web 中的应用","dg-note-properties":{"title":"【译文】延续在 Racket Web 中的应用","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #lisp/racket  

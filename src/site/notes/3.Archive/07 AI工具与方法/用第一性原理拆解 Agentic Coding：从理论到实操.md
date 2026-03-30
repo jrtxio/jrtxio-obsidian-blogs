@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 AI工具与方法/用第一性原理拆解 Agentic Coding：从理论到实操.md","permalink":"/07 AI工具与方法/用第一性原理拆解 Agentic Coding：从理论到实操/","title":"用第一性原理拆解 Agentic Coding：从理论到实操"}
+{"dg-publish":true,"dg-path":"07 AI工具与方法/用第一性原理拆解 Agentic Coding：从理论到实操.md","permalink":"/07 AI工具与方法/用第一性原理拆解 Agentic Coding：从理论到实操/","title":"用第一性原理拆解 Agentic Coding：从理论到实操","dg-note-properties":{"title":"用第一性原理拆解 Agentic Coding：从理论到实操","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #ai 

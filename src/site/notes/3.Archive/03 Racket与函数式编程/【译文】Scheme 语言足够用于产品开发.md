@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【译文】Scheme 语言足够用于产品开发.md","permalink":"/03 Racket与函数式编程/【译文】Scheme 语言足够用于产品开发/","title":"【译文】Scheme 语言足够用于产品开发"}
+{"dg-publish":true,"dg-path":"03 Racket与函数式编程/【译文】Scheme 语言足够用于产品开发.md","permalink":"/03 Racket与函数式编程/【译文】Scheme 语言足够用于产品开发/","title":"【译文】Scheme 语言足够用于产品开发","dg-note-properties":{"title":"【译文】Scheme 语言足够用于产品开发","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #lisp/racket 

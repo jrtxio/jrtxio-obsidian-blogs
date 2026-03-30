@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/一张图看懂 UDS 协议栈的 ISO 标准分工.md","permalink":"/01 车载技术/一张图看懂 UDS 协议栈的 ISO 标准分工/","title":"一张图看懂 UDS 协议栈的 ISO 标准分工"}
+{"dg-publish":true,"dg-path":"01 车载技术/一张图看懂 UDS 协议栈的 ISO 标准分工.md","permalink":"/01 车载技术/一张图看懂 UDS 协议栈的 ISO 标准分工/","title":"一张图看懂 UDS 协议栈的 ISO 标准分工","dg-note-properties":{"title":"一张图看懂 UDS 协议栈的 ISO 标准分工","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #autosar #autosar/uds 

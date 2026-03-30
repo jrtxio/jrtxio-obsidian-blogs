@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"07 AI工具与方法/当 AI 不再是工具，而是团队成员时，软件生产关系将被彻底重构.md","permalink":"/07 AI工具与方法/当 AI 不再是工具，而是团队成员时，软件生产关系将被彻底重构/","title":"当 AI 不再是工具，而是团队成员时，软件生产关系将被彻底重构"}
+{"dg-publish":true,"dg-path":"07 AI工具与方法/当 AI 不再是工具，而是团队成员时，软件生产关系将被彻底重构.md","permalink":"/07 AI工具与方法/当 AI 不再是工具，而是团队成员时，软件生产关系将被彻底重构/","title":"当 AI 不再是工具，而是团队成员时，软件生产关系将被彻底重构","dg-note-properties":{"title":"当 AI 不再是工具，而是团队成员时，软件生产关系将被彻底重构","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #ai

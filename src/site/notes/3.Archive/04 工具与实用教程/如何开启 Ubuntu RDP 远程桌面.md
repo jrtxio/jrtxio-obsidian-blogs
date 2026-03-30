@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与实用教程/如何开启 Ubuntu RDP 远程桌面.md","permalink":"/04 工具与实用教程/如何开启 Ubuntu RDP 远程桌面/","title":"如何开启 Ubuntu RDP 远程桌面"}
+{"dg-publish":true,"dg-path":"04 工具与实用教程/如何开启 Ubuntu RDP 远程桌面.md","permalink":"/04 工具与实用教程/如何开启 Ubuntu RDP 远程桌面/","title":"如何开启 Ubuntu RDP 远程桌面","dg-note-properties":{"title":"如何开启 Ubuntu RDP 远程桌面","cover":null,"author":"jrtxio","source_url":null}}
 ---
 
 #original #linux 
