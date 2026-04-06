@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/DoIP 真实诊断通信报文记录.md","permalink":"/01 车载技术/DoIP 真实诊断通信报文记录/","title":"DoIP 真实诊断通信报文记录","dg-note-properties":{"title":"DoIP 真实诊断通信报文记录","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"01 车载技术/DoIP 真实诊断通信报文记录.md","permalink":"/01 车载技术/DoIP 真实诊断通信报文记录/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #original #autosar/doip 

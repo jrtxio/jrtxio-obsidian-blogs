@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/Racket 语言：一门用于设计和实现编程语言的语言.md","permalink":"/03 函数式编程/Racket 语言：一门用于设计和实现编程语言的语言/","title":"Racket 语言：一门用于设计和实现编程语言的语言","dg-note-properties":{"title":"Racket 语言：一门用于设计和实现编程语言的语言","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"03 函数式编程/Racket 语言：一门用于设计和实现编程语言的语言.md","permalink":"/03 函数式编程/Racket 语言：一门用于设计和实现编程语言的语言/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket  

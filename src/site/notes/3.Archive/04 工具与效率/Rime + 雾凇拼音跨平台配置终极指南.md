@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/Rime + 雾凇拼音跨平台配置终极指南.md","permalink":"/04 工具与效率/Rime + 雾凇拼音跨平台配置终极指南/","title":"Rime + 雾凇拼音跨平台配置终极指南","dg-note-properties":{"title":"Rime + 雾凇拼音跨平台配置终极指南","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"04 工具与效率/Rime + 雾凇拼音跨平台配置终极指南.md","permalink":"/04 工具与效率/Rime + 雾凇拼音跨平台配置终极指南/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 ## 💡 核心概念

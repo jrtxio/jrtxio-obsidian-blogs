@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/UDS 请求及响应格式.md","permalink":"/01 车载技术/UDS 请求及响应格式/","title":"UDS 请求及响应格式","dg-note-properties":{"title":"UDS 请求及响应格式","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"01 车载技术/UDS 请求及响应格式.md","permalink":"/01 车载技术/UDS 请求及响应格式/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #original #autosar #autosar/uds 

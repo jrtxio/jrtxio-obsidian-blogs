@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 应用开发/URL 原理与设计：从互联网地址到 REST API 的完整理解.md","permalink":"/02 应用开发/URL 原理与设计：从互联网地址到 REST API 的完整理解/","title":"URL 原理与设计：从互联网地址到 REST API 的完整理解","dg-note-properties":{"title":"URL 原理与设计：从互联网地址到 REST API 的完整理解","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"02 应用开发/URL 原理与设计：从互联网地址到 REST API 的完整理解.md","permalink":"/02 应用开发/URL 原理与设计：从互联网地址到 REST API 的完整理解/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #web

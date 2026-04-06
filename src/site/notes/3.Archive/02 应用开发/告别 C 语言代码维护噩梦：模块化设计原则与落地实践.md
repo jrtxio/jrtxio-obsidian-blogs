@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 应用开发/告别 C 语言代码维护噩梦：模块化设计原则与落地实践.md","permalink":"/02 应用开发/告别 C 语言代码维护噩梦：模块化设计原则与落地实践/","title":"告别 C 语言代码维护噩梦：模块化设计原则与落地实践","dg-note-properties":{"title":"告别 C 语言代码维护噩梦：模块化设计原则与落地实践","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"02 应用开发/告别 C 语言代码维护噩梦：模块化设计原则与落地实践.md","permalink":"/02 应用开发/告别 C 语言代码维护噩梦：模块化设计原则与落地实践/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 C 语言项目缺乏良好模块化设计，代码难以维护和扩展，轻则带来线上 bug，重则拖慢团队协作和产品交付。本文系统解析 C 语言模块化设计的原则、方法及常见实现模式，助力你写出高可维护、低耦合的工程代码！

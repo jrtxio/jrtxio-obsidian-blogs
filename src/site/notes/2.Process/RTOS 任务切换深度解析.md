@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/RTOS 任务切换深度解析/","title":"RTOS 任务切换深度解析","dg-note-properties":{"title":"RTOS 任务切换深度解析","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/RTOS 任务切换深度解析/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #rtos 

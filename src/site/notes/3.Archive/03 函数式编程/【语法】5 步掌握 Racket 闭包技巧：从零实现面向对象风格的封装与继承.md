@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/【语法】5 步掌握 Racket 闭包技巧：从零实现面向对象风格的封装与继承.md","permalink":"/03 函数式编程/【语法】5 步掌握 Racket 闭包技巧：从零实现面向对象风格的封装与继承/","title":"【语法】5 步掌握 Racket 闭包技巧：从零实现面向对象风格的封装与继承","dg-note-properties":{"title":"【语法】5 步掌握 Racket 闭包技巧：从零实现面向对象风格的封装与继承","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"03 函数式编程/【语法】5 步掌握 Racket 闭包技巧：从零实现面向对象风格的封装与继承.md","permalink":"/03 函数式编程/【语法】5 步掌握 Racket 闭包技巧：从零实现面向对象风格的封装与继承/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket  

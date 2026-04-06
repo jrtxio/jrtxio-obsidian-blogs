@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/RAM 与 FLASH 存储器：特性对比及应用边界/","title":"RAM 与 FLASH 存储器：特性对比及应用边界","dg-note-properties":{"title":"RAM 与 FLASH 存储器：特性对比及应用边界","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/RAM 与 FLASH 存储器：特性对比及应用边界/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 在现代电子设备中，RAM（随机访问存储器）和 FLASH 存储器是两种常见的存储技术。尽管它们的工作方式和用途存在一些相似之处，但它们在性能、使用场景和可靠性等方面却有显著的差异。本文将探讨 RAM 和 FLASH 的基本特性，并回答关于它们是否可以互换使用的常见问题。

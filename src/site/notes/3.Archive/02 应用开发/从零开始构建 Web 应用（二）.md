@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 应用开发/从零开始构建 Web 应用（二）.md","permalink":"/02 应用开发/从零开始构建 Web 应用（二）/","title":"从零开始构建 Web 应用（二）","dg-note-properties":{"title":"从零开始构建 Web 应用（二）","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"02 应用开发/从零开始构建 Web 应用（二）.md","permalink":"/02 应用开发/从零开始构建 Web 应用（二）/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #web

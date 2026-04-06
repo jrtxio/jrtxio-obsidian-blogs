@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/Linux 是怎样工作的/","title":"Linux 是怎样工作的","dg-note-properties":{"title":"Linux 是怎样工作的","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/Linux 是怎样工作的/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #linux 

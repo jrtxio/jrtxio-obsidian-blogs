@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/FBL 与 APP 为何要有各自的中断向量表/","title":"FBL 与 APP 为何要有各自的中断向量表","dg-note-properties":{"title":"FBL 与 APP 为何要有各自的中断向量表","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/FBL 与 APP 为何要有各自的中断向量表/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #autosar/fbl 

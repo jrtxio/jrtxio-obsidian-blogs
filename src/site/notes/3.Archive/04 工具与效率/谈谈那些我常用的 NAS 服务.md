@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/谈谈那些我常用的 NAS 服务.md","permalink":"/04 工具与效率/谈谈那些我常用的 NAS 服务/","title":"谈谈那些我常用的 NAS 服务","dg-note-properties":{"title":"谈谈那些我常用的 NAS 服务","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"04 工具与效率/谈谈那些我常用的 NAS 服务.md","permalink":"/04 工具与效率/谈谈那些我常用的 NAS 服务/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #original

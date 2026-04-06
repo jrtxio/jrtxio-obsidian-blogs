@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/谈 Adaptive AUTOSAR 运行管理.md","permalink":"/01 车载技术/谈 Adaptive AUTOSAR 运行管理/","title":"谈 Adaptive AUTOSAR 运行管理","dg-note-properties":{"title":"谈 Adaptive AUTOSAR 运行管理","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"01 车载技术/谈 Adaptive AUTOSAR 运行管理.md","permalink":"/01 车载技术/谈 Adaptive AUTOSAR 运行管理/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #original #autosar

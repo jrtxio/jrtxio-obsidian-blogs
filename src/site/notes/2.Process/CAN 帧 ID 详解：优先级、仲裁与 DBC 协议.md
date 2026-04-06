@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/CAN 帧 ID 详解：优先级、仲裁与 DBC 协议/","title":"CAN 帧 ID 详解：优先级、仲裁与 DBC 协议","dg-note-properties":{"title":"CAN 帧 ID 详解：优先级、仲裁与 DBC 协议","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/CAN 帧 ID 详解：优先级、仲裁与 DBC 协议/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #autosar

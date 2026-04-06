@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/【译文】racket gui 拯救了世界.md","permalink":"/03 函数式编程/【译文】racket gui 拯救了世界/","title":"【译文】racket gui 拯救了世界","dg-note-properties":{"title":"【译文】racket gui 拯救了世界","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"03 函数式编程/【译文】racket gui 拯救了世界.md","permalink":"/03 函数式编程/【译文】racket gui 拯救了世界/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket  #gui

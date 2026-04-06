@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/讲讲 Linux 动态库显式加载函数.md","permalink":"/01 车载技术/讲讲 Linux 动态库显式加载函数/","title":"讲讲 Linux 动态库显式加载函数","dg-note-properties":{"title":"讲讲 Linux 动态库显式加载函数","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"01 车载技术/讲讲 Linux 动态库显式加载函数.md","permalink":"/01 车载技术/讲讲 Linux 动态库显式加载函数/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #original #linux

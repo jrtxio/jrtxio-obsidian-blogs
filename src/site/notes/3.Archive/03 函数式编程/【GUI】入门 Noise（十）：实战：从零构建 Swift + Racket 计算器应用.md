@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/【GUI】入门 Noise（十）：实战：从零构建 Swift + Racket 计算器应用.md","permalink":"/03 函数式编程/【GUI】入门 Noise（十）：实战：从零构建 Swift + Racket 计算器应用/","title":"【GUI】入门 Noise（十）：实战：从零构建 Swift + Racket 计算器应用","dg-note-properties":{"title":"【GUI】入门 Noise（十）：实战：从零构建 Swift + Racket 计算器应用","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"03 函数式编程/【GUI】入门 Noise（十）：实战：从零构建 Swift + Racket 计算器应用.md","permalink":"/03 函数式编程/【GUI】入门 Noise（十）：实战：从零构建 Swift + Racket 计算器应用/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket  #gui/noise

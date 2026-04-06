@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 应用开发/Linux 上使用 Androidstudio 时启动模拟器报错.md","permalink":"/02 应用开发/Linux 上使用 Androidstudio 时启动模拟器报错/","title":"Linux 上使用 Androidstudio 时启动模拟器报错","dg-note-properties":{"title":"Linux 上使用 Androidstudio 时启动模拟器报错","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"02 应用开发/Linux 上使用 Androidstudio 时启动模拟器报错.md","permalink":"/02 应用开发/Linux 上使用 Androidstudio 时启动模拟器报错/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #original #linux 

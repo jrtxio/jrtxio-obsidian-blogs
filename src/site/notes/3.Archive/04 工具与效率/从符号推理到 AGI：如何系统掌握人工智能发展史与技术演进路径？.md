@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/从符号推理到 AGI：如何系统掌握人工智能发展史与技术演进路径？.md","permalink":"/04 工具与效率/从符号推理到 AGI：如何系统掌握人工智能发展史与技术演进路径？/","title":"从符号推理到 AGI：如何系统掌握人工智能发展史与技术演进路径？","dg-note-properties":{"title":"从符号推理到 AGI：如何系统掌握人工智能发展史与技术演进路径？","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"04 工具与效率/从符号推理到 AGI：如何系统掌握人工智能发展史与技术演进路径？.md","permalink":"/04 工具与效率/从符号推理到 AGI：如何系统掌握人工智能发展史与技术演进路径？/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #ai

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/Batocera 家庭游戏完全指南：从怀旧到硬核，一篇全掌握.md","permalink":"/04 工具与效率/Batocera 家庭游戏完全指南：从怀旧到硬核，一篇全掌握/","title":"Batocera 家庭游戏完全指南：从怀旧到硬核，一篇全掌握","dg-note-properties":{"title":"Batocera 家庭游戏完全指南：从怀旧到硬核，一篇全掌握","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"04 工具与效率/Batocera 家庭游戏完全指南：从怀旧到硬核，一篇全掌握.md","permalink":"/04 工具与效率/Batocera 家庭游戏完全指南：从怀旧到硬核，一篇全掌握/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #linux

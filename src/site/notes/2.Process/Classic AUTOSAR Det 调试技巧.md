@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/Classic AUTOSAR Det 调试技巧/","title":"Classic AUTOSAR Det 调试技巧","dg-note-properties":{"title":"Classic AUTOSAR Det 调试技巧","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/Classic AUTOSAR Det 调试技巧/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #autosar

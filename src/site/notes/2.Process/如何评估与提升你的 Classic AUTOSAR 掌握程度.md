@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/如何评估与提升你的 Classic AUTOSAR 掌握程度/","title":"如何评估与提升你的 Classic AUTOSAR 掌握程度","dg-note-properties":{"title":"如何评估与提升你的 Classic AUTOSAR 掌握程度","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/如何评估与提升你的 Classic AUTOSAR 掌握程度/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #autosar

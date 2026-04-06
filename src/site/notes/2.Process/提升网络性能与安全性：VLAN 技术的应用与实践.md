@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/提升网络性能与安全性：VLAN 技术的应用与实践/","title":"提升网络性能与安全性：VLAN 技术的应用与实践","dg-note-properties":{"title":"提升网络性能与安全性：VLAN 技术的应用与实践","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/提升网络性能与安全性：VLAN 技术的应用与实践/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #ethernet

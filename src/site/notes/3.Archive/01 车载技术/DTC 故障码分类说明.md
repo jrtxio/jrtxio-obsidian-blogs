@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/DTC 故障码分类说明.md","permalink":"/01 车载技术/DTC 故障码分类说明/","title":"DTC 故障码分类说明","dg-note-properties":{"title":"DTC 故障码分类说明","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"01 车载技术/DTC 故障码分类说明.md","permalink":"/01 车载技术/DTC 故障码分类说明/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #original #autosar #autosar/uds 

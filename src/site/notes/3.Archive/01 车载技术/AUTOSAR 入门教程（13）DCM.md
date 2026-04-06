@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（13）DCM.md","permalink":"/01 车载技术/AUTOSAR 入门教程（13）DCM/","title":"AUTOSAR 入门教程（13）DCM","dg-note-properties":{"title":"AUTOSAR 入门教程（13）DCM","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（13）DCM.md","permalink":"/01 车载技术/AUTOSAR 入门教程（13）DCM/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #autosar

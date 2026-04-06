@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/内部集成电路 - I2C 协议/","title":"内部集成电路 - I2C 协议","dg-note-properties":{"title":"内部集成电路 - I2C 协议","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/内部集成电路 - I2C 协议/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 💡 **I2C 协议** 是电子设备间高效通信的基石！这种简单却强大的两线制协议，让主从设备间的数据交换变得优雅而可靠。无论是传感器读取还是芯片配置，I2C 都能以最少的连线实现复杂的通信需求。

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/一张图看懂 UDS 协议栈的 ISO 标准分工/","title":"一张图看懂 UDS 协议栈的 ISO 标准分工","dg-note-properties":{"title":"一张图看懂 UDS 协议栈的 ISO 标准分工","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/一张图看懂 UDS 协议栈的 ISO 标准分工/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #autosar #autosar/uds 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/配置你的专属 Deepin.md","permalink":"/04 工具与效率/配置你的专属 Deepin/","title":"配置你的专属 Deepin","dg-note-properties":{"title":"配置你的专属 Deepin","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"04 工具与效率/配置你的专属 Deepin.md","permalink":"/04 工具与效率/配置你的专属 Deepin/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #original #linux 

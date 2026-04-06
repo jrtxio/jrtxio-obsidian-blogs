@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/谈 RTOS 软件开发理论/","title":"谈 RTOS 软件开发理论","dg-note-properties":{"title":"谈 RTOS 软件开发理论","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/谈 RTOS 软件开发理论/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #rtos 

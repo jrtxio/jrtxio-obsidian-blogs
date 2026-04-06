@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/为什么理解符号表达式是掌握 Lisp 元编程的关键？.md","permalink":"/03 函数式编程/为什么理解符号表达式是掌握 Lisp 元编程的关键？/","title":"为什么理解符号表达式是掌握 Lisp 元编程的关键？","dg-note-properties":{"title":"为什么理解符号表达式是掌握 Lisp 元编程的关键？","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"03 函数式编程/为什么理解符号表达式是掌握 Lisp 元编程的关键？.md","permalink":"/03 函数式编程/为什么理解符号表达式是掌握 Lisp 元编程的关键？/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket 

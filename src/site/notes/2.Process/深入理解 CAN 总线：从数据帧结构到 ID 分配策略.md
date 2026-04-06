@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/深入理解 CAN 总线：从数据帧结构到 ID 分配策略/","title":"深入理解 CAN 总线：从数据帧结构到 ID 分配策略","dg-note-properties":{"title":"深入理解 CAN 总线：从数据帧结构到 ID 分配策略","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/深入理解 CAN 总线：从数据帧结构到 ID 分配策略/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #autosar

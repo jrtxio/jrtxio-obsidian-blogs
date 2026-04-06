@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/写给 Windows 用户的 macOS 操作指南.md","permalink":"/04 工具与效率/写给 Windows 用户的 macOS 操作指南/","title":"写给 Windows 用户的 macOS 操作指南","dg-note-properties":{"title":"写给 Windows 用户的 macOS 操作指南","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"04 工具与效率/写给 Windows 用户的 macOS 操作指南.md","permalink":"/04 工具与效率/写给 Windows 用户的 macOS 操作指南/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 很多长期使用 Windows 的用户，在认真把 macOS 当作主力系统时，都会遇到一些持续的困惑：

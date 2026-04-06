@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/打破 AI 数据孤岛！Anthropic 开源革命性模型上下文协议 MCP.md","permalink":"/04 工具与效率/打破 AI 数据孤岛！Anthropic 开源革命性模型上下文协议 MCP/","title":"打破 AI 数据孤岛！Anthropic 开源革命性模型上下文协议 MCP","dg-note-properties":{"title":"打破 AI 数据孤岛！Anthropic 开源革命性模型上下文协议 MCP","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"04 工具与效率/打破 AI 数据孤岛！Anthropic 开源革命性模型上下文协议 MCP.md","permalink":"/04 工具与效率/打破 AI 数据孤岛！Anthropic 开源革命性模型上下文协议 MCP/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #ai

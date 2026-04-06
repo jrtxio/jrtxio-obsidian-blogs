@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/深入解读 DoIP 协议.md","permalink":"/01 车载技术/深入解读 DoIP 协议/","title":"深入解读 DoIP 协议","dg-note-properties":{"title":"深入解读 DoIP 协议","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"01 车载技术/深入解读 DoIP 协议.md","permalink":"/01 车载技术/深入解读 DoIP 协议/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #original #autosar/doip

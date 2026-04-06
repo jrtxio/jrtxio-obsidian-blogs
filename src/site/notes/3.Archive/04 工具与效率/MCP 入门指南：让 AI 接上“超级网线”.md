@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/MCP 入门指南：让 AI 接上“超级网线”.md","permalink":"/04 工具与效率/MCP 入门指南：让 AI 接上“超级网线”/","title":"MCP 入门指南：让 AI 接上“超级网线”","dg-note-properties":{"title":"MCP 入门指南：让 AI 接上“超级网线”","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"04 工具与效率/MCP 入门指南：让 AI 接上“超级网线”.md","permalink":"/04 工具与效率/MCP 入门指南：让 AI 接上“超级网线”/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #ai

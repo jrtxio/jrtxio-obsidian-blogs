@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 应用开发/如何解决 IP 地址浪费问题？CIDR 与 IPv6 技术演进全解析.md","permalink":"/02 应用开发/如何解决 IP 地址浪费问题？CIDR 与 IPv6 技术演进全解析/","title":"如何解决 IP 地址浪费问题？CIDR 与 IPv6 技术演进全解析","dg-note-properties":{"title":"如何解决 IP 地址浪费问题？CIDR 与 IPv6 技术演进全解析","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"02 应用开发/如何解决 IP 地址浪费问题？CIDR 与 IPv6 技术演进全解析.md","permalink":"/02 应用开发/如何解决 IP 地址浪费问题？CIDR 与 IPv6 技术演进全解析/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #ethernet

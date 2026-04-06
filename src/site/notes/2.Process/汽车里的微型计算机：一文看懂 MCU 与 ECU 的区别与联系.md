@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/汽车里的微型计算机：一文看懂 MCU 与 ECU 的区别与联系/","title":"汽车里的微型计算机：一文看懂 MCU 与 ECU 的区别与联系","dg-note-properties":{"title":"汽车里的微型计算机：一文看懂 MCU 与 ECU 的区别与联系","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/汽车里的微型计算机：一文看懂 MCU 与 ECU 的区别与联系/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 ## 微控制器（MCU）简介

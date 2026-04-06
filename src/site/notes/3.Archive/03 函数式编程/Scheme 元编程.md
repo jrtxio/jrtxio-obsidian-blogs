@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/Scheme 元编程.md","permalink":"/03 函数式编程/Scheme 元编程/","title":"Scheme 元编程","dg-note-properties":{"title":"Scheme 元编程","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"03 函数式编程/Scheme 元编程.md","permalink":"/03 函数式编程/Scheme 元编程/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket 

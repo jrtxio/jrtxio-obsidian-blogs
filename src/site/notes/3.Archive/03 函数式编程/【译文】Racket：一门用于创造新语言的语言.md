@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/【译文】Racket：一门用于创造新语言的语言.md","permalink":"/03 函数式编程/【译文】Racket：一门用于创造新语言的语言/","title":"【译文】Racket：一门用于创造新语言的语言","dg-note-properties":{"title":"【译文】Racket：一门用于创造新语言的语言","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"03 函数式编程/【译文】Racket：一门用于创造新语言的语言.md","permalink":"/03 函数式编程/【译文】Racket：一门用于创造新语言的语言/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket  

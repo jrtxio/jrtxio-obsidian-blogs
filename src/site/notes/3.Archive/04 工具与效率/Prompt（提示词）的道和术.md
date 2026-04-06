@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/Prompt（提示词）的道和术.md","permalink":"/04 工具与效率/Prompt（提示词）的道和术/","title":"Prompt（提示词）的道和术","dg-note-properties":{"title":"Prompt（提示词）的道和术","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"04 工具与效率/Prompt（提示词）的道和术.md","permalink":"/04 工具与效率/Prompt（提示词）的道和术/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #ai

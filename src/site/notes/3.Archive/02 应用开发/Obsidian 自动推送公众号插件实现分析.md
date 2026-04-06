@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 应用开发/Obsidian 自动推送公众号插件实现分析.md","permalink":"/02 应用开发/Obsidian 自动推送公众号插件实现分析/","title":"Obsidian 自动推送公众号插件实现分析","dg-note-properties":{"title":"Obsidian 自动推送公众号插件实现分析","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"02 应用开发/Obsidian 自动推送公众号插件实现分析.md","permalink":"/02 应用开发/Obsidian 自动推送公众号插件实现分析/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #original

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/Batocera 技术解析：模拟器、BIOS 与加密机制.md","permalink":"/04 工具与效率/Batocera 技术解析：模拟器、BIOS 与加密机制/","title":"Batocera 技术解析：模拟器、BIOS 与加密机制","dg-note-properties":{"title":"Batocera 技术解析：模拟器、BIOS 与加密机制","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"04 工具与效率/Batocera 技术解析：模拟器、BIOS 与加密机制.md","permalink":"/04 工具与效率/Batocera 技术解析：模拟器、BIOS 与加密机制/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #linux

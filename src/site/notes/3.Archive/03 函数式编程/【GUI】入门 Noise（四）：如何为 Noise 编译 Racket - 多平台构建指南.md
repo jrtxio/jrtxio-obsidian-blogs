@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/【GUI】入门 Noise（四）：如何为 Noise 编译 Racket - 多平台构建指南.md","permalink":"/03 函数式编程/【GUI】入门 Noise（四）：如何为 Noise 编译 Racket - 多平台构建指南/","title":"【GUI】入门 Noise（四）：如何为 Noise 编译 Racket - 多平台构建指南","dg-note-properties":{"title":"【GUI】入门 Noise（四）：如何为 Noise 编译 Racket - 多平台构建指南","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"03 函数式编程/【GUI】入门 Noise（四）：如何为 Noise 编译 Racket - 多平台构建指南.md","permalink":"/03 函数式编程/【GUI】入门 Noise（四）：如何为 Noise 编译 Racket - 多平台构建指南/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket #gui/noise 

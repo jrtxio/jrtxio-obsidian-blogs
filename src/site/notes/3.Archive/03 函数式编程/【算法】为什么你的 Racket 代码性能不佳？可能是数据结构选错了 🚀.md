@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/【算法】为什么你的 Racket 代码性能不佳？可能是数据结构选错了 🚀.md","permalink":"/03 函数式编程/【算法】为什么你的 Racket 代码性能不佳？可能是数据结构选错了 🚀/","title":"【算法】为什么你的 Racket 代码性能不佳？可能是数据结构选错了 🚀","dg-note-properties":{"title":"【算法】为什么你的 Racket 代码性能不佳？可能是数据结构选错了 🚀","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"03 函数式编程/【算法】为什么你的 Racket 代码性能不佳？可能是数据结构选错了 🚀.md","permalink":"/03 函数式编程/【算法】为什么你的 Racket 代码性能不佳？可能是数据结构选错了 🚀/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket  

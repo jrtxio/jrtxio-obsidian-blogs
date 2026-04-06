@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/汽车软件开发的基石：AUTOSAR 深度报告/","title":"汽车软件开发的基石：AUTOSAR 深度报告","dg-note-properties":{"title":"汽车软件开发的基石：AUTOSAR 深度报告","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/汽车软件开发的基石：AUTOSAR 深度报告/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #autosar

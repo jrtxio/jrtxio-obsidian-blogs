@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/【译文】Lisp 操作系统.md","permalink":"/03 函数式编程/【译文】Lisp 操作系统/","title":"【译文】Lisp 操作系统","dg-note-properties":{"title":"【译文】Lisp 操作系统","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"03 函数式编程/【译文】Lisp 操作系统.md","permalink":"/03 函数式编程/【译文】Lisp 操作系统/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket 

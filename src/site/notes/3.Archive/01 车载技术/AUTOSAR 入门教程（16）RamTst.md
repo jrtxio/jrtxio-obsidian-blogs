@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（16）RamTst.md","permalink":"/01 车载技术/AUTOSAR 入门教程（16）RamTst/","title":"AUTOSAR 入门教程（16）RamTst","dg-note-properties":{"title":"AUTOSAR 入门教程（16）RamTst","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（16）RamTst.md","permalink":"/01 车载技术/AUTOSAR 入门教程（16）RamTst/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #autosar 

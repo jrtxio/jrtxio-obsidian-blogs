@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.Process/揭秘 AUTOSAR：现代汽车背后的智能模块化架/","title":"揭秘 AUTOSAR：现代汽车背后的智能模块化架","dg-note-properties":{"title":"揭秘 AUTOSAR：现代汽车背后的智能模块化架","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"permalink":"/2.Process/揭秘 AUTOSAR：现代汽车背后的智能模块化架/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #autosar

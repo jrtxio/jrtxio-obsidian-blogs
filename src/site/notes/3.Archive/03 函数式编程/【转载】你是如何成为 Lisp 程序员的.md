@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/【转载】你是如何成为 Lisp 程序员的.md","permalink":"/03 函数式编程/【转载】你是如何成为 Lisp 程序员的/","title":"【转载】你是如何成为 Lisp 程序员的","dg-note-properties":{"title":"【转载】你是如何成为 Lisp 程序员的","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"03 函数式编程/【转载】你是如何成为 Lisp 程序员的.md","permalink":"/03 函数式编程/【转载】你是如何成为 Lisp 程序员的/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket  #repost

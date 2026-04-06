@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（18）Crypto.md","permalink":"/01 车载技术/AUTOSAR 入门教程（18）Crypto/","title":"AUTOSAR 入门教程（18）Crypto","dg-note-properties":{"title":"AUTOSAR 入门教程（18）Crypto","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（18）Crypto.md","permalink":"/01 车载技术/AUTOSAR 入门教程（18）Crypto/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #autosar

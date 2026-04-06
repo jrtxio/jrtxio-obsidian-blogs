@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/【译文】函数式外壳与可重用组件：简化 GUI 开发.md","permalink":"/03 函数式编程/【译文】函数式外壳与可重用组件：简化 GUI 开发/","title":"【译文】函数式外壳与可重用组件：简化 GUI 开发","dg-note-properties":{"title":"【译文】函数式外壳与可重用组件：简化 GUI 开发","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"03 函数式编程/【译文】函数式外壳与可重用组件：简化 GUI 开发.md","permalink":"/03 函数式编程/【译文】函数式外壳与可重用组件：简化 GUI 开发/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket #gui

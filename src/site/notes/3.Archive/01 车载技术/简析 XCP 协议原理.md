@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/简析 XCP 协议原理.md","permalink":"/01 车载技术/简析 XCP 协议原理/","title":"简析 XCP 协议原理","dg-note-properties":{"title":"简析 XCP 协议原理","cover":null,"author":"jrtxio"}}
+{"dg-publish":true,"dg-path":"01 车载技术/简析 XCP 协议原理.md","permalink":"/01 车载技术/简析 XCP 协议原理/","dg-note-properties":{"title":null,"cover":null,"author":"jrtxio"}}
 ---
 
 #original #autosar
