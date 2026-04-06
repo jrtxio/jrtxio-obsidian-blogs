@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 应用开发/前端小白入门 Electron 系列（一）：如何搭建开发环境.md","permalink":"/02 应用开发/前端小白入门 Electron 系列（一）：如何搭建开发环境/","title":"前端小白入门 Electron 系列（一）：如何搭建开发环境","dg-note-properties":{"title":"前端小白入门 Electron 系列（一）：如何搭建开发环境","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"02 应用开发/前端小白入门 Electron 系列（一）：如何搭建开发环境.md","permalink":"/02 应用开发/前端小白入门 Electron 系列（一）：如何搭建开发环境/","title":"前端小白入门 Electron 系列（一）：如何搭建开发环境","dg-note-properties":{"title":"前端小白入门 Electron 系列（一）：如何搭建开发环境","cover":null,"author":"jrtxio"}}
 ---
 
 #gui #gui/electron 

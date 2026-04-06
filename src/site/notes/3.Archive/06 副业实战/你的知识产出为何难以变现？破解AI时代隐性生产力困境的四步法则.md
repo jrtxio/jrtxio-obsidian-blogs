@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"06 副业实战/你的知识产出为何难以变现？破解AI时代隐性生产力困境的四步法则.md","permalink":"/06 副业实战/你的知识产出为何难以变现？破解AI时代隐性生产力困境的四步法则/","title":"你的知识产出为何难以变现？破解AI时代隐性生产力困境的四步法则","dg-note-properties":{"title":"你的知识产出为何难以变现？破解AI时代隐性生产力困境的四步法则","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"06 副业实战/你的知识产出为何难以变现？破解AI时代隐性生产力困境的四步法则.md","permalink":"/06 副业实战/你的知识产出为何难以变现？破解AI时代隐性生产力困境的四步法则/","title":"你的知识产出为何难以变现？破解AI时代隐性生产力困境的四步法则","dg-note-properties":{"title":"你的知识产出为何难以变现？破解AI时代隐性生产力困境的四步法则","cover":null,"author":"jrtxio"}}
 ---
 
 #ai

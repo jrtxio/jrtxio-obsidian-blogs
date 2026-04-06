@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/【GUI】入门 Noise（八）：DSL 快速入门指南 - 定义记录、枚举与 RPC.md","permalink":"/03 函数式编程/【GUI】入门 Noise（八）：DSL 快速入门指南 - 定义记录、枚举与 RPC/","title":"【GUI】入门 Noise（八）：DSL 快速入门指南 - 定义记录、枚举与 RPC","dg-note-properties":{"title":"【GUI】入门 Noise（八）：DSL 快速入门指南 - 定义记录、枚举与 RPC","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"03 函数式编程/【GUI】入门 Noise（八）：DSL 快速入门指南 - 定义记录、枚举与 RPC.md","permalink":"/03 函数式编程/【GUI】入门 Noise（八）：DSL 快速入门指南 - 定义记录、枚举与 RPC/","title":"【GUI】入门 Noise（八）：DSL 快速入门指南 - 定义记录、枚举与 RPC","dg-note-properties":{"title":"【GUI】入门 Noise（八）：DSL 快速入门指南 - 定义记录、枚举与 RPC","cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket #gui/noise 

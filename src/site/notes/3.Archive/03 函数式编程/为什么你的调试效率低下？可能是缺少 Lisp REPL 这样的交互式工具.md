@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/为什么你的调试效率低下？可能是缺少 Lisp REPL 这样的交互式工具.md","permalink":"/03 函数式编程/为什么你的调试效率低下？可能是缺少 Lisp REPL 这样的交互式工具/","title":"为什么你的调试效率低下？可能是缺少 Lisp REPL 这样的交互式工具","dg-note-properties":{"title":"为什么你的调试效率低下？可能是缺少 Lisp REPL 这样的交互式工具","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"03 函数式编程/为什么你的调试效率低下？可能是缺少 Lisp REPL 这样的交互式工具.md","permalink":"/03 函数式编程/为什么你的调试效率低下？可能是缺少 Lisp REPL 这样的交互式工具/","title":"为什么你的调试效率低下？可能是缺少 Lisp REPL 这样的交互式工具","dg-note-properties":{"title":"为什么你的调试效率低下？可能是缺少 Lisp REPL 这样的交互式工具","cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket

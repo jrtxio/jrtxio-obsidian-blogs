@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/vsomeip 从入门到精通.md","permalink":"/01 车载技术/vsomeip 从入门到精通/","title":"vsomeip 从入门到精通","dg-note-properties":{"title":"vsomeip 从入门到精通","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"01 车载技术/vsomeip 从入门到精通.md","permalink":"/01 车载技术/vsomeip 从入门到精通/","title":"vsomeip 从入门到精通","dg-note-properties":{"title":"vsomeip 从入门到精通","cover":null,"author":"jrtxio"}}
 ---
 
 #original #autosar/someip

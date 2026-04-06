@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/为什么你的 AI 编程总是失控？可能是缺少这个小步闭环策略.md","permalink":"/04 工具与效率/为什么你的 AI 编程总是失控？可能是缺少这个小步闭环策略/","title":"为什么你的 AI 编程总是失控？可能是缺少这个小步闭环策略","dg-note-properties":{"title":"为什么你的 AI 编程总是失控？可能是缺少这个小步闭环策略","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"04 工具与效率/为什么你的 AI 编程总是失控？可能是缺少这个小步闭环策略.md","permalink":"/04 工具与效率/为什么你的 AI 编程总是失控？可能是缺少这个小步闭环策略/","title":"为什么你的 AI 编程总是失控？可能是缺少这个小步闭环策略","dg-note-properties":{"title":"为什么你的 AI 编程总是失控？可能是缺少这个小步闭环策略","cover":null,"author":"jrtxio"}}
 ---
 
 #ai

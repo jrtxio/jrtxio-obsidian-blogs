@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/【译文】如果 Lisp 如此伟大.md","permalink":"/03 函数式编程/【译文】如果 Lisp 如此伟大/","title":"【译文】如果 Lisp 如此伟大","dg-note-properties":{"title":"【译文】如果 Lisp 如此伟大","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"03 函数式编程/【译文】如果 Lisp 如此伟大.md","permalink":"/03 函数式编程/【译文】如果 Lisp 如此伟大/","title":"【译文】如果 Lisp 如此伟大","dg-note-properties":{"title":"【译文】如果 Lisp 如此伟大","cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（11）ECUM.md","permalink":"/01 车载技术/AUTOSAR 入门教程（11）ECUM/","title":"AUTOSAR 入门教程（11）ECUM","dg-note-properties":{"title":"AUTOSAR 入门教程（11）ECUM","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（11）ECUM.md","permalink":"/01 车载技术/AUTOSAR 入门教程（11）ECUM/","title":"AUTOSAR 入门教程（11）ECUM","dg-note-properties":{"title":"AUTOSAR 入门教程（11）ECUM","cover":null,"author":"jrtxio"}}
 ---
 
 #autosar 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（7）ComStack CAN（二）.md","permalink":"/01 车载技术/AUTOSAR 入门教程（7）ComStack CAN（二）/","title":"AUTOSAR 入门教程（7）ComStack CAN（二）","dg-note-properties":{"title":"AUTOSAR 入门教程（7）ComStack CAN（二）","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"01 车载技术/AUTOSAR 入门教程（7）ComStack CAN（二）.md","permalink":"/01 车载技术/AUTOSAR 入门教程（7）ComStack CAN（二）/","title":"AUTOSAR 入门教程（7）ComStack CAN（二）","dg-note-properties":{"title":"AUTOSAR 入门教程（7）ComStack CAN（二）","cover":null,"author":"jrtxio"}}
 ---
 
 #autosar

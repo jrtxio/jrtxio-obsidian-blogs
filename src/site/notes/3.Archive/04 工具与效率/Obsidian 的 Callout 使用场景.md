@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/Obsidian 的 Callout 使用场景.md","permalink":"/04 工具与效率/Obsidian 的 Callout 使用场景/","title":"Obsidian 的 Callout 使用场景","dg-note-properties":{"title":"Obsidian 的 Callout 使用场景","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"04 工具与效率/Obsidian 的 Callout 使用场景.md","permalink":"/04 工具与效率/Obsidian 的 Callout 使用场景/","title":"Obsidian 的 Callout 使用场景","dg-note-properties":{"title":"Obsidian 的 Callout 使用场景","cover":null,"author":"jrtxio"}}
 ---
 
 ## 语法介绍

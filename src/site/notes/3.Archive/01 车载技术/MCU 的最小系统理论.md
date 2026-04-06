@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/MCU 的最小系统理论.md","permalink":"/01 车载技术/MCU 的最小系统理论/","title":"MCU 的最小系统理论","dg-note-properties":{"title":"MCU 的最小系统理论","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"01 车载技术/MCU 的最小系统理论.md","permalink":"/01 车载技术/MCU 的最小系统理论/","title":"MCU 的最小系统理论","dg-note-properties":{"title":"MCU 的最小系统理论","cover":null,"author":"jrtxio"}}
 ---
 
 #original

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/我的 Obsidian 设置和使用教程.md","permalink":"/04 工具与效率/我的 Obsidian 设置和使用教程/","title":"我的 Obsidian 设置和使用教程","dg-note-properties":{"title":"我的 Obsidian 设置和使用教程","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"04 工具与效率/我的 Obsidian 设置和使用教程.md","permalink":"/04 工具与效率/我的 Obsidian 设置和使用教程/","title":"我的 Obsidian 设置和使用教程","dg-note-properties":{"title":"我的 Obsidian 设置和使用教程","cover":null,"author":"jrtxio"}}
 ---
 
 #original 

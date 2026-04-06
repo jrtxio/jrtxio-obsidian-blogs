@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 应用开发/为什么你的蓝牙耳机总是左右耳电量不均？深度解析 TWS 耳机的技术困境.md","permalink":"/02 应用开发/为什么你的蓝牙耳机总是左右耳电量不均？深度解析 TWS 耳机的技术困境/","title":"为什么你的蓝牙耳机总是左右耳电量不均？深度解析 TWS 耳机的技术困境","dg-note-properties":{"title":"为什么你的蓝牙耳机总是左右耳电量不均？深度解析 TWS 耳机的技术困境","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"02 应用开发/为什么你的蓝牙耳机总是左右耳电量不均？深度解析 TWS 耳机的技术困境.md","permalink":"/02 应用开发/为什么你的蓝牙耳机总是左右耳电量不均？深度解析 TWS 耳机的技术困境/","title":"为什么你的蓝牙耳机总是左右耳电量不均？深度解析 TWS 耳机的技术困境","dg-note-properties":{"title":"为什么你的蓝牙耳机总是左右耳电量不均？深度解析 TWS 耳机的技术困境","cover":null,"author":"jrtxio"}}
 ---
 
 最近一段时间一直在研究蓝牙的协议栈，期间了解到了一个有趣的事情。

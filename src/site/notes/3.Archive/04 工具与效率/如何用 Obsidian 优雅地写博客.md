@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/如何用 Obsidian 优雅地写博客.md","permalink":"/04 工具与效率/如何用 Obsidian 优雅地写博客/","title":"如何用 Obsidian 优雅地写博客","dg-note-properties":{"title":"如何用 Obsidian 优雅地写博客","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"04 工具与效率/如何用 Obsidian 优雅地写博客.md","permalink":"/04 工具与效率/如何用 Obsidian 优雅地写博客/","title":"如何用 Obsidian 优雅地写博客","dg-note-properties":{"title":"如何用 Obsidian 优雅地写博客","cover":null,"author":"jrtxio"}}
 ---
 
 #original

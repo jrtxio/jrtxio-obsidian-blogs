@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/我的常用 MCP 和 Skills 清单.md","permalink":"/04 工具与效率/我的常用 MCP 和 Skills 清单/","title":"我的常用 MCP 和 Skills 清单","dg-note-properties":{"title":"我的常用 MCP 和 Skills 清单","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"04 工具与效率/我的常用 MCP 和 Skills 清单.md","permalink":"/04 工具与效率/我的常用 MCP 和 Skills 清单/","title":"我的常用 MCP 和 Skills 清单","dg-note-properties":{"title":"我的常用 MCP 和 Skills 清单","cover":null,"author":"jrtxio"}}
 ---
 
 #ai

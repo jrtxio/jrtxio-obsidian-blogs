@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/Windowser or Linuxer.md","permalink":"/04 工具与效率/Windowser or Linuxer/","title":"Windowser or Linuxer","dg-note-properties":{"title":"Windowser or Linuxer","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"04 工具与效率/Windowser or Linuxer.md","permalink":"/04 工具与效率/Windowser or Linuxer/","title":"Windowser or Linuxer","dg-note-properties":{"title":"Windowser or Linuxer","cover":null,"author":"jrtxio"}}
 ---
 
 #original #linux 

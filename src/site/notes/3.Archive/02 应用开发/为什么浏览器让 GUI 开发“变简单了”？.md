@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 应用开发/为什么浏览器让 GUI 开发“变简单了”？.md","permalink":"/02 应用开发/为什么浏览器让 GUI 开发“变简单了”？/","title":"为什么浏览器让 GUI 开发“变简单了”？","dg-note-properties":{"title":"为什么浏览器让 GUI 开发“变简单了”？","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"02 应用开发/为什么浏览器让 GUI 开发“变简单了”？.md","permalink":"/02 应用开发/为什么浏览器让 GUI 开发“变简单了”？/","title":"为什么浏览器让 GUI 开发“变简单了”？","dg-note-properties":{"title":"为什么浏览器让 GUI 开发“变简单了”？","cover":null,"author":"jrtxio"}}
 ---
 
 #gui 

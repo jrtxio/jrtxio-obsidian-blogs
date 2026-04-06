@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/符号与机器（五）：重新发明 Lambda 演算.md","permalink":"/03 函数式编程/符号与机器（五）：重新发明 Lambda 演算/","title":"符号与机器（五）：重新发明 Lambda 演算","dg-note-properties":{"title":"符号与机器（五）：重新发明 Lambda 演算","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"03 函数式编程/符号与机器（五）：重新发明 Lambda 演算.md","permalink":"/03 函数式编程/符号与机器（五）：重新发明 Lambda 演算/","title":"符号与机器（五）：重新发明 Lambda 演算","dg-note-properties":{"title":"符号与机器（五）：重新发明 Lambda 演算","cover":null,"author":"jrtxio"}}
 ---
 
 #functional

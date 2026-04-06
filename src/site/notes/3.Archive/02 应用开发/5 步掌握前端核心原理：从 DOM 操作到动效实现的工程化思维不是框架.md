@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 应用开发/5 步掌握前端核心原理：从 DOM 操作到动效实现的工程化思维不是框架.md","permalink":"/02 应用开发/5 步掌握前端核心原理：从 DOM 操作到动效实现的工程化思维不是框架/","title":"5 步掌握前端核心原理：从 DOM 操作到动效实现的工程化思维不是框架","dg-note-properties":{"title":"5 步掌握前端核心原理：从 DOM 操作到动效实现的工程化思维不是框架","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"02 应用开发/5 步掌握前端核心原理：从 DOM 操作到动效实现的工程化思维不是框架.md","permalink":"/02 应用开发/5 步掌握前端核心原理：从 DOM 操作到动效实现的工程化思维不是框架/","title":"5 步掌握前端核心原理：从 DOM 操作到动效实现的工程化思维不是框架","dg-note-properties":{"title":"5 步掌握前端核心原理：从 DOM 操作到动效实现的工程化思维不是框架","cover":null,"author":"jrtxio"}}
 ---
 
 #gui 

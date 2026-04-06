@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/一文读懂 Skills｜从概念到实操的完整指南.md","permalink":"/04 工具与效率/一文读懂 Skills｜从概念到实操的完整指南/","title":"一文读懂 Skills｜从概念到实操的完整指南","dg-note-properties":{"title":"一文读懂 Skills｜从概念到实操的完整指南","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"04 工具与效率/一文读懂 Skills｜从概念到实操的完整指南.md","permalink":"/04 工具与效率/一文读懂 Skills｜从概念到实操的完整指南/","title":"一文读懂 Skills｜从概念到实操的完整指南","dg-note-properties":{"title":"一文读懂 Skills｜从概念到实操的完整指南","cover":null,"author":"jrtxio"}}
 ---
 
 #ai 

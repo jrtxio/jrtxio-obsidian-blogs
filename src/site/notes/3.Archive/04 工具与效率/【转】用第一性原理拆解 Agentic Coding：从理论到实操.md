@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 工具与效率/【转】用第一性原理拆解 Agentic Coding：从理论到实操.md","permalink":"/04 工具与效率/【转】用第一性原理拆解 Agentic Coding：从理论到实操/","title":"用第一性原理拆解 Agentic Coding：从理论到实操","dg-note-properties":{"title":"用第一性原理拆解 Agentic Coding：从理论到实操","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"04 工具与效率/【转】用第一性原理拆解 Agentic Coding：从理论到实操.md","permalink":"/04 工具与效率/【转】用第一性原理拆解 Agentic Coding：从理论到实操/","title":"用第一性原理拆解 Agentic Coding：从理论到实操","dg-note-properties":{"title":"用第一性原理拆解 Agentic Coding：从理论到实操","cover":null,"author":"jrtxio"}}
 ---
 
 #ai 

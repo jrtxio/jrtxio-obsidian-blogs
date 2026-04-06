@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 函数式编程/【GUI】入门 Noise（六）：编译背后的 ctool - Racket 代码的 C 工具链依赖.md","permalink":"/03 函数式编程/【GUI】入门 Noise（六）：编译背后的 ctool - Racket 代码的 C 工具链依赖/","title":"【GUI】入门 Noise（六）：编译背后的 ctool - Racket 代码的 C 工具链依赖","dg-note-properties":{"title":"【GUI】入门 Noise（六）：编译背后的 ctool - Racket 代码的 C 工具链依赖","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"03 函数式编程/【GUI】入门 Noise（六）：编译背后的 ctool - Racket 代码的 C 工具链依赖.md","permalink":"/03 函数式编程/【GUI】入门 Noise（六）：编译背后的 ctool - Racket 代码的 C 工具链依赖/","title":"【GUI】入门 Noise（六）：编译背后的 ctool - Racket 代码的 C 工具链依赖","dg-note-properties":{"title":"【GUI】入门 Noise（六）：编译背后的 ctool - Racket 代码的 C 工具链依赖","cover":null,"author":"jrtxio"}}
 ---
 
 #lisp/racket #gui/noise 

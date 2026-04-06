@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/EB Classic AUTOSAR 使用指南.md","permalink":"/01 车载技术/EB Classic AUTOSAR 使用指南/","title":"EB Classic AUTOSAR 使用指南","dg-note-properties":{"title":"EB Classic AUTOSAR 使用指南","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"01 车载技术/EB Classic AUTOSAR 使用指南.md","permalink":"/01 车载技术/EB Classic AUTOSAR 使用指南/","title":"EB Classic AUTOSAR 使用指南","dg-note-properties":{"title":"EB Classic AUTOSAR 使用指南","cover":null,"author":"jrtxio"}}
 ---
 
 #original #autosar 

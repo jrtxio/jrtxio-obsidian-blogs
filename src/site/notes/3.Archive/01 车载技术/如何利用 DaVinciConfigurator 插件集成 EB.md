@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/如何利用 DaVinciConfigurator 插件集成 EB.md","permalink":"/01 车载技术/如何利用 DaVinciConfigurator 插件集成 EB/","title":"如何利用 DaVinciConfigurator 插件集成 EB","dg-note-properties":{"title":"如何利用 DaVinciConfigurator 插件集成 EB","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"01 车载技术/如何利用 DaVinciConfigurator 插件集成 EB.md","permalink":"/01 车载技术/如何利用 DaVinciConfigurator 插件集成 EB/","title":"如何利用 DaVinciConfigurator 插件集成 EB","dg-note-properties":{"title":"如何利用 DaVinciConfigurator 插件集成 EB","cover":null,"author":"jrtxio"}}
 ---
 
 #original #autosar

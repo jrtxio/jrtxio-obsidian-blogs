@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 应用开发/GUI 操作系统抽象：从硬件到窗口的设计哲学.md","permalink":"/02 应用开发/GUI 操作系统抽象：从硬件到窗口的设计哲学/","title":"GUI 操作系统抽象：从硬件到窗口的设计哲学","dg-note-properties":{"title":"GUI 操作系统抽象：从硬件到窗口的设计哲学","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"02 应用开发/GUI 操作系统抽象：从硬件到窗口的设计哲学.md","permalink":"/02 应用开发/GUI 操作系统抽象：从硬件到窗口的设计哲学/","title":"GUI 操作系统抽象：从硬件到窗口的设计哲学","dg-note-properties":{"title":"GUI 操作系统抽象：从硬件到窗口的设计哲学","cover":null,"author":"jrtxio"}}
 ---
 
 #gui

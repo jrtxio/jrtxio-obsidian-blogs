@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 车载技术/谈谈 SOMEIP 和 DDS 的差异在哪里.md","permalink":"/01 车载技术/谈谈 SOMEIP 和 DDS 的差异在哪里/","title":"谈谈 SOMEIP 和 DDS 的差异在哪里","dg-note-properties":{"title":"谈谈 SOMEIP 和 DDS 的差异在哪里","cover":null,"author":"jrtxio","source_url":null}}
+{"dg-publish":true,"dg-path":"01 车载技术/谈谈 SOMEIP 和 DDS 的差异在哪里.md","permalink":"/01 车载技术/谈谈 SOMEIP 和 DDS 的差异在哪里/","title":"谈谈 SOMEIP 和 DDS 的差异在哪里","dg-note-properties":{"title":"谈谈 SOMEIP 和 DDS 的差异在哪里","cover":null,"author":"jrtxio"}}
 ---
 
 #original #autosar/someip 
