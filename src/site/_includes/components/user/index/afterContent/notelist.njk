@@ -1,15 +1,25 @@
-{%- set notelist_title = "所有文章" -%}
+{%- set excluded = ["/", "/付费/", "/关于/", "/简历/"] -%}
+{%- set articleCount = 0 -%}
+{%- for note in collections.note -%}
+  {%- if excluded.indexOf(note.url) === -1 -%}
+    {%- set articleCount = articleCount + 1 -%}
+  {%- endif -%}
+{%- endfor -%}
 <section class="dg-notelist">
-  <h2 class="dg-notelist-title">{{ notelist_title }}</h2>
-  <ul class="dg-notelist-items">
+  <div class="dg-notelist-header">
+    <h2 class="dg-notelist-title">所有文章</h2>
+    <span class="dg-notelist-count">{{ articleCount }}</span>
+  </div>
+  <div class="dg-notelist-body">
     {%- for note in collections.note -%}
-      {%- if note.url != "/" -%}
-    <li class="dg-notelist-item">
-      <a class="dg-notelist-link" href="{{ note.url }}">
-        <span class="dg-notelist-name">{% if note.data.title %}{{ note.data.title }}{% else %}{{ note.fileSlug }}{% endif %}</span>
-      </a>
-    </li>
+      {%- if excluded.indexOf(note.url) === -1 -%}
+    <a class="dg-notelist-card" href="{{ note.url }}">
+      <span class="dg-notelist-card-name">{% if note.data.title %}{{ note.data.title }}{% else %}{{ note.fileSlug }}{% endif %}</span>
+      {%- if note.data["dg-note-properties"] and note.data["dg-note-properties"].created -%}
+      <span class="dg-notelist-card-date">{{ note.data["dg-note-properties"].created }}</span>
+      {%- endif -%}
+    </a>
       {%- endif -%}
     {%- endfor -%}
-  </ul>
+  </div>
 </section>
