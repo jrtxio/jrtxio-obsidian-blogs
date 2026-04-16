@@ -27,9 +27,14 @@ body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
 }
 
-// ── Body Text ──
+// ── Body Text — override DG 18px base ──
+.content {
+    --dg-content-font-size: 15px;
+    font-size: 15px !important;
+}
+
 .markdown-rendered {
-    font-size: 16px !important;
+    font-size: 15px !important;
     line-height: 1.7 !important;
     color: var(--anth-text-light) !important;
     letter-spacing: -0.01em;
@@ -51,7 +56,7 @@ body {
     }
 
     h1 {
-        font-size: 2rem !important;
+        font-size: 1.6rem !important;
         font-weight: 700 !important;
         margin-top: 2rem !important;
         margin-bottom: 1rem !important;
@@ -59,7 +64,7 @@ body {
     }
 
     h2 {
-        font-size: 1.5rem !important;
+        font-size: 1.25rem !important;
         font-weight: 600 !important;
         margin-top: 1.8rem !important;
         margin-bottom: 0.8rem !important;
@@ -68,14 +73,14 @@ body {
     }
 
     h3 {
-        font-size: 1.25rem !important;
+        font-size: 1.1rem !important;
         font-weight: 600 !important;
         margin-top: 1.5rem !important;
         margin-bottom: 0.6rem !important;
     }
 
     h4 {
-        font-size: 1.1rem !important;
+        font-size: 1rem !important;
         font-weight: 600 !important;
         margin-top: 1.2rem !important;
         margin-bottom: 0.5rem !important;
@@ -114,7 +119,7 @@ body {
         border-radius: 8px !important;
         padding: 1rem 1.25rem !important;
         font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace !important;
-        font-size: 14px !important;
+        font-size: 13px !important;
         line-height: 1.6 !important;
         overflow-x: auto;
         margin: 1.2em 0 !important;
