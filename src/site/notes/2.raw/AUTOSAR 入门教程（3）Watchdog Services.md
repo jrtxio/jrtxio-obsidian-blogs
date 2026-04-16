@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（3）Watchdog Services.md","permalink":"/AUTOSAR 入门教程（3）Watchdog Services/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/WatchdogServiceInAutosar.html"}}
+{"dg-publish":true,"dg-path":"posts/AUTOSAR 入门教程（3）Watchdog Services.md","permalink":"/posts/AUTOSAR 入门教程（3）Watchdog Services/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/WatchdogServiceInAutosar.html"}}
 ---
 
 **AUTOSAR 看门狗服务**用于监控车载软件的执行时序和逻辑正确性，避免因软件故障导致系统异常运行。在功能安全要求严格的汽车电子系统中，看门狗服务是防止系统失效的最后一道防线。

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（16）RamTst.md","permalink":"/AUTOSAR 入门教程（16）RamTst/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/RAMTest.html"}}
+{"dg-publish":true,"dg-path":"posts/AUTOSAR 入门教程（16）RamTst.md","permalink":"/posts/AUTOSAR 入门教程（16）RamTst/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/RAMTest.html"}}
 ---
 
 **RAM 测试** 是汽车电子系统中确保内存可靠性的关键环节。本文解析 AUTOSAR 中的 **RamTst 模块**，介绍如何通过不同测试策略保障 ECU 运行稳定性。
