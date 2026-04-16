@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.raw/AUTOSAR 入门教程（4）MemStack（一）/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/MemoryStack1.html"}}
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（4）MemStack（一）.md","permalink":"/AUTOSAR 入门教程（4）MemStack（一）/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/MemoryStack1.html"}}
 ---
 
 **AUTOSAR Memory Stack** 是车载 ECU 开发中关键且容易出错的模块，直接关系到车辆数据的可靠存储与快速访问。本文将深入解析 **NvM 模块** 的核心机制与最佳实践，帮助开发者避开常见的内存管理陷阱。

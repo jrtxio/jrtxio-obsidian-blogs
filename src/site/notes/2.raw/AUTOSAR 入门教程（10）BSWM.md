@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.raw/AUTOSAR 入门教程（10）BSWM/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/BswM.html"}}
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（10）BSWM.md","permalink":"/AUTOSAR 入门教程（10）BSWM/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/BswM.html"}}
 ---
 
 **BSWM 模块** 是 AUTOSAR 架构中的"模式指挥官"，通过仲裁机制协调 ECU 各模块的工作状态，解决多模块协同问题。

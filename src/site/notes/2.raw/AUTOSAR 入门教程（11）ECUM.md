@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.raw/AUTOSAR 入门教程（11）ECUM/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/EcuM.html"}}
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（11）ECUM.md","permalink":"/AUTOSAR 入门教程（11）ECUM/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/EcuM.html"}}
 ---
 
 在汽车电子系统中，**ECUM（ECU 管理器）** 负责 ECU 从启动到关机的全生命周期管理。本文将解析这个关键模块的核心功能与使用要点。

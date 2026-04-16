@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.raw/AUTOSAR 入门教程（2）基础篇二/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/BasicsOfAutosar2.html"}}
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（2）基础篇二.md","permalink":"/AUTOSAR 入门教程（2）基础篇二/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/BasicsOfAutosar2.html"}}
 ---
 
 **AUTOSAR** 基础软件（BSW）的模块化设计是提升 ECU 开发效率的关键。本文将深入解析 BSW 的分层架构和配置机制，帮助开发者理解如何通过标准化接口实现软硬件解耦。

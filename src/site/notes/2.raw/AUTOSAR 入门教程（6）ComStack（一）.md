@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2.raw/AUTOSAR 入门教程（6）ComStack（一）/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/ComStack1.html"}}
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（6）ComStack（一）.md","permalink":"/AUTOSAR 入门教程（6）ComStack（一）/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/ComStack1.html"}}
 ---
 
 **AUTOSAR 通信栈**是车载 ECU 之间高效通信的核心框架，其模块分层和协议转换机制虽然复杂，但掌握后能够高效地实现跨总线通信。本文将深入解析 **ComStack** 的架构设计和关键模块，涵盖 PDU 路由和信号处理的核心机制。
