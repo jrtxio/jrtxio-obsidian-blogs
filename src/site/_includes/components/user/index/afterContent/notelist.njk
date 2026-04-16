@@ -1,0 +1,15 @@
+{%- set notelist_title = "所有文章" -%}
+<section class="dg-notelist">
+  <h2 class="dg-notelist-title">{{ notelist_title }}</h2>
+  <ul class="dg-notelist-items">
+    {%- for note in collections.note -%}
+      {%- if note.url != "/" -%}
+    <li class="dg-notelist-item">
+      <a class="dg-notelist-link" href="{{ note.url }}">
+        <span class="dg-notelist-name">{% if note.data.title %}{{ note.data.title }}{% else %}{{ note.fileSlug }}{% endif %}</span>
+      </a>
+    </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</section>
