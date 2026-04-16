@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"我把和老婆的微信聊天记录喂给 AI，它给我们写了一首歌.md","permalink":"/我把和老婆的微信聊天记录喂给 AI，它给我们写了一首歌/","dg-note-properties":{"author":"吉人","tags":null,"created":"2026-04-16","source":null}}
+{"dg-publish":true,"dg-path":"posts我把和老婆的微信聊天记录喂给 AI，它给我们写了一首歌.md","permalink":"/posts我把和老婆的微信聊天记录喂给 AI，它给我们写了一首歌/","dg-note-properties":{"author":"吉人","tags":null,"created":"2026-04-16","source":null}}
 ---
 
 ## 起因

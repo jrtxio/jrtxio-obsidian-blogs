@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（8）ComStack CANTP（三）.md","permalink":"/AUTOSAR 入门教程（8）ComStack CANTP（三）/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/ComStack_CanTP.html"}}
+{"dg-publish":true,"dg-path":"postsAUTOSAR 入门教程（8）ComStack CANTP（三）.md","permalink":"/postsAUTOSAR 入门教程（8）ComStack CANTP（三）/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/ComStack_CanTP.html"}}
 ---
 
 **CAN 传输协议（CANTP）** 是 AUTOSAR 中实现长报文多帧传输的关键模块，尤其在诊断通信（UDS/OBD）中不可或缺。本文将解析 CANTP 的分层架构、流控机制和诊断应用场景。

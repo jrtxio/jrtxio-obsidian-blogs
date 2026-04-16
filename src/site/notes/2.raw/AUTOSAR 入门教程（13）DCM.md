@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（13）DCM.md","permalink":"/AUTOSAR 入门教程（13）DCM/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/DCM.html"}}
+{"dg-publish":true,"dg-path":"postsAUTOSAR 入门教程（13）DCM.md","permalink":"/postsAUTOSAR 入门教程（13）DCM/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/DCM.html"}}
 ---
 
 **诊断通信管理器（Diagnostic Communication Manager，DCM）** 是 AUTOSAR 架构中的核心模块，负责管理车辆诊断数据流和会话安全。本文解析 DCM 的三大子模块及其工作原理。
