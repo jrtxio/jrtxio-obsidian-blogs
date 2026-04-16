@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"postsAUTOSAR 入门教程（5）MemStack（二）.md","permalink":"/postsAUTOSAR 入门教程（5）MemStack（二）/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/MemoryStack2.html"}}
+{"dg-publish":true,"dg-path":"posts/AUTOSAR 入门教程（5）MemStack（二）.md","permalink":"/posts/AUTOSAR 入门教程（5）MemStack（二）/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/MemoryStack2.html"}}
 ---
 
 本文讨论 AUTOSAR 中与内存服务（MemStack）相关的 ECU 抽象层和 MCAL 层，重点解析 Flash EEPROM 仿真技术及其在汽车电子中的作用。

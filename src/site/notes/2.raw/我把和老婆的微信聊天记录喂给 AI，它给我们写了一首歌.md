@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"posts我把和老婆的微信聊天记录喂给 AI，它给我们写了一首歌.md","permalink":"/posts我把和老婆的微信聊天记录喂给 AI，它给我们写了一首歌/","dg-note-properties":{"author":"吉人","tags":null,"created":"2026-04-16","source":null}}
+{"dg-publish":true,"dg-path":"posts/我把和老婆的微信聊天记录喂给 AI，它给我们写了一首歌.md","permalink":"/posts/我把和老婆的微信聊天记录喂给 AI，它给我们写了一首歌/","dg-note-properties":{"author":"吉人","tags":null,"created":"2026-04-16","source":null}}
 ---
 
 ## 起因
@@ -97,15 +97,31 @@ claude plugin marketplace add https://github.com/MiniMax-AI/skills
 
 歌曲生成了，还需要一张封面。本来想用 MiniMax 的图片生成功能，但发现 Coding plan 不包含图片生成模型（`image-01`）。于是我写了一个 HTML 页面作为封面：深色渐变背景、飘落的花瓣、隐约的地铁线路（呼应九号线的记忆），标题"我们"用书法字体，底部写着"从临港到市区 · 从陌生到永远"。
 
-在浏览器里打开后截图，就是一张 800×800 的正方形专辑封面。
+HTML 封面在浏览器里看着不错，但它终究是个网页文件，没法直接绑定到歌曲上。于是我让 Claude Code 用 Playwright 把 HTML 自动渲染成了一张 800×800 的 PNG 图片——不用手动截图，尺寸精确，透明度、动画效果都能完整保留。
+
+## 第五步：把封面和歌词嵌入歌曲
+
+有了封面图片，下一步是把它和歌词一起"烙印"到 MP3 文件里，这样不管用什么播放器打开，都能看到封面、读到歌词。
+
+这一步用的是 Python 的 [mutagen](https://mutagen.readthedocs.io/) 库，它能直接读写 MP3 文件的 ID3 标签。具体做了这些事：
+
+1. **嵌入封面**：将 PNG 图片转成 JPEG（兼容性更好），写入 ID3 的 `APIC` 标签作为封面
+2. **嵌入歌词**：将完整歌词写入 `USLT`（Unsynchronized Lyrics）标签
+3. **补充元信息**：标题（我们）、艺人（致我最爱的人）、年份（2026）
+
+### 踩了两个坑
+
+**坑一：ID3v2.4 不兼容。** 第一次用的是 ID3v2.4 标签，结果 Windows 播放器不认封面。改成 ID3v2.3 后封面正常显示。ID3v2.3 是目前兼容性最好的版本，绝大多数播放器都支持。
+
+**坑二：Windows 媒体播放器不支持歌词。** 嵌入歌词后播放器里看不到，查了一下才发现——Windows 自带的媒体播放器根本不支持读取嵌入歌词（不管是 USLT 还是 SYLT 标签）。解决方案是生成一个同名的 `.lrc` 歌词文件放在 MP3 旁边，第三方播放器（MusicBee、foobar2000、AIMP 等）会自动读取。
 
 ## 最终成果
 
 整理一下所有产出：
 
-- **歌曲**：`20260416_women_our_song.mp3`（4.9MB）
-- **歌词**：`我们_歌词.txt`
-- **封面**：`cover.html`（浏览器截图保存）
+- **歌曲**：`我们.mp3`（5.1MB，已嵌入封面和歌词）
+- **歌词**：`我们.lrc`（LRC 格式，第三方播放器可直接显示）
+- **封面源文件**：`cover.html`（可用于后续修改设计）
 
 一首完全由真实聊天记录驱动的情歌，从素材到成品，全部在电脑本地完成。
 
@@ -118,6 +134,8 @@ claude plugin marketplace add https://github.com/MiniMax-AI/skills
 | [CC Switch](https://github.com/farion1231/cc-switch) | 让 Claude Code 接入国内 API | 免费开源           |
 | [MiniMax](https://www.minimaxi.com/)                 | 提供大模型 API + 音乐生成       | Coding plan 即可 |
 | [MiniMax 技能](https://github.com/MiniMax-AI/skills)   | Claude Code 音乐生成技能     | 随 MiniMax 套餐   |
+| [Playwright](https://playwright.dev/)                 | HTML 封面渲染为 PNG 图片    | 开源免费           |
+| [mutagen](https://mutagen.readthedocs.io/)            | 封面和歌词嵌入 MP3 文件      | 开源免费           |
 
 ## 写在最后
 

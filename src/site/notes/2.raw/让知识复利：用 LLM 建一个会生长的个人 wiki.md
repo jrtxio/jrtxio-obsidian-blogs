@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"posts让知识复利：用 LLM 建一个会生长的个人 wiki.md","permalink":"/posts让知识复利：用 LLM 建一个会生长的个人 wiki/","dg-note-properties":{"author":"吉人","tags":null,"created":"2026-04-14","source":null}}
+{"dg-publish":true,"dg-path":"posts/让知识复利：用 LLM 建一个会生长的个人 wiki.md","permalink":"/posts/让知识复利：用 LLM 建一个会生长的个人 wiki/","dg-note-properties":{"author":"吉人","tags":null,"created":"2026-04-14","source":null}}
 ---
 
 > 让 LLM 维护一个持续增长的个人 wiki，而不是每次查询都从零开始。
