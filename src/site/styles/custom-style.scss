@@ -1,8 +1,9 @@
 body {
     // ── Anthropic-inspired Design Overrides ──
-    // Uses Obsidian CSS variables for theme compatibility.
     // All changes are scoped to .markdown-rendered / .cm-s-obsidian
     // to avoid affecting the admin UI.
+    // Uses !important where needed to override Prism Okaidia theme
+    // and Obsidian GitHub theme.
 
     --anth-accent: #D4A27F;
     --anth-accent-hover: #C4926F;
@@ -21,15 +22,16 @@ body {
 // ── Font Family ──
 .markdown-rendered,
 .markdown-preview-view,
-.cm-s-obsidian {
+.cm-s-obsidian,
+.markdown-preview-section {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
 }
 
 // ── Body Text ──
 .markdown-rendered {
-    font-size: 16px;
-    line-height: 1.7;
-    color: var(--anth-text-light);
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+    color: var(--anth-text-light) !important;
     letter-spacing: -0.01em;
 
     p {
@@ -37,48 +39,51 @@ body {
     }
 }
 
-// ── Headings ──
+// ── Headings — override theme colorful headings ──
 .markdown-rendered {
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6,
+    .modal.mod-settings .vertical-tab-content-container .vertical-tab-content h1,
+    .modal.mod-settings .vertical-tab-content-container .vertical-tab-content h2 {
         color: var(--anth-text-light) !important;
-        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-        letter-spacing: -0.02em;
-        line-height: 1.3;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+        letter-spacing: -0.02em !important;
+        line-height: 1.3 !important;
     }
 
     h1 {
-        font-size: 2rem;
-        font-weight: 700;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
+        font-size: 2rem !important;
+        font-weight: 700 !important;
+        margin-top: 2rem !important;
+        margin-bottom: 1rem !important;
+        border-bottom: none !important;
     }
 
     h2 {
-        font-size: 1.5rem;
-        font-weight: 600;
-        margin-top: 1.8rem;
-        margin-bottom: 0.8rem;
-        padding-bottom: 0.3rem;
-        border-bottom: 1px solid var(--anth-border-light);
+        font-size: 1.5rem !important;
+        font-weight: 600 !important;
+        margin-top: 1.8rem !important;
+        margin-bottom: 0.8rem !important;
+        padding-bottom: 0.3rem !important;
+        border-bottom: 1px solid var(--anth-border-light) !important;
     }
 
     h3 {
-        font-size: 1.25rem;
-        font-weight: 600;
-        margin-top: 1.5rem;
-        margin-bottom: 0.6rem;
+        font-size: 1.25rem !important;
+        font-weight: 600 !important;
+        margin-top: 1.5rem !important;
+        margin-bottom: 0.6rem !important;
     }
 
     h4 {
-        font-size: 1.1rem;
-        font-weight: 600;
-        margin-top: 1.2rem;
-        margin-bottom: 0.5rem;
+        font-size: 1.1rem !important;
+        font-weight: 600 !important;
+        margin-top: 1.2rem !important;
+        margin-bottom: 0.5rem !important;
     }
 
     h5, h6 {
-        font-size: 1rem;
-        font-weight: 600;
+        font-size: 1rem !important;
+        font-weight: 600 !important;
     }
 }
 
@@ -86,68 +91,108 @@ body {
 .markdown-rendered {
     a.internal-link,
     a.external-link,
-    .cm-s-obsidian a {
-        color: var(--anth-text-light);
-        text-decoration: none;
-        font-weight: 500;
-        transition: color 0.2s ease;
+    .cm-s-obsidian a,
+    .content a {
+        color: var(--anth-text-light) !important;
+        text-decoration: none !important;
+        font-weight: 500 !important;
+        transition: color 0.2s ease !important;
+        border-bottom: none !important;
 
         &:hover {
-            color: var(--anth-accent);
+            color: var(--anth-accent) !important;
         }
-    }
-
-    a.external-link::after {
-        content: none; // Remove default external link icon if any
     }
 }
 
-// ── Code Blocks ──
+// ── Code Blocks — override Prism Okaidia dark theme ──
 .markdown-rendered {
-    pre {
+    pre,
+    pre[class*="language-"] {
         background-color: var(--anth-code-bg-light) !important;
-        border: 1px solid var(--anth-border-light);
-        border-radius: 8px;
-        padding: 1rem 1.25rem;
-        font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
-        font-size: 14px;
-        line-height: 1.6;
+        border: 1px solid var(--anth-border-light) !important;
+        border-radius: 8px !important;
+        padding: 1rem 1.25rem !important;
+        font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace !important;
+        font-size: 14px !important;
+        line-height: 1.6 !important;
         overflow-x: auto;
-        margin: 1.2em 0;
+        margin: 1.2em 0 !important;
+        text-shadow: none !important;
+        color: var(--anth-text-light) !important;
     }
 
-    code {
-        font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
-        font-size: 0.9em;
+    code,
+    code[class*="language-"] {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace !important;
+        font-size: 0.9em !important;
+        text-shadow: none !important;
+        background: none !important;
     }
 
+    // Inline code
     p > code,
-    li > code {
-        color: var(--anth-text-light);
-        background-color: var(--anth-inline-code-bg-light);
-        border: 1px solid var(--anth-border-light);
-        border-radius: 4px;
-        padding: 0.15em 0.4em;
-        font-size: 0.85em;
+    li > code,
+    :not(pre) > code {
+        color: var(--anth-text-light) !important;
+        background-color: var(--anth-inline-code-bg-light) !important;
+        border: 1px solid var(--anth-border-light) !important;
+        border-radius: 4px !important;
+        padding: 0.15em 0.4em !important;
+        font-size: 0.85em !important;
+        text-shadow: none !important;
+    }
+}
+
+// ── Prism Syntax Token Colors (light theme) ──
+.markdown-rendered {
+    pre[class*="language-"] {
+        .token.comment,
+        .token.prolog,
+        .token.doctype,
+        .token.cdata { color: #6a737d !important; }
+        .token.punctuation { color: #24292e !important; }
+        .token.property,
+        .token.tag,
+        .token.boolean,
+        .token.number,
+        .token.constant,
+        .token.symbol { color: #005cc5 !important; }
+        .token.selector,
+        .token.attr-name,
+        .token.string,
+        .token.char,
+        .token.builtin { color: #032f62 !important; }
+        .token.operator,
+        .token.entity,
+        .token.url { color: #24292e !important; }
+        .token.atrule,
+        .token.attr-value,
+        .token.keyword { color: #d73a49 !important; }
+        .token.function,
+        .token.class-name { color: #6f42c1 !important; }
+        .token.regex,
+        .token.important,
+        .token.variable { color: #e36209 !important; }
     }
 }
 
 // ── Blockquotes ──
 .markdown-rendered {
     blockquote {
-        border-left: 3px solid var(--anth-accent);
-        background: transparent;
-        margin: 1.2em 0;
-        padding: 0.5em 1em;
-        color: var(--anth-text-muted-light);
-        font-style: normal;
+        border-left: 3px solid var(--anth-accent) !important;
+        background: transparent !important;
+        margin: 1.2em 0 !important;
+        padding: 0.5em 1em !important;
+        color: var(--anth-text-muted-light) !important;
+        font-style: normal !important;
 
         &::before {
-            content: none;
+            content: none !important;
         }
 
         p {
-            display: block;
+            display: block !important;
         }
     }
 }
@@ -176,21 +221,21 @@ body {
 
     th, td {
         padding: 0.6em 0.8em;
-        border-bottom: 1px solid var(--anth-border-light);
+        border-bottom: 1px solid var(--anth-border-light) !important;
         text-align: left;
     }
 
     th {
-        font-weight: 600;
-        color: var(--anth-text-light);
+        font-weight: 600 !important;
+        color: var(--anth-text-light) !important;
     }
 }
 
 // ── Horizontal Rule ──
 .markdown-rendered {
     hr {
-        border: none;
-        border-top: 1px solid var(--anth-border-light);
+        border: none !important;
+        border-top: 1px solid var(--anth-border-light) !important;
         margin: 2rem 0;
     }
 }
@@ -206,8 +251,8 @@ body {
 // ── Callouts ──
 .markdown-rendered {
     .callout {
-        border-radius: 8px;
-        border-left: 3px solid;
+        border-radius: 8px !important;
+        border-left: 3px solid !important;
     }
 }
 
@@ -215,52 +260,84 @@ body {
 // ── Dark Theme Overrides ──
 // ═══════════════════════════════════════════
 .theme-dark .markdown-rendered {
-    color: var(--anth-text-dark);
+    color: var(--anth-text-dark) !important;
 
     h1, h2, h3, h4, h5, h6 {
         color: var(--anth-text-dark) !important;
     }
 
     h2 {
-        border-bottom-color: var(--anth-border-dark);
+        border-bottom-color: var(--anth-border-dark) !important;
     }
 
     a.internal-link,
-    a.external-link {
-        color: var(--anth-text-dark);
+    a.external-link,
+    .content a {
+        color: var(--anth-text-dark) !important;
 
         &:hover {
-            color: var(--anth-accent);
+            color: var(--anth-accent) !important;
         }
     }
 
-    pre {
+    pre,
+    pre[class*="language-"] {
         background-color: var(--anth-code-bg-dark) !important;
-        border-color: var(--anth-border-dark);
+        border-color: var(--anth-border-dark) !important;
+        color: #abb2bf !important;
+
+        .token.comment,
+        .token.prolog,
+        .token.doctype,
+        .token.cdata { color: #5c6370 !important; }
+        .token.punctuation { color: #abb2bf !important; }
+        .token.property,
+        .token.tag,
+        .token.boolean,
+        .token.number,
+        .token.constant,
+        .token.symbol { color: #e5c07b !important; }
+        .token.selector,
+        .token.attr-name,
+        .token.string,
+        .token.char,
+        .token.builtin { color: #98c379 !important; }
+        .token.operator,
+        .token.entity,
+        .token.url { color: #abb2bf !important; }
+        .token.atrule,
+        .token.attr-value,
+        .token.keyword { color: #c678dd !important; }
+        .token.function,
+        .token.class-name { color: #61afef !important; }
+        .token.regex,
+        .token.important,
+        .token.variable { color: #d19a66 !important; }
     }
 
     p > code,
-    li > code {
-        color: var(--anth-text-dark);
-        background-color: var(--anth-inline-code-bg-dark);
-        border-color: var(--anth-border-dark);
+    li > code,
+    :not(pre) > code {
+        color: var(--anth-text-dark) !important;
+        background-color: var(--anth-inline-code-bg-dark) !important;
+        border-color: var(--anth-border-dark) !important;
     }
 
     blockquote {
-        border-left-color: var(--anth-accent);
-        color: var(--anth-text-muted-dark);
+        border-left-color: var(--anth-accent) !important;
+        color: var(--anth-text-muted-dark) !important;
     }
 
     th, td {
-        border-bottom-color: var(--anth-border-dark);
+        border-bottom-color: var(--anth-border-dark) !important;
     }
 
     th {
-        color: var(--anth-text-dark);
+        color: var(--anth-text-dark) !important;
     }
 
     hr {
-        border-top-color: var(--anth-border-dark);
+        border-top-color: var(--anth-border-dark) !important;
     }
 }
 
