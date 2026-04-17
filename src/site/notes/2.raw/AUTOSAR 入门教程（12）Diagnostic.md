@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（12）Diagnostic.md","permalink":"/AUTOSAR 入门教程（12）Diagnostic/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/Diagnostics.html"}}
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（12）Diagnostic.md","permalink":"/AUTOSAR 入门教程（12）Diagnostic/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2025-04-21","source":"https://sandeeptiwari.com/Diagnostics.html"}}
 ---
 
 在汽车电子系统开发中，**诊断功能**是确保系统可靠性和可维护性的关键环节。AUTOSAR 提供了一套完整的诊断服务框架，帮助开发者管理车辆故障、功能抑制和开发错误追踪。本文将解析四大核心模块及其协作机制。
