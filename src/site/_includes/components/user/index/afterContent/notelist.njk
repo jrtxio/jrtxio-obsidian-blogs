@@ -1,5 +1,5 @@
 {%- set excluded = ["/", "/付费/", "/关于/", "/简历/"] -%}
-{%- set sortedNotes = collections.note | sort(true, false, "date") -%}
+{%- set sortedNotes = collections.note | sortByCreated -%}
 {%- set articleCount = 0 -%}
 {%- for note in sortedNotes -%}
   {%- if excluded.indexOf(note.url) === -1 -%}
