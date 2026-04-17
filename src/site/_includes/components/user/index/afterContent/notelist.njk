@@ -1,6 +1,7 @@
 {%- set excluded = ["/", "/付费/", "/关于/", "/简历/"] -%}
+{%- set sortedNotes = collections.note | sort(true, false, "date") -%}
 {%- set articleCount = 0 -%}
-{%- for note in collections.note -%}
+{%- for note in sortedNotes -%}
   {%- if excluded.indexOf(note.url) === -1 -%}
     {%- set articleCount = articleCount + 1 -%}
   {%- endif -%}
@@ -16,7 +17,7 @@
     <span class="dg-notelist-count">{{ articleCount }}</span>
   </div>
   <div class="dg-notelist-body">
-    {%- for note in collections.note -%}
+    {%- for note in sortedNotes -%}
       {%- if excluded.indexOf(note.url) === -1 -%}
     <a class="dg-notelist-card" href="{{ note.url }}">
       <span class="dg-notelist-card-name">{% if note.data.title %}{{ note.data.title }}{% else %}{{ note.fileSlug }}{% endif %}</span>
