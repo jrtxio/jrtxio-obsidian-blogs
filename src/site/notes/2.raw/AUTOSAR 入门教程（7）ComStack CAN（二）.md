@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"posts/AUTOSAR 入门教程（7）ComStack CAN（二）.md","permalink":"/posts/AUTOSAR 入门教程（7）ComStack CAN（二）/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/ComStack2.html"}}
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（7）ComStack CAN（二）.md","permalink":"/AUTOSAR 入门教程（7）ComStack CAN（二）/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/ComStack2.html"}}
 ---
 
 **CAN 通信** 是汽车电子系统的核心神经，而 AUTOSAR 中的 **ComStack CAN** 架构则是实现高效可靠通信的关键。本文将解析 CAN 接口（CanIf）和 CAN 驱动（CanDrv）模块的设计原理与实现细节。

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"posts/AUTOSAR 入门教程（17）CorTst.md","permalink":"/posts/AUTOSAR 入门教程（17）CorTst/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/CoreTest.html"}}
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（17）CorTst.md","permalink":"/AUTOSAR 入门教程（17）CorTst/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/CoreTest.html"}}
 ---
 
 **核心测试（Core Test，CorTst）** 模块是 AUTOSAR MCAL 层的一部分，提供用于验证处理器核心功能的测试能力。该模块主要用于验证以下核心组件：

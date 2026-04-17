@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"posts/AUTOSAR 入门教程（14）DEM.md","permalink":"/posts/AUTOSAR 入门教程（14）DEM/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/DEM.html"}}
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（14）DEM.md","permalink":"/AUTOSAR 入门教程（14）DEM/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/DEM.html"}}
 ---
 
 **诊断事件管理器（Diagnostic Event Manager，DEM）** 是 AUTOSAR 架构中的核心模块，负责统一管理和存储车辆电子系统中的各类诊断事件，解决分布式系统中故障信息分散、难以追踪的问题。

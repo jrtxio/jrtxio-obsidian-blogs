@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"posts/AUTOSAR 入门教程（9）CanNm.md","permalink":"/posts/AUTOSAR 入门教程（9）CanNm/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/ComStack_CanNM.html"}}
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（9）CanNm.md","permalink":"/AUTOSAR 入门教程（9）CanNm/","dg-note-properties":{"author":"Sandeep Tiwari","tags":null,"created":"2026-04-10","source":"https://sandeeptiwari.com/ComStack_CanNM.html"}}
 ---
 
 **CAN 网络管理** 是汽车电子系统中确保通信可靠性的关键技术。本文将解析 AUTOSAR 中的 **CANNM** 模块如何协调 ECU 的唤醒与睡眠，平衡车载网络的能耗与通信效率。
