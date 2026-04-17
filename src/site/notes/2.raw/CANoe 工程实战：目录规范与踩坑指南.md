@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"CANoe 工程实战：目录规范与踩坑指南.md","permalink":"/CANoe 工程实战：目录规范与踩坑指南/","dg-note-properties":{"author":"吉人","tags":null,"created":"2026-04-06","source":null}}
+{"dg-publish":true,"dg-path":"CANoe 工程实战：目录规范与踩坑指南.md","permalink":"/CANoe 工程实战：目录规范与踩坑指南/","dg-note-properties":{"author":"吉人","tags":null,"created":"2026-04-17","source":null}}
 ---
 
 > 读完这篇，你可以：
