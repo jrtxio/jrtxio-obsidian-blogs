@@ -1,0 +1,69 @@
+---
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（13）DCM.md","permalink":"/AUTOSAR 入门教程（13）DCM/","dg-note-properties":{"author":null,"created":"2025-04-21","source":"https://sandeeptiwari.com/DCM.html"}}
+---
+
+**诊断通信管理器（Diagnostic Communication Manager，DCM）** 是 AUTOSAR 架构中的核心模块，负责管理车辆诊断数据流和会话安全。本文解析 DCM 的三大子模块及其工作原理。
+
+## DCM 模块概述
+
+DCM 的核心职责如下：
+
+- 确保诊断数据流动，并管理诊断会话和安全状态
+- 仅当请求服务在当前诊断会话和安全级别下受支持时才会处理
+- 支持 UDS（ISO-14229-1）和 OBD（ISO-15031-5）标准中的大多数服务
+- 网络独立设计，通过 **PDUR** 模块接收/发送诊断请求
+
+DCM 采用模块化设计，分为 DSL、DSD、DSP 三个子模块协同工作。
+
+## DCM 三大核心子模块
+
+### 诊断会话层（Diagnostic Session Layer，DSL）
+
+DSL 的主要职责包括：
+
+- 管理诊断会话、安全级别及协议/应用层定时
+- 确保诊断请求和响应的数据流
+- 与 **PDUR** 模块交互管理数据流
+- 向 DSD 通知传入请求并提供数据
+
+### 诊断服务分发器（Diagnostic Service Dispatcher，DSD）
+
+DSD 负责请求的校验与分发：
+
+- 检查传入服务请求的有效性
+- 跟踪服务请求进度
+- 处理有效的诊断数据流
+- 转发诊断请求进行数据处理
+- 传输处理后的响应
+
+### 诊断服务处理器（Diagnostic Service Processor，DSP）
+
+DSP 负责具体的诊断服务处理：
+
+- 管理诊断服务请求
+- 分析请求服务的格式（消息长度和结构）和子功能支持
+- 与其他 **BSW** 模块和 **SWC** 交互获取响应数据
+- 组装服务响应
+
+## 重要关联模块
+
+### 功能抑制管理器（Function Inhibition Manager，FIM）
+
+FIM 提供控制可用功能的机制：
+
+- 功能 = 具有相同抑制条件的一组可运行实体
+- 每个功能分配有 **FID** 和抑制条件
+- 与 **DEM** 紧密关联，诊断事件状态可作为抑制条件
+
+典型应用：当检测到故障时，FIM 会抑制相关功能执行。
+
+### 开发错误追踪器（Development Error Tracer，DET）
+
+DET 是开发阶段的重要调试工具：
+
+- 支持开发过程中的错误检测和追踪
+- 接收并评估来自组件和模块的错误消息
+- 提供可配置的错误钩子列表
+- 包含错误报告、恢复和信息检索接口
+
+在后续文章中，我们将深入探讨这些模块的具体实现细节和应用案例。
