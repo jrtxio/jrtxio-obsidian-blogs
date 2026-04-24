@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"NvM 存储栈：分层架构、Block 模型与 Fee 仿真.md","permalink":"/NvM 存储栈：分层架构、Block 模型与 Fee 仿真/","dg-note-properties":{"author":"吉人","tags":null,"created":"2026-04-14","source":null}}
+{"dg-publish":true,"dg-path":"NvM 存储栈：分层架构、Block 模型与 Fee 仿真.md","permalink":"/NvM 存储栈：分层架构、Block 模型与 Fee 仿真/","dg-note-properties":{"author":"吉人","created":"2026-04-14","source":null}}
 ---
 
 > 读懂 AUTOSAR NvM 存储栈的三层架构，掌握 Block 配置、请求处理流程与 Flash EEPROM 仿真原理。
