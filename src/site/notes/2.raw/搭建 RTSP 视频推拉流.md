@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"搭建 RTSP 视频推拉流.md","permalink":"/搭建 RTSP 视频推拉流/","dg-note-properties":{"author":"吉人","created":"2026-04-06","source":null}}
+{"dg-publish":true,"dg-path":"搭建 RTSP 视频推拉流.md","permalink":"/搭建 RTSP 视频推拉流/","dg-note-properties":{"author":"吉人","created":"2023-01-09","source":null}}
 ---
 
 > RTSP 协议推拉流的搭建流程和参数配置。

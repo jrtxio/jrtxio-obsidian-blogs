@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"UNRAID 如何部署 DNSPod.md","permalink":"/UNRAID 如何部署 DNSPod/","dg-note-properties":{"author":"吉人","created":"2026-04-06","source":null}}
+{"dg-publish":true,"dg-path":"UNRAID 如何部署 DNSPod.md","permalink":"/UNRAID 如何部署 DNSPod/","dg-note-properties":{"author":"吉人","created":"2023-04-06","source":null}}
 ---
 
 > 在 Unraid 上部署 DNSPod DDNS，实现外网访问家里服务。

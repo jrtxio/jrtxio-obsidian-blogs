@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"如何开启 Ubuntu RDP 远程桌面.md","permalink":"/如何开启 Ubuntu RDP 远程桌面/","dg-note-properties":{"author":"吉人","created":"2026-04-06","source":null}}
+{"dg-publish":true,"dg-path":"如何开启 Ubuntu RDP 远程桌面.md","permalink":"/如何开启 Ubuntu RDP 远程桌面/","dg-note-properties":{"author":"吉人","created":"2025-04-06","source":null}}
 ---
 
 > Ubuntu 22.04 开启 RDP 远程桌面，包括锁屏后的连接方案。
