@@ -15,6 +15,10 @@ function userEleventySetup(eleventyConfig) {
     });
   });
 
+  // Passthrough static files (persists across template updates)
+  eleventyConfig.addPassthroughCopy("src/site/ads.txt");
+  eleventyConfig.addPassthroughCopy("src/site/robots.txt");
+
   // Rewrite CDN URLs for better China access (jsdelivr has mainland nodes)
   eleventyConfig.addTransform("china-cdn-rewrite", function (content) {
     if (this.page.outputPath && this.page.outputPath.endsWith(".html")) {
