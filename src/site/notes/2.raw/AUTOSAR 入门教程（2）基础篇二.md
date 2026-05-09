@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"AUTOSAR 入门教程（2）基础篇二.md","permalink":"/AUTOSAR 入门教程（2）基础篇二/","dg-note-properties":{"author":null,"created":"2025-04-11","source":"https://sandeeptiwari.com/BasicsOfAutosar2.html"}}
 ---
 
-**AUTOSAR** 基础软件（BSW）的模块化设计是提升 ECU 开发效率的关键。本文将深入解析 BSW 的分层架构和配置机制，帮助开发者理解如何通过标准化接口实现软硬件解耦。
+**AUTOSAR**基础软件（BSW）的模块化设计是提升 ECU 开发效率的关键。本文将深入解析 BSW 的分层架构和配置机制，帮助开发者理解如何通过标准化接口实现软硬件解耦。
 
 ## 基础软件的分层架构
 
@@ -24,8 +24,7 @@ AUTOSAR **基础软件**根据服务类型划分为三大核心堆栈：
 - I/O 驱动程序（DIO/ADC）
 - I/O 抽象层（Port 模块）
 
-![Pasted image 20250712233413.png\|650](/img/user/0.asset/media/Pasted%20image%2020250712233413.png)
-BSW 按功能划分的三大堆栈结构。
+![Pasted image 20250712233413.png\|BSW 按功能划分的三大堆栈结构。\|650](/img/user/0.asset/media/Pasted%20image%2020250712233413.png)
 
 ## 模块间的接口规范
 

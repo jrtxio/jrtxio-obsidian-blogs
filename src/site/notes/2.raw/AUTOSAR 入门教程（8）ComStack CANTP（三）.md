@@ -2,9 +2,9 @@
 {"dg-publish":true,"dg-path":"AUTOSAR 入门教程（8）ComStack CANTP（三）.md","permalink":"/AUTOSAR 入门教程（8）ComStack CANTP（三）/","dg-note-properties":{"author":null,"created":"2025-04-17","source":"https://sandeeptiwari.com/ComStack_CanTP.html"}}
 ---
 
-**CAN 传输协议（CANTP）** 是 AUTOSAR 中实现长报文多帧传输的关键模块，尤其在诊断通信（UDS/OBD）中不可或缺。本文将解析 CANTP 的分层架构、流控机制和诊断应用场景。
+**CAN 传输协议（CANTP）**是 AUTOSAR 中实现长报文多帧传输的关键模块，尤其在诊断通信（UDS/OBD）中不可或缺。本文将解析 CANTP 的分层架构、流控机制和诊断应用场景。
 
-![Pasted image 20251230110031.png](/img/user/0.asset/media/Pasted%20image%2020251230110031.png)
+![Pasted image 20251230110031.png\|650](/img/user/0.asset/media/Pasted%20image%2020251230110031.png)
 
 图：CANTP 在 AUTOSAR 通信栈中的位置（位于服务层）
 
@@ -23,9 +23,9 @@ CANTP 的核心职责包括：
 
 | 模块 | 交互方向 | 作用 |
 |------|----------|------|
-| **PDU Router** | 上层 | 接收/发送 N-PDU |
+| **PDU Router** | 上层 | 接收 / 发送 N-PDU |
 | **CanIf** | 下层 | 访问 CAN 控制器硬件 |
-| **DCM** | 同级 | 处理诊断请求/响应 |
+| **DCM** | 同级 | 处理诊断请求 / 响应 |
 
 ## 核心工作机制
 
@@ -51,9 +51,9 @@ CANTP 的核心职责包括：
 - **BS（Block Size）**：允许连续发送的 CF 帧数量
 - **STmin（Separation Time）**：帧间最小时间间隔
 - **三种流控模式**：
-  - **继续发送**（FC=0x0）
-  - **等待流控**（FC=0x1）
-  - **溢出中止**（FC=0x2）
+	- **继续发送**（FC=0x0）
+	- **等待流控**（FC=0x1）
+	- **溢出中止**（FC=0x2）
 
 ## 关键配置参数
 

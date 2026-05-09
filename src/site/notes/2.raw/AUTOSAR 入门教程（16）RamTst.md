@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"AUTOSAR 入门教程（16）RamTst.md","permalink":"/AUTOSAR 入门教程（16）RamTst/","dg-note-properties":{"author":null,"created":"2025-04-24","source":"https://sandeeptiwari.com/RAMTest.html"}}
 ---
 
-**RAM 测试** 是汽车电子系统中确保内存可靠性的关键环节。本文解析 AUTOSAR 中的 **RamTst 模块**，介绍如何通过不同测试策略保障 ECU 运行稳定性。
+**RAM 测试**是汽车电子系统中确保内存可靠性的关键环节。本文解析 AUTOSAR 中的**RamTst 模块**，介绍如何通过不同测试策略保障 ECU 运行稳定性。
 
 ## RAM 测试基础概念
 
@@ -16,7 +16,7 @@ RAM 测试的核心要点：
 
 不同算法具有不同特性：
 
-- **覆盖率**：低(60%)、中(90%)、高(99%)
+- **覆盖率**：低 (60%)、中 (90%)、高 (99%)
 - **运行时行为**：差异显著
 - **破坏性**：
 	- 破坏性算法：直接修改 RAM
@@ -32,7 +32,7 @@ ECU 安全分析决定所需覆盖率级别。
 
 - 同步执行，不可中断
 - 使用 `RamTst_RunFullTest`/`RamTst_RunPartialTest` API
-- "Full/Partial"指测试完整/部分内存区域
+- "Full/Partial" 指测试完整 / 部分内存区域
 
 前台测试的优势：
 

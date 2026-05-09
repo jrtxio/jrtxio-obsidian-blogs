@@ -19,7 +19,7 @@
 
 ## 参数设置
 
-如果你不知道如何新建参数，建议先学习一下B站司波图的 [Docker速通教程](https://www.bilibili.com/video/BV1eE411i7qy/?spm_id_from=333.788.videocard.1)。
+如果你不知道如何新建参数，建议先学习一下 B 站司波图的[Docker速通教程](https://www.bilibili.com/video/BV1eE411i7qy/?spm_id_from=333.788.videocard.1)。
 
 ![Pasted image 20230908170147.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908170147.png)
 
@@ -50,7 +50,7 @@ docer run --name=ddns --restart=always -d \
 
 新建五个与之对应的参数：
 
-新建参数之前，还需要到 [DNSPod支持页面](https://docs.dnspod.cn/account/5f2d466de8320f1a740d9ff3 )获取 ID 和Token。
+新建参数之前，还需要到[DNSPod支持页面](https://docs.dnspod.cn/account/5f2d466de8320f1a740d9ff3 )获取 ID 和 Token。
 
 1. DNSPOD_ID
 这个参数填写从 DNSPod 获取到的 ID。

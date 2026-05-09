@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"AUTOSAR 入门教程（17）CorTst.md","permalink":"/AUTOSAR 入门教程（17）CorTst/","dg-note-properties":{"author":null,"created":"2025-04-25","source":"https://sandeeptiwari.com/CoreTest.html"}}
 ---
 
-**核心测试（Core Test，CorTst）** 模块是 AUTOSAR MCAL 层的一部分，提供用于验证处理器核心功能的测试能力。该模块主要用于验证以下核心组件：
+**核心测试（Core Test，CorTst）**模块是 AUTOSAR MCAL 层的一部分，提供用于验证处理器核心功能的测试能力。该模块主要用于验证以下核心组件：
 
 - CPU 寄存器
 - 中断控制器
@@ -48,7 +48,7 @@
 
 ## 实现建议
 
-由于芯片制造商最了解核心架构特性，建议由芯片厂商实现核心测试模块。交付的软件可配置以下测试项的激活/禁用：
+由于芯片制造商最了解核心架构特性，建议由芯片厂商实现核心测试模块。交付的软件可配置以下测试项的激活 / 禁用：
 
 - 地址测试
 - ALU 测试

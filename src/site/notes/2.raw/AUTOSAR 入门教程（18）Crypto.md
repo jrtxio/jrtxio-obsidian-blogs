@@ -2,26 +2,24 @@
 {"dg-publish":true,"dg-path":"AUTOSAR 入门教程（18）Crypto.md","permalink":"/AUTOSAR 入门教程（18）Crypto/","dg-note-properties":{"author":null,"created":"2025-04-26","source":"https://sandeeptiwari.com/CrptoServiceInAutosar.html"}}
 ---
 
-**加密堆栈（Crypto Stack）** 是 AUTOSAR 中为应用程序提供加密服务的软件栈。加密堆栈由以下组件构成：
+**加密堆栈（Crypto Stack）**是 AUTOSAR 中为应用程序提供加密服务的软件栈。加密堆栈由以下组件构成：
 
 - 加密服务管理器（Crypto Service Manager，CSM）
 - 加密接口（Crypto Interface，CryIf）
-- 软件/硬件加密驱动
+- 软件 / 硬件加密驱动
 
-![Pasted image 20251230113746.png](/img/user/0.asset/media/Pasted%20image%2020251230113746.png)
-
-AUTOSAR 加密堆栈的分层架构，展示 CSM、CryIf 和驱动层的关系。
+![Pasted image 20251230113746.png\|AUTOSAR 加密堆栈的分层架构，展示 CSM、CryIf 和驱动层的关系。](/img/user/0.asset/media/Pasted%20image%2020251230113746.png)
 
 ## 加密服务管理器（CSM）
 
-CSM 是一个服务层模块，为应用程序提供标准接口来访问软件/硬件加密驱动提供的基础加密服务。这些服务可以通过两种方式访问：
+CSM 是一个服务层模块，为应用程序提供标准接口来访问软件 / 硬件加密驱动提供的基础加密服务。这些服务可以通过两种方式访问：
 
 - **同步方式**：服务在函数返回时完成
 - **异步方式**：服务完成后调用回调函数
 
 ## 加密接口（CryIf）
 
-CryIf 是一个 ECU 抽象层模块，它将底层软件/硬件驱动提供的服务从 CSM 中抽象出来，使 CSM 能够为应用程序提供标准化接口。
+CryIf 是一个 ECU 抽象层模块，它将底层软件 / 硬件驱动提供的服务从 CSM 中抽象出来，使 CSM 能够为应用程序提供标准化接口。
 
 ## 加密驱动
 
@@ -36,7 +34,7 @@ AUTOSAR 加密堆栈可提供以下功能接口：
 
 - 哈希（HASH）
 - 消息认证码（MAC）
-- 加密/解密
+- 加密 / 解密
 - 带关联数据的认证加密（AEAD）
 - 签名
 - 安全计数器
@@ -54,7 +52,7 @@ AUTOSAR 加密堆栈可提供以下功能接口：
 
 2. **调用阶段**：
 	- 通过作业 ID 从 CSM 层引用该作业
-	- 同时需要定义 CSM 密钥、通道、队列、优先级和作业类型（同步/异步）
+	- 同时需要定义 CSM 密钥、通道、队列、优先级和作业类型（同步 / 异步）
 
 ## CSM 操作类型
 

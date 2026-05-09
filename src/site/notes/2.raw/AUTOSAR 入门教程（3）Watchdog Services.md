@@ -6,7 +6,7 @@
 
 ## Watchdog Services 核心概念
 
-**Watchdog Services** 是 AUTOSAR 分层架构中的一组模块，包含：
+**Watchdog Services**是 AUTOSAR 分层架构中的一组模块，包含：
 
 - **Watchdog Manager**（服务层）
 - **Watchdog Interface**（ECU 抽象层）
@@ -14,8 +14,7 @@
 
 这些模块共同监控应用程序和基础软件中被监督实体（Supervised Entity）的执行状态。被监督实体可以是任意函数或 runnable（可独立执行的指令集合）。
 
-![Pasted image 20250805102147.png](/img/user/0.asset/media/Pasted%20image%2020250805102147.png)
-看门狗服务三个模块在 AUTOSAR 分层架构中的位置。
+![Pasted image 20250805102147.png\|看门狗服务三个模块在 AUTOSAR 分层架构中的位置。](/img/user/0.asset/media/Pasted%20image%2020250805102147.png)
 
 ## 三种监控类型及工作原理
 
@@ -63,7 +62,7 @@ Watchdog Manager（WdgM）通过两级状态进行监控：
 - **WdgIf**：在多驱动环境下路由 WdgM 请求
 - **Wdg Driver**：负责底层硬件操作，包括：
 	- 驱动初始化
-	- 管理操作模式（关闭/快速/慢速模式）
+	- 管理操作模式（关闭 / 快速 / 慢速模式）
 	- 设置看门狗触发条件
 
 正常运行时，WdgM 通过 `WdgM_SetTriggerCondition` 提供非零值避免复位；故障时提供 0 值触发硬件复位。

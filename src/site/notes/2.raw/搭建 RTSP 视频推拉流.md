@@ -76,7 +76,7 @@ ffplay -rtsp_transport tcp -i rtsp://localhost:8554/stream
 
 ![Pasted image 20231106153641.png\|650](/img/user/0.asset/media/Pasted%20image%2020231106153641.png)
 
-- 设置RTSP参数
+- 设置 RTSP 参数
 
 ![Pasted image 20231106154530.png\|650](/img/user/0.asset/media/Pasted%20image%2020231106154530.png)
 
