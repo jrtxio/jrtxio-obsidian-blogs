@@ -21,7 +21,7 @@ Fee（Flash EEPROM Emulation）通常用于片内 Flash 仿真 EEPROM。Ea（EEP
 | EEPROM | 字节级 | 隐式（写即擦） |
 | Flash | 按页写入 | 按扇区擦除（通常 KB 级） |
 
-![NvM-Memory-Stack.png\|650](/img/user/0.asset/media/NvM-Memory-Stack.png)
+![Pasted image 20260512133533.png\|450](/img/user/0.asset/media/Pasted%20image%2020260512133533.png)
 
 ## NvM Block 配置
 
