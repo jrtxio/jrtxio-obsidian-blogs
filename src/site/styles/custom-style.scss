@@ -415,6 +415,21 @@ body {
 }
 
 // ═══════════════════════════════════════════
+// ── Homepage — hide title, reduce top padding ──
+// ═══════════════════════════════════════════
+.content.is-homepage {
+    padding-top: calc(var(--dg-navbar-height) + 24px) !important;
+
+    @media (max-width: 800px) {
+        padding-top: calc(var(--dg-navbar-height) + 16px) !important;
+    }
+
+    > header {
+        display: none;
+    }
+}
+
+// ═══════════════════════════════════════════
 // ── Search Button — CSS-only icon fallback ──
 // ═══════════════════════════════════════════
 // Lucide icons load from unpkg.com (unreliable in China).

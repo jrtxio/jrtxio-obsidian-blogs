@@ -20,7 +20,7 @@
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
-    <main class="content cm-s-obsidian print {{contentClasses}}">
+    <main class="content cm-s-obsidian print is-homepage {{contentClasses}}">
       <header>
       {% if settings.dgShowInlineTitle === true %}
         <h1>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
