@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"如何利用 DaVinciConfigurator 插件集成 EB.md","permalink":"/如何利用 DaVinciConfigurator 插件集成 EB/","dg-note-properties":{"author":"吉人","created":"2026-04-06","source":null}}
+{"dg-publish":true,"dg-path":"如何利用 DaVinciConfigurator 插件集成 EB.md","permalink":"/如何利用 DaVinciConfigurator 插件集成 EB/","dg-note-properties":{"author":"吉人","created":"2024-04-06","source":null}}
 ---
 
 > 用 DaVinciConfigurator 插件集成 EB tresos，在 Configurator 中直接配置 MCAL。

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"特斯拉焕新款 Model 3 配件攻略.md","permalink":"/特斯拉焕新款 Model 3 配件攻略/","dg-note-properties":{"author":"吉人","created":"2026-04-06","source":null}}
+{"dg-publish":true,"dg-path":"特斯拉焕新款 Model 3 配件攻略.md","permalink":"/特斯拉焕新款 Model 3 配件攻略/","dg-note-properties":{"author":"吉人","created":"2025-06-20","source":null}}
 ---
 
 > 极简主义者的 Model 3 焕新款配件清单。

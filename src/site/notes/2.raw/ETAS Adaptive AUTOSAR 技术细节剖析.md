@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"ETAS Adaptive AUTOSAR 技术细节剖析.md","permalink":"/ETAS Adaptive AUTOSAR 技术细节剖析/","dg-note-properties":{"author":"吉人","created":"2026-04-06","source":null}}
+{"dg-publish":true,"dg-path":"ETAS Adaptive AUTOSAR 技术细节剖析.md","permalink":"/ETAS Adaptive AUTOSAR 技术细节剖析/","dg-note-properties":{"author":"吉人","created":"2024-04-06","source":null}}
 ---
 
 > 拆解 RTA-VRTE 平台的 S2S 信号转服务和冰羚零拷贝中间件。

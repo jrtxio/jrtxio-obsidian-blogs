@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Google AdSense 博客接入完整指南.md","permalink":"/Google AdSense 博客接入完整指南/","dg-note-properties":{"author":"吉人","created":"2026-04-06","source":null}}
+{"dg-publish":true,"dg-path":"Google AdSense 博客接入完整指南.md","permalink":"/Google AdSense 博客接入完整指南/","dg-note-properties":{"author":"吉人","created":"2025-04-10","source":null}}
 ---
 
 > 从申请账号到广告展示，四步搞定博客接入 AdSense。

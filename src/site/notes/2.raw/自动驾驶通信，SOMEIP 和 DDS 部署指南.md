@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"自动驾驶通信，SOMEIP 和 DDS 部署指南.md","permalink":"/自动驾驶通信，SOMEIP 和 DDS 部署指南/","dg-note-properties":{"author":"吉人","created":"2026-04-06","source":null}}
+{"dg-publish":true,"dg-path":"自动驾驶通信，SOMEIP 和 DDS 部署指南.md","permalink":"/自动驾驶通信，SOMEIP 和 DDS 部署指南/","dg-note-properties":{"author":"吉人","created":"2023-04-06","source":null}}
 ---
 
 > SOME/IP 和 DDS 是自动驾驶最主流的两款通信中间件，本文介绍它们在 MCU 和 SOC 上的具体部署方式。

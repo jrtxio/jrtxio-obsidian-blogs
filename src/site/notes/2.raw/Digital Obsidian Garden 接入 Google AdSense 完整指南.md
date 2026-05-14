@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Digital Obsidian Garden 接入 Google AdSense 完整指南.md","permalink":"/Digital Obsidian Garden 接入 Google AdSense 完整指南/","dg-note-properties":{"author":"吉人","created":"2026-04-06","source":null}}
+{"dg-publish":true,"dg-path":"Digital Obsidian Garden 接入 Google AdSense 完整指南.md","permalink":"/Digital Obsidian Garden 接入 Google AdSense 完整指南/","dg-note-properties":{"author":"吉人","created":"2025-04-11","source":null}}
 ---
 
 > 在 Digital Garden 博客中接入 AdSense 的完整操作流程。

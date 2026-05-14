@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"我的 Obsidian 设置和使用教程.md","permalink":"/我的 Obsidian 设置和使用教程/","dg-note-properties":{"author":"吉人","created":"2026-04-06","source":null}}
+{"dg-publish":true,"dg-path":"我的 Obsidian 设置和使用教程.md","permalink":"/我的 Obsidian 设置和使用教程/","dg-note-properties":{"author":"吉人","created":"2024-12-25","source":null}}
 ---
 
 > 我的 Obsidian 设置方案：插件、主题和工作流。

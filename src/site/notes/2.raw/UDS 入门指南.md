@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"UDS 入门指南.md","permalink":"/UDS 入门指南/","dg-note-properties":{"author":"吉人","created":"2026-04-06","source":null}}
+{"dg-publish":true,"dg-path":"UDS 入门指南.md","permalink":"/UDS 入门指南/","dg-note-properties":{"author":"吉人","created":"2024-04-06","source":null}}
 ---
 
 > 从 OBD 到 UDS，搞清楚车辆诊断技术的发展脉络和学习路径。

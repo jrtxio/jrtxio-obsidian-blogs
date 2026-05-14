@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"从 All In One 到极简，我的家庭服务器终局方案.md","permalink":"/从 All In One 到极简，我的家庭服务器终局方案/","dg-note-properties":{"author":"吉人","created":"2026-05-09","source":null}}
+{"dg-publish":true,"dg-path":"从 All In One 到极简，我的家庭服务器终局方案.md","permalink":"/从 All In One 到极简，我的家庭服务器终局方案/","dg-note-properties":{"author":"吉人","created":"2019-05-09","source":null}}
 ---
 
 ## All In One 的代价
