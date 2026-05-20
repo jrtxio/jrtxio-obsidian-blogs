@@ -4,7 +4,7 @@
 
 > Digital Garden + Obsidian，让写作回归纯粹的创作。
 
-![Pasted image 20250601095011.png\|650](/img/user/0.asset/media/Pasted%20image%2020250601095011.png)
+![obsidian-blog-writing-fig01.png\|650](/img/user/0.asset/media/obsidian-blog-writing-fig01.png)
 
 ![[Digital Garden.excalidraw]]
 

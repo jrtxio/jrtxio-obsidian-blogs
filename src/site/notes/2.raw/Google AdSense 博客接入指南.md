@@ -9,7 +9,7 @@
 ## 1. 申请 Google AdSense 账号
 
 1. 登录 [Google AdSense](https://www.google.com/adsense/)
-2. 点击**开始使用**并填写网站信息
+2. 点击 **开始使用** 并填写网站信息
 3. 等待 Google 审核网站内容与设置
 4. 审核通过后可访问 AdSense 后台
 
@@ -25,14 +25,14 @@ Google 需要确认你对博客拥有控制权。
 <meta name="google-site-verification" content="你的验证码" />
 ```
 4. 将 `<meta>` 标签加入博客 `<head>` 中并部署
-5. 回到 Search Console 点击**验证**
+5. 回到 Search Console 点击 **验证**
 
-![Pasted image 20250901145159.png\|650](/img/user/0.asset/media/Pasted%20image%2020250901145159.png)
+![google-adsense-blog-setup-fig02.png\|650](/img/user/0.asset/media/google-adsense-blog-setup-fig02.png)
 
 ## 3. 创建广告单元并嵌入博客
 
 步骤：
-1. 在 AdSense 后台点击**广告 → 广告单元 → 新增广告单元**
+1. 在 AdSense 后台点击 **广告 → 广告单元 → 新增广告单元**
 2. 选择广告类型（展示广告、文章内广告等）
 3. 生成广告代码，例如：
 ```html
@@ -63,7 +63,8 @@ google.com, pub-你的发布商ID, DIRECT, f08c47fec0942fa0
 ```
 
 参数含义：
-- `google.com`：授权 Google 卖你的广告  
+- `google.com`：授权 Google 卖你的广告
+
 - `pub-你的发布商ID`：你在 AdSense 的唯一标识
 - `DIRECT`：直接合作，不通过中间商
 - `f08c47fec0942fa0`：Google 的认证 ID
@@ -71,7 +72,7 @@ google.com, pub-你的发布商ID, DIRECT, f08c47fec0942fa0
 
 没有 ads.txt，广告主不确定广告投放的真实性，会影响收益。
 
-![Pasted image 20250901144817.png\|450](/img/user/0.asset/media/Pasted%20image%2020250901144817.png)
+![google-adsense-blog-setup-fig01.png\|450](/img/user/0.asset/media/google-adsense-blog-setup-fig01.png)
 
 ## 5. 检查广告展示
 
@@ -81,10 +82,12 @@ google.com, pub-你的发布商ID, DIRECT, f08c47fec0942fa0
 
 ## 常见问题
 
-**申请被拒？**  
+**申请被拒？**
+
 大概率是内容太少。Google 要看到你确实在认真做网站，不是随便搭个空壳骗广告费。至少写 20 篇像样的文章再申请。
 
-**广告不显示？**  
+**广告不显示？**
+
 代码放错位置了。广告代码必须放在 `<body>` 里，不是 `<head>`。另外新广告单元生效需要几小时。
 
 ## 小结

@@ -13,15 +13,13 @@
 
 ## 新建容器
 
-![Pasted image 20230908170026.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908170026.png)
-
-进入 Unraid 的 Docker 页面，点击 Add Container，新建一个容器。
+![unraid-docker-add-container.png\|进入 Unraid 的 Docker 页面，点击 Add Container，新建一个容器。\|650](/img/user/0.asset/media/unraid-docker-add-container.png)
 
 ## 参数设置
 
 如果你不知道如何新建参数，建议先学习一下 B 站司波图的[Docker速通教程](https://www.bilibili.com/video/BV1eE411i7qy/?spm_id_from=333.788.videocard.1)。
 
-![Pasted image 20230908170147.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908170147.png)
+![unraid-dnspod-deploy-fig01.png\|650](/img/user/0.asset/media/unraid-dnspod-deploy-fig01.png)
 
 ## 仓库信息
 
@@ -63,7 +61,7 @@ docer run --name=ddns --restart=always -d \
 5. DNSPOD_EMAIL
 这个参数填写你的邮箱。
 
-![Pasted image 20230908170734.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908170734.png)
+![unraid-dnspod-deploy-fig02.png\|650](/img/user/0.asset/media/unraid-dnspod-deploy-fig02.png)
 
 当你新建完以上五个参数之后，点击 Apply 按钮，就会开始下载 [dnspod-ddns](https://hub.docker.com/r/scofieldpeng/dnspod-ddns) 了。下载完成后，点击 Done 按钮，页面会跳转到 Unraid 的 Docker 主页面。至此，整个安装过程已结束。
 

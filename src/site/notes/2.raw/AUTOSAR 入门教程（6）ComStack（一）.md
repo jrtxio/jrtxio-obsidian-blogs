@@ -2,24 +2,24 @@
 {"dg-publish":true,"dg-path":"AUTOSAR 入门教程（6）ComStack（一）.md","permalink":"/AUTOSAR 入门教程（6）ComStack（一）/","dg-note-properties":{"author":null,"created":"2025-04-15","source":"https://sandeeptiwari.com/ComStack1.html"}}
 ---
 
-**AUTOSAR 通信栈**是车载 ECU 之间高效通信的核心框架，其模块分层和协议转换机制虽然复杂，但掌握后能够高效地实现跨总线通信。本文将深入解析**ComStack**的架构设计和关键模块，涵盖 PDU 路由和信号处理的核心机制。
+**AUTOSAR 通信栈** 是车载 ECU 之间高效通信的核心框架，其模块分层和协议转换机制虽然复杂，但掌握后能够高效地实现跨总线通信。本文将深入解析 **ComStack** 的架构设计和关键模块，涵盖 PDU 路由和信号处理的核心机制。
 
-![Pasted image 20251230105546.png\|AUTOSAR 通用通信栈架构，展示了从应用到总线的完整模块层级（部分模块后续单独讲解）。](/img/user/0.asset/media/Pasted%20image%2020251230105546.png)
+![autosar-com-stack-architecture.png\|AUTOSAR 通用通信栈架构，展示了从应用到总线的完整模块层级（部分模块后续单独讲解）。](/img/user/0.asset/media/autosar-com-stack-architecture.png)
 
 ## 核心术语解析
 
 ### 什么是 PDU？
 
-**协议数据单元（Protocol Data Unit，PDU）**是通信栈中的数据传输载体，包含：
+**协议数据单元（Protocol Data Unit，PDU）** 是通信栈中的数据传输载体，包含：
 
 - **服务数据单元（SDU，Service Data Unit）**：上层待传输的实际数据
-- **协议控制信息（PCI，Protocol Control Information）**：源 / 目的地址等控制元数据
+- **协议控制信息（PCI，Protocol Control Information）**：源/目的地址等控制元数据
 
-![Pasted image 20251230105609.png\|PDU 的封装与解封过程：发送方逐层添加 PCI，接收方逐层解包提取 SDU。](/img/user/0.asset/media/Pasted%20image%2020251230105609.png)
+![pdu-encapsulation-decapsulation.png\|PDU 的封装与解封过程：发送方逐层添加 PCI，接收方逐层解包提取 SDU。](/img/user/0.asset/media/pdu-encapsulation-decapsulation.png)
 
 数据传输流程：
 
-- 发送方：**COM 模块**打包 SDU+PCI，逐层添加 PCI
+- 发送方：**COM 模块** 打包 SDU+PCI，逐层添加 PCI
 - 接收方：逐层解包 PDU，提取 SDU 向上传递
 
 ### 信号处理三要素

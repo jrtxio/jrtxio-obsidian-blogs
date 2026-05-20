@@ -6,11 +6,11 @@
 
 NvM 在 AUTOSAR 中的架构层次如下所示。
 
-![Pasted image 20240229103924.png\|650](/img/user/0.asset/media/Pasted%20image%2020240229103924.png)
+![nvm-storage-stack-fig01.png\|650](/img/user/0.asset/media/nvm-storage-stack-fig01.png)
 
 分别是 Memory Service（NvM）、Memory Hardware Abstraction（MemIf 和 Fee/Ea）和 Memory Driver（Fls/Eep 驱动），单独拎出来就是这样的。
 
-![Pasted image 20240229104354.png\|350](/img/user/0.asset/media/Pasted%20image%2020240229104354.png)
+![nvm-storage-stack-fig02.png\|350](/img/user/0.asset/media/nvm-storage-stack-fig02.png)
 
 ## 片内与片外存储
 
@@ -21,7 +21,7 @@ Fee（Flash EEPROM Emulation）通常用于片内 Flash 仿真 EEPROM。Ea（EEP
 | EEPROM | 字节级 | 隐式（写即擦） |
 | Flash | 按页写入 | 按扇区擦除（通常 KB 级） |
 
-![Pasted image 20260512133533.png\|450](/img/user/0.asset/media/Pasted%20image%2020260512133533.png)
+![nvm-storage-stack-fig01-1.png\|450](/img/user/0.asset/media/nvm-storage-stack-fig01-1.png)
 
 ## NvM Block 配置
 
@@ -46,7 +46,7 @@ Fee（Flash EEPROM Emulation）通常用于片内 Flash 仿真 EEPROM。Ea（EEP
 
 ### 异步队列驱动
 
-NvM 最核心的特征是**异步 + 队列驱动**：所有请求进入 NvM Job Queue，由 `NvM_MainFunction()` 周期调度执行，下层 `MemIf_MainFunction()` 同理。这不是同步调用链——应用发起请求后通过回调或轮询获知结果。
+NvM 最核心的特征是 **异步 + 队列驱动**：所有请求进入 NvM Job Queue，由 `NvM_MainFunction()` 周期调度执行，下层 `MemIf_MainFunction()` 同理。这不是同步调用链——应用发起请求后通过回调或轮询获知结果。
 
 ### 单块读写
 

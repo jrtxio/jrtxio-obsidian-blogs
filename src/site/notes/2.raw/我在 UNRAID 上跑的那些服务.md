@@ -8,104 +8,78 @@
 
 ## 导航页
 
-![Pasted image 20230908161735.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908161735.png)
-
-导航页汇集了我平时常用的服务，只需要记住导航页的 URL 就可以轻松访问到这些服务。
+![unraid-services-navigation-page.png\|导航页汇集了我平时常用的服务，只需要记住导航页的 URL 就可以轻松访问到这些服务。\|650](/img/user/0.asset/media/unraid-services-navigation-page.png)
 
 ## My Blog
 
-![Pasted image 20230908161838.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908161838.png)
-
-博客搭建在群晖的 Web Station 上，用来记录一些教程，经验和感悟。
+![unraid-blog-synology-web-station.png\|博客搭建在群晖的 Web Station 上，用来记录一些教程，经验和感悟。\|650](/img/user/0.asset/media/unraid-blog-synology-web-station.png)
 
 ## Note Station
 
-![Pasted image 20230908161920.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908161920.png)
+![unraid-self-hosted-services-fig01.png\|650](/img/user/0.asset/media/unraid-self-hosted-services-fig01.png)
 
-这是群晖自带的笔记应用，基本上可以当作印象笔记的替代品。平时会利用它的 Todo List 功能来做每日 / 周 / 月的工作计划，也会利用它的笔记本来写工作总结。令人兴奋的是它还支持像印象笔记一样的网页裁剪功能。
+这是群晖自带的笔记应用，基本上可以当作印象笔记的替代品。平时会利用它的 Todo List 功能来做每日/周/月的工作计划，也会利用它的笔记本来写工作总结。令人兴奋的是它还支持像印象笔记一样的网页裁剪功能。
 
 ## Code Server
 
-![Pasted image 20230908162003.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162003.png)
-
-Docker 版的 Code Server，可以用来写一些简单的代码。利用它就可以在 iPad 上愉快地写代码啦。
+![docker-code-server-ipad-coding.png\|Docker 版的 Code Server，可以用来写一些简单的代码。利用它就可以在 iPad 上愉快地写代码啦。\|650](/img/user/0.asset/media/docker-code-server-ipad-coding.png)
 
 ## File Browser
 
-![Pasted image 20230908162044.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162044.png)
-
-File Browser 当作 Unraid 的文件管理器来使用，可以在线播放视频，查看文档，生成分享链接等。
+![file-browser-unraid-file-manager.png\|File Browser 当作 Unraid 的文件管理器来使用，可以在线播放视频，查看文档，生成分享链接等。\|650](/img/user/0.asset/media/file-browser-unraid-file-manager.png)
 
 ## FreeRSS
 
-![Pasted image 20230908162122.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162122.png)
-
-FreeRSS 是一款免费的 RSS 阅读器，平时关注的所有博客都会用它来集中管理。
+![freerss-blog-feed-reader.png\|FreeRSS 是一款免费的 RSS 阅读器，平时关注的所有博客都会用它来集中管理。\|650](/img/user/0.asset/media/freerss-blog-feed-reader.png)
 
 ## Unraid
 
-![Pasted image 20230908162202.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162202.png)
-
-我的主力 Nas 为 Unraid，基本上所有的服务都搭建在上面。
+![unraid-nas-main-server.png\|我的主力 Nas 为 Unraid，基本上所有的服务都搭建在上面。\|650](/img/user/0.asset/media/unraid-nas-main-server.png)
 
 ## Resilio Sync
 
-![Pasted image 20230908162240.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162240.png)
+![unraid-self-hosted-services-fig02.png\|650](/img/user/0.asset/media/unraid-self-hosted-services-fig02.png)
 
 文件同步及重要文件备份主要是靠 Resilio Sync。我分别在 Unraid、群晖、家里的台式机、公司的台式机、以及自己的笔记本上做多端同步，这样我就可以在多地无缝切换工作环境，同时也不用担心重要文件丢失问题。
 
 ## 群辉
 
-![Pasted image 20230908162310.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162310.png)
-
-群晖运行在猫盘上，用来搭建博客和 Resilio Sync 的文件同步等。
+![synology-blog-resilio-sync.png\|群晖运行在猫盘上，用来搭建博客和 Resilio Sync 的文件同步等。\|650](/img/user/0.asset/media/synology-blog-resilio-sync.png)
 
 ## OpenWRT
 
-![Pasted image 20230908162340.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162340.png)
-
-因为有时会需要特殊的网络环境来支撑这些服务，所以用软路由来做主路由器。
+![soft-router-network-setup.png\|因为有时会需要特殊的网络环境来支撑这些服务，所以用软路由来做主路由器。\|650](/img/user/0.asset/media/soft-router-network-setup.png)
 
 ## MusicPlayer
 
-![Pasted image 20230908162419.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162419.png)
+![unraid-self-hosted-services-fig03.png\|650](/img/user/0.asset/media/unraid-self-hosted-services-fig03.png)
 
 MusicPlayer 是一个在线音乐播放器，可以在线搜索网易云、QQ、虾米、酷狗、百度音乐，也可以同步自己的网易云歌单。
 
 ## emby
 
-![Pasted image 20230908162530.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162530.png)
-
-emby 主要让好友可以在任何地方访问到共享影音库。
+![emby-shared-media-library.png\|emby 主要让好友可以在任何地方访问到共享影音库。\|650](/img/user/0.asset/media/emby-shared-media-library.png)
 
 ## Plex
 
-![Pasted image 20230908162617.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162617.png)
+![unraid-self-hosted-services-fig04.png\|650](/img/user/0.asset/media/unraid-self-hosted-services-fig04.png)
 
 Plex 用来满足自己的影音需求。它真正做到了跨平台，你可以在官网找到所有平台的客户端。相较于 emby，体验更好。购买了 Plex 高级会员之后可以多端同步影视剧观看进度，更重要的是可以搭建自己的照片库。
 
 ## AriaNG
 
-![Pasted image 20230908162701.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162701.png)
-
-AriaNG 的一款优秀的 aria2 的 Web 客户端，可以用来下载一些影视资源。
+![ariang-aria2-web-client.png\|AriaNG 的一款优秀的 aria2 的 Web 客户端，可以用来下载一些影视资源。\|650](/img/user/0.asset/media/ariang-aria2-web-client.png)
 
 ## Transmission
 
-![Pasted image 20230908162826.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162826.png)
-
-一款优秀的 BitTorrent 客户端，支持多种链接格式。
+![bittorrent-client-unraid.png\|一款优秀的 BitTorrent 客户端，支持多种链接格式。\|650](/img/user/0.asset/media/bittorrent-client-unraid.png)
 
 ## Download Station
 
-![Pasted image 20230908162908.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162908.png)
-
-群晖自带的一款下载工具，可以利用手机客户端 DS Mobile 进行操作。
+![synology-ds-mobile-download.png\|群晖自带的一款下载工具，可以利用手机客户端 DS Mobile 进行操作。\|650](/img/user/0.asset/media/synology-ds-mobile-download.png)
 
 ## youtube-dl-server
 
-![Pasted image 20230908162956.png\|650](/img/user/0.asset/media/Pasted%20image%2020230908162956.png)
-
-youtube-dl 是一款非常好用的视频下载工具，不要被它的名字所迷惑，实际上它支持全世界几百个视频网站的下载。
+![youtube-dl-video-download-tool.png\|youtube-dl 是一款非常好用的视频下载工具，不要被它的名字所迷惑，实际上它支持全世界几百个视频网站的下载。\|650](/img/user/0.asset/media/youtube-dl-video-download-tool.png)
 
 以上介绍的所有服务，除了博客以及群晖自带的应用，均利用 Unraid 的 Docker 功能搭建。折腾家里 NAS 的时候一定要结合自己的需求，不要盲目的折腾。因为有些服务后期可能面临无人维护的窘境，导致你所有的努力都白费。当一切搭建好之后，你会发现之前所做的努力都是值得的，因为这些服务会融入到你的工作、娱乐当中，让你生活更加的便利。

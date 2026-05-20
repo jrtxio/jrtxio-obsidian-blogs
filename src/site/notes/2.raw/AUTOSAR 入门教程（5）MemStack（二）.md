@@ -21,7 +21,7 @@ AUTOSAR 内存服务栈主要包含两个关键层级：
 
 ## 内存接口（MemIf）
 
-**内存接口**的主要职责是为上层提供统一的地址空间，抽象底层 Flash 和 EEPROM 模块的技术细节。
+**内存接口** 的主要职责是为上层提供统一的地址空间，抽象底层 Flash 和 EEPROM 模块的技术细节。
 
 ## Flash EEPROM 仿真原理
 
@@ -37,7 +37,7 @@ EEPROM 和 Flash 存储器都是非易失性存储器，由存储单元阵列组
 	- 数据以页为单位写入（最小写入单位）
 	- 以扇区为单位擦除（最小擦除单位）
 
-![Pasted image 20251230104729.png\|通用 Flash 内存块结构，展示页与扇区的组织方式。](/img/user/0.asset/media/Pasted%20image%2020251230104729.png)
+![flash-memory-page-sector.png\|通用 Flash 内存块结构，展示页与扇区的组织方式。](/img/user/0.asset/media/flash-memory-page-sector.png)
 
 ## Flash EEPROM 仿真实现
 
@@ -49,7 +49,7 @@ EEPROM 和 Flash 存储器都是非易失性存储器，由存储单元阵列组
 - 块标识符
 - 数据长度
 
-![Pasted image 20251230104754.png\|Flash 内存扇区结构，展示活动扇区与非活动扇区的数据分布。](/img/user/0.asset/media/Pasted%20image%2020251230104754.png)
+![flash-active-inactive-sector.png\|Flash 内存扇区结构，展示活动扇区与非活动扇区的数据分布。](/img/user/0.asset/media/flash-active-inactive-sector.png)
 
 ### 基本工作原理
 
@@ -67,7 +67,7 @@ EEPROM 和 Flash 存储器都是非易失性存储器，由存储单元阵列组
 
 ## AUTOSAR 中的 Fee 模块
 
-**Flash EEPROM 仿真模块（Fee）**主要功能包括：
+**Flash EEPROM 仿真模块（Fee）** 主要功能包括：
 
 - 为上层提供 32 位虚拟线性地址空间
 - 支持统一分段管理
@@ -78,7 +78,7 @@ EEPROM 和 Flash 存储器都是非易失性存储器，由存储单元阵列组
 
 ## Flash 驱动功能
 
-**Flash 驱动**核心职责：
+**Flash 驱动** 核心职责：
 
 - 异步提供基础读写擦除功能
 - 支持上层内存操作请求

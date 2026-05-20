@@ -2,17 +2,17 @@
 {"dg-publish":true,"dg-path":"AUTOSAR 入门教程（4）MemStack（一）.md","permalink":"/AUTOSAR 入门教程（4）MemStack（一）/","dg-note-properties":{"author":null,"created":"2025-04-13","source":"https://sandeeptiwari.com/MemoryStack1.html"}}
 ---
 
-**AUTOSAR Memory Stack**是车载 ECU 开发中关键且容易出错的模块，直接关系到车辆数据的可靠存储与快速访问。本文将深入解析**NvM 模块**的核心机制与最佳实践，帮助开发者避开常见的内存管理陷阱。
+**AUTOSAR Memory Stack** 是车载 ECU 开发中关键且容易出错的模块，直接关系到车辆数据的可靠存储与快速访问。本文将深入解析 **NvM 模块** 的核心机制与最佳实践，帮助开发者避开常见的内存管理陷阱。
 
 ## Memory Stack 架构解析
 
-在 AUTOSAR 分层架构中，**Memory Stack**是由一组模块组成的内存管理体系：
+在 AUTOSAR 分层架构中，**Memory Stack** 是由一组模块组成的内存管理体系：
 
 - **服务层**：**NvM**（非易失性内存管理器，NVRAM Manager）
 - **ECU 抽象层**：**MemIf**（内存接口）、**Fee**（Flash EEPROM 仿真）、**Ea**（EEPROM 抽象）
 - **MCAL 层**：**Fls**（Flash 驱动）、**Eep**（EEPROM 驱动）
 
-![Pasted image 20250909184349.png\|Memory Stack 各模块在 AUTOSAR 分层架构中的位置。\|350](/img/user/0.asset/media/Pasted%20image%2020250909184349.png)
+![memory-stack-module-position.png\|Memory Stack 各模块在 AUTOSAR 分层架构中的位置。\|350](/img/user/0.asset/media/memory-stack-module-position.png)
 
 > 关键设计原则：上层模块通过标准接口访问底层驱动，实现硬件无关的内存操作。
 

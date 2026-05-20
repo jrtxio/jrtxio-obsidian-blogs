@@ -139,13 +139,13 @@ CANoe 默认的 Include 搜索路径只包含工程根目录。如果你把 .cin
 
 ## 命名规范
 
-**工程主文件**用项目名或功能名命名，比如 `Gateway_Test.cfg`、`E3_Diagnostic.cfg`。
+**工程主文件** 用项目名或功能名命名，比如 `Gateway_Test.cfg`、`E3_Diagnostic.cfg`。
 
-**DBC 文件**按 ECU 或网段命名，比如 `powertrain.dbc`、`chassis.dbc`。避免 `new.dbc`、`final_v2.dbc`、`backup_最终版.dbc` 这种无意义名字。
+**DBC 文件** 按 ECU 或网段命名，比如 `powertrain.dbc`、`chassis.dbc`。避免 `new.dbc`、`final_v2.dbc`、`backup_最终版.dbc` 这种无意义名字。
 
-**CAPL 脚本**按功能命名，比如 `diag_session.can`（诊断会话管理）、`ota_upgrade.can`（OTA 升级流程）、`fault_inject.can`（故障注入）。
+**CAPL 脚本** 按功能命名，比如 `diag_session.can`（诊断会话管理）、`ota_upgrade.can`（OTA 升级流程）、`fault_inject.can`（故障注入）。
 
-**系统变量**使用命名空间组织，比如 `Test::StepCounter`、`Env::Temperature`，避免所有变量平铺在全局。
+**系统变量** 使用命名空间组织，比如 `Test::StepCounter`、`Env::Temperature`，避免所有变量平铺在全局。
 
 ## 常见坑
 

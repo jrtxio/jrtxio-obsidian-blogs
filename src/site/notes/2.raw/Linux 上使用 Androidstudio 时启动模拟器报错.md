@@ -12,8 +12,9 @@
 
 - 方法一、在 AVD 设置里面把 Graphics 的选项改为 "Software"
 
-![Pasted image 20250926160534.png\|650](/img/user/0.asset/media/Pasted%20image%2020250926160534.png)
-![Pasted image 20250926160540.png\|650](/img/user/0.asset/media/Pasted%20image%2020250926160540.png)
+![android-emulator-linux-fig01.png\|650](/img/user/0.asset/media/android-emulator-linux-fig01.png)
+
+![android-emulator-linux-fig02.png\|650](/img/user/0.asset/media/android-emulator-linux-fig02.png)
 
 - 方法二
 
@@ -24,4 +25,4 @@
     ln -s /usr/lib64/libstdc++.so.6
 ```
 
-![Pasted image 20250926160632.png\|650](/img/user/0.asset/media/Pasted%20image%2020250926160632.png)
+![android-emulator-linux-fig03.png\|650](/img/user/0.asset/media/android-emulator-linux-fig03.png)

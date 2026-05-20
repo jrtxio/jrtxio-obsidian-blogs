@@ -2,11 +2,9 @@
 {"dg-publish":true,"dg-path":"AUTOSAR 入门教程（7）ComStack CAN（二）.md","permalink":"/AUTOSAR 入门教程（7）ComStack CAN（二）/","dg-note-properties":{"author":null,"created":"2025-04-16","source":"https://sandeeptiwari.com/ComStack2.html"}}
 ---
 
-**CAN 通信**是汽车电子系统的核心神经，而 AUTOSAR 中的**ComStack CAN**架构则是实现高效可靠通信的关键。本文将解析 CAN 接口（CanIf）和 CAN 驱动（CanDrv）模块的设计原理与实现细节。
+**CAN 通信** 是汽车电子系统的核心神经，而 AUTOSAR 中的 **ComStack CAN** 架构则是实现高效可靠通信的关键。本文将解析 CAN 接口（CanIf）和 CAN 驱动（CanDrv）模块的设计原理与实现细节。
 
-![Pasted image 20251230110031.png\|650](/img/user/0.asset/media/Pasted%20image%2020251230110031.png)
-
-图：CAN 通信栈的分层架构示意
+![cantp-autosar-com-stack-position.png\|图：CAN 通信栈的分层架构示意\|650](/img/user/0.asset/media/cantp-autosar-com-stack-position.png)
 
 ## CAN 通信栈架构
 
@@ -40,18 +38,18 @@ CanIf 是 ECU 抽象层中的核心模块，提供五大关键服务：
 
 ### 核心概念解析
 
-#### 硬件对象句柄（HOH）
+**硬件对象句柄（HOH）**
 
-- **HOH**包含传输句柄（**HTH**）和接收句柄（**HRH**）
+- **HOH** 包含传输句柄（**HTH**）和接收句柄（**HRH**）
 - 是对 CAN 硬件对象结构的抽象引用
 - 包含 CanId、DLC 和数据等关键参数
 - 保持硬件独立性：CanIf 通过抽象引用调用驱动接口
 
-#### BasicCAN vs FullCAN
+**BasicCAN vs FullCAN**
 
 | 类型 | 特点 | 应用场景 |
 |------|------|----------|
-| **FullCAN** | 单 CanId 传输 / 接收 | 确定性要求高的场景 |
+| **FullCAN** | 单 CanId 传输/接收 | 确定性要求高的场景 |
 | **BasicCAN** | 支持 CanId 范围 | 灵活配置需求 |
 
 两者可在同一配置中共存，实现软件接收过滤的灵活配置。
@@ -62,7 +60,7 @@ CanIf 是 ECU 抽象层中的核心模块，提供五大关键服务：
 
 1. 映射 HTH 到硬件对象
 2. 确定目标 CAN 驱动
-3. 调用**Can_Write** API
+3. 调用 **Can_Write** API
 4. 通知上层传输状态
 
 ### PDU 接收流程
@@ -76,7 +74,7 @@ CanIf 是 ECU 抽象层中的核心模块，提供五大关键服务：
 
 ## CAN 驱动（CanDrv）核心功能
 
-作为 MCAL 层的关键模块，**CanDrv**提供以下能力：
+作为 MCAL 层的关键模块，**CanDrv** 提供以下能力：
 
 - 硬件访问抽象接口
 - 接收回调通知机制

@@ -24,6 +24,6 @@ Linux 真正吸引我的原因应该是终端以及各种神器—Tmux，Oh-my-z
 
 Talk is cheap, show you the pictures.
 
-![Pasted image 20250926154547.png\|650](/img/user/0.asset/media/Pasted%20image%2020250926154547.png)
+![windowser-or-linuxer-fig01.png\|650](/img/user/0.asset/media/windowser-or-linuxer-fig01.png)
 
-![Pasted image 20250926154554.png\|650](/img/user/0.asset/media/Pasted%20image%2020250926154554.png)
+![windowser-or-linuxer-fig02.png\|650](/img/user/0.asset/media/windowser-or-linuxer-fig02.png)

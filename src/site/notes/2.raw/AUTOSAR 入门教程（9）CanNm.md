@@ -2,17 +2,17 @@
 {"dg-publish":true,"dg-path":"AUTOSAR 入门教程（9）CanNm.md","permalink":"/AUTOSAR 入门教程（9）CanNm/","dg-note-properties":{"author":null,"created":"2025-04-18","source":"https://sandeeptiwari.com/ComStack_CanNM.html"}}
 ---
 
-**CAN 网络管理**是汽车电子系统中确保通信可靠性的关键技术。本文将解析 AUTOSAR 中的**CANNM**模块如何协调 ECU 的唤醒与睡眠，平衡车载网络的能耗与通信效率。
+**CAN 网络管理** 是汽车电子系统中确保通信可靠性的关键技术。本文将解析 AUTOSAR 中的 **CANNM** 模块如何协调 ECU 的唤醒与睡眠，平衡车载网络的能耗与通信效率。
 
 ## 网络管理接口：通信系统的智能调度员
 
-**网络管理接口**是**ComM**和总线特定 NM 模块之间的适配层（本文以**CANNM**为例），承担两大核心职能：
+**网络管理接口** 是 **ComM** 和总线特定 NM 模块之间的适配层（本文以 **CANNM** 为例），承担两大核心职能：
 
-![Pasted image 20251230110945.png\|网络管理接口在通信架构中的位置](/img/user/0.asset/media/Pasted%20image%2020251230110945.png)
+![network-mgmt-interface-position.png\|网络管理接口在通信架构中的位置](/img/user/0.asset/media/network-mgmt-interface-position.png)
 
 **基础功能**
 
-作为**总线特定 NM 模块**与**ComM 模块**之间的适配层，其通信接口设计独立于底层总线协议，实现解耦设计。
+作为 **总线特定 NM 模块** 与 **ComM 模块** 之间的适配层，其通信接口设计独立于底层总线协议，实现解耦设计。
 
 **NM 协调器**
 
@@ -24,19 +24,19 @@
 
 协调算法工作流程：
 
-1. 为活跃通道启动**关闭延迟计时器**
+1. 为活跃通道启动 **关闭延迟计时器**
 2. 计时器到期，释放 NM 网络
 3. 所有网络进入 "**总线睡眠模式**"，协调关闭完成
 
 ## CAN 网络管理：智能睡眠协调系统
 
-**CANNM**是车载网络的 " 生物钟 "，精准控制着以下环节：
+**CANNM** 是车载网络的 " 生物钟 "，精准控制着以下环节：
 
-- 正常运行模式与**总线睡眠模式**的转换
+- 正常运行模式与 **总线睡眠模式** 的转换
 - 网络节点存在性检测
 - 集体睡眠状态判断
 
-工作原理：基于周期性**网络管理 PDU**的广播通信。
+工作原理：基于周期性 **网络管理 PDU** 的广播通信。
 
 - 接收 PDU 说明发送方希望保持网络唤醒
 - 准备睡眠的节点停止发送 PDU
@@ -50,7 +50,7 @@
 
 ## CANNM 状态机：五大工作状态解析
 
-![Pasted image 20251230111013.png\|CANNM 状态机的五个工作状态及其转换关系](/img/user/0.asset/media/Pasted%20image%2020251230111013.png)
+![cannm-five-state-machine.png\|CANNM 状态机的五个工作状态及其转换关系](/img/user/0.asset/media/cannm-five-state-machine.png)
 
 **重复消息状态**
 

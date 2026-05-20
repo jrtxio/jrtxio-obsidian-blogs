@@ -14,11 +14,11 @@
 
 博客生成是通过 Javascript 将 Markdwon 转换为 HTML，为了能够修改所有页面的 HTML 文件，我们需要在转换之前进行添加操作。所幸我们可以很容易通过修改 layout 下的 index.njk 和 note.njk 模板完成所有 HTML 文件的修改，这两个文件分别是的主页和笔记的模板。只需要在两个文件的 header 标签里添加相应的内容：
 
-![Pasted image 20250617095644.png\|650](/img/user/0.asset/media/Pasted%20image%2020250617095644.png)
+![digital-garden-adsense-fig01.png\|650](/img/user/0.asset/media/digital-garden-adsense-fig01.png)
 
 如果添加完成之后，Google Adsense 验证失败了该怎么办？此时就需要通过浏览器来对网页进行一定的调试，确认所有页面都正确添加了相应的内容。如下图红框中选中的内容所示，我的页面已经添加了认证内容。
 
-![Pasted image 20250617104954.png\|650](/img/user/0.asset/media/Pasted%20image%2020250617104954.png)
+![digital-garden-adsense-fig02.png\|650](/img/user/0.asset/media/digital-garden-adsense-fig02.png)
 
 > 
 > 一定要保证网站的所有 HTML 页面都已经添加了认证脚本，我刚开始主页没有添加，导致了认证失败。
@@ -27,17 +27,13 @@
 
 生成广告的方式有很多种，目前我只选择了自动展示广告。添加方式类似于验证网站所有权，将以下的代码放置在 note.njk 的 head 标记之间即可。
 
-![Pasted image 20250902092035.png\|650](/img/user/0.asset/media/Pasted%20image%2020250902092035.png)
+![digital-garden-adsense-fig04.png\|650](/img/user/0.asset/media/digital-garden-adsense-fig04.png)
 
 ## 配置 ads.txt
 
-![Pasted image 20250902091653.png\|650](/img/user/0.asset/media/Pasted%20image%2020250902091653.png)
-
-配置 ads.txt 需要做两件事：
+![digital-garden-adsense-fig03.png\|配置 ads.txt 需要做两件事：\|650](/img/user/0.asset/media/digital-garden-adsense-fig03.png)
 
 1. 在 site 目录下添加 ads.txt 文件
 2. 设置 .eleventy.js，设置将 ads.txt 原样拷贝到输出目录
 
-![Pasted image 20250909094641.png\|650](/img/user/0.asset/media/Pasted%20image%2020250909094641.png)
-
-这样在打包的时候就能自动出现在网站根目录。
+![build-output-root-directory.png\|这样在打包的时候就能自动出现在网站根目录。\|650](/img/user/0.asset/media/build-output-root-directory.png)

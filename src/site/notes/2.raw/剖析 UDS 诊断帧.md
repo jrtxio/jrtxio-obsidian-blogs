@@ -10,7 +10,7 @@ UDS 诊断服务通常是通过 CAN 总线实现。对于 CAN 诊断帧有两种
 
 在总线上往往连着众多 ECU 设备 ( 如下图所示 )，作为诊断设备既可以单独与某一 ECU 进行通信，也可以同时与所有总线上的 ECU 设备通信。
 
-![Pasted image 20250520112939.png\|650](/img/user/0.asset/media/Pasted%20image%2020250520112939.png)
+![uds-diagnostic-frame-fig01.png\|650](/img/user/0.asset/media/uds-diagnostic-frame-fig01.png)
 ### 物理寻址
 
 物理寻址是指总线上始终只有一个 ECU 响应诊断设备发出的诊断命令，实现点对点通信，例如上图中总线上仅 MMI 响应诊断设备的诊断命令。
@@ -25,21 +25,17 @@ UDS 诊断服务通常是通过 CAN 总线实现。对于 CAN 诊断帧有两种
 
 ![[Single Frame.drawio]]
 
-![Pasted image 20250520150838.png\|650](/img/user/0.asset/media/Pasted%20image%2020250520150838.png)
+![uds-multi-frame-iso-transport.png\|当数据长度大于 7 byte，数据需要分多帧才能发送完成，则需要使用到首帧、流控帧、连续帧。多帧的机制如下图所示。\|650](/img/user/0.asset/media/uds-multi-frame-iso-transport.png)
 
-当数据长度大于 7 byte，数据需要分多帧才能发送完成，则需要使用到首帧、流控帧、连续帧。多帧的机制如下图所示。
-
-![Pasted image 20250520113627.png\|650](/img/user/0.asset/media/Pasted%20image%2020250520113627.png)
+![uds-diagnostic-frame-fig03.png\|650](/img/user/0.asset/media/uds-diagnostic-frame-fig03.png)
 
 对于不同的帧，通过 CAN 数据场的中的 PCI （Protocol control information）来进行区分。
 
 ![[UDS Message PCI.xlsx]]
 
-![Pasted image 20250521155503.png\|650](/img/user/0.asset/media/Pasted%20image%2020250521155503.png)
+![uds-pci-segment-explanation.png\|以下是对 PCI 段的详细解释。\|650](/img/user/0.asset/media/uds-pci-segment-explanation.png)
 
-以下是对 PCI 段的详细解释。
-
-![Pasted image 20250520113138.png\|650](/img/user/0.asset/media/Pasted%20image%2020250520113138.png)
+![uds-diagnostic-frame-fig02.png\|650](/img/user/0.asset/media/uds-diagnostic-frame-fig02.png)
 
 ### 单帧
 
@@ -73,6 +69,4 @@ ConsecutiveFrame 就是承载 FirstFrame 无法完全承载的剩余数据了，
 
 ## 报文举例
 
-![Pasted image 20201030114571.png\|650](/img/user/0.asset/media/Pasted%20image%2020201030114571.png)
-
-上图为实际开发中的 $22 诊断的 F1 87 的读取与响应，可结合上面的首帧、流控帧、连续帧进行对应分析。
+![uds-22-f1-diagnostic-response.png\|上图为实际开发中的 $22 诊断的 F1 87 的读取与响应，可结合上面的首帧、流控帧、连续帧进行对应分析。\|650](/img/user/0.asset/media/uds-22-f1-diagnostic-response.png)
