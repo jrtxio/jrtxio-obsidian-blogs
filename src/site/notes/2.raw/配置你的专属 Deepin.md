@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"配置你的专属 Deepin.md","permalink":"/配置你的专属 Deepin/","dg-note-properties":{"author":"吉人","created":"2017-04-20","source":null,"slug":"deepin-customization"}}
+{"dg-publish":true,"dg-path":"配置你的专属 Deepin.md","permalink":"/配置你的专属 Deepin/","dg-note-properties":{"author":"吉人","created":"2017-04-20","source":null}}
 ---
 
 > 实体机安装 Deepin 的完整配置流程：从代理到桌面美化。

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"如何理解 UML 类图.md","permalink":"/如何理解 UML 类图/","dg-note-properties":{"author":"吉人","created":"2023-04-10","source":null,"slug":"uml-class-diagram"}}
+{"dg-publish":true,"dg-path":"如何理解 UML 类图.md","permalink":"/如何理解 UML 类图/","dg-note-properties":{"author":"吉人","created":"2023-04-10","source":null}}
 ---
 
 > UML 类图的六种关系：依赖、关联、聚合、组合、泛化、实现。

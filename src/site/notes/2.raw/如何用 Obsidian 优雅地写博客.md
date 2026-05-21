@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"如何用 Obsidian 优雅地写博客.md","permalink":"/如何用 Obsidian 优雅地写博客/","dg-note-properties":{"author":"吉人","created":"2025-04-06","source":null,"slug":"obsidian-blog-writing"}}
+{"dg-publish":true,"dg-path":"如何用 Obsidian 优雅地写博客.md","permalink":"/如何用 Obsidian 优雅地写博客/","dg-note-properties":{"author":"吉人","created":"2025-04-06","source":null}}
 ---
 
 > Digital Garden + Obsidian，让写作回归纯粹的创作。

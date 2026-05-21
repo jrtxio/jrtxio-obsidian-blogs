@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"剖析 UDS 诊断帧.md","permalink":"/剖析 UDS 诊断帧/","dg-note-properties":{"author":"吉人","created":"2022-08-30","source":null,"slug":"uds-diagnostic-frame-analysis"}}
+{"dg-publish":true,"dg-path":"剖析 UDS 诊断帧.md","permalink":"/剖析 UDS 诊断帧/","dg-note-properties":{"author":"吉人","created":"2022-08-30","source":null}}
 ---
 
 > 物理寻址、功能寻址、单帧、多帧——拆解 CAN 总线上的 UDS 诊断帧。
