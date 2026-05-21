@@ -8,7 +8,7 @@
 
 ![osx-gnome-customization-fig01.png\|650](/img/user/0.asset/media/osx-gnome-customization-fig01.png)
 
-> 
+>
 > 发行版：首先我选择了 Manjaro 的 Gnome 发行版，选择这个发行版的原因是它基于 Arch，软件源丰富，安装软件十分方便。
 
 ## 一、安装 Mac Gtk 主题
@@ -105,7 +105,7 @@ sudo pacman -S netease-musicbox-git
 sudo pacman -S xflux-gui-git
 ```
 
-> 
+>
 > 其实操作速度的提升关键的就是让手尽量少的离开键盘，所以设置的关键在于快捷键。快捷键的设置一定要把相同的操作属性使用相同的前缀，不然快捷键就会十分混乱。
 ****
 
@@ -296,4 +296,4 @@ sudo python local.py -d stop
 * 第一步同样是运行 shadowsocksr,
 * 然后设置 Foxyproxy 的代理，如下图所示：
 
-![vpn-deepin-guide-reference.png\|关于科学上网更加详细的操作参考我的另一篇文章[[配置你的专属 Deepin](/img/user/0.asset/media/vpn-deepin-guide-reference.png)。|650]]
+![vpn-deepin-guide-reference.png\|关于科学上网更加详细的操作参考我的另一篇文章 [[ 配置你的专属 Deepin](/img/user/0.asset/media/vpn-deepin-guide-reference.png)。|650]]

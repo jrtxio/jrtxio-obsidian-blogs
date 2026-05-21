@@ -86,7 +86,7 @@ ffplay -rtsp_transport tcp -i rtsp://localhost:8554/stream
 
 - 拼接串流地址
 
-![unreferenced-pasted-image-fig01.png\|最终生成的串流地址是 `rtsp://[ip](/img/user/0.asset/media/unreferenced-pasted-image-fig01.png)
+![unreferenced-pasted-image-fig01.png\| 最终生成的串流地址是 `rtsp://[ip](/img/user/0.asset/media/unreferenced-pasted-image-fig01.png)
 
 ### 串流客户端 VLC
 

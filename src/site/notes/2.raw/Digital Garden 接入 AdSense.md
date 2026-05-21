@@ -20,7 +20,7 @@
 
 ![digital-garden-adsense-fig02.png\|650](/img/user/0.asset/media/digital-garden-adsense-fig02.png)
 
-> 
+>
 > 一定要保证网站的所有 HTML 页面都已经添加了认证脚本，我刚开始主页没有添加，导致了认证失败。
 
 ## 创建广告单元并嵌入博客
