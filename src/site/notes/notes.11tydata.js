@@ -1,6 +1,5 @@
 require("dotenv").config();
 const settings = require("../../helpers/constants");
-const { slugify: transliterateSlug } = require("transliteration");
 const allSettings = settings.ALL_NOTE_SETTINGS;
 
 module.exports = {
@@ -16,25 +15,14 @@ module.exports = {
         return "/";
       }
 
-      // Priority: dg-note-properties.slug > existing permalink
+      // Use slug from dg-note-properties if available
       const np = data["dg-note-properties"] || {};
       if (np.slug) {
         return "/" + np.slug + "/";
       }
 
-      const existing = data.permalink;
-      if (!existing) return undefined;
-
-      // If already URL-safe (ASCII only, no spaces/special chars), keep as-is
-      if (/^[a-zA-Z0-9\-_\/]+$/.test(existing)) {
-        return existing;
-      }
-
-      // Fallback: pinyin transliteration
-      const source = data.page.fileSlug || "";
-      const fullSlug = transliterateSlug(source);
-      const words = fullSlug.split("-").filter(Boolean);
-      return "/" + words.slice(0, 6).join("-") + "/";
+      // Otherwise keep the original permalink as-is
+      return data.permalink || undefined;
     },
     basesNotes: (data) => {
       if (!data.collections || !data.collections.note) return [];
