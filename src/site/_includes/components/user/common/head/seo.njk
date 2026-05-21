@@ -1,0 +1,24 @@
+{# SEO meta tags for all pages (homepage, articles, etc.) #}
+{% set seoTitle = title | default(page.fileSlug) %}
+{% set canonicalUrl = meta.siteBaseUrl ~ page.url %}
+{% set seoDesc = content | extractDescription | default("") %}
+
+<link rel="canonical" href="{{ canonicalUrl }}">
+
+{% if seoDesc %}
+<meta name="description" content="{{ seoDesc }}">
+{% endif %}
+
+<meta property="og:title" content="{{ seoTitle }}">
+<meta property="og:url" content="{{ canonicalUrl }}">
+<meta property="og:site_name" content="{{ meta.siteName }}">
+<meta property="og:locale" content="zh_CN">
+{% if seoDesc %}
+<meta property="og:description" content="{{ seoDesc }}">
+{% endif %}
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ seoTitle }}">
+{% if seoDesc %}
+<meta name="twitter:description" content="{{ seoDesc }}">
+{% endif %}

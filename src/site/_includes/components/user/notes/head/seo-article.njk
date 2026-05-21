@@ -1,0 +1,13 @@
+{# Article-specific SEO tags (only rendered on note pages) #}
+{% set seoTitle = title | default(page.fileSlug) %}
+{% set canonicalUrl = meta.siteBaseUrl ~ page.url %}
+{% set np = noteProps or {} %}
+{% set customDesc = np.description or "" %}
+{% set autoDesc = content | extractDescription | default("") %}
+{% set seoDesc = customDesc or autoDesc %}
+
+<meta property="og:type" content="article">
+
+{% if np.created %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"{{ canonicalUrl }}"},"headline":{{ seoTitle | dump }},"url":"{{ canonicalUrl }}","datePublished":"{{ np.created }}"{% if np.author %},"author":{"@type":"Person","name":{{ np.author | dump }}}{% endif %}{% if seoDesc %},"description":{{ seoDesc | dump }}{% endif %},"publisher":{"@type":"Organization","name":{{ meta.siteName | dump }}}}</script>
+{% endif %}

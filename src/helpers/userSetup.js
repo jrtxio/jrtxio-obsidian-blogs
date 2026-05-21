@@ -6,6 +6,16 @@ function userEleventySetup(eleventyConfig) {
   // The eleventyConfig parameter stands for the the config instantiated in /.eleventy.js.
   // Feel free to add any plugin you want here instead of /.eleventy.js
 
+  // Extract meta description from article content (first blockquote)
+  eleventyConfig.addNunjucksFilter("extractDescription", (content) => {
+    if (!content) return "";
+    const match = content.match(/<blockquote[^>]*>[\s\S]*?<p>([\s\S]*?)<\/p>/);
+    if (match) {
+      return match[1].replace(/<[^>]+>/g, "").trim().substring(0, 160);
+    }
+    return "";
+  });
+
   // Sort articles by dg-note-properties.created (newest first)
   eleventyConfig.addNunjucksFilter("sortByCreated", (notes) => {
     return notes.slice().sort((a, b) => {
