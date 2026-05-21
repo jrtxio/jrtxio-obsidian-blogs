@@ -1,6 +1,6 @@
 require("dotenv").config();
 const settings = require("../../helpers/constants");
-
+const { slugify: transliterateSlug } = require("transliteration");
 const allSettings = settings.ALL_NOTE_SETTINGS;
 
 module.exports = {
@@ -15,7 +15,17 @@ module.exports = {
       if (data.tags.indexOf("gardenEntry") != -1) {
         return "/";
       }
-      return data.permalink || undefined;
+      const existing = data.permalink;
+      if (!existing) return undefined;
+
+      // If already URL-safe (ASCII only, no spaces/special chars), keep as-is
+      if (/^[a-zA-Z0-9\-_\/]+$/.test(existing)) {
+        return existing;
+      }
+
+      // Contains non-ASCII or unsafe chars — generate slug from filename
+      const slug = transliterateSlug(data.page.fileSlug || "");
+      return "/" + slug + "/";
     },
     basesNotes: (data) => {
       if (!data.collections || !data.collections.note) return [];
