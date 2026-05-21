@@ -1,4 +1,4 @@
-{%- set excluded = ["/", "/premium/", "/about/", "/resume/"] -%}
+{%- set excluded = ["/", "/sponsor/", "/about/", "/resume/"] -%}
 {%- set sortedNotes = collections.note | sortByCreated -%}
 {%- set articleCount = 0 -%}
 {%- for note in sortedNotes -%}
@@ -9,7 +9,7 @@
 <section class="dg-notelist">
   <nav class="dg-notelist-nav">
     <a class="dg-notelist-nav-link" href="/about/">关于</a>
-    <a class="dg-notelist-nav-link" href="/premium/">付费</a>
+    <a class="dg-notelist-nav-link" href="/sponsor/">付费</a>
     <a class="dg-notelist-nav-link" href="/resume/">简历</a>
   </nav>
   <div class="dg-notelist-body">
