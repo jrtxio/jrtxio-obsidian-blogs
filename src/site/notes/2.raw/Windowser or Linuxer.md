@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Windowser or Linuxer.md","permalink":"/Windowser or Linuxer/","dg-note-properties":{"author":"吉人","created":"2017-08-30","source":null}}
+{"dg-publish":true,"dg-path":"Windowser or Linuxer.md","permalink":"/Windowser or Linuxer/","dg-note-properties":{"author":"吉人","created":"2017-08-30","source":null,"slug":"windowser-or-linuxer"}}
 ---
 
 > 装了八九个月 Linux 又回到 Windows，一个程序员的真实体验报告。

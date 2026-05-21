@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Linux 安装的本质：三层结构与两条原则.md","permalink":"/Linux 安装的本质：三层结构与两条原则/","dg-note-properties":{"author":"吉人","created":"2026-04-21","source":null}}
+{"dg-publish":true,"dg-path":"Linux 安装的本质：三层结构与两条原则.md","permalink":"/Linux 安装的本质：三层结构与两条原则/","dg-note-properties":{"author":"吉人","created":"2026-04-21","source":null,"slug":"linux-install-essentials"}}
 ---
 
 > Linux 桌面被搞坏，绝大多数时候不是不稳定，而是在错误的层用了错误的工具。三层结构，两条原则：Flatpak 管应用，官方源管系统。

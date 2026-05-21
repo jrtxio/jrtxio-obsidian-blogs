@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"一文读懂 AUTOSAR OS.md","permalink":"/一文读懂 AUTOSAR OS/","dg-note-properties":{"author":"吉人","created":"2026-05-12","source":"https://mp.weixin.qq.com/s/2IL0gfdsw_S0XQs0xtJh6A"}}
+{"dg-publish":true,"dg-path":"一文读懂 AUTOSAR OS.md","permalink":"/一文读懂 AUTOSAR OS/","dg-note-properties":{"author":"吉人","created":"2026-05-12","source":"https://mp.weixin.qq.com/s/2IL0gfdsw_S0XQs0xtJh6A","slug":"autosar-os-explained"}}
 ---
 
 > AUTOSAR OS 基于 OSEK/VDX 规范，定义了七个核心对象和四个可伸缩性等级，覆盖从无保护基础调度到 ASIL-D 全功能保护。

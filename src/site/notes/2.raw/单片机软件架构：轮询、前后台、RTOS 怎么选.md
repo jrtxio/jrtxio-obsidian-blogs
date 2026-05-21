@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"单片机软件架构：轮询、前后台、RTOS 怎么选.md","permalink":"/单片机软件架构：轮询、前后台、RTOS 怎么选/","dg-note-properties":{"author":"吉人","created":"2023-04-06","source":null}}
+{"dg-publish":true,"dg-path":"单片机软件架构：轮询、前后台、RTOS 怎么选.md","permalink":"/单片机软件架构：轮询、前后台、RTOS 怎么选/","dg-note-properties":{"author":"吉人","created":"2023-04-06","source":null,"slug":"mcu-software-architecture"}}
 ---
 
 > 轮询、前后台还是 RTOS？三种单片机软件架构的优缺点对比。

@@ -15,6 +15,13 @@ module.exports = {
       if (data.tags.indexOf("gardenEntry") != -1) {
         return "/";
       }
+
+      // Priority: dg-note-properties.slug > existing permalink
+      const np = data["dg-note-properties"] || {};
+      if (np.slug) {
+        return "/" + np.slug + "/";
+      }
+
       const existing = data.permalink;
       if (!existing) return undefined;
 
@@ -23,9 +30,11 @@ module.exports = {
         return existing;
       }
 
-      // Contains non-ASCII or unsafe chars — generate slug from filename
-      const slug = transliterateSlug(data.page.fileSlug || "");
-      return "/" + slug + "/";
+      // Fallback: pinyin transliteration
+      const source = data.page.fileSlug || "";
+      const fullSlug = transliterateSlug(source);
+      const words = fullSlug.split("-").filter(Boolean);
+      return "/" + words.slice(0, 6).join("-") + "/";
     },
     basesNotes: (data) => {
       if (!data.collections || !data.collections.note) return [];
