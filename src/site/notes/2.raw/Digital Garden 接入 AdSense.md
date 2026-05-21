@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Digital Garden 接入 AdSense.md","permalink":"/Digital Garden 接入 AdSense/","dg-note-properties":{"author":"吉人","created":"2025-04-11","source":null}}
+{"dg-publish":true,"dg-path":"Digital Garden 接入 AdSense.md","permalink":"/Digital Garden 接入 AdSense/","dg-note-properties":{"slug":"digital-garden-adsense","author":"吉人","created":"2025-04-11","source":null}}
 ---
 
 > 在 Digital Garden 博客中接入 AdSense 的完整操作流程。

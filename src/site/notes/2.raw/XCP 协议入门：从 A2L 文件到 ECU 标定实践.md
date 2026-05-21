@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"XCP 协议入门：从 A2L 文件到 ECU 标定实践.md","permalink":"/XCP 协议入门：从 A2L 文件到 ECU 标定实践/","dg-note-properties":{"author":"吉人","created":"2022-04-06","source":null}}
+{"dg-publish":true,"dg-path":"XCP 协议入门：从 A2L 文件到 ECU 标定实践.md","permalink":"/XCP 协议入门：从 A2L 文件到 ECU 标定实践/","dg-note-properties":{"slug":"xcp-protocol-a2l-ecu-calibration","author":"吉人","created":"2022-04-06","source":null}}
 ---
 
 ## XCP 是什么

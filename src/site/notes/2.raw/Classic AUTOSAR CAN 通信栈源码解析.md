@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Classic AUTOSAR CAN 通信栈源码解析.md","permalink":"/Classic AUTOSAR CAN 通信栈源码解析/","dg-note-properties":{"author":"吉人","created":"2026-05-18","source":null}}
+{"dg-publish":true,"dg-path":"Classic AUTOSAR CAN 通信栈源码解析.md","permalink":"/Classic AUTOSAR CAN 通信栈源码解析/","dg-note-properties":{"slug":"classic-autosar-can-stack-source","author":"吉人","created":"2026-05-18","source":null}}
 ---
 
 > 从 CAN Driver 到 COM、从 PDU 封包到多帧分段、从诊断服务到网络管理状态机，逐层拆解 Classic AUTOSAR CAN 通信栈的设计原理。

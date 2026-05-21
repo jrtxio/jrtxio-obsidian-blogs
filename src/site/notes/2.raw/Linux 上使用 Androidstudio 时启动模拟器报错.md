@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Linux 上使用 Androidstudio 时启动模拟器报错.md","permalink":"/Linux 上使用 Androidstudio 时启动模拟器报错/","dg-note-properties":{"author":"吉人","created":"2016-04-06","source":null}}
+{"dg-publish":true,"dg-path":"Linux 上使用 Androidstudio 时启动模拟器报错.md","permalink":"/Linux 上使用 Androidstudio 时启动模拟器报错/","dg-note-properties":{"slug":"linux-android-studio-emulator-fix","author":"吉人","created":"2016-04-06","source":null}}
 ---
 
 > 两个方案解决 Linux 上 Android Studio 模拟器启动报错。

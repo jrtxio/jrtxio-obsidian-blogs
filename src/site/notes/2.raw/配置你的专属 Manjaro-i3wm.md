@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"配置你的专属 Manjaro-i3wm.md","permalink":"/配置你的专属 Manjaro-i3wm/","dg-note-properties":{"author":"吉人","created":"2016-03-20","source":null}}
+{"dg-publish":true,"dg-path":"配置你的专属 Manjaro-i3wm.md","permalink":"/配置你的专属 Manjaro-i3wm/","dg-note-properties":{"slug":"customize-your-manjaro-i3wm","author":"吉人","created":"2016-03-20","source":null}}
 ---
 
 > Manjaro-i3wm 从安装到顺手使用的完整配置教程。

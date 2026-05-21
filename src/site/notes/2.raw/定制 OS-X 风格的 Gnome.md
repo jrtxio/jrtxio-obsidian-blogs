@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"定制 OS-X 风格的 Gnome.md","permalink":"/定制 OS-X 风格的 Gnome/","dg-note-properties":{"author":"吉人","created":"2016-02-20","source":null}}
+{"dg-publish":true,"dg-path":"定制 OS-X 风格的 Gnome.md","permalink":"/定制 OS-X 风格的 Gnome/","dg-note-properties":{"slug":"osx-style-gnome","author":"吉人","created":"2016-02-20","source":null}}
 ---
 
 > 没有 Mac 也能体验 macOS 风格——Gnome 桌面定制全记录。

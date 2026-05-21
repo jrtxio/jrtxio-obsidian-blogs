@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"我在 UNRAID 上跑的那些服务.md","permalink":"/我在 UNRAID 上跑的那些服务/","dg-note-properties":{"author":"吉人","created":"2023-04-03","source":null}}
+{"dg-publish":true,"dg-path":"我在 UNRAID 上跑的那些服务.md","permalink":"/我在 UNRAID 上跑的那些服务/","dg-note-properties":{"slug":"my-unraid-services","author":"吉人","created":"2023-04-03","source":null}}
 ---
 
 > 我在 UNRAID 上跑的那些服务，每一个都深度融入了日常使用。
