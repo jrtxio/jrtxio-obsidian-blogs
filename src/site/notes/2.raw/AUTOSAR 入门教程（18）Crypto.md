@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（18）Crypto.md","permalink":"/AUTOSAR 入门教程（18）Crypto/","dg-note-properties":{"slug":null,"author":null,"created":"2025-04-26","source":"https://sandeeptiwari.com/CrptoServiceInAutosar.html"}}
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（18）Crypto.md","permalink":"/AUTOSAR 入门教程（18）Crypto/","dg-note-properties":{"slug":"autosar-crypto","author":"吉人","created":"2025-04-26","source":null}}
 ---
 
 **加密堆栈（Crypto Stack）** 是 AUTOSAR 中为应用程序提供加密服务的软件栈。加密堆栈由以下组件构成：

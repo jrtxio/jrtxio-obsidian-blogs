@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（1）基础篇一.md","permalink":"/AUTOSAR 入门教程（1）基础篇一/","dg-note-properties":{"slug":null,"author":null,"created":"2025-04-12","source":"https://sandeeptiwari.com/BasicsOfAutosar1.html"}}
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（1）基础篇一.md","permalink":"/AUTOSAR 入门教程（1）基础篇一/","dg-note-properties":{"slug":"autosar-basics-1","author":"吉人","created":"2025-04-12","source":null}}
 ---
 
 **AUTOSAR** 是汽车电子领域的行业标准，旨在解决传统 ECU 软件开发中 **代码复用率低** 和 **跨平台移植困难** 的核心问题。本文将系统解析其分层架构设计，帮助开发者快速建立认知框架。

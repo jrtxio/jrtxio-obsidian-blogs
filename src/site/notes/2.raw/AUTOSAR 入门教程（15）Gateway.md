@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（15）Gateway.md","permalink":"/AUTOSAR 入门教程（15）Gateway/","dg-note-properties":{"slug":null,"author":null,"created":"2025-04-23","source":"https://sandeeptiwari.com/Gateway.html"}}
+{"dg-publish":true,"dg-path":"AUTOSAR 入门教程（15）Gateway.md","permalink":"/AUTOSAR 入门教程（15）Gateway/","dg-note-properties":{"slug":"autosar-gateway","author":"吉人","created":"2025-04-23","source":null}}
 ---
 
 在汽车电子架构中，不同总线网络间的数据交换是核心需求。AUTOSAR **网关（Gateway）** 功能正是解决这一需求的关键技术，它能实现信号和协议数据在不同总线间的智能路由，确保整车通信系统的高效协同。
