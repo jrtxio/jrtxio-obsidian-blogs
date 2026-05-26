@@ -26,7 +26,9 @@
 
 打开 Tweak Tool 之后，先将刚刚安装的主题和图标设置好
 
-![mac-theme-icons-result.png\|设置好之后你就会发现整个系统的主题和图标已经和 Mac 没什么两样了。那么 Dock 栏如何设置呢？\|650](/img/user/0.asset/media/mac-theme-icons-result.png)
+![mac-theme-icons-result.png\|650](/img/user/0.asset/media/mac-theme-icons-result.png)
+
+设置好之后你就会发现整个系统的主题和图标已经和 Mac 没什么两样了。那么 Dock 栏如何设置呢？
 
 在 Tweak Tool 里面打开 Dash to dock 插件就可以了
 
@@ -296,4 +298,6 @@ sudo python local.py -d stop
 * 第一步同样是运行 shadowsocksr,
 * 然后设置 Foxyproxy 的代理，如下图所示：
 
-![vpn-deepin-guide-reference.png\|关于科学上网更加详细的操作参考我的另一篇文章 [[ 配置你的专属 Deepin](/img/user/0.asset/media/vpn-deepin-guide-reference.png)。|650]]
+![vpn-deepin-guide-reference.png\|650](/img/user/0.asset/media/vpn-deepin-guide-reference.png)
+
+关于科学上网更加详细的操作参考我的另一篇文章 [[ 配置你的专属 Deepin\| 配置你的专属 Deepin]]。

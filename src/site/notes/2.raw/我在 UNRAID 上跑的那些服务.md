@@ -44,11 +44,15 @@
 
 ## 群辉
 
-![synology-blog-resilio-sync.png\|群晖运行在猫盘上，用来搭建博客和 Resilio Sync 的文件同步等。\|650](/img/user/0.asset/media/synology-blog-resilio-sync.png)
+![synology-blog-resilio-sync.png\|650](/img/user/0.asset/media/synology-blog-resilio-sync.png)
+
+群晖运行在猫盘上，用来搭建博客和 Resilio Sync 的文件同步等。
 
 ## OpenWRT
 
-![soft-router-network-setup.png\|因为有时会需要特殊的网络环境来支撑这些服务，所以用软路由来做主路由器。\|650](/img/user/0.asset/media/soft-router-network-setup.png)
+![soft-router-network-setup.png\|650](/img/user/0.asset/media/soft-router-network-setup.png)
+
+因为有时会需要特殊的网络环境来支撑这些服务，所以用软路由来做主路由器。
 
 ## MusicPlayer
 

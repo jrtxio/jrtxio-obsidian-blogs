@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"知识不需要你整理：wiki 日常工作流.md","permalink":"/知识不需要你整理：wiki 日常工作流/","dg-note-properties":{"slug":null,"author":"吉人","created":"2025-05-26","source":null}}
+{"dg-publish":true,"dg-path":"知识不需要你整理：wiki 日常工作流.md","permalink":"/知识不需要你整理：wiki 日常工作流/","dg-note-properties":{"slug":"wiki-daily-workflow","author":"吉人","created":"2025-05-26","source":null}}
 ---
 
 > 你负责筛选和提问，LLM 负责编译和维护。你不需要整理笔记，但知识体系在持续完善。

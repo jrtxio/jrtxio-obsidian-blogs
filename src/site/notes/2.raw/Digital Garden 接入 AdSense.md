@@ -36,4 +36,6 @@
 1. 在 site 目录下添加 ads.txt 文件
 2. 设置 .eleventy.js，设置将 ads.txt 原样拷贝到输出目录
 
-![build-output-root-directory.png\|这样在打包的时候就能自动出现在网站根目录。\|650](/img/user/0.asset/media/build-output-root-directory.png)
+![build-output-root-directory.png\|650](/img/user/0.asset/media/build-output-root-directory.png)
+
+这样在打包的时候就能自动出现在网站根目录。
