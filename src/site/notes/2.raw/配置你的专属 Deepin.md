@@ -17,7 +17,7 @@
 
 ![deepin-customization-fig02.png\|650](/img/user/0.asset/media/deepin-customization-fig02.png)
 
-![command-explanation.png\|**解释一下上面的命令：**\|650](/img/user/0.asset/media/command-explanation.png)
+![command-explanation.png\|解释一下上面的命令：\|650](/img/user/0.asset/media/command-explanation.png)
 
 - -c 后面是你 shadowsocksr 配置文件所在的路径
 - -d 表示 shadowsocksr 是以后台运行的方式启动，这样就可以保证你关闭终端的时候 shadowsocksr 依然在后台运行
