@@ -1,5 +1,6 @@
 require("dotenv").config();
 const settings = require("../../helpers/constants");
+
 const allSettings = settings.ALL_NOTE_SETTINGS;
 
 module.exports = {
@@ -14,14 +15,6 @@ module.exports = {
       if (data.tags.indexOf("gardenEntry") != -1) {
         return "/";
       }
-
-      // Use slug from dg-note-properties if available
-      const np = data["dg-note-properties"] || {};
-      if (np.slug) {
-        return "/" + np.slug + "/";
-      }
-
-      // Otherwise keep the original permalink as-is
       return data.permalink || undefined;
     },
     basesNotes: (data) => {
