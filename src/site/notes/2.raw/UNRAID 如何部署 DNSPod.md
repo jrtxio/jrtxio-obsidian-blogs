@@ -13,7 +13,9 @@
 
 ## 新建容器
 
-![unraid-docker-add-container.png\|进入 Unraid 的 Docker 页面，点击 Add Container，新建一个容器。\|650](/img/user/0.asset/media/unraid-docker-add-container.png)
+![unraid-docker-add-container.png\|650](/img/user/0.asset/media/unraid-docker-add-container.png)
+
+进入 Unraid 的 Docker 页面，点击 Add Container，新建一个容器。
 
 ## 参数设置
 

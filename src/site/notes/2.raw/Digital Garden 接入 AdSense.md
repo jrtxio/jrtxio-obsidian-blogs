@@ -31,7 +31,9 @@
 
 ## 配置 ads.txt
 
-![digital-garden-adsense-fig03.png\|配置 ads.txt 需要做两件事：\|650](/img/user/0.asset/media/digital-garden-adsense-fig03.png)
+![digital-garden-adsense-fig03.png\|650](/img/user/0.asset/media/digital-garden-adsense-fig03.png)
+
+配置 ads.txt 需要做两件事：
 
 1. 在 site 目录下添加 ads.txt 文件
 2. 设置 .eleventy.js，设置将 ads.txt 原样拷贝到输出目录
