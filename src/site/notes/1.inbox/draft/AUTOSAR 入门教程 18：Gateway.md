@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 18：Gateway/","dg-note-properties":{"slug":"autosar-gateway","author":"吉人","created":"2025-04-23","source":null}}
+{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 18：Gateway/","dg-note-properties":{"slug":"autosar-tutorial-gateway","author":"吉人","created":"2025-04-23","source":null}}
 ---
 
 > 理解信号网关与 PDU 网关的区别，掌握直接网关和动态网关的数据流，学会根据场景选择合适的网关配置方案。

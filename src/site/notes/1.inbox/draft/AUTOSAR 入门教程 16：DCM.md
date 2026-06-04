@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 16：DCM/","dg-note-properties":{"slug":"autosar-dcm","author":"吉人","created":"2025-04-21","source":null}}
+{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 16：DCM/","dg-note-properties":{"slug":"autosar-tutorial-dcm","author":"吉人","created":"2025-04-21","source":null}}
 ---
 
 > 理解 DCM 三大子模块 DSL/DSD/DSP 的分工与协作，掌握诊断请求从接收到响应的完整数据流。

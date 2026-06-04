@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"MBD 不是「画个图」——基于模型开发与 AUTOSAR 配置的本质区别.md","permalink":"/MBD 不是「画个图」——基于模型开发与 AUTOSAR 配置的本质区别/","dg-note-properties":{"slug":null,"author":"吉人","created":"2026-06-02","source":null}}
+{"dg-publish":true,"dg-path":"MBD 不是「画个图」——基于模型开发与 AUTOSAR 配置的本质区别.md","permalink":"/MBD 不是「画个图」——基于模型开发与 AUTOSAR 配置的本质区别/","dg-note-properties":{"slug":"mbd-vs-autosar-config-differences","author":"吉人","created":"2026-06-02","source":null}}
 ---
 
 > 读完这篇文章，你能分清三个经常被混为一谈的东西：MBD（算法建模）、AUTOSAR 配置（系统集成）、手写 C 代码——它们各自解决什么问题，又如何协同工作。

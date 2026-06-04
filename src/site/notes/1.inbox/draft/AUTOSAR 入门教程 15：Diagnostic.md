@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 15：Diagnostic/","dg-note-properties":{"slug":"autosar-diagnostics","author":"吉人","created":"2025-04-21","source":null}}
+{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 15：Diagnostic/","dg-note-properties":{"slug":"autosar-tutorial-diagnostics","author":"吉人","created":"2025-04-21","source":null}}
 ---
 
 > 理解 AUTOSAR 诊断栈四大模块——DCM、DEM、FIM、DET——各自的职责边界，以及它们如何协作完成从故障检测到功能抑制的全流程。

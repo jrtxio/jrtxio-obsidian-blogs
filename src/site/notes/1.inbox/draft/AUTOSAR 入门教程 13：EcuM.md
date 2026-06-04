@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 13：EcuM/","dg-note-properties":{"slug":"autosar-ecum","author":"吉人","created":"2025-04-20","source":null}}
+{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 13：EcuM/","dg-note-properties":{"slug":"autosar-tutorial-ecum","author":"吉人","created":"2025-04-20","source":null}}
 ---
 
 > 理解 EcuM 如何管理 ECU 从上电到关机的全生命周期，以及灵活型和固定型两种架构怎么选。

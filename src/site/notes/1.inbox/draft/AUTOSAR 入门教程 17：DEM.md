@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 17：DEM/","dg-note-properties":{"slug":"autosar-dem","author":"吉人","created":"2025-04-22","source":null}}
+{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 17：DEM/","dg-note-properties":{"slug":"autosar-tutorial-dem","author":"吉人","created":"2025-04-22","source":null}}
 ---
 
 > 掌握 DEM 的事件去抖动机制、DTC 生命周期管理和冻结帧记录，理解故障从检测到确认的完整链路。

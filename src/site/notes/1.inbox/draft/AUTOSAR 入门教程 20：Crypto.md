@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 20：Crypto/","dg-note-properties":{"slug":"autosar-crypto","author":"吉人","created":"2025-04-26","source":null}}
+{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 20：Crypto/","dg-note-properties":{"slug":"autosar-tutorial-crypto","author":"吉人","created":"2025-04-26","source":null}}
 ---
 
 > 理解加密栈三层架构的职责划分，掌握 CSM 的 Job 配置流程和 CryIf 的原语映射机制，了解密钥管理的关键概念。

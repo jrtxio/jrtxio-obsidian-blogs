@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 19：SecOC/","dg-note-properties":{"slug":"autosar-secoc","author":"吉人","created":"2025-04-12","source":null}}
+{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 19：SecOC/","dg-note-properties":{"slug":"autosar-tutorial-secoc","author":"吉人","created":"2025-04-12","source":null}}
 ---
 
 > 理解 SecOC 如何为车载消息添加认证保护，掌握 MAC 计算流程和 Freshness 防重放机制，以及与 Crypto 栈的协作关系。

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 14：BswM/","dg-note-properties":{"slug":"autosar-bswm","author":"吉人","created":"2025-04-19","source":null}}
+{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 14：BswM/","dg-note-properties":{"slug":"autosar-tutorial-bswm","author":"吉人","created":"2025-04-19","source":null}}
 ---
 
 > 搞清 BswM 如何通过"规则-动作"机制协调各 BSW 模块的行为，以及它与 EcuM 的协作关系。

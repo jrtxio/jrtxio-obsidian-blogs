@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"你写的 main 能跑，全靠这段启动代码.md","permalink":"/你写的 main 能跑，全靠这段启动代码/","dg-note-properties":{"slug":"how-startup-code-makes-your-main-function-run","author":"吉人","created":"2026-04-10","source":null}}
+{"dg-publish":true,"dg-path":"你写的 main 能跑，全靠这段启动代码.md","permalink":"/你写的 main 能跑，全靠这段启动代码/","dg-note-properties":{"slug":"startup-code-explained","author":"吉人","created":"2026-04-10","source":null}}
 ---
 
 > 读完这篇文章，你会理解从复位到 `main()` 之间，启动代码为什么要做那五件事。

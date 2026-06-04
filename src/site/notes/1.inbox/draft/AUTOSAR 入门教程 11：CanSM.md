@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 11：CanSM/","dg-note-properties":{"slug":"autosar-cansm","author":"吉人","created":"2025-04-12","source":null}}
+{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 11：CanSM/","dg-note-properties":{"slug":"autosar-tutorial-cansm","author":"吉人","created":"2025-04-12","source":null}}
 ---
 
 > 理解 CanSM 如何管理 CAN 控制器的状态转换，掌握三种通信模式的切换机制和 Bus-Off 恢复流程。

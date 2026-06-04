@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 3：AUTOSAR OS/","dg-note-properties":{"slug":"autosar-os","author":"吉人","created":"2025-04-12","source":null}}
+{"dg-publish":true,"permalink":"/1.inbox/draft/AUTOSAR 入门教程 3：AUTOSAR OS/","dg-note-properties":{"slug":"autosar-tutorial-os","author":"吉人","created":"2025-04-12","source":null}}
 ---
 
 > 掌握 AUTOSAR OS 的七个核心对象、四个可伸缩性等级和调度机制，理解所有 BSW 模块赖以运行的底层调度基础。

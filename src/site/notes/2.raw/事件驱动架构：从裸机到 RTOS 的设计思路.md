@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"事件驱动架构：从裸机到 RTOS 的设计思路.md","permalink":"/事件驱动架构：从裸机到 RTOS 的设计思路/","dg-note-properties":{"slug":"event-driven-architecture-from-bare-metal-to-rtos","author":"吉人","created":"2026-04-06","source":null}}
+{"dg-publish":true,"dg-path":"事件驱动架构：从裸机到 RTOS 的设计思路.md","permalink":"/事件驱动架构：从裸机到 RTOS 的设计思路/","dg-note-properties":{"slug":"event-driven-baremetal-rtos","author":"吉人","created":"2026-04-06","source":null}}
 ---
 
 > RTOS 不是从天而降的，它是裸机里每一个 `if (flag)` 一步步长出来的。
