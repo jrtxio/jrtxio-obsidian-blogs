@@ -33,7 +33,7 @@ typedef struct {
 
 计数值只有 0 和 1，核心用途是 **同步和通知**，不是互斥。典型场景是中断通知任务：UART 接收完成中断里调用 `SemaphoreGive()`，数据处理任务在 `SemaphoreTake()` 上等待，收到通知后开始干活。
 
-二值信号量的特点是"谁都能 Give"——任务 A 可以 Give，任务 B 也可以 Give，没有所有权的概念。这恰恰是它和互斥量的根本区别。
+二值信号量的特点是 " 谁都能 Give"——任务 A 可以 Give，任务 B 也可以 Give，没有所有权的概念。这恰恰是它和互斥量的根本区别。
 
 ### 互斥量：带所有权的共享锁
 
@@ -55,13 +55,13 @@ typedef struct {
 
 ## 从单核到多核
 
-前面反复提到"关中断"。一个自然的疑问是：关中断凭什么能保证原子性？答案取决于你用的是几核芯片。
+前面反复提到 " 关中断 "。一个自然的疑问是：关中断凭什么能保证原子性？答案取决于你用的是几核芯片。
 
 ### 单核：关中断就够了
 
 RTOS 的任务切换只有两条触发路径——SysTick 定时器中断和 PendSV 上下文切换中断。**关中断后两条路径都被堵死，没有任何机制能夺走当前代码的执行权**。即使临界区涉及十几步内存读写，在单核上也天然是原子的。
 
-这里有个常见误解：`volatile` 能保证原子性。实际上 `volatile` 只防止编译器优化（保证每次从内存读），不保证读-改-写的原子性。`count--` 在 ARM 汇编中是三步操作：
+这里有个常见误解：`volatile` 能保证原子性。实际上 `volatile` 只防止编译器优化（保证每次从内存读），不保证读 - 改 - 写的原子性。`count--` 在 ARM 汇编中是三步操作：
 
 ```asm
 LDR   R0, [count]      ; 从内存加载到寄存器
@@ -77,7 +77,7 @@ STR   R0, [count]      ; 写回内存
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" style="background:#f8f6f3; font-family:'Noto Sans SC',system-ui,sans-serif;" width="650">  <!-- Single Core Side -->  <rect x="30" y="20" width="420" height="360" rx="12" fill="#e8e6e3" stroke="#4a4a4a" stroke-width="1.5"/>  <text x="240" y="52" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">单核 MCU</text>  <!-- CPU Core -->  <rect x="140" y="75" width="200" height="50" rx="8" fill="#d97757" stroke="#4a4a4a" stroke-width="1.5"/>  <text x="240" y="106" text-anchor="middle" font-size="15" fill="#fff" font-weight="bold">CPU Core</text>  <!-- Arrow -->  <line x1="240" y1="125" x2="240" y2="165" stroke="#4a4a4a" stroke-width="2" marker-end="url(#arrow)"/>  <!-- Disable Interrupts -->  <rect x="100" y="170" width="280" height="50" rx="8" fill="#fff" stroke="#d97757" stroke-width="2"/>  <text x="240" y="201" text-anchor="middle" font-size="14" fill="#1a1a1a">关中断</text>  <text x="240" y="215" text-anchor="middle" font-size="11" fill="#6a6a6a">BASEPRI / CPSID I</text>  <!-- Arrow -->  <line x1="240" y1="220" x2="240" y2="260" stroke="#4a4a4a" stroke-width="2" marker-end="url(#arrow)"/>  <!-- Shared Data -->  <rect x="110" y="265" width="260" height="45" rx="8" fill="#fff" stroke="#4a4a4a" stroke-width="1.5"/>  <text x="240" y="293" text-anchor="middle" font-size="14" fill="#1a1a1a">访问共享数据 ✓</text>  <!-- Sufficient label -->  <rect x="155" y="330" width="170" height="28" rx="14" fill="#2d8a4e" opacity="0.15"/>  <text x="240" y="349" text-anchor="middle" font-size="12" fill="#2d8a4e" font-weight="bold">一层保护就够</text>  <!-- Multi Core Side -->  <rect x="510" y="20" width="420" height="360" rx="12" fill="#e8e6e3" stroke="#4a4a4a" stroke-width="1.5"/>  <text x="720" y="52" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">多核 MCU</text>  <!-- Core A -->  <rect x="545" y="75" width="150" height="45" rx="8" fill="#d97757" stroke="#4a4a4a" stroke-width="1.5"/>  <text x="620" y="103" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">Core A</text>  <!-- Core B -->  <rect x="745" y="75" width="150" height="45" rx="8" fill="#d97757" stroke="#4a4a4a" stroke-width="1.5"/>  <text x="820" y="103" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">Core B</text>  <!-- Arrows from cores -->  <line x1="620" y1="120" x2="620" y2="155" stroke="#4a4a4a" stroke-width="2" marker-end="url(#arrow)"/>  <line x1="820" y1="120" x2="820" y2="155" stroke="#4a4a4a" stroke-width="2" marker-end="url(#arrow)"/>  <!-- Disable local interrupts -->  <rect x="530" y="160" width="180" height="40" rx="8" fill="#fff" stroke="#4a4a4a" stroke-width="1.5"/>  <text x="620" y="185" text-anchor="middle" font-size="13" fill="#1a1a1a">关本地中断</text>  <rect x="730" y="160" width="180" height="40" rx="8" fill="#fff" stroke="#4a4a4a" stroke-width="1.5"/>  <text x="820" y="185" text-anchor="middle" font-size="13" fill="#1a1a1a">关本地中断</text>  <!-- Plus sign -->  <text x="720" y="185" text-anchor="middle" font-size="18" fill="#d97757" font-weight="bold">+</text>  <!-- Arrows to Spinlock -->  <line x1="620" y1="200" x2="620" y2="230" stroke="#4a4a4a" stroke-width="1.5" stroke-dasharray="4,3"/>  <line x1="820" y1="200" x2="820" y2="230" stroke="#4a4a4a" stroke-width="1.5" stroke-dasharray="4,3"/>  <line x1="620" y1="230" x2="620" y2="245" stroke="#4a4a4a" stroke-width="2"/>  <line x1="820" y1="230" x2="820" y2="245" stroke="#4a4a4a" stroke-width="2"/>  <!-- Spinlock -->  <rect x="590" y="245" width="260" height="48" rx="8" fill="#d97757" stroke="#4a4a4a" stroke-width="2"/>  <text x="720" y="268" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">Spinlock</text>  <text x="720" y="285" text-anchor="middle" font-size="11" fill="#fff">LDREX / STREX 独占访问</text>  <!-- Arrow -->  <line x1="720" y1="293" x2="720" y2="318" stroke="#4a4a4a" stroke-width="2" marker-end="url(#arrow)"/>  <!-- Shared RAM -->  <rect x="610" y="323" width="220" height="40" rx="8" fill="#fff" stroke="#4a4a4a" stroke-width="1.5"/>  <text x="720" y="348" text-anchor="middle" font-size="14" fill="#1a1a1a">共享 RAM ✓</text>  <!-- Arrow marker -->  <defs>    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" fill="#4a4a4a">      <polygon points="0 0, 10 3.5, 0 7"/>    </marker>  </defs></svg>
 
-多核需要两层保护，缺一不可。第一层是 Spinlock，用 ARM 独占访问指令（`LDREX`/`STREX`）保证同一时刻只有一个核进入临界区。`LDREX` 独占读的同时在总线互连的独占监控器里标记"我盯着这个地址"，`STREX` 条件写时检查标记是否有效——如果期间有其他核写过同一地址，写操作失败，返回重试。第二层是关本地中断，防止拿了锁之后被本核 ISR 抢占——ISR 里如果也操作同一数据结构，就会和持锁代码冲突甚至死锁。
+多核需要两层保护，缺一不可。第一层是 Spinlock，用 ARM 独占访问指令（`LDREX`/`STREX`）保证同一时刻只有一个核进入临界区。`LDREX` 独占读的同时在总线互连的独占监控器里标记 " 我盯着这个地址 "，`STREX` 条件写时检查标记是否有效——如果期间有其他核写过同一地址，写操作失败，返回重试。第二层是关本地中断，防止拿了锁之后被本核 ISR 抢占——ISR 里如果也操作同一数据结构，就会和持锁代码冲突甚至死锁。
 
 为什么 Spinlock 选择空转而不是阻塞睡眠？多核场景下临界区往往只有几条指令、几十纳秒，阻塞的上下文切换开销可能比直接等还大。空转确实浪费 CPU 时间，但等的时间比上下文切换短时反而是更优选择。铁律是临界区必须极短——在自旋锁里调用耗时函数，等于浪费一整颗核心。
 

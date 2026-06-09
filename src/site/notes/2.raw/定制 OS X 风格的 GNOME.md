@@ -107,9 +107,7 @@ sudo pacman -S netease-musicbox-git
 sudo pacman -S xflux-gui-git
 ```
 
->
 > 其实操作速度的提升关键的就是让手尽量少的离开键盘，所以设置的关键在于快捷键。快捷键的设置一定要把相同的操作属性使用相同的前缀，不然快捷键就会十分混乱。
-****
 
 ![osx-gnome-customization-fig07.png\|650](/img/user/0.asset/media/osx-gnome-customization-fig07.png)
 

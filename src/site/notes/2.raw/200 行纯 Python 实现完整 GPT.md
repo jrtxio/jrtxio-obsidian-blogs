@@ -103,7 +103,7 @@ def linear(x, w):
     return [sum(wi * xi for wi, xi in zip(wo, x)) for wo in w]
 ```
 
-Softmax 减去最大值防止 `exp` 溢出。RMSNorm 是 LayerNorm 的简化版，不做均值中心化，只除以均方根。主函数 `gpt()` 的签名值得注意——每次只处理**一个 token**：
+Softmax 减去最大值防止 `exp` 溢出。RMSNorm 是 LayerNorm 的简化版，不做均值中心化，只除以均方根。主函数 `gpt()` 的签名值得注意——每次只处理 **一个 token**：
 
 ```python
 def gpt(token_id, pos_id, keys, values):
@@ -131,7 +131,7 @@ for h in range(n_head):
 
 每个头独立工作：从 Q/K/V 中切出对应片段，计算缩放点积注意力 `QK^T / sqrt(d_k)`，softmax 得到权重，加权求和 value。
 
-`keys[li]` 包含了从位置 0 到当前位置的所有 key，所以当前 token 可以"看到"自己及之前的所有 token——这就是因果注意力。不需要额外的 mask，因为未来位置的 key 还没加入列表。这也自然实现了 KV cache——PyTorch 里需要显式管理的优化，在这里因为逐 token 前向传播而自然出现。
+`keys[li]` 包含了从位置 0 到当前位置的所有 key，所以当前 token 可以 " 看到 " 自己及之前的所有 token——这就是因果注意力。不需要额外的 mask，因为未来位置的 key 还没加入列表。这也自然实现了 KV cache——PyTorch 里需要显式管理的优化，在这里因为逐 token 前向传播而自然出现。
 
 ## 训练、推理与设计取舍
 
@@ -157,6 +157,6 @@ p.data -= lr_t * m_hat / (v_hat ** 0.5 + eps_adam)    # 参数更新
 
 ### 关键设计决策
 
-microgpt.py 相对 GPT-2 做了三个简化：RMSNorm 代替 LayerNorm（更简单）、去掉 bias（省参数）、ReLU 代替 GeLU（导数更简单）。最核心的设计选择是**标量级运算**——这不只是简化，它让每一步运算都完全透明，没有广播、没有 reshape、没有 einsum。代价是速度，PyTorch 通过张量运算和 CUDA 把这加速了几个数量级。
+microgpt.py 相对 GPT-2 做了三个简化：RMSNorm 代替 LayerNorm（更简单）、去掉 bias（省参数）、ReLU 代替 GeLU（导数更简单）。最核心的设计选择是 **标量级运算**——这不只是简化，它让每一步运算都完全透明，没有广播、没有 reshape、没有 einsum。代价是速度，PyTorch 通过张量运算和 CUDA 把这加速了几个数量级。
 
 正如 Karpathy 说的：这个文件就是完整的算法，其他一切都只是为了效率。

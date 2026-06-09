@@ -239,4 +239,4 @@ GEOIP,CN,DIRECT
 FINAL,DIRECT,dns-failed
 ```
 
-FINAL 规则必须写在所有其他类型的规则之后。当某条请求不匹配上面的任何一条规则，都会与 FINAL 规则匹配。dns-failed 代表当 DNS 查询失败后，也会匹配 FIANL 规则，前提是 FINAL 规则的策略不是 DIRECT。
+FINAL 规则必须写在所有其他类型的规则之后。当某条请求不匹配上面的任何一条规则，都会与 FINAL 规则匹配。dns-failed 代表当 DNS 查询失败后，也会匹配 FINAL 规则，前提是 FINAL 规则的策略不是 DIRECT。
